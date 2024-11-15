@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>how to jump from latex and pdf</title>
+      <link href="/2024/11/15/how-to-jump-from-latex-and-pdf/"/>
+      <url>/2024/11/15/how-to-jump-from-latex-and-pdf/</url>
+      
+        <content type="html"><![CDATA[<h1 id="How-to-Jump-from-Latex-and-Pdf"><a href="#How-to-Jump-from-Latex-and-Pdf" class="headerlink" title="How to Jump from Latex and Pdf"></a>How to Jump from Latex and Pdf</h1><p>In the vscode and latex environment. </p><ul><li>latex to pdf: use shortcut ctrl + alt + j</li><li>pdf to latex: ctrl</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> latex </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>A Official Manual of Hexo</title>
+      <link href="/2024/11/15/a-office-manual-of-hexo/"/>
+      <url>/2024/11/15/a-office-manual-of-hexo/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>The operation will deploy hexo to the local host, you can see in [here]{<a href="http://localhost:4000}">http://localhost:4000}</a></p><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>It will deploy blog to a website.<br>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>The procedure of C programming in Linux</title>
       <link href="/2024/11/15/The-procedure-of-C-programming-in-Linux/"/>
       <url>/2024/11/15/The-procedure-of-C-programming-in-Linux/</url>
@@ -30,31 +68,12 @@
         <content type="html"><![CDATA[<h1 id="Have-to-execute-hexo-with-sudo"><a href="#Have-to-execute-hexo-with-sudo" class="headerlink" title="Have to execute hexo with sudo"></a>Have to execute hexo with sudo</h1><h2 id="Reason"><a href="#Reason" class="headerlink" title="Reason"></a>Reason</h2><figure class="highlight plaintext"><figcaption><span>hexo init``` is the reason.</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">## Solution</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>sudo chown -R azureuser:azureuser &#x2F;path&#x2F;to&#x2F;hexo&#x2F;folder<br>chmod -R u+rwX &#x2F;path&#x2F;to&#x2F;hexo&#x2F;folder</p><pre><code>- change the /path/to/hexo/folder to that init executed. - remember do not ```sudo hexo init``` again. </code></pre>]]></content>
       
       
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
       
-        <tags>
-            
-            <tag> hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>A Official Manual of Hexo</title>
-      <link href="/2024/11/15/a-office-manual-of-hexo/"/>
-      <url>/2024/11/15/a-office-manual-of-hexo/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>The operation will deploy hexo to the local host, you can see in [here]{<a href="http://localhost:4000}">http://localhost:4000}</a></p><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>It will deploy blog to a website.<br>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-        </tags>
       
     </entry>
     
