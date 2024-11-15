@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>The procedure of C programming in Linux</title>
+      <link href="/2024/11/15/The-procedure-of-C-programming-in-Linux/"/>
+      <url>/2024/11/15/The-procedure-of-C-programming-in-Linux/</url>
+      
+        <content type="html"><![CDATA[<h1 id="The-procedure-of-C-programming-in-Linux"><a href="#The-procedure-of-C-programming-in-Linux" class="headerlink" title="The procedure of C programming in Linux"></a>The procedure of C programming in Linux</h1><h2 id="Set-up-essential-environment"><a href="#Set-up-essential-environment" class="headerlink" title="Set up essential environment"></a>Set up essential environment</h2><p>Linux have set up all default. </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install build-essential</span><br></pre></td></tr></table></figure><p>If you Linux didn’t set up well. </p><h2 id="Write"><a href="#Write" class="headerlink" title="Write"></a>Write</h2><ul><li>create a file name <filename>.c. </li><li>write the programme. For example: <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">printf(&quot;Hello, world!\n&quot;);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h2 id="Complie"><a href="#Complie" class="headerlink" title="Complie"></a>Complie</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gcc -o &lt;whatever&gt; &lt;filename&gt;.c</span><br><span class="line">./&lt;whatever&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> C </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Have To Execute Hexo With Sudo</title>
       <link href="/2024/11/15/have-to-execute-hexo-with-sudo/"/>
       <url>/2024/11/15/have-to-execute-hexo-with-sudo/</url>
