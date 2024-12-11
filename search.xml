@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/11/ssh-use/"/>
+      <url>/2024/12/11/ssh-use/</url>
+      
+        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -f my_custom_key</span><br></pre></td></tr></table></figure><p>remember it will create under the current directory, please move to the path&#x3D;”~&#x2F;.ssh”</p><h2 id="-1"><a href="#-1" class="headerlink" title=""></a></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.ssh/config</span><br></pre></td></tr></table></figure><p>add</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">    HostName ssh.github.com</span><br><span class="line">    Port 443</span><br><span class="line">    IdentityFile ~/.ssh/id_rsa</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ssh </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>how-to-disable-conda-base-environment-activation</title>
+      <link href="/2024/12/11/how-concel-conda-base/"/>
+      <url>/2024/12/11/how-concel-conda-base/</url>
+      
+        <content type="html"><![CDATA[<p>You can disable it using the following command.<br>你可以使用以下命令来取消（基础环境自动激活）：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda config --set auto_activate_base false</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> conda </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>how to paste in the vim in wsl from windows</title>
+      <link href="/2024/12/11/wsl-paste/"/>
+      <url>/2024/12/11/wsl-paste/</url>
+      
+        <content type="html"><![CDATA[<p>if you are the wsl2, you are able to paste by <cctrl>+<shift>+<v> in the terminal programme. </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vim </tag>
+            
+            <tag> wsl </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>A Official Manual of Hexo</title>
+      <link href="/2024/12/11/a-office-manual-of-hexo/"/>
+      <url>/2024/12/11/a-office-manual-of-hexo/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>The operation will deploy hexo to the local host, you can see in [here]{<a href="http://localhost:4000}">http://localhost:4000}</a></p><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>It will deploy blog to a website.<br>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>how to personalize the shortcut of the software</title>
+      <link href="/2024/12/11/xournal-set-shortcuts/"/>
+      <url>/2024/12/11/xournal-set-shortcuts/</url>
+      
+        <content type="html"><![CDATA[<p>we can use the plugins of the xournal++^[<a href="https://blog.csdn.net/qq_41776453/article/details/128764167]">https://blog.csdn.net/qq_41776453/article/details/128764167]</a>. </p><ol><li><p>enter the path &#x2F;Xournal++&#x2F;share&#x2F;xournalpp&#x2F;plugins&#x2F;Example. </p></li><li><p>if you like change the plugin.lua</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">[about]</span><br><span class="line">## Author / Copyright notice</span><br><span class="line">author=xxxxx</span><br><span class="line"># 插件描述</span><br><span class="line">description=This is a minimal example plugin, for reference</span><br><span class="line"></span><br><span class="line">## If the plugin is packed with Xournal++, use</span><br><span class="line">## &lt;xournalpp&gt; then it gets the same version number</span><br><span class="line">version=0.1</span><br><span class="line"></span><br><span class="line">#这个是配置插件的开关，记得设为true就行</span><br><span class="line">[default]</span><br><span class="line">enabled=true</span><br><span class="line"># 插件函数的主入口，lua的集成方式，性能很好！=_=</span><br><span class="line">[plugin]</span><br><span class="line">mainfile=main.lua</span><br></pre></td></tr></table></figure></li><li><p>change the main.lua</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br></pre></td><td class="code"><pre><span class="line">-- This is an example Xournal++ Plugin - copy this to get started</span><br><span class="line"></span><br><span class="line">var_dump = require &quot;var_dump&quot;</span><br><span class="line"></span><br><span class="line">-- Register all Toolbar actions and intialize all UI stuff</span><br><span class="line">function initUi()</span><br><span class="line">  -- print(&quot;Hello from Example: Plugin initUi called\n&quot;);</span><br><span class="line"></span><br><span class="line">  -- ref = app.registerUi(&#123;[&quot;menu&quot;] = &quot;Tests123&quot;, [&quot;callback&quot;] = &quot;exampleCallback&quot;, [&quot;accelerator&quot;] = &quot;&lt;Control&gt;t&quot;&#125;);</span><br><span class="line">  -- app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_TOOL_LINE_STYLE_DASH&quot;&#125;)</span><br><span class="line">  -- print(&quot;Menu reference:&quot;);</span><br><span class="line">  -- var_dump(ref);</span><br><span class="line"></span><br><span class="line">  -- print(&quot;Example plugin registered\n&quot;);</span><br><span class="line"></span><br><span class="line">  app.registerUi(&#123;[&quot;menu&quot;] = &quot;Black Pen&quot;, [&quot;callback&quot;] = &quot;black_pen&quot;, [&quot;accelerator&quot;] = &quot;d&quot;&#125;);</span><br><span class="line">  app.registerUi(&#123;[&quot;menu&quot;] = &quot;Blue Pen&quot;, [&quot;callback&quot;] = &quot;blue_pen&quot;, [&quot;accelerator&quot;] = &quot;f&quot;&#125;);</span><br><span class="line">  app.registerUi(&#123;[&quot;menu&quot;] = &quot;Red Pen&quot;, [&quot;callback&quot;] = &quot;red_pen&quot;, [&quot;accelerator&quot;] = &quot;w&quot;&#125;);</span><br><span class="line">  app.registerUi(&#123;[&quot;menu&quot;] = &quot;Green Pen&quot;, [&quot;callback&quot;] = &quot;green_pen&quot;, [&quot;accelerator&quot;] = &quot;r&quot;&#125;);</span><br><span class="line"></span><br><span class="line">  app.registerUi(&#123;[&quot;menu&quot;] = &quot;Eraser&quot;, [&quot;callback&quot;] = &quot;eraser&quot;, [&quot;accelerator&quot;] = &quot;e&quot;&#125;);</span><br><span class="line">  app.registerUi(&#123;[&quot;menu&quot;] = &quot;Select Region&quot;, [&quot;callback&quot;] = &quot;select_region&quot;, [&quot;accelerator&quot;] = &quot;a&quot;&#125;);</span><br><span class="line">  app.registerUi(&#123;[&quot;menu&quot;] = &quot;Hand&quot;, [&quot;callback&quot;] = &quot;hand&quot;, [&quot;accelerator&quot;] = &quot;s&quot;&#125;);</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">-- Callback if the menu item is executed</span><br><span class="line">function exampleCallback()</span><br><span class="line">  result = app.msgbox(&quot;Test123&quot;, &#123;[1] = &quot;Yes&quot;, [2] = &quot;No&quot;&#125;);</span><br><span class="line">  print(&quot;result = &quot; .. result)</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">function black_pen()</span><br><span class="line">  app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_TOOL_PEN&quot;&#125;)</span><br><span class="line">  app.changeToolColor(&#123;[&quot;color&quot;] = 000000, [&quot;tool&quot;] = &quot;pen&quot;&#125;)</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">function blue_pen()</span><br><span class="line">  app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_TOOL_PEN&quot;&#125;)</span><br><span class="line">  app.changeToolColor(&#123;[&quot;color&quot;] = 0x3333CC, [&quot;tool&quot;] = &quot;pen&quot;&#125;)</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">function red_pen()</span><br><span class="line">  app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_TOOL_PEN&quot;&#125;)</span><br><span class="line">  app.changeToolColor(&#123;[&quot;color&quot;] = 0xEF0044, [&quot;tool&quot;] = &quot;pen&quot;&#125;)</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">function green_pen()</span><br><span class="line">  app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_TOOL_PEN&quot;&#125;)</span><br><span class="line">  app.changeToolColor(&#123;[&quot;color&quot;] = 0x008000, [&quot;tool&quot;] = &quot;pen&quot;&#125;)</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">function orange_pen()</span><br><span class="line">  app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_TOOL_PEN&quot;&#125;)</span><br><span class="line">  app.changeToolColor(&#123;[&quot;color&quot;] = 0xEF7000, [&quot;tool&quot;] = &quot;pen&quot;&#125;)</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">-- Highlighter</span><br><span class="line">function blue_highlighter()</span><br><span class="line">  app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_TOOL_HIGHLIGHTER&quot;&#125;)</span><br><span class="line">  app.changeToolColor(&#123;[&quot;color&quot;] = 0x20D0FF, [&quot;tool&quot;] = &quot;highlighter&quot;&#125;)</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">function red_highlighter()</span><br><span class="line">  app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_TOOL_HIGHLIGHTER&quot;&#125;)</span><br><span class="line">  app.changeToolColor(&#123;[&quot;color&quot;] = 0xFF55FF, [&quot;tool&quot;] = &quot;highlighter&quot;&#125;)</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">function green_highlighter()</span><br><span class="line">  app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_TOOL_HIGHLIGHTER&quot;&#125;)</span><br><span class="line">  app.changeToolColor(&#123;[&quot;color&quot;] = 0x00FF00, [&quot;tool&quot;] = &quot;highlighter&quot;&#125;)</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">function yellow_highlighter()</span><br><span class="line">  app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_TOOL_HIGHLIGHTER&quot;&#125;)</span><br><span class="line">  app.changeToolColor(&#123;[&quot;color&quot;] = 0xEEFF00, [&quot;tool&quot;] = &quot;highlighter&quot;&#125;)</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">--other function</span><br><span class="line">function undo()</span><br><span class="line">  app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_UNDO&quot;&#125;)</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">function eraser()</span><br><span class="line">  app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_TOOL_ERASER&quot;&#125;)</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">function select_region()</span><br><span class="line">  app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_TOOL_SELECT_REGION&quot;&#125;)</span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">function hand()</span><br><span class="line">  app.uiAction(&#123;[&quot;action&quot;] = &quot;ACTION_TOOL_HAND&quot;&#125;)</span><br><span class="line">end</span><br></pre></td></tr></table></figure></li><li><p>attention you can not use number as shorcut because xournal has setted. </p></li><li><p>if you want add other function, you may change the language to english and then you could know what the tool’s name in english</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> xournal++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>install necessary software</title>
+      <link href="/2024/12/11/wsl-software/"/>
+      <url>/2024/12/11/wsl-software/</url>
+      
+        <content type="html"><![CDATA[<h2 id="install-vim"><a href="#install-vim" class="headerlink" title="install vim"></a>install vim</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt insatll vim git curl sudo openssh-client openssh-server</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> softeware </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> wsl </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>install zsh and oh-my-zsh in Debian</title>
+      <link href="/2024/12/11/wsl-zsh/"/>
+      <url>/2024/12/11/wsl-zsh/</url>
+      
+        <content type="html"><![CDATA[<h2 id="update"><a href="#update" class="headerlink" title="update"></a>update</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install zsh</span><br></pre></td></tr></table></figure><h2 id="change-shell-to-zsh"><a href="#change-shell-to-zsh" class="headerlink" title="change shell to zsh"></a>change shell to zsh</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chsh -s /bin/zsh </span><br></pre></td></tr></table></figure><h2 id="install-oh-my-zsh"><a href="#install-oh-my-zsh" class="headerlink" title="install oh-my-zsh"></a>install oh-my-zsh</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;</span><br></pre></td></tr></table></figure><p>if you meet some ceritifice problem</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure><p>then do the commond again</p><p>input “y” to set shell to zsh</p><h2 id="change-theme"><a href="#change-theme" class="headerlink" title="change theme"></a>change theme</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.zshrc</span><br></pre></td></tr></table></figure><p>you may change the theme in the ZSH_THEME&#x3D;”theme_you_like”</p><h2 id="install-plugins"><a href="#install-plugins" class="headerlink" title="install plugins"></a>install plugins</h2><ul><li>zsh-syyntax-highlighting</li><li>zsh-autosuggestions</li></ul><ol><li>install<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $&#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&#125;/plugins/zsh-syntax-highlighting</span><br><span class="line">git clone https://github.com/zsh-users/zsh-autosuggestions $&#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&#125;/plugins/zsh-autosuggestions</span><br></pre></td></tr></table></figure></li><li>config<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.zshrc</span><br></pre></td></tr></table></figure></li><li>add zsh-syntax-highlighting zsh-autosuggestions in the plugins&#x3D;()</li><li>reload<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.zshrc</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> wsl </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>how to use winget</title>
+      <link href="/2024/12/11/winget/"/>
+      <url>/2024/12/11/winget/</url>
+      
+        <content type="html"><![CDATA[<h2 id="config-software-repositories"><a href="#config-software-repositories" class="headerlink" title="config software repositories"></a>config software repositories</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">winget source remove winget</span><br><span class="line">winget source add winget https://mirrors.ustc.edu.cn/winget-source</span><br><span class="line">winget update</span><br></pre></td></tr></table></figure><h2 id="basic-commands"><a href="#basic-commands" class="headerlink" title="basic commands"></a>basic commands</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">winget uninstall</span><br><span class="line">winget upgrade --id &lt;the id&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> winget </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/11/wsl-set-up/"/>
+      <url>/2024/12/11/wsl-set-up/</url>
+      
+        <content type="html"><![CDATA[<h1 id="set-up-wsl-of-debian"><a href="#set-up-wsl-of-debian" class="headerlink" title="set up wsl of debian"></a>set up wsl of debian</h1><h2 id="check-the-version-of-wsl"><a href="#check-the-version-of-wsl" class="headerlink" title="check the version of wsl"></a>check the version of wsl</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">wsl --set-default-verison 2</span><br><span class="line">wsl --version</span><br></pre></td></tr></table></figure><h2 id="choose-the-linux"><a href="#choose-the-linux" class="headerlink" title="choose the linux"></a>choose the linux</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">wsl --list --online</span><br><span class="line">wsl --install Debian</span><br></pre></td></tr></table></figure><h2 id="check-the-version-of-linux"><a href="#check-the-version-of-linux" class="headerlink" title="check the version of linux"></a>check the version of linux</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wsl -l -v</span><br><span class="line">wsl --set-version Debian 2</span><br><span class="line">wsl -l -v</span><br></pre></td></tr></table></figure><h2 id="config-software-repositories"><a href="#config-software-repositories" class="headerlink" title="config software repositories"></a>config software repositories</h2><ol><li>backup the old file<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mv ~/../../etc/apt/sources.list ~/../../etc/apt/sources.list.backup</span><br></pre></td></tr></table></figure></li><li>create new file<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano ~/../../etc/apt/sources.list</span><br></pre></td></tr></table></figure></li><li>change the content<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware</span><br><span class="line">deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware</span><br><span class="line"></span><br><span class="line">deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware</span><br><span class="line">deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware</span><br><span class="line"></span><br><span class="line">deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware</span><br><span class="line">deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware</span><br><span class="line"></span><br><span class="line">deb http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware</span><br><span class="line">deb-src http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware</span><br></pre></td></tr></table></figure></li><li>install the autherirty of the mirror website<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update -y</span><br><span class="line">sudo apt install apt-transport-https ca-certificates</span><br></pre></td></tr></table></figure></li><li>change all the “http:&#x2F;&#x2F;“ to “https:&#x2F;&#x2F;“ in the ~&#x2F;ect&#x2F;apt&#x2F;sources.list</li><li>update<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt upgrade</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> wsl </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>how to set up termux</title>
+      <link href="/2024/12/11/termux-set-up/"/>
+      <url>/2024/12/11/termux-set-up/</url>
+      
+        <content type="html"><![CDATA[<p>Termux is an interesting app on android. </p><h2 id="install-termux"><a href="#install-termux" class="headerlink" title="install termux"></a>install termux</h2><h2 id="basic-commands"><a href="#basic-commands" class="headerlink" title="basic commands"></a>basic commands</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">pkg update</span><br><span class="line">pkg upgrade</span><br><span class="line">pkg install</span><br><span class="line"></span><br><span class="line">pkg search</span><br><span class="line">pkg list</span><br><span class="line">pkg remove</span><br></pre></td></tr></table></figure><h2 id="config-software-repositories"><a href="#config-software-repositories" class="headerlink" title="config software repositories"></a>config software repositories</h2><p>change the software repositories to tuna tsinghua. </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sed -i &#x27;s@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@&#x27; $PREFIX/etc/apt/sources.list</span><br><span class="line">sed -i &#x27;s@^\(deb.*games stable\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24 games stable@&#x27; $PREFIX/etc/apt/sources.list.d/game.list</span><br><span class="line">sed -i &#x27;s@^\(deb.*science stable\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24 science stable@&#x27; $PREFIX/etc/apt/sources.list.d/science.list</span><br><span class="line">apt update &amp;&amp; apt upgrade</span><br></pre></td></tr></table></figure><h2 id="install-and-use-open-ssh"><a href="#install-and-use-open-ssh" class="headerlink" title="install and use open ssh"></a>install and use open ssh</h2><ol><li><p>install</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pkg install openssh</span><br></pre></td></tr></table></figure></li><li><p>set passwd</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">passwd</span><br></pre></td></tr></table></figure></li><li><p>turn on the sshd service</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sshd</span><br></pre></td></tr></table></figure></li><li><p>check out you ip path</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure></li><li><p>connect</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -p 8022 &lt;ip path&gt;</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> termux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>the best theme of zsh</title>
+      <link href="/2024/12/11/the-best-zsh-theme/"/>
+      <url>/2024/12/11/the-best-zsh-theme/</url>
+      
+        <content type="html"><![CDATA[<ol><li><p>install</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $&#123;ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom&#125;/themes/powerlevel10k</span><br></pre></td></tr></table></figure></li><li><p>config</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sed -i &#x27;s/ZSH_THEME.*/ZSH_THEME=&quot;powerlevel10k\/powerlevel10k&quot;/g&#x27; .zshrc</span><br></pre></td></tr></table></figure></li><li><p>restart</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source .zshrc</span><br></pre></td></tr></table></figure></li><li><p>reconfig</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">p10k configure</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> zsh </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>how to shortcuts of windows termianl</title>
+      <link href="/2024/12/11/open-wt/"/>
+      <url>/2024/12/11/open-wt/</url>
+      
+        <content type="html"><![CDATA[<h2 id="install-and-set-hotkeys"><a href="#install-and-set-hotkeys" class="headerlink" title="install and set hotkeys"></a>install and set hotkeys</h2><ol><li>turn on a windows termianl</li><li>open tasks manager</li><li>click on the terminal to unfold the programme</li><li>right click on programme with the correct picture, open the path of the file</li><li>find “wt.exe” and create a shortcuts of it</li><li>right click on the shorcuts, open the attributes. </li><li>set hotkey and click yes</li></ol><h2 id="better-work-with-autohotkey"><a href="#better-work-with-autohotkey" class="headerlink" title="better work with autohotkey"></a>better work with autohotkey</h2><p>when we press hotkeys, no matter whether there is a running termianl, system always open a new terminal. To solve this, we can use autohokey</p><ol><li>install <img src="https://www.autohotkey.com/" alt="here"></li><li>create a script and name as terminal_open.ahk</li><li>change the content<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">#SingleInstance force</span><br><span class="line">; 假设你的终端快捷键是Ctrl + Alt + T，你可以修改下面的热键</span><br><span class="line">^!t::</span><br><span class="line">    WinGet, count, Count, ahk_class ConsoleWindowClass</span><br><span class="line">    if (count = 0)</span><br><span class="line">    &#123;</span><br><span class="line">        ; 这里需要替换为你实际打开终端的命令，例如对于Windows Terminal是wt.exe</span><br><span class="line">        Run, wt.exe</span><br><span class="line">    &#125;</span><br><span class="line">    else</span><br><span class="line">    &#123;</span><br><span class="line">        WinActivate, ahk_class ConsoleWindowClass</span><br><span class="line">    &#125;</span><br><span class="line">return</span><br></pre></td></tr></table></figure></li><li>set the script start with system, the same as before. </li><li>if it didn’t work, it probably because of the ahk_class was different. We could use a script named window spy to find the correct ahk_class</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> terminal </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>How to Use the Scrolling Operation in vim</title>
+      <link href="/2024/12/11/scoll-in-vim/"/>
+      <url>/2024/12/11/scoll-in-vim/</url>
+      
+        <content type="html"><![CDATA[<h2 id="move-your-cursor"><a href="#move-your-cursor" class="headerlink" title="move your cursor"></a>move your cursor</h2><p>press ‘j’ or ‘k’ are able to move up or down</p><h2 id="scroll"><a href="#scroll" class="headerlink" title="scroll"></a>scroll</h2><ul><li>‘ctrl’ + ‘f’(forward)</li><li>backward: ‘ctrl’ + ‘b’</li></ul><h2 id="half-scroll"><a href="#half-scroll" class="headerlink" title="half scroll"></a>half scroll</h2><ul><li>up: ‘ctrl’ + ‘u’</li><li>down: ‘ctrl’ + ‘d’</li></ul><h2 id="jump-to-the-end"><a href="#jump-to-the-end" class="headerlink" title="jump to the end"></a>jump to the end</h2><p>‘G’</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vim </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>How to set up the python in wsl(debian)</title>
+      <link href="/2024/12/11/python-set-up-wsl/"/>
+      <url>/2024/12/11/python-set-up-wsl/</url>
+      
+        <content type="html"><![CDATA[<ol><li><p>install necessary rely</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt upgrade</span><br><span class="line">sudo apt install build-essential pkg-config libdb-dev liblzma-dev tk-dev uuid-dev</span><br><span class="line">sudo apt install libssl-dev libsqlite3-dev libbz2-dev libgdbm-dev libncurses5-dev libncursesw5-dev libreadline-dev zlib1g-dev libffi-dev</span><br></pre></td></tr></table></figure></li><li><p>install python</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install python3.11</span><br><span class="line">sudo ln -s /usr/bin/python3.11 /usr/bin/python</span><br><span class="line">sudo ln -s /usr/bin/python3.11 /usr/bin/python3</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> softeware </category>
+          
+          <category> programming </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> wsl </tag>
+            
+            <tag> debian </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>set a cool figure in your terminal</title>
+      <link href="/2024/12/11/neofetch/"/>
+      <url>/2024/12/11/neofetch/</url>
+      
+        <content type="html"><![CDATA[<h2 id="in-the-Debian"><a href="#in-the-Debian" class="headerlink" title="in the Debian"></a>in the Debian</h2><ol><li>install<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install neofetch</span><br></pre></td></tr></table></figure></li><li>config<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.zshrc</span><br></pre></td></tr></table></figure></li><li>add neofetch at the end.</li></ol><h2 id="in-the-windows"><a href="#in-the-windows" class="headerlink" title="in the windows"></a>in the windows</h2><ol><li><p>install scoop</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">iwr -useb get.scoop.sh | iex</span><br><span class="line">scoop install git</span><br></pre></td></tr></table></figure></li><li><p>set the scoop bin path(usually C:\Users\YourUserName\scoop\apps\scoop\current\bin) to the environment path</p></li><li><p>install neofetch</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop install neofetch</span><br></pre></td></tr></table></figure></li><li><p>config</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.zshrc</span><br></pre></td></tr></table></figure></li><li><p>add “neofetch” at the end</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> terminal </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>how to open file manager in the terminal</title>
+      <link href="/2024/12/11/open-file-manager-in-terminal/"/>
+      <url>/2024/12/11/open-file-manager-in-terminal/</url>
+      
+        <content type="html"><![CDATA[<pre><code>start &lt;the path of file&gt;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> terminal </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>The unofficial application of zhihu</title>
+      <link href="/2024/12/11/hydrogen/"/>
+      <url>/2024/12/11/hydrogen/</url>
+      
+        <content type="html"><![CDATA[<p>It was so great. And I love it. But it has some weakpoints: a bit rely on the network.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> app </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Set up miniconda in Linux</title>
+      <link href="/2024/12/11/miniconda-setup/"/>
+      <url>/2024/12/11/miniconda-setup/</url>
+      
+        <content type="html"><![CDATA[<ol><li><p>install</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p ~/miniconda3</span><br><span class="line">wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh</span><br><span class="line">bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3</span><br><span class="line">rm ~/miniconda3/miniconda.sh</span><br></pre></td></tr></table></figure></li><li><p>config software source</p></li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd miniconda</span><br><span class="line">vim .condarc</span><br></pre></td></tr></table></figure><ol start="3"><li>change the content<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">channels:</span><br><span class="line">  - defaults</span><br><span class="line">show_channel_urls: true</span><br><span class="line">channel_alias: https://mirrors.tsinghua.edu.cn/anaconda</span><br><span class="line">default_channels:</span><br><span class="line">  - https://mirrors.tsinghua.edu.cn/anaconda/pkgs/main</span><br><span class="line">  - https://mirrors.tsinghua.edu.cn/anaconda/pkgs/r</span><br><span class="line">  - https://mirrors.tsinghua.edu.cn/anaconda/pkgs/msys2</span><br><span class="line">custom_channels:</span><br><span class="line">  conda-forge: https://mirrors.tsinghua.edu.cn/anaconda/cloud</span><br><span class="line">  msys2: https://mirrors.tsinghua.edu.cn/anaconda/cloud</span><br><span class="line">  bioconda: https://mirrors.tsinghua.edu.cn/anaconda/cloud</span><br><span class="line">  meniscus: https://mirrors.tsinghua.edu.cn/anaconda/cloud</span><br><span class="line">  pytorch: https://mirrors.tsinghua.edu.cn/anaconda/cloud</span><br><span class="line">  simpleitk: https://mirrors.tsinghua.edu.cn/anaconda/cloud</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> miniconda </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Fastgithub auto start</title>
+      <link href="/2024/12/11/fastgihbu-auto-start/"/>
+      <url>/2024/12/11/fastgihbu-auto-start/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Fastgihub-auto-start"><a href="#Fastgihub-auto-start" class="headerlink" title="Fastgihub auto start"></a>Fastgihub auto start</h1><p>Sometimes, we could not access to github.com, and watt-toolkit is a very great tool, which is also named as steam++. However the software will make some trouble to git push to the github with ssh key. If you do not have other network accelerate demand, fastgithub is a good choice.</p><h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><p>If you are able to access to github.com, you may install in <a href="https://github.com/WangGithubUser/FastGithub/releases">here</a>.<br>Vice versa, you could follow <a href="https://gitee.com/XingYuan55/FastGithub">gitee</a>(it wasn’t an official website), or search on the browser by yourself better.</p><h2 id="Auto-start"><a href="#Auto-start" class="headerlink" title="Auto start"></a>Auto start</h2><ol><li>right click on the “this computer” and click on the manager.![[mmc_NUMzLOFEXb.png]] <img src="/./attatchments/mmc_ah7gDUFY7m.png" alt="what"></li><li>right click on the “tasks schedule library” in the “task schedule programme” in the “system tools”, then click “create tasks”![[mmc_hc8evz3XKX.png]]</li><li>name “fastgithub” or any other name as you like.![[mmc_WToyVFymYB.png]]</li><li>turn into the “trigger”, click on the “create”, then set as the picture.<img src="/./attatchments/mmc_er8qj2YRQt.png" alt="trigger"></li><li>then turn into the “control”, click on the “create”, then choose the path where you install the fastgithub.exe<br>![[mmc_ah7gDUFY7m.png]]</li><li>in the “condition”, set the same as the picture.![[mmc_jtAlRQy98K.png]]</li><li>in the “setting”, set the same as the picture.![[mmc_upPBLMuqe0.png]]</li><li>finally click the “ensure” one by one. When the system ask for password, input the password of you computer, instead of pin.</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> network </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>How to set up the hexo blog in Linux</title>
+      <link href="/2024/12/11/hexo-blog-set-up/"/>
+      <url>/2024/12/11/hexo-blog-set-up/</url>
+      
+        <content type="html"><![CDATA[<ol><li><p>install node.js npm</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install node.js npm</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure></li><li><p>change the npm software source</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install -g nrm --registry=http://registry.npmmirror.com</span><br><span class="line">nrm ls</span><br><span class="line">nrm use taobao</span><br></pre></td></tr></table></figure></li><li><p>install hexo</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo-cli nrm --registry=http://registry.npmmirror.com</span><br><span class="line">hexo -v</span><br></pre></td></tr></table></figure></li><li><p>set up</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mkdir blog</span><br><span class="line">cd blog</span><br><span class="line">hexo init</span><br></pre></td></tr></table></figure></li><li><p>git deploy</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install --save hexo-deployer-git --registry=http://registry.npmmirror.com</span><br></pre></td></tr></table></figure></li><li><p>set remote blog</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim _config.yml</span><br></pre></td></tr></table></figure></li><li><p>set your repo</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/one-command-deployment</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: </span><br><span class="line">  branch: master</span><br><span class="line"></span><br></pre></td></tr></table></figure></li><li><p>set up your personal token</p></li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://&lt;personal token&gt;@github.com/&lt;your github net path&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> blog </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>how to set up vscode in the wsl</title>
+      <link href="/2024/12/11/how-to-set-up-vscode-in-the-wsl/"/>
+      <url>/2024/12/11/how-to-set-up-vscode-in-the-wsl/</url>
+      
+        <content type="html"><![CDATA[<p>I met something wrong when set up the wsl</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">❯ code</span><br><span class="line">Updating VS Code Server to version f1a4fb101478ce6ec82fe9627c43efbf9e98c813</span><br><span class="line">Removing previous installation...</span><br><span class="line">Installing VS Code Server for Linux x64 (f1a4fb101478ce6ec82fe9627c43efbf9e98c813)</span><br><span class="line">Downloading: 100%</span><br><span class="line">Failed</span><br><span class="line">--2024-12-11 14:41:12--  https://update.code.visualstudio.com/commit:f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server-linux-x64/stable</span><br><span class="line">Resolving update.code.visualstudio.com (update.code.visualstudio.com)... ::1, 127.0.0.1</span><br><span class="line">Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|::1|:443... failed: Connection refused.</span><br><span class="line">Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|127.0.0.1|:443... connected.</span><br><span class="line">ERROR: The certificate of ‘update.code.visualstudio.com’ is not trusted.</span><br><span class="line">ERROR: The certificate of ‘update.code.visualstudio.com’ doesn&#x27;t have a known issuer.</span><br><span class="line">ERROR: Failed to download https://update.code.visualstudio.com/commit:f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server-linux-x64/stable to /home/zka_wsl/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813-1733899271.tar.gz</span><br><span class="line">Please install missing certificates.</span><br><span class="line">Debian/Ubuntu:  sudo apt-get install ca-certificates</span><br></pre></td></tr></table></figure><p>I have done followings, but all of them invalid.</p><ul><li>install ca-certificates</li><li>turn off the certificates trust of certificates</li></ul><h2 id="install-vscode-in-the-local"><a href="#install-vscode-in-the-local" class="headerlink" title="install vscode in the local"></a>install vscode in the local</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vscode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tuple.md</title>
+      <link href="/2024/11/26/tuple-md/"/>
+      <url>/2024/11/26/tuple-md/</url>
+      
+        <content type="html"><![CDATA[<h1 id="tuple"><a href="#tuple" class="headerlink" title="tuple"></a>tuple</h1><p>it is unchangable. </p><p>a &#x3D; (1) is not a tuple , a &#x3D;  1<br>a &#x3D; (1,) is a tuple</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> programming </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>list</title>
+      <link href="/2024/11/26/list/"/>
+      <url>/2024/11/26/list/</url>
+      
+        <content type="html"><![CDATA[<h1 id="list-in-the-python"><a href="#list-in-the-python" class="headerlink" title="list in the python"></a>list in the python</h1><ul><li><p>list(): break into list temporaliy.</p></li><li><p>index(): return the first position of a figure in a breakable varibles.</p></li><li><p>count(): count the appear times of the figures.</p></li><li><p>append(): add a terms at the end</p></li><li><p>extend(): add the terms in the new list to the list</p></li><li><p>pop(): remove the specific position terms, and return the removed term. </p></li><li><p>remove(): remove the specific term in the list</p></li><li><p>reverse(): as the name say</p></li><li><p>sort(list, key &#x3D; len, reverse&#x3D; True): change the sort of list</p></li><li><p>sorted(): the same as sort, but it doesn’t change the sort of the list and return sorted list</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> programming </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>for in python</title>
+      <link href="/2024/11/23/for-in-python/"/>
+      <url>/2024/11/23/for-in-python/</url>
+      
+        <content type="html"><![CDATA[<h1 id="For-loop-in-python"><a href="#For-loop-in-python" class="headerlink" title="For loop in python"></a>For loop in python</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">for i in range(0,2):</span><br><span class="line">print(i)</span><br></pre></td></tr></table></figure><p>It is left closed and right opened. </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> loop </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>install kaiwu sdk</title>
+      <link href="/2024/11/21/install-kaiwu-sdk/"/>
+      <url>/2024/11/21/install-kaiwu-sdk/</url>
+      
+        <content type="html"><![CDATA[<h1 id="install-kaiwu-sdk"><a href="#install-kaiwu-sdk" class="headerlink" title="install kaiwu sdk"></a>install kaiwu sdk</h1><ol><li>install python3.8</li><li>change the path</li><li>check version<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python --version</span><br></pre></td></tr></table></figure></li><li>install sdk<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">python -m pip install --upgrade pip</span><br><span class="line">pip3 install kaiwu-1.0.3-py3-none-any.whl -i https://pypi.tuna.tsinghua.edu.cn/simple</span><br><span class="line"></span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>how to jump from latex and pdf</title>
+      <link href="/2024/11/15/how-to-jump-from-latex-and-pdf/"/>
+      <url>/2024/11/15/how-to-jump-from-latex-and-pdf/</url>
+      
+        <content type="html"><![CDATA[<h1 id="How-to-Jump-from-Latex-and-Pdf"><a href="#How-to-Jump-from-Latex-and-Pdf" class="headerlink" title="How to Jump from Latex and Pdf"></a>How to Jump from Latex and Pdf</h1><p>In the vscode and latex environment. </p><ul><li>latex to pdf: use shortcut ctrl + alt + j</li><li>pdf to latex: ctrl</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> latex </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>The procedure of C programming in Linux</title>
+      <link href="/2024/11/15/The-procedure-of-C-programming-in-Linux/"/>
+      <url>/2024/11/15/The-procedure-of-C-programming-in-Linux/</url>
+      
+        <content type="html"><![CDATA[<h1 id="The-procedure-of-C-programming-in-Linux"><a href="#The-procedure-of-C-programming-in-Linux" class="headerlink" title="The procedure of C programming in Linux"></a>The procedure of C programming in Linux</h1><h2 id="Set-up-essential-environment"><a href="#Set-up-essential-environment" class="headerlink" title="Set up essential environment"></a>Set up essential environment</h2><p>Linux have set up all default. </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install build-essential</span><br></pre></td></tr></table></figure><p>If you Linux didn’t set up well. </p><h2 id="Write"><a href="#Write" class="headerlink" title="Write"></a>Write</h2><ul><li>create a file name <filename>.c. </li><li>write the programme. For example: <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">printf(&quot;Hello, world!\n&quot;);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h2 id="Complie"><a href="#Complie" class="headerlink" title="Complie"></a>Complie</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gcc -o &lt;whatever&gt; &lt;filename&gt;.c</span><br><span class="line">./&lt;whatever&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> C </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Have To Execute Hexo With Sudo</title>
+      <link href="/2024/11/15/have-to-execute-hexo-with-sudo/"/>
+      <url>/2024/11/15/have-to-execute-hexo-with-sudo/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Have-to-execute-hexo-with-sudo"><a href="#Have-to-execute-hexo-with-sudo" class="headerlink" title="Have to execute hexo with sudo"></a>Have to execute hexo with sudo</h1><h2 id="Reason"><a href="#Reason" class="headerlink" title="Reason"></a>Reason</h2><figure class="highlight plaintext"><figcaption><span>hexo init``` is the reason.</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">## Solution</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>sudo chown -R azureuser:azureuser &#x2F;path&#x2F;to&#x2F;hexo&#x2F;folder<br>chmod -R u+rwX &#x2F;path&#x2F;to&#x2F;hexo&#x2F;folder</p><pre><code>- change the /path/to/hexo/folder to that init executed. - remember do not ```sudo hexo init``` again. </code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
