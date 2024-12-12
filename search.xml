@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>make table in makedown</title>
+      <link href="/2024/12/12/make-table-in-makedown/"/>
+      <url>/2024/12/12/make-table-in-makedown/</url>
+      
+        <content type="html"><![CDATA[<table><thead><tr><th align="right">this</th><th align="left">is</th><th align="center">a</th><th>table</th></tr></thead><tbody><tr><td align="right">a</td><td align="left">b</td><td align="center">c</td><td>d</td></tr><tr><td align="right">right</td><td align="left">left</td><td align="center">middle</td><td>left</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>move wsl</title>
       <link href="/2024/12/12/move-wsl/"/>
       <url>/2024/12/12/move-wsl/</url>
