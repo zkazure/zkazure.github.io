@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>move wsl</title>
+      <link href="/2024/12/12/move-wsl/"/>
+      <url>/2024/12/12/move-wsl/</url>
+      
+        <content type="html"><![CDATA[<p>wsl install in C default.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wsl --export Debian D:\wsl</span><br><span class="line">wsl --unregister Debian</span><br><span class="line">wsl --import Debian D:\wsl\Debian.tar</span><br></pre></td></tr></table></figure><p>move the wsl, you default user will change to root</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/wsl.conf</span><br></pre></td></tr></table></figure><p>add</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[user]</span><br><span class="line">default=&lt;your user&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/2024/12/11/ssh-use/"/>
       <url>/2024/12/11/ssh-use/</url>
