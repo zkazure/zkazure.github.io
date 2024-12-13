@@ -4,6 +4,81 @@
   
     
     <entry>
+      <title>how to highlight the code block in markdown</title>
+      <link href="/2024/12/13/how-to-highlight-the-code-block-in-markdown/"/>
+      <url>/2024/12/13/how-to-highlight-the-code-block-in-markdown/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">this is an example</span><br><span class="line"><span class="code">```c</span></span><br><span class="line"><span class="code">#include&lt;stdio.h&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">int main()</span></span><br><span class="line"><span class="code">&#123;</span></span><br><span class="line"><span class="code">    printf(&quot;hello, world&quot;);</span></span><br><span class="line"><span class="code">    return 0;</span></span><br><span class="line"><span class="code">&#125;</span></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">this is the result</span><br><span class="line">```c</span><br><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;hello, world&quot;);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>how to create super link in markdown</title>
+      <link href="/2024/12/13/how-to-create-superlink-in-markdown/"/>
+      <url>/2024/12/13/how-to-create-superlink-in-markdown/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">&lt;text&gt;</span>](<span class="link">&lt;link&gt;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>how to set up rime</title>
+      <link href="/2024/12/13/how-to-set-up-rime/"/>
+      <url>/2024/12/13/how-to-set-up-rime/</url>
+      
+        <content type="html"><![CDATA[<p>小狼毫是我最喜欢的输入法，自由强大，没有广告。</p><ol><li>install <a href="https://rime.im/">here</a></li><li>choose a input method <a href="https://github.com/gaboolic/rime-shuangpin-fuzhuma">双拼</a></li><li>unzip to the correct path.</li><li>appearance and some preferences.<br>in the default.custom.yaml<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">patch:</span></span><br><span class="line">  <span class="attr">menu/page_size:</span> <span class="number">4</span></span><br><span class="line">  <span class="attr">schema_list:</span></span><br><span class="line">    <span class="bullet">-</span> &#123;<span class="attr">schema:</span> <span class="string">moqi_wan_flypymo</span>&#125;</span><br><span class="line">  </span><br><span class="line">  <span class="attr">switcher/hotkeys:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">F4</span></span><br><span class="line">  <span class="attr">ascii_composer/switch_key/Caps_Lock:</span> <span class="string">noop</span></span><br><span class="line">  <span class="attr">ascii_composer/switch_key/Shift_L:</span> <span class="string">noop</span></span><br><span class="line">  <span class="attr">ascii_composer/switch_key/Shift_R:</span> <span class="string">noop</span></span><br></pre></td></tr></table></figure>in your_input_method.schema.yaml<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">switches:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">ascii_mode</span></span><br><span class="line">    <span class="attr">reset:</span> <span class="number">1</span></span><br><span class="line">    <span class="attr">states:</span> [ <span class="string">中文</span>, <span class="string">西文</span> ]</span><br><span class="line"></span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> rime </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>make table in makedown</title>
       <link href="/2024/12/12/make-table-in-makedown/"/>
       <url>/2024/12/12/make-table-in-makedown/</url>
