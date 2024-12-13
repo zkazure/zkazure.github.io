@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>install texlive in the wsl</title>
+      <link href="/2024/12/13/install-texlive-in-the-wsl/"/>
+      <url>/2024/12/13/install-texlive-in-the-wsl/</url>
+      
+        <content type="html"><![CDATA[<p>texlive will run faster in the linux than in the windows, so I decide to install texlive in the wsl.</p><h2 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h2><ul><li>vscode in the windows</li><li>already install vscode-server in the wsl</li></ul><h2 id="download"><a href="#download" class="headerlink" title="download"></a>download</h2><p>install the iso in the mirror website <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">here</a></p><p>remember put into the windows’s file system, rather than linux file system.</p><h2 id="mount-the-iso"><a href="#mount-the-iso" class="headerlink" title="mount the iso"></a>mount the iso</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">mkdir</span> /mnt/texlive</span><br><span class="line"><span class="built_in">sudo</span> mount /mnt/&lt;the path of the iso&gt; /mnt/texlive</span><br></pre></td></tr></table></figure><p>it will output some thing wrong, it doesn’t matter</p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mount: /mnt/texlive: WARNING: <span class="built_in">source</span> write-protected, mounted read-only.</span><br></pre></td></tr></table></figure><h2 id="install"><a href="#install" class="headerlink" title="install"></a>install</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> /mnt/texlive/install-tl</span><br></pre></td></tr></table></figure><h2 id="install-configure"><a href="#install-configure" class="headerlink" title="install configure"></a>install configure</h2><p>something in the tex live is less use, so we can cancel these installation.<br>press <c> to personalize.<br>here is what I cancel: </p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deghijkstuvwxyznoABCEHIKLMNS</span><br></pre></td></tr></table></figure><p>when you need it you are able to install them with <code>tlmgr</code></p><p>then press <r> and <enter>, go back to the main menu. </p><p>finally press <i> and <enter>, wait for the installation completed. </p><h2 id="After-installation"><a href="#After-installation" class="headerlink" title="After installation"></a>After installation</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> umount /mnt/texlive<span class="comment"># 注意不是unmount!</span></span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">rm</span> -r /mnt/texlive</span><br></pre></td></tr></table></figure><p>update the path. edit <code>~/.zshrc</code>, add: </p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Add TeX Live to the PATH, MANPATH, INFOPATH</span></span><br><span class="line"><span class="built_in">export</span> PATH=/usr/local/texlive/2024/bin/x86_64-linux:<span class="variable">$PATH</span></span><br><span class="line"><span class="built_in">export</span> MANPATH=/usr/local/texlive/2024/texmf-dist/doc/man:<span class="variable">$MANPATH</span></span><br><span class="line"><span class="built_in">export</span> INFOPATH=/usr/local/texlive/2024/texmf-dist/doc/info:<span class="variable">$INFOPATH</span></span><br><span class="line"><span class="comment"># complete the manpath</span></span><br><span class="line"><span class="built_in">export</span> MANPATH=/usr/local/man:<span class="variable">$MANPATH</span></span><br><span class="line"><span class="built_in">export</span> MANPATH=/usr/share/man:<span class="variable">$MANPATH</span></span><br><span class="line"></span><br></pre></td></tr></table></figure><p>save and exit. </p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.zshrc</span><br><span class="line">tex -v</span><br></pre></td></tr></table></figure><p>then:</p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">cp</span> /usr/local/texlive/2024/texmf-var/fonts/conf/texlive-fontconfig.conf /etc/fonts/conf.d/09-texlive.conf</span><br><span class="line"><span class="built_in">sudo</span> fc-cache -fsv</span><br></pre></td></tr></table></figure><h2 id="use-vscode"><a href="#use-vscode" class="headerlink" title="use vscode"></a>use vscode</h2><p>install the LaTex Workshop and Remote Development</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> wsl </tag>
+            
+            <tag> latex </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>how to highlight the code block in markdown</title>
       <link href="/2024/12/13/how-to-highlight-the-code-block-in-markdown/"/>
       <url>/2024/12/13/how-to-highlight-the-code-block-in-markdown/</url>
