@@ -15,4 +15,9 @@ git add .
 git commit -m backup
 git push --set-upstream origin backup
 ```
-
+之后如果想进行备份直接
+```zsh
+git add .
+git commit -m backup
+git push
+```
