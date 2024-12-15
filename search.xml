@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>how to backup your source code in the hexo</title>
+      <link href="/2024/12/15/how-to-backup-your-source-code-in-the-hexo/"/>
+      <url>/2024/12/15/how-to-backup-your-source-code-in-the-hexo/</url>
+      
+        <content type="html"><![CDATA[<p>由于hexo上传的总是编译后的静态文件，如果源文件丢失了就很尴尬了。所以备份源文件还是必要的。由于hexo-deploy插件不会创建.git文件，所以我们可以利用git进行备份。</p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git checkout -b backup</span><br><span class="line">git add remote origin &lt;your github path&gt;</span><br><span class="line">git add .</span><br><span class="line">git commit -m backup</span><br><span class="line">git push origin backup</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>install texlive in the wsl</title>
       <link href="/2024/12/13/install-texlive-in-the-wsl/"/>
       <url>/2024/12/13/install-texlive-in-the-wsl/</url>
