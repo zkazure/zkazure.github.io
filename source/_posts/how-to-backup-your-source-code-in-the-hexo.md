@@ -13,6 +13,6 @@ git checkout -b backup
 git add remote origin <your github path>
 git add .
 git commit -m backup
-git push origin backup
+git push --set-upstream origin backup
 ```
 
