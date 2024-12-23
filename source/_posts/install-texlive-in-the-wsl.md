@@ -39,7 +39,7 @@ sudo /mnt/texlive/install-tl
 ## install configure
 
 something in the tex live is less use, so we can cancel these installation. 
-press <c> to personalize. 
+press 'c' to personalize. 
 here is what I cancel: 
 ```zsh
 deghijkstuvwxyznoABCEHIKLMNS
@@ -47,9 +47,9 @@ deghijkstuvwxyznoABCEHIKLMNS
 
 when you need it you are able to install them with `tlmgr`
 
-then press <r> and <enter>, go back to the main menu. 
+then press 'r' and 'enter', go back to the main menu. 
 
-finally press <i> and <enter>, wait for the installation completed. 
+finally press 'i' and 'enter', wait for the installation completed. 
 
 ## After installation
 
@@ -60,6 +60,7 @@ sudo rm -r /mnt/texlive
 
 update the path. edit `~/.zshrc`, add: 
 ```zsh
+# >>> TEX >>>
 # Add TeX Live to the PATH, MANPATH, INFOPATH
 export PATH=/usr/local/texlive/2024/bin/x86_64-linux:$PATH
 export MANPATH=/usr/local/texlive/2024/texmf-dist/doc/man:$MANPATH
@@ -67,6 +68,7 @@ export INFOPATH=/usr/local/texlive/2024/texmf-dist/doc/info:$INFOPATH
 # complete the manpath
 export MANPATH=/usr/local/man:$MANPATH
 export MANPATH=/usr/share/man:$MANPATH
+# <<< TEX <<<
 
 ```
 save and exit. 
@@ -75,7 +77,7 @@ source ~/.zshrc
 tex -v
 ```
 
-then:
+Finally:
 ```zsh
 sudo cp /usr/local/texlive/2024/texmf-var/fonts/conf/texlive-fontconfig.conf /etc/fonts/conf.d/09-texlive.conf
 sudo fc-cache -fsv
