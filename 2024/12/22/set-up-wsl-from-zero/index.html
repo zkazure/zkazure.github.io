@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="Install12wsl --install Debianwsl  Configuration1234sudo mv ~&#x2F;..&#x2F;..&#x2F;etc&#x2F;apt&#x2F;sources.list ~&#x2F;..&#x2F;..&#x2F;etc&#x2F;apt&#x2F;sources.list.backupsudo nano ~&#x2F;..&#x2F;..&#x2F;etc&#x2F;apt&#x2F;sources.list  12345678910111213deb http:&#x2F;&#x2F;mirrors.t">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Set up your wsl from zero">
+<meta property="og:url" content="http://example.com/2024/12/22/set-up-wsl-from-zero/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Install12wsl --install Debianwsl  Configuration1234sudo mv ~&#x2F;..&#x2F;..&#x2F;etc&#x2F;apt&#x2F;sources.list ~&#x2F;..&#x2F;..&#x2F;etc&#x2F;apt&#x2F;sources.list.backupsudo nano ~&#x2F;..&#x2F;..&#x2F;etc&#x2F;apt&#x2F;sources.list  12345678910111213deb http:&#x2F;&#x2F;mirrors.t">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-12-21T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-12-25T04:26:43.960Z">
+<meta property="article:author" content="Kazure Zheng">
+<meta property="article:tag" content="wsl">
+<meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>Set up your wsl from zero</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://github.com/zkazure">Projects</a></li><!--
+     --><!--
+       --><li><a href="/categories/">Category</a></li><!--
+     --><!--
+       --><li><a href="/tags/">Tag</a></li><!--
+     --><!--
+       --><li><a href="/search/">Search</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/2024/12/22/backup-your-wsl/"><i class="fa-solid fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/2024/12/20/what-is-docker/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2024/12/22/set-up-wsl-from-zero/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&text=Set up your wsl from zero"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&title=Set up your wsl from zero"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&is_video=false&description=Set up your wsl from zero"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Set up your wsl from zero&body=Check out this article: http://example.com/2024/12/22/set-up-wsl-from-zero/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&title=Set up your wsl from zero"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&title=Set up your wsl from zero"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&title=Set up your wsl from zero"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&title=Set up your wsl from zero"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&name=Set up your wsl from zero&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/2024/12/22/set-up-wsl-from-zero/&t=Set up your wsl from zero"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    
+    
+      <div id="toc">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Install"><span class="toc-number">1.</span> <span class="toc-text">Install</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Configuration"><span class="toc-number">2.</span> <span class="toc-text">Configuration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Zsh"><span class="toc-number">3.</span> <span class="toc-text">Zsh</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Lazyvim"><span class="toc-number">4.</span> <span class="toc-text">Lazyvim</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#many"><span class="toc-number">4.1.</span> <span class="toc-text">many</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#neovim"><span class="toc-number">4.2.</span> <span class="toc-text">neovim</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Font"><span class="toc-number">4.3.</span> <span class="toc-text">Font</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#lazygit"><span class="toc-number">4.4.</span> <span class="toc-text">lazygit</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#lazyvim"><span class="toc-number">4.5.</span> <span class="toc-text">lazyvim</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Miniconda"><span class="toc-number">4.6.</span> <span class="toc-text">Miniconda</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#VScode"><span class="toc-number">4.7.</span> <span class="toc-text">VScode</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo"><span class="toc-number">4.8.</span> <span class="toc-text">Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#latex"><span class="toc-number">4.9.</span> <span class="toc-text">latex</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Requirement"><span class="toc-number">4.9.1.</span> <span class="toc-text">Requirement</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Install-1"><span class="toc-number">4.9.2.</span> <span class="toc-text">Install</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Obsidian"><span class="toc-number">5.</span> <span class="toc-text">Obsidian</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Backup-and-recover-wsl"><span class="toc-number">6.</span> <span class="toc-text">Backup and recover wsl</span></a></li></ol>
+      </div>
+    
+  </span>
+</div>
+
+    
+    <div class="content index py4 ">
+        
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle p-name" itemprop="name headline">
+        Set Up Your Wsl From Zero
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">Kazure Zheng</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2024-12-21T16:00:00.000Z" class="dt-published" itemprop="datePublished">2024-12-22</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fa-solid fa-archive"></i>
+        <a class="category-link" href="/categories/software/">software</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fa-solid fa-tag"></i>
+        <a class="p-category" href="/tags/wsl/" rel="tag">wsl</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content e-content" itemprop="articleBody">
+    <h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> Debian</span><br><span class="line">wsl</span><br></pre></td></tr></table></figure>
+
+<h2 id="Configuration"><a href="#Configuration" class="headerlink" title="Configuration"></a>Configuration</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">mv</span> ~/../../etc/apt/sources.list ~/../../etc/apt/sources.list.backup</span><br><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> nano ~/../../etc/apt/sources.list</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware</span><br><span class="line">deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware</span><br><span class="line"></span><br><span class="line">deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware</span><br><span class="line">deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware</span><br><span class="line"></span><br><span class="line">deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware</span><br><span class="line">deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware</span><br><span class="line"></span><br><span class="line">deb http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware</span><br><span class="line">deb-src http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update -y</span><br><span class="line"><span class="built_in">sudo</span> apt install apt-transport-https ca-certificates</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>Change all the “http:&#x2F;&#x2F;“ to “https:&#x2F;&#x2F;“ in the <code>/etc/apt/sources.list</code></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /etc/apt/sources.list</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update</span><br><span class="line"><span class="built_in">sudo</span> apt install wget curl git ssh</span><br><span class="line">git config --global user.email <span class="string">&quot;&lt;your email&gt;&quot;</span></span><br><span class="line">git config --global user.name <span class="string">&quot;&lt;your name&gt;&quot;</span></span><br><span class="line"><span class="built_in">sudo</span> apt upgrade</span><br><span class="line"></span><br><span class="line">ssh-keygen -t rsa -b 4096 -f ~/.ssh/&lt;key name&gt;</span><br><span class="line"><span class="built_in">cat</span> ~/.ssh/&lt;key name&gt;.pub</span><br><span class="line">nvim ~/.ssh/config</span><br></pre></td></tr></table></figure>
+<p>Add</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  HostName github.com</span><br><span class="line">  IdentityFile ~/.ssh/&lt;key name&gt;</span><br></pre></td></tr></table></figure>
+<p>Do not use <key name>.pub, even you update your pub key to the website.</p>
+<h2 id="Zsh"><a href="#Zsh" class="headerlink" title="Zsh"></a>Zsh</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install zsh</span><br><span class="line">chsh -s /bin/zsh </span><br><span class="line"></span><br><span class="line">sh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)</span>&quot;</span></span><br><span class="line"></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/zsh-users/zsh-syntax-highlighting.git <span class="variable">$&#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&#125;</span>/plugins/zsh-syntax-highlighting</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/zsh-users/zsh-autosuggestions <span class="variable">$&#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&#125;</span>/plugins/zsh-autosuggestions</span><br><span class="line"></span><br><span class="line">nano ~/.zshrc</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>Add <code>zsh-syntax-highlighting zsh-autosuggestions  z</code> in the <code>plugins=(git)</code></p>
+<p>Change theme </p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> --depth=1 https://github.com/romkatv/powerlevel10k.git <span class="variable">$&#123;ZSH_CUSTOM:-<span class="variable">$HOME</span>/.oh-my-zsh/custom&#125;</span>/themes/powerlevel10k</span><br><span class="line"></span><br><span class="line">sed -i <span class="string">&#x27;s/ZSH_THEME.*/ZSH_THEME=&quot;powerlevel10k\/powerlevel10k&quot;/g&#x27;</span> .zshrc</span><br><span class="line"></span><br><span class="line"><span class="built_in">source</span> .zshrc</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="Lazyvim"><a href="#Lazyvim" class="headerlink" title="Lazyvim"></a>Lazyvim</h2><h3 id="many"><a href="#many" class="headerlink" title="many"></a>many</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> apt install -y python3 python3-pip</span><br><span class="line"><span class="built_in">sudo</span> apt install -y python3-pynvim</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> apt install ruby-dev -y</span><br><span class="line"><span class="built_in">sudo</span> apt install ruby3.1-dev -y</span><br><span class="line"><span class="built_in">sudo</span> apt install ruby -y</span><br><span class="line"><span class="built_in">sudo</span> gem install neovim</span><br><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> apt install nodejs npm -y</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export PATH=$HOME/.npm-global/bin:$PATH&#x27;</span> &gt;&gt; ~/.zshrc</span><br><span class="line"><span class="built_in">source</span> ~/.zshrc</span><br><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> npm install -g neovim</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$PATH</span></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:/usr/bin</span><br><span class="line"><span class="built_in">source</span> ~/.zshrc</span><br><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> apt install ripgrep</span><br><span class="line"><span class="built_in">sudo</span> apt install -y xclip perl cpanminus</span><br><span class="line"><span class="built_in">sudo</span> cpanm -n Neovim::Ext</span><br><span class="line"><span class="built_in">sudo</span> cpanm -n --reinstall App::cpanminus Neovim::Ext</span><br><span class="line"><span class="built_in">sudo</span> /usr/bin/perl -MApp::cpanminus::fatscript -e <span class="string">&#x27;my $app = App::cpanminus::script-&gt;new; $app-&gt;parse_options(&quot;--info&quot;, &quot;-q&quot;, &quot;Neovim::Ext&quot;); exit $app-&gt;doit&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> apt install lua5.1 liblua5.1-0-dev luarocks -y</span><br><span class="line"></span><br><span class="line">curl --proto <span class="string">&#x27;=https&#x27;</span> --tlsv1.2 -sSf https://sh.rustup.rs | sh</span><br><span class="line"><span class="built_in">source</span> <span class="variable">$HOME</span>/.cargo/env</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/tree-sitter/tree-sitter.git</span><br><span class="line"><span class="built_in">cd</span> tree-sitter/cli</span><br><span class="line">cargo build --release</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">cp</span> target/release/tree-sitter /usr/local/bin/</span><br><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> apt install fzf</span><br><span class="line"><span class="built_in">sudo</span> apt install ripgrep</span><br><span class="line"><span class="built_in">sudo</span> apt install fd-find</span><br><span class="line"><span class="built_in">mkdir</span> -p ~/.local/bin</span><br><span class="line"><span class="built_in">ln</span> -s $(<span class="built_in">which</span> fdfind) ~/.local/bin/fd</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export PATH=&quot;$HOME/.local/bin:$PATH&quot;&#x27;</span> &gt;&gt; ~/.zshrc</span><br><span class="line"><span class="built_in">source</span> ~/.zshrc</span><br><span class="line"></span><br><span class="line">git <span class="built_in">clone</span> --depth 1 https://github.com/junegunn/fzf.git ~/.fzf</span><br><span class="line">~/.fzf/install</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="neovim"><a href="#neovim" class="headerlink" title="neovim"></a>neovim</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage</span><br><span class="line"><span class="built_in">chmod</span> u+x nvim.appimage</span><br><span class="line">./nvim.appimage --appimage-extract</span><br><span class="line"><span class="built_in">cd</span> squashfs-root</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">mv</span> squashfs-root /usr/local/nvim</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">ln</span> -s /usr/local/nvim/AppRun /usr/local/bin/nvim</span><br><span class="line"></span><br><span class="line"><span class="built_in">mkdir</span> -p ~/.config/nvim</span><br><span class="line"><span class="built_in">touch</span> ~/.config/nvim/init.lua</span><br><span class="line"></span><br><span class="line">nvim ~/.config/nvim/init.lua</span><br></pre></td></tr></table></figure>
+<p> add </p>
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">local</span> lazypath = vim.fn.stdpath(<span class="string">&quot;data&quot;</span>) .. <span class="string">&quot;/lazy/lazy.nvim&quot;</span></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> vim.loop.fs_stat(lazypath) <span class="keyword">then</span></span><br><span class="line">  vim.fn.system(&#123;</span><br><span class="line">    <span class="string">&quot;git&quot;</span>,</span><br><span class="line">    <span class="string">&quot;clone&quot;</span>,</span><br><span class="line">    <span class="string">&quot;--filter=blob:none&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://github.com/folke/lazy.nvim.git&quot;</span>,</span><br><span class="line">    <span class="string">&quot;--branch=stable&quot;</span>, <span class="comment">-- 最新稳定版本</span></span><br><span class="line">    lazypath,</span><br><span class="line">  &#125;)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">vim.opt.rtp:prepend(lazypath)</span><br><span class="line"></span><br><span class="line"><span class="built_in">require</span>(<span class="string">&quot;lazy&quot;</span>).setup(&#123;</span><br><span class="line">  <span class="comment">-- LSP 配置</span></span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;neovim/nvim-lspconfig&quot;</span>,</span><br><span class="line">    <span class="built_in">config</span> = <span class="function"><span class="keyword">function</span><span class="params">()</span></span></span><br><span class="line">      <span class="keyword">local</span> lspconfig = <span class="built_in">require</span>(<span class="string">&quot;lspconfig&quot;</span>)</span><br><span class="line">      <span class="comment">-- Lua LSP 配置</span></span><br><span class="line">      lspconfig.lua_ls.setup(&#123;</span><br><span class="line">        settings = &#123;</span><br><span class="line">          Lua = &#123;</span><br><span class="line">            runtime = &#123; version = <span class="string">&quot;LuaJIT&quot;</span> &#125;, <span class="comment">-- 使用 Neovim 内置的 LuaJIT</span></span><br><span class="line">            diagnostics = &#123; globals = &#123; <span class="string">&quot;vim&quot;</span> &#125; &#125;, <span class="comment">-- 识别 `vim` 为全局变量</span></span><br><span class="line">            workspace = &#123; library = vim.api.nvim_get_runtime_file(<span class="string">&quot;&quot;</span>, <span class="literal">true</span>) &#125;,</span><br><span class="line">            telemetry = &#123; enable = <span class="literal">false</span> &#125;, <span class="comment">-- 禁用遥测</span></span><br><span class="line">          &#125;,</span><br><span class="line">        &#125;,</span><br><span class="line">      &#125;)</span><br><span class="line">    <span class="keyword">end</span>,</span><br><span class="line">  &#125;,</span><br><span class="line"></span><br><span class="line">  <span class="comment">-- Treesitter 配置</span></span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;nvim-treesitter/nvim-treesitter&quot;</span>,</span><br><span class="line">    build = <span class="string">&quot;:TSUpdate&quot;</span>,</span><br><span class="line">    <span class="built_in">config</span> = <span class="function"><span class="keyword">function</span><span class="params">()</span></span></span><br><span class="line">      <span class="built_in">require</span>(<span class="string">&quot;nvim-treesitter.configs&quot;</span>).setup(&#123;</span><br><span class="line">        indent = &#123; enable = <span class="literal">true</span> &#125;, <span class="comment">-- 启用缩进</span></span><br><span class="line">        highlight = &#123; enable = <span class="literal">true</span> &#125;, <span class="comment">-- 启用 Treesitter 高亮</span></span><br><span class="line">        ensure_installed = &#123; </span><br><span class="line">          <span class="string">&quot;c&quot;</span>, <span class="string">&quot;cpp&quot;</span>, <span class="string">&quot;lua&quot;</span>, <span class="string">&quot;markdown&quot;</span>, <span class="string">&quot;vim&quot;</span>, <span class="string">&quot;query&quot;</span>, <span class="string">&quot;python&quot;</span>, <span class="string">&quot;javascript&quot;</span>, <span class="string">&quot;typescript&quot;</span> </span><br><span class="line">        &#125;, <span class="comment">-- 确保安装解析器</span></span><br><span class="line">      &#125;)</span><br><span class="line">    <span class="keyword">end</span>,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 启用 Treesitter 折叠功能</span></span><br><span class="line">vim.o.foldmethod = <span class="string">&quot;expr&quot;</span></span><br><span class="line">vim.o.foldexpr = <span class="string">&quot;nvim_treesitter#foldexpr()&quot;</span></span><br><span class="line">vim.o.foldlevel = <span class="number">99</span> <span class="comment">-- 默认不折叠</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">require</span>(<span class="string">&#x27;fzf-lua&#x27;</span>).setup(&#123;</span><br><span class="line">  winopts = &#123;</span><br><span class="line">    height = <span class="number">0.85</span>,  <span class="comment">-- 高度</span></span><br><span class="line">    width = <span class="number">0.80</span>,   <span class="comment">-- 宽度</span></span><br><span class="line">    border = <span class="string">&#x27;rounded&#x27;</span>, <span class="comment">-- 边框样式</span></span><br><span class="line">  &#125;,</span><br><span class="line">  files = &#123;</span><br><span class="line">    prompt = <span class="string">&#x27;Files&gt; &#x27;</span>,</span><br><span class="line">    cmd = <span class="string">&#x27;fd --type f --hidden --exclude .git&#x27;</span>, <span class="comment">-- 使用 fd 查找文件</span></span><br><span class="line">  &#125;,</span><br><span class="line">  grep = &#123;</span><br><span class="line">    prompt = <span class="string">&#x27;Rg&gt; &#x27;</span>,</span><br><span class="line">    cmd = <span class="string">&#x27;rg --vimgrep&#x27;</span>, <span class="comment">-- 使用 ripgrep 进行搜索</span></span><br><span class="line">  &#125;,</span><br><span class="line">&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> -p ~/.config/nvim/after/plugin</span><br><span class="line"><span class="built_in">touch</span> ~/.config/nvim/after/plugin/lsp.lua</span><br><span class="line">nvim ~/.config/nvim/after/plugin/lsp.lua</span><br><span class="line">nvim <span class="built_in">rm</span> -rf /home/zka_wsl/.local/share/nvim/lazy/lazy.nvim</span><br><span class="line">git <span class="built_in">clone</span> --filter=blob:none https://github.com/folke/lazy.nvim.git --branch=stable ~/.local/share/nvim/lazy/lazy.nvim</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>add </p>
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">local</span> lspconfig = <span class="built_in">require</span>(<span class="string">&#x27;lspconfig&#x27;</span>)</span><br><span class="line"></span><br><span class="line">lspconfig.lua_ls.setup &#123;</span><br><span class="line">  settings = &#123;</span><br><span class="line">    Lua = &#123;</span><br><span class="line">      runtime = &#123;</span><br><span class="line">        version = <span class="string">&#x27;LuaJIT&#x27;</span>,</span><br><span class="line">      &#125;,</span><br><span class="line">      diagnostics = &#123;</span><br><span class="line">        globals = &#123; <span class="string">&#x27;vim&#x27;</span>, <span class="string">&#x27;require&#x27;</span> &#125;,</span><br><span class="line">      &#125;,</span><br><span class="line">      workspace = &#123;</span><br><span class="line">        library = vim.api.nvim_get_runtime_file(<span class="string">&quot;&quot;</span>, <span class="literal">true</span>),</span><br><span class="line">      &#125;,</span><br><span class="line">      telemetry = &#123;</span><br><span class="line">        enable = <span class="literal">false</span>,</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com</span><br><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> npm install -g pyright</span><br><span class="line"></span><br><span class="line"><span class="built_in">mkdir</span> lua-language-server</span><br><span class="line"><span class="built_in">cd</span> lua-language-server</span><br><span class="line">wget https://github.com/LuaLS/lua-language-server/releases/download/3.13.5/lua-language-server-3.13.5-linux-x64.tar.gz</span><br><span class="line">tar -xvzf lua-language-server-3.13.5-linux-x64.tar.gz</span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">mv</span> lua-language-server /usr/local/share</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">ln</span> -s /usr/local/share/lua-language-server/bin/lua-language-server /usr/local/bin/lua-language-server</span><br><span class="line">lua-language-server --version</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="Font"><a href="#Font" class="headerlink" title="Font"></a>Font</h3><p>[here](<a target="_blank" rel="noopener" href="https://github.com/DevelopersCommunity/wix-JetBrainsMonoNF">DevelopersCommunity&#x2F;wix-JetBrainsMonoNF: Windows installer for JetBrainsMono Nerd Font.</a>)<br>then change the font in the windows terminal</p>
+<h3 id="lazygit"><a href="#lazygit" class="headerlink" title="lazygit"></a>lazygit</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> lazy</span><br><span class="line"><span class="built_in">cd</span> lazy</span><br><span class="line">wget https://github.com/jesseduffield/lazygit/releases/download/v0.44.1/lazygit_0.44.1_Linux_x86_64.tar.gz</span><br><span class="line">tar -xvzf lazygit_0.44.1_Linux_x86_64.tar.gz</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">mv</span> lazygit /usr/local/bin/</span><br><span class="line"><span class="built_in">rm</span> -rf lazy</span><br></pre></td></tr></table></figure>
+
+<h3 id="lazyvim"><a href="#lazyvim" class="headerlink" title="lazyvim"></a>lazyvim</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># required</span></span><br><span class="line"><span class="built_in">mv</span> ~/.config/nvim&#123;,.bak&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># optional but recommended</span></span><br><span class="line"><span class="built_in">mv</span> ~/.local/share/nvim&#123;,.bak&#125;</span><br><span class="line"><span class="built_in">mv</span> ~/.local/state/nvim&#123;,.bak&#125;</span><br><span class="line"><span class="built_in">mv</span> ~/.cache/nvim&#123;,.bak&#125;</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/LazyVim/starter ~/.config/nvim</span><br><span class="line"><span class="built_in">rm</span> -rf ~/.config/nvim/.git</span><br></pre></td></tr></table></figure>
+
+<h3 id="Miniconda"><a href="#Miniconda" class="headerlink" title="Miniconda"></a>Miniconda</h3><ol>
+<li>install<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> -p ~/miniconda3</span><br><span class="line">wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh</span><br><span class="line">bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3</span><br><span class="line"><span class="built_in">rm</span> ~/miniconda3/miniconda.sh</span><br></pre></td></tr></table></figure></li>
+<li>config<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> miniconda3</span><br><span class="line">vim .condarc</span><br></pre></td></tr></table></figure></li>
+<li>Add blow:<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">channels:</span><br><span class="line">  - defaults</span><br><span class="line">ssl_verify: true</span><br><span class="line">auto_activate_base: false</span><br></pre></td></tr></table></figure></li>
+<li>run<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cp</span> ~/miniconda3/.condarc ~/.condarc</span><br><span class="line"><span class="built_in">source</span> ~/miniconda3/bin/activate</span><br><span class="line">conda init --all</span><br><span class="line">conda deactivate</span><br><span class="line"><span class="built_in">source</span> ~/.zshrc</span><br></pre></td></tr></table></figure></li>
+<li>pip source<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="built_in">mkdir</span> .pip</span><br><span class="line"><span class="built_in">cd</span> .pip</span><br><span class="line">nvim pip.conf</span><br></pre></td></tr></table></figure>
+add<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">n[global] index-url = https://pypi.tuna.tsinghua.edu.cn/simple</span><br><span class="line">[install]</span><br><span class="line">trusted-host = https://pypi.tuna.tsinghua.edu.cn</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="VScode"><a href="#VScode" class="headerlink" title="VScode"></a>VScode</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code</span><br></pre></td></tr></table></figure>
+<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<h3 id="latex"><a href="#latex" class="headerlink" title="latex"></a>latex</h3><h4 id="Requirement"><a href="#Requirement" class="headerlink" title="Requirement"></a>Requirement</h4><ul>
+<li>vscode-server</li>
+</ul>
+<h4 id="Install-1"><a href="#Install-1" class="headerlink" title="Install"></a>Install</h4><p>Download the iso in the mirror website <a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">here</a></p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">mkdir</span> /mnt/textlive</span><br><span class="line"><span class="built_in">sudo</span> mount /mnt/&lt;the path of iso&gt; /mnt/texlive</span><br></pre></td></tr></table></figure>
+<p>It will output ‘mount: &#x2F;mnt&#x2F;texlive: WARNING: source write-protected, mounted read-only.’, don’t be worry.</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> /mnt/textlive/install-tl</span><br></pre></td></tr></table></figure>
+<p>then ‘c’ and ‘enter’ to personalize</p>
+<p>This is what I cancel: </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deghijkstuvwxyznoABCEHIKLMNS</span><br></pre></td></tr></table></figure>
+<p>then ‘r’ and ‘enter’, ‘i’ and ‘enter’</p>
+<p>After installation</p>
+<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> umount /mnt/textlive <span class="comment"># attention is not umount</span></span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">rm</span> -r /mnt/texlive</span><br><span class="line">nvim ~/.zshrc</span><br></pre></td></tr></table></figure>
+<p>Add:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># Add TeX Live to the PATH, MANPATH, INFOPATH</span><br><span class="line">export PATH=/usr/local/texlive/2024/bin/x86_64-linux:$PATH</span><br><span class="line">export MANPATH=/usr/local/texlive/2024/texmf-dist/doc/man:$MANPATH</span><br><span class="line">export INFOPATH=/usr/local/texlive/2024/texmf-dist/doc/info:$INFOPATH</span><br><span class="line"># complete the manpath</span><br><span class="line">export MANPATH=/usr/local/man:$MANPATH</span><br><span class="line">export MANPATH=/usr/share/man:$MANPATH</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="Obsidian"><a href="#Obsidian" class="headerlink" title="Obsidian"></a>Obsidian</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install fontconfig</span><br><span class="line"><span class="built_in">sudo</span> apt install fonts-firacode</span><br><span class="line"><span class="built_in">sudo</span> apt install fonts-jetbrains-mono</span><br><span class="line"><span class="built_in">sudo</span> apt install ttf-mscorefonts-installer -y </span><br><span class="line">fc-cache -f -v</span><br><span class="line"><span class="built_in">sudo</span> apt install -y fuse libnss3 libnss3-dev libatk1.0-0 libatk-bridge2.0-0 libgtk-3-0 libasound2 libgtk-3-0 libfreetype6</span><br><span class="line">curl -LO &lt;the path&gt;</span><br><span class="line"><span class="built_in">chmod</span> u+x &lt;.appimage&gt;</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">ln</span> -s /path/to/Obsidian-1.7.7.AppImage /usr/local/bin/ob</span><br><span class="line">ob</span><br></pre></td></tr></table></figure>
+<h2 id="Backup-and-recover-wsl"><a href="#Backup-and-recover-wsl" class="headerlink" title="Backup and recover wsl"></a>Backup and recover wsl</h2><ol>
+<li>Backup<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">wsl --shutdown</span><br><span class="line">wsl --<span class="built_in">export</span> Debian D:\WSL\debian.tar</span><br><span class="line">wsl --unregister Debian</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+<li>recover<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl --import Debian D:\WSL\Debian D:\WSL\debain.tar</span><br></pre></td></tr></table></figure></li>
+<li>in the wsl<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">su &lt;user&gt;</span><br><span class="line"><span class="built_in">sudo</span> su</span><br><span class="line"><span class="built_in">cp</span> /etc/wsl.conf /etc/wsl.config.bk </span><br><span class="line">nvim /etc/wsl.conf </span><br></pre></td></tr></table></figure></li>
+<li>add<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[user]</span><br><span class="line">default=&lt;user&gt;</span><br></pre></td></tr></table></figure></li>
+<li>reboot</li>
+</ol>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/">Home</a></li>
+        
+          <li><a href="/about/">About</a></li>
+        
+          <li><a href="/archives/">Writing</a></li>
+        
+          <li><a target="_blank" rel="noopener" href="http://github.com/zkazure">Projects</a></li>
+        
+          <li><a href="/categories/">Category</a></li>
+        
+          <li><a href="/tags/">Tag</a></li>
+        
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </div>
+
+    
+    
+      <div id="toc-footer" style="display: none">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Install"><span class="toc-number">1.</span> <span class="toc-text">Install</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Configuration"><span class="toc-number">2.</span> <span class="toc-text">Configuration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Zsh"><span class="toc-number">3.</span> <span class="toc-text">Zsh</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Lazyvim"><span class="toc-number">4.</span> <span class="toc-text">Lazyvim</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#many"><span class="toc-number">4.1.</span> <span class="toc-text">many</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#neovim"><span class="toc-number">4.2.</span> <span class="toc-text">neovim</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Font"><span class="toc-number">4.3.</span> <span class="toc-text">Font</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#lazygit"><span class="toc-number">4.4.</span> <span class="toc-text">lazygit</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#lazyvim"><span class="toc-number">4.5.</span> <span class="toc-text">lazyvim</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Miniconda"><span class="toc-number">4.6.</span> <span class="toc-text">Miniconda</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#VScode"><span class="toc-number">4.7.</span> <span class="toc-text">VScode</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo"><span class="toc-number">4.8.</span> <span class="toc-text">Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#latex"><span class="toc-number">4.9.</span> <span class="toc-text">latex</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Requirement"><span class="toc-number">4.9.1.</span> <span class="toc-text">Requirement</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Install-1"><span class="toc-number">4.9.2.</span> <span class="toc-text">Install</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Obsidian"><span class="toc-number">5.</span> <span class="toc-text">Obsidian</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Backup-and-recover-wsl"><span class="toc-number">6.</span> <span class="toc-text">Backup and recover wsl</span></a></li></ol>
+      </div>
+    
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2024/12/22/set-up-wsl-from-zero/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&text=Set up your wsl from zero"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&title=Set up your wsl from zero"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&is_video=false&description=Set up your wsl from zero"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Set up your wsl from zero&body=Check out this article: http://example.com/2024/12/22/set-up-wsl-from-zero/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&title=Set up your wsl from zero"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&title=Set up your wsl from zero"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&title=Set up your wsl from zero"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&title=Set up your wsl from zero"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2024/12/22/set-up-wsl-from-zero/&name=Set up your wsl from zero&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/2024/12/22/set-up-wsl-from-zero/&t=Set up your wsl from zero"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        
+          <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2024
+    Kazure Zheng
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://github.com/zkazure">Projects</a></li><!--
+     --><!--
+       --><li><a href="/categories/">Category</a></li><!--
+     --><!--
+       --><li><a href="/tags/">Tag</a></li><!--
+     --><!--
+       --><li><a href="/search/">Search</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="fa-regular fa-clone"></i>';
+    btn += '</span>';
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
