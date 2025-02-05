@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Org on My Personal Blog</title><link>https://zkazure.github.io/tags/org/</link><description>Recent content in Org on My Personal Blog</description><generator>Hugo -- 0.141.0</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2025 14:12:06 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/tags/org/index.xml" rel="self" type="application/rss+xml"/><item><title>summary</title><link>https://zkazure.github.io/posts/org-summary/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-summary/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>please ignore the &amp;lsquo;,&amp;rsquo; at the beggining.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+TITLE&lt;/span>&lt;span style="color:#75715e">: No matter uppercase or not&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+AUTHOR&lt;/span>&lt;span style="color:#75715e">: me&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="heading">Heading&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>*&lt;span style="font-weight:bold"> the first heading&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">**&lt;/span> second
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">***&lt;/span> third
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">**&lt;/span>&lt;span style="color:#960050;background-color:#1e0010"> TODO&lt;/span> every heading can be a TODO
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="annotation">Annotation&lt;/h2>
+&lt;p>&lt;strong>bold&lt;/strong> &lt;em>italic&lt;/em> &lt;!-- raw HTML omitted -->underline&lt;!-- raw HTML omitted --> &lt;del>delete&lt;/del> &lt;code>code&lt;/code> &lt;code>code&lt;/code>&lt;/p>
+&lt;h2 id="list">List&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>itemize
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- &lt;/span>item1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">+ &lt;/span>item2
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>item&lt;/li>
+&lt;li>item&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>enumerate
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">1.&lt;/span> item-1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">2)&lt;/span> item-2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A. item-A
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B) item-B
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol>
+&lt;li>first&lt;/li>
+&lt;li>second&lt;/li>
+&lt;li>aa&lt;/li>
+&lt;li>bb&lt;/li>
+&lt;/ol>
+&lt;!-- raw HTML omitted -->
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [ ]&lt;/span> not started
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- &lt;/span>[-] in process
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [X]&lt;/span> finished
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> not started&lt;/li>
+&lt;li>[-] in process&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> finished&lt;/li>
+&lt;/ul>
+&lt;h2 id="links">Links&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>[[&lt;span style="color:#a6e22e">https://google.com&lt;/span>][&lt;span style="color:#f92672">name&lt;/span>]]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[[&lt;span style="color:#a6e22e">picture path&lt;/span>]]
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://google.com">google&lt;/a>&lt;/p></description></item></channel></rss>
