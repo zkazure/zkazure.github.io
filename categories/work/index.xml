@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Work on My Personal Blog</title><link>https://zkazure.github.io/categories/work/</link><description>Recent content in Work on My Personal Blog</description><generator>Hugo -- 0.141.0</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2025 14:12:06 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/categories/work/index.xml" rel="self" type="application/rss+xml"/><item><title>summary</title><link>https://zkazure.github.io/posts/org-summary/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-summary/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Work on My Personal Blog</title><link>https://zkazure.github.io/categories/work/</link><description>Recent content in Work on My Personal Blog</description><generator>Hugo -- 0.141.0</generator><language>en-us</language><lastBuildDate>Thu, 13 Feb 2025 11:03:29 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/categories/work/index.xml" rel="self" type="application/rss+xml"/><item><title>Doom emacs</title><link>https://zkazure.github.io/posts/doom_emacs/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/doom_emacs/</guid><description>&lt;h2 id="emacs">emacs&lt;/h2>
+&lt;h3 id="basic">Basic&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>windows manager&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>SPC w v&lt;/code>: windows vertical split&lt;/li>
+&lt;li>&lt;code>SPC w s&lt;/code>: windows split&lt;/li>
+&lt;li>&lt;code>SPC w hjkl&lt;/code>: windows jumped to left/down/up/right.&lt;/li>
+&lt;li>&lt;code>SPC w HJKL&lt;/code>: windows move.&lt;/li>
+&lt;li>&lt;code>SPC w b&lt;/code>: windows jumped to bottom right.&lt;/li>
+&lt;li>&lt;code>SPC w t&lt;/code>: windows jumped to top left.&lt;/li>
+&lt;li>&lt;code>SPC w w&lt;/code>: windows jumped to next.&lt;/li>
+&lt;li>&lt;code>SPC w W&lt;/code>: windows jumped to previous.&lt;/li>
+&lt;li>&lt;code>SPC w c&lt;/code>: windows closed.&lt;/li>
+&lt;li>&lt;code>SPC w x&lt;/code>: windows exchange.&lt;/li>
+&lt;li>&lt;code>SPC w +-&amp;lt;&amp;gt;&lt;/code>: windwos change size.&lt;/li>
+&lt;li>&lt;code>SPC w =&lt;/code>: windows balance.&lt;/li>
+&lt;li>&lt;code>SPC w m m&lt;/code>: windows maximize the current windows.&lt;/li>
+&lt;li>&lt;code>SPC w u&lt;/code>: undo the windows.&lt;/li>
+&lt;/ul>
+&lt;p>Practice.&lt;/p></description></item><item><title>snippets</title><link>https://zkazure.github.io/posts/learn-snippets/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/learn-snippets/</guid><description>&lt;p>In the doom emacs the defaut directory is &lt;code>~/.doom.d/snippets/&lt;/code> . And in the the file should be divided into different derctory to triger different file in the corresponding mode.&lt;/p>
+&lt;h2 id="front-matter">front-matter&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">#&lt;/span> -*- mode: snippet -*-
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">#&lt;/span> name: the name to search
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">#&lt;/span> key: the key word to be completed by &amp;lt;tab&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">#&lt;/span> condition: if here is &lt;span style="color:#66d9ef">nil&lt;/span>&lt;span style="color:#f92672">,&lt;/span> the snippet will not be trigger
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">#&lt;/span> --
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="variables">variables&lt;/h2>
+&lt;h3 id="main">main&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span style="display:flex;">&lt;span>${1:default_value}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>${2:label}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>${2:same}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 插入 snippets 后可以使用 &amp;lt;tab&amp;gt; 按顺序跳转。&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 里面的默认值可以用作提示&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 还可以插入相同的值&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>${0}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 这个是最后的光标位置&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>${cursor}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 使用后会自动跳转，也就意味着不能够修改其他的${数字}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="advance">advance&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span style="display:flex;">&lt;span>${CILPBOARD}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 从当前的剪切版中获取信息&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>${SECLRCTION}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 从当前选择的内容中获取信息&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 但是似乎难以决定输入的位置&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 不如使用 ${CILPBOARD}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="other">Other&lt;/h3>
+&lt;ul>
+&lt;li>&lt;code>$date&lt;/code>: 日期&lt;/li>
+&lt;li>&lt;code>$time&lt;/code>: 时间&lt;/li>
+&lt;li>&lt;code>$file&lt;/code>: filename&lt;/li>
+&lt;li>&lt;code>$filepath&lt;/code>&lt;/li>
+&lt;li>&lt;code>`(format-time-string &amp;quot;%Y-%m-%d&amp;quot;)`&lt;/code>: 用于设定时间&lt;/li>
+&lt;/ul>
+&lt;p>可以利用``来调用 elisp&lt;/p></description></item><item><title>summary</title><link>https://zkazure.github.io/posts/org-summary/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-summary/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>please ignore the &amp;lsquo;,&amp;rsquo; at the beggining.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+TITLE&lt;/span>&lt;span style="color:#75715e">: No matter uppercase or not&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+AUTHOR&lt;/span>&lt;span style="color:#75715e">: me&lt;/span>
