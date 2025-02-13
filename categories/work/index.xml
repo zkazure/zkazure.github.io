@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Work on My Personal Blog</title><link>https://zkazure.github.io/categories/work/</link><description>Recent content in Work on My Personal Blog</description><generator>Hugo -- 0.141.0</generator><language>en-us</language><lastBuildDate>Thu, 13 Feb 2025 11:03:29 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/categories/work/index.xml" rel="self" type="application/rss+xml"/><item><title>Doom emacs</title><link>https://zkazure.github.io/posts/doom_emacs/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/doom_emacs/</guid><description>&lt;h2 id="emacs">emacs&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Work on My Personal Blog</title><link>https://zkazure.github.io/categories/work/</link><description>Recent content in Work on My Personal Blog</description><generator>Hugo -- 0.141.0</generator><language>en-us</language><lastBuildDate>Thu, 13 Feb 2025 11:10:37 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/categories/work/index.xml" rel="self" type="application/rss+xml"/><item><title>Doom emacs</title><link>https://zkazure.github.io/posts/doom_emacs/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/doom_emacs/</guid><description>&lt;h2 id="emacs">emacs&lt;/h2>
 &lt;h3 id="basic">Basic&lt;/h3>
 &lt;ul>
 &lt;li>
@@ -19,7 +19,49 @@
 &lt;li>&lt;code>SPC w m m&lt;/code>: windows maximize the current windows.&lt;/li>
 &lt;li>&lt;code>SPC w u&lt;/code>: undo the windows.&lt;/li>
 &lt;/ul>
-&lt;p>Practice.&lt;/p></description></item><item><title>snippets</title><link>https://zkazure.github.io/posts/learn-snippets/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/learn-snippets/</guid><description>&lt;p>In the doom emacs the defaut directory is &lt;code>~/.doom.d/snippets/&lt;/code> . And in the the file should be divided into different derctory to triger different file in the corresponding mode.&lt;/p>
+&lt;p>Practice.&lt;/p></description></item><item><title>Career</title><link>https://zkazure.github.io/posts/career_planning/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/career_planning/</guid><description>&lt;h2 id="职业的演变">职业的演变&lt;/h2>
+&lt;p>流水线的出现是现代岗位快速演变的关键。过去生产一个商品的绝大多数的工作都是由一个人完成的，但是当生产的量不断增加，单人的效率不够高，于是就出现了分工。实际上分工就是资本为了提高效率，提升利润自然想出的方法。
+可以说随着生产量的增加，岗位会不断细分，岗位的数量可以说是无穷无尽的。而本质上岗位是依靠于商品的种类的。
+商品的种类又取决于人类的需求，人类早期的需求从衣食住行到现在的教育医疗，到各种娱乐，人类不断满足自己的要求同时也在不断产生新的需求。
+岗位服务于商品，对于商品到服务包括生产、运输和销售。当今的商品交易量不断增大，后两个环节的重要性不断凸显。&lt;/p>
+&lt;h2 id="行业划分说明">行业划分说明&lt;/h2>
+&lt;p>本篇为下一篇的开头独立出来的一篇，增加了一些细节。&lt;/p>
+&lt;p>由于下一篇存在敏感词，暂时无法更改，所以有部分内容重复。&lt;/p>
+&lt;p>行业划分说明&lt;/p>
+&lt;p>上一篇介绍了职业诞生与演变的规律，大家都知道工作与商品种类也就是行业息息相关，而商品是随着需求诞生的，想知道有多少种行业，我们只需要把需求种类梳理清楚就可以了。
+本篇我们就根据需求和商品整体来梳理一下行业的类型。
+官方有一个《国民经济分类》，划分的非常详细，但对于没接触过的人来说，过于详细了，容易让人无从下手。
+而且官方的这个分类是为了方便管理市场，和我们的目的也不一样，虽然划分思路接近、分类差不太多，但这里为了方便大家理解，我做了整合和简化。
+完整的《国民经济分类》我也放在了配套资料里，大家可以根据自己的需要查看。&lt;/p>
+&lt;p>从需求和商品的角度梳理，大家也更容易理解行业的特点与发展规律。&lt;/p>
+&lt;p>想找到自己感兴趣或具有某个特征的工作，也可以通过找到自己感兴趣、或具有某个特征的商品来实现。&lt;/p>
+&lt;p>比如想找稳定的工作，可以先找到一个稳定的需求，比如医疗，从古至今人们对医疗的需求一直是必须且相对稳定的，区别只在于治疗技术不同。而医疗技术颠覆性的迭代往往比较慢，哪怕AI短时间也很难替代医生需要动手、以及人文关怀的工作。&lt;/p>
+&lt;p>同理，还有教育、存贷（银行）、各种生活必需品等。&lt;/p>
+&lt;p>哪怕公司不行了，需求在，大行业就还是稳定的，换公司还可以找到工作（比如教培模式被打压，有些老师进体制，有些靠过去积累的客户自己干，当然从业人数太多、远超市场需求的话还是会有失业的）。&lt;/p>
+&lt;p>但稳定往往也意味着平均收入低（稳定高收入会导致更多人涌入，从而压低收入，导致高收入不可持续，所以稳定高收入在没有外在条件形成垄断的情况下只会短期存在），这就看个人如何选择了。&lt;/p>
+&lt;p>通过这个方式找工作，至少大方向不会错。
+需要提前说明的是，因为经济是一个整体，彼此交叉，很多界限并不是特别分明，所以文中的分类仅仅是为了方便大家理解，切勿较真。&lt;/p>
+&lt;p>行业分类梳理&lt;/p>
+&lt;p>在开始介绍具体的行业岗位之前，我先给大家整体梳理一下行业分类，大家先有一个整体的概念再去看细节。
+经常说，衣食住行是人离不开的东西，除此之外呢，还有教育、医疗和娱乐，这些是我们需求的根本，几乎所有的商品也都是在此基础上发展出来的。
+首先，为了满足我们的这些需求，几乎都需要物品，可能是衣服、食品、水这些看得到摸得着的，也可能是电、燃气这种看不到摸不到的，也有网络游戏、短视频、电视剧这种非实体的。&lt;/p>
+&lt;p>所有的物品（其实也是我们生活中会接触到和听说的，几乎所有的东西）都是生产或制造出来的。&lt;/p>
+&lt;p>生产出来的属于原材料，也就是商品最原始的材料，比如钢的原材料铁矿石，化纤的原材料石油，这些需要制造业层层加工才会成为我们会接触到的商品，一般属于采矿业，有些通过简单处理就是大家消费的商品（比如宠物、植物、生鲜），一般属于农林牧渔。&lt;/p>
+&lt;p>制造出来的，实体基本属于制造业和建筑工程业，虚拟的集中在文娱传媒与互联网。&lt;/p>
+&lt;p>有些需求，仅仅有物品还不够。比如教育和培训，仅仅有教材是不够的，还需要有老师或教练教；医疗不能只有医疗设备、药品还得有医生诊断、做手术；衣服我们不想穿千篇一律的，可能会找设计师设计；头发也需要有发型师来剪；不想自己做饭了，去外面吃需要有厨师做、有服务员提供服务；去外面旅行，逛景点需要有讲解员，逛主题乐园需要有表演的NPC，住宿需要有前台有保洁，坐火车飞机地铁需要有驾驶员、安检员、乘务员；对职业发展迷茫了需要有职业咨询师。
+这些人的工作几乎不产生物品，提供的都是当场体验的服务，属于服务业。
+上面都是从个人角度出发的服务，公司也免不了需要服务，比如做公司发展方面的咨询、做市场调研、做市场营销方案、在互联网平台或电梯间投放广告、租班车等等。
+这里，我们把面向公司的服务称为企业服务，面向个人的服务称为居民服务。
+除此之外还有几个比较特殊，市场规模比较大，岗位设置比较复杂的服务行业，包括金融行业、贸易/批发/零售行业、旅游业、交通运输仓储业、通信行业。&lt;/p>
+&lt;p>行业的大类我们就梳理完了，下一篇详细介绍每个行业大类下的细分行业与岗位，以及行业特点。
+不感兴趣的行业大家可以跳过对岗位的介绍，但是行业介绍和行业特点部分建议都听一下。我原本想把这部分拆出来单独讲，给大家节省点时间，结果后面发现没法拆。
+因为前面也讲了，经济是一个整体，各个行业之间没办法完全断开联系，尤其是有的行业就是从另一个行业的某个岗位延伸出来的，是为某个岗位提供服务的，所以不讲岗位就没法讲了。
+每个行业多多少少会受到其他行业的影响。很多时候，机会就是其他行业的变化带来的，但这些机会往往就只有那么几年，错过了就只能等下次不知道什么时候会出现的机会，大家遇到了一定要意识到，尽量抓住。&lt;/p>
+&lt;p>比如前些年，互联网公司发展很快，很多公司开始建自己的园区，作为甲方也要有自己负责工程建设以及后续运维的部门，所以就有些人从房地产公司跳到了互联网公司，不仅吃到了互联网发展的红利、还躲过了房地产的下行。未来整体基建的新能源改造应该也会是工程领域的机会。&lt;/p>
+&lt;p>近两年各地大力开展文旅，自媒体是主要的宣传方式，就有很多原本做自媒体的进了体制内或事业单位。&lt;/p>
+&lt;p>我之前专门有一篇文章讲过，相比于看到一个行业有前景，临时抱佛脚学对应行业的专业知识，更有可行性的是，找自己从事的工作和红利行业的交叉点，希望通过对行业和岗位的介绍，大家能真正理解这句话。
+而且很多规律彼此之间有关联，大家看到后面有涉及到前面内容的，可以再返回去看一下，会理解的更深刻。&lt;/p>
+&lt;p>[//]&lt;/p></description></item><item><title>snippets</title><link>https://zkazure.github.io/posts/learn-snippets/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/learn-snippets/</guid><description>&lt;p>In the doom emacs the defaut directory is &lt;code>~/.doom.d/snippets/&lt;/code> . And in the the file should be divided into different derctory to triger different file in the corresponding mode.&lt;/p>
 &lt;h2 id="front-matter">front-matter&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">#&lt;/span> -*- mode: snippet -*-
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">#&lt;/span> name: the name to search
