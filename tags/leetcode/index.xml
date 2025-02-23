@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Leetcode on My Personal Blog</title><link>https://zkazure.github.io/tags/leetcode/</link><description>Recent content in Leetcode on My Personal Blog</description><generator>Hugo -- 0.141.0</generator><language>en-us</language><lastBuildDate>Sat, 22 Feb 2025 11:06:30 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml"/><item><title>Theorem</title><link>https://zkazure.github.io/posts/array_theorem/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_theorem/</guid><description>&lt;ol>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Leetcode on My Personal Blog</title><link>https://zkazure.github.io/tags/leetcode/</link><description>Recent content in Leetcode on My Personal Blog</description><generator>Hugo -- 0.141.0</generator><language>en-us</language><lastBuildDate>Sun, 23 Feb 2025 20:22:42 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml"/><item><title>Theorem</title><link>https://zkazure.github.io/posts/array_theorem/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_theorem/</guid><description>&lt;ol>
 &lt;li>数组的下标都是从零开始&lt;/li>
 &lt;li>内存空间地址连续&lt;/li>
 &lt;/ol>
@@ -23,4 +23,22 @@
 &lt;pre tabindex="0">&lt;code class="language-nil" data-lang="nil">0x7ffea7a6d920 0x7ffea7a6d924 0x7ffea7a6d928
 0x7ffea7a6d92c 0x7ffea7a6d930 0x7ffea7a6d934
 &lt;/code>&lt;/pre>&lt;p>首先储存的是 int 类型的数据，所以是4个字节，显然连续。&lt;/p>
-&lt;p>[//]&lt;/p></description></item></channel></rss>
+&lt;p>[//]&lt;/p></description></item><item><title>Binary Search</title><link>https://zkazure.github.io/posts/array_binary_search/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_binary_search/</guid><description>&lt;p>利用左右区间书写。
+给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">search&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span>&lt;span style="color:#f92672">*&lt;/span> nums, &lt;span style="color:#66d9ef">int&lt;/span> numsSize, &lt;span style="color:#66d9ef">int&lt;/span> target) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> left &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> right &lt;span style="color:#f92672">=&lt;/span> numsSize &lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> middle &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">while&lt;/span> (left &lt;span style="color:#f92672">&amp;lt;=&lt;/span> right) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> middle &lt;span style="color:#f92672">=&lt;/span> (left &lt;span style="color:#f92672">+&lt;/span> right)&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (nums[middle] &lt;span style="color:#f92672">&amp;gt;&lt;/span> target) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> right &lt;span style="color:#f92672">=&lt;/span> middle &lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> ( nums[middle] &lt;span style="color:#f92672">&amp;lt;&lt;/span> target ) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> left &lt;span style="color:#f92672">=&lt;/span> middle &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> ( nums[middle] &lt;span style="color:#f92672">==&lt;/span> target ) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> middle;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>[//]&lt;/p></description></item></channel></rss>
