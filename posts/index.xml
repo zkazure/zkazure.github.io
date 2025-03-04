@@ -1,8 +1,370 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on My Personal Blog</title><link>https://zkazure.github.io/posts/</link><description>Recent content in Posts on My Personal Blog</description><generator>Hugo -- 0.123.7</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2025 23:33:28 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>动作库 爆发力全身参与 举重训练（高翻）冲刺训练 跳跃训练 爆发力训练 基础力量训练 85% 1RM 以上深蹲 70% 1RM 以上卧推 辅助力量训练&amp;amp;功能性训练 60% 1RM 深蹲 臀推 肩上推举 引体向上 击掌俯卧撑 双杠臂屈伸 跨步 腿举 臀桥 翻身划船 站姿平推 快挺 各种小力量 核心训练 Plank 系列 爬行 抗旋助旋相关训练 步伐 场地专项步伐 跳绳 连续分解步伐 每周一次的训练 主要训练 卧推 深蹲 坐姿下拉 跨步 徒手提踵 养护训练 弹力带前进后退 静蹲 腰腹核心 拉伸放松 如何拉伸 滚泡沫轴，慢速，在痛点上停止反复，直到疼痛减轻。 按摩球，足底筋膜 牵拉，找到一个有牵拉感觉的地方，保持静止一段时间。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>My Personal Blog</title><link>https://zkazure.github.io/posts/</link><description>Recent content on My Personal Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://zkazure.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>动作库 爆发力全身参与 举重训练（高翻）冲刺训练 跳跃训练 爆发力训练 基础力量训练 85% 1RM 以上深蹲 70% 1RM 以上卧推 辅助力量训练&amp;amp;功能性训练 60% 1RM 深蹲 臀推 肩上推举 引体向上 击掌俯卧撑 双杠臂屈伸 跨步 腿举 臀桥 翻身划船 站姿平推 快挺 各种小力量 核心训练 Plank 系列 爬行 抗旋助旋相关训练 步伐 场地专项步伐 跳绳 连续分解步伐 每周一次的训练 主要训练 卧推 深蹲 坐姿下拉 跨步 徒手提踵 养护训练 弹力带前进后退 静蹲 腰腹核心 拉伸放松 如何拉伸 滚泡沫轴，慢速，在痛点上停止反复，直到疼痛减轻。 按摩球，足底筋膜 牵拉，找到一个有牵拉感觉的地方，保持静止一段时间。
 针对跳绳的专项拉伸 臀部拉伸：抱腿拉，30s/侧，做两组 大腿后侧：抬腿拉或者坐姿拉，30s/侧，做两组 大腿前侧：扶墙拉，30s/侧，做两组 小腿前侧：跪坐拉，30s一组，做两组 小腿后侧：撑地拉，30s/侧，做两组
 如何提高心肺能力 心率在130-140左右的匀速跑，保持这个配速并坚持30-90分钟 计时双摇，1500次，成绩从14分到20分不等 攀爬机比较像爬山，由于全身参与，而且力度可调节，所以，调节成较轻的力度时，爬长距离，对心肺的刺激效果好；如果是调得相对重，做短距离快速攀爬，对全身肌肉的刺激效果也不错，是提高肌耐力的好办法。 一般我们的训练会给运动员定一个具体高度，比如984英尺，然后要求几分钟之内攀爬完成，然后间歇5分钟左右，再进行下一组，进行3~4组左右，即增加耐乳酸能力又提高基础耐力。
-[//]</description></item><item><title>Doom emacs</title><link>https://zkazure.github.io/posts/doom_emacs/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/doom_emacs/</guid><description>emacs Basic windows manager
-SPC w v: windows vertical split SPC w s: windows split SPC w hjkl: windows jumped to left/down/up/right. SPC w HJKL: windows move. SPC w b: windows jumped to bottom right. SPC w t: windows jumped to top left. SPC w w: windows jumped to next. SPC w W: windows jumped to previous. SPC w c: windows closed. SPC w x: windows exchange. SPC w +-&amp;lt;&amp;gt;: windwos change size.</description></item><item><title>Career</title><link>https://zkazure.github.io/posts/career_planning/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/career_planning/</guid><description>职业的演变 流水线的出现是现代岗位快速演变的关键。过去生产一个商品的绝大多数的工作都是由一个人完成的，但是当生产的量不断增加，单人的效率不够高，于是就出现了分工。实际上分工就是资本为了提高效率，提升利润自然想出的方法。 可以说随着生产量的增加，岗位会不断细分，岗位的数量可以说是无穷无尽的。而本质上岗位是依靠于商品的种类的。 商品的种类又取决于人类的需求，人类早期的需求从衣食住行到现在的教育医疗，到各种娱乐，人类不断满足自己的要求同时也在不断产生新的需求。 岗位服务于商品，对于商品到服务包括生产、运输和销售。当今的商品交易量不断增大，后两个环节的重要性不断凸显。
+[//]</description><content:encoded><![CDATA[<h2 id="动作库">动作库</h2>
+<table>
+<thead>
+<tr>
+<th>爆发力全身参与</th>
+<th>举重训练（高翻）冲刺训练</th>
+<th>跳跃训练 爆发力训练</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>基础力量训练</td>
+<td>85% 1RM 以上深蹲</td>
+<td>70% 1RM 以上卧推</td>
+</tr>
+<tr>
+<td>辅助力量训练&amp;功能性训练</td>
+<td>60% 1RM 深蹲 臀推 肩上推举 引体向上 击掌俯卧撑</td>
+<td>双杠臂屈伸 跨步 腿举 臀桥 翻身划船 站姿平推 快挺 各种小力量</td>
+</tr>
+<tr>
+<td>核心训练</td>
+<td>Plank 系列  爬行</td>
+<td>抗旋助旋相关训练</td>
+</tr>
+<tr>
+<td>步伐</td>
+<td>场地专项步伐  跳绳</td>
+<td>连续分解步伐</td>
+</tr>
+</tbody>
+</table>
+<h2 id="每周一次的训练">每周一次的训练</h2>
+<table>
+<thead>
+<tr>
+<th>主要训练</th>
+<th>卧推</th>
+<th>深蹲</th>
+<th>坐姿下拉</th>
+<th>跨步</th>
+<th>徒手提踵</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>养护训练</td>
+<td>弹力带前进后退</td>
+<td>静蹲</td>
+<td>腰腹核心</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>拉伸放松</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="如何拉伸">如何拉伸</h2>
+<p>滚泡沫轴，慢速，在痛点上停止反复，直到疼痛减轻。
+按摩球，足底筋膜
+牵拉，找到一个有牵拉感觉的地方，保持静止一段时间。</p>
+<h3 id="针对跳绳的专项拉伸">针对跳绳的专项拉伸</h3>
+<p>臀部拉伸：抱腿拉，30s/侧，做两组
+大腿后侧：抬腿拉或者坐姿拉，30s/侧，做两组
+大腿前侧：扶墙拉，30s/侧，做两组
+小腿前侧：跪坐拉，30s一组，做两组
+小腿后侧：撑地拉，30s/侧，做两组</p>
+<h2 id="如何提高心肺能力">如何提高心肺能力</h2>
+<p>心率在130-140左右的匀速跑，保持这个配速并坚持30-90分钟
+计时双摇，1500次，成绩从14分到20分不等
+攀爬机比较像爬山，由于全身参与，而且力度可调节，所以，调节成较轻的力度时，爬长距离，对心肺的刺激效果好；如果是调得相对重，做短距离快速攀爬，对全身肌肉的刺激效果也不错，是提高肌耐力的好办法。
+一般我们的训练会给运动员定一个具体高度，比如984英尺，然后要求几分钟之内攀爬完成，然后间歇5分钟左右，再进行下一组，进行3~4组左右，即增加耐乳酸能力又提高基础耐力。</p>
+<p>[//]</p>
+]]></content:encoded></item><item><title>Doom emacs</title><link>https://zkazure.github.io/posts/doom_emacs/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/doom_emacs/</guid><description>emacs Basic windows manager
+SPC w v: windows vertical split SPC w s: windows split SPC w hjkl: windows jumped to left/down/up/right. SPC w HJKL: windows move. SPC w b: windows jumped to bottom right. SPC w t: windows jumped to top left. SPC w w: windows jumped to next. SPC w W: windows jumped to previous. SPC w c: windows closed. SPC w x: windows exchange. SPC w +-&amp;lt;&amp;gt;: windwos change size.</description><content:encoded><![CDATA[<h2 id="emacs">emacs</h2>
+<h3 id="basic">Basic</h3>
+<ul>
+<li>
+<p>windows manager</p>
+<ul>
+<li><code>SPC w v</code>: windows vertical split</li>
+<li><code>SPC w s</code>: windows split</li>
+<li><code>SPC w hjkl</code>: windows jumped to left/down/up/right.</li>
+<li><code>SPC w HJKL</code>: windows move.</li>
+<li><code>SPC w b</code>: windows jumped to bottom right.</li>
+<li><code>SPC w t</code>: windows jumped to top left.</li>
+<li><code>SPC w w</code>: windows jumped to next.</li>
+<li><code>SPC w W</code>: windows jumped to previous.</li>
+<li><code>SPC w c</code>: windows closed.</li>
+<li><code>SPC w x</code>: windows exchange.</li>
+<li><code>SPC w +-&lt;&gt;</code>: windwos change size.</li>
+<li><code>SPC w =</code>: windows balance.</li>
+<li><code>SPC w m m</code>: windows maximize the current windows.</li>
+<li><code>SPC w u</code>: undo the windows.</li>
+</ul>
+<p>Practice.</p>
+<ul>
+<li>create four windows in four directions.</li>
+<li>jumped between windows</li>
+<li>move and exchange the windows.</li>
+<li>what the order in the windows previous and next.</li>
+<li>jumped between top left to right bottom.</li>
+<li>change the size of the windows and then balance them.</li>
+<li>maximize the current windows, then undo it.</li>
+<li>close all windows.</li>
+</ul>
+</li>
+<li>
+<p>edit file</p>
+<ul>
+<li><code>SPC f r</code>: find rescent file.</li>
+<li><code>SPC f f</code>: find file. (also <code>SPC .</code> )</li>
+<li><code>SPC f F</code>: find From here.</li>
+<li><code>SPC f D</code>: file Delete.</li>
+<li><code>SPC f s</code>: file save. (to replace <code>:w</code>)</li>
+<li><code>SPC f S</code>: file Save as &hellip;</li>
+<li><code>SPC f R</code>: file Rename/move.</li>
+<li><code>SPC f C</code>: file copy</li>
+</ul>
+<p>Now let&rsquo;t do some practice.</p>
+<ul>
+<li>create a file in the <code>~/test/file.org</code></li>
+<li>input anything then save it.</li>
+<li>copy the file as <code>file-cp.org</code> in two ways.</li>
+<li>find the copy file in current diretory.</li>
+<li>rename one file and move another file to <code>~/test/move/</code></li>
+<li>find recent origin file.</li>
+<li>delete all the file you create.</li>
+</ul>
+</li>
+</ul>
+<h3 id="advanced">Advanced</h3>
+<ul>
+<li>
+<p>bookmark</p>
+<ul>
+<li><code>SPC RET</code>: open the bookmark</li>
+</ul>
+<p>if you didn&rsquo;t have one, input the name, <code>RET</code> will create a bookmark where you cursor in.</p>
+</li>
+</ul>
+<h2 id="org-mode">org mode</h2>
+<p>check out the manual with <code>M-x org-info</code></p>
+<h3 id="frontmatter">frontmatter</h3>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span><span style="color:#75715e">#+title</span><span style="color:#75715e">: org mode in doom emacs</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#+description</span><span style="color:#75715e">: an document to demonstrate org mode.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#+author</span><span style="color:#75715e">: zka-win</span></span></span></code></pre></div>
+
+
+
+
+
+
+<pre tabindex="0"><code class="language-nil" data-lang="nil">* head 1
+** 2
+*** 3</code></pre>
+<h3 id="headline">Headline</h3>
+<p><code>z z</code>: scoll to center
+<code>SPC m h</code>: create a healine under this current healine
+<code>SPC m i</code>: create item
+<code>C-RET</code>: insert the same item.
+<code>TAB</code>: to flod and unfold.
+<code>S-TAB</code>: unfold.
+<code>z c</code>: close
+<code>z o</code>: open
+<code>z M</code>: close all
+<code>z R</code>: open all
+<code>g j/k</code>: go to the next same level
+<code>g h/l</code>: go to the next or last level.
+<code>C-RET</code>: the new level the same as the current level
+<code>M-h/l</code>: change the level</p>
+<p><code>M-j/k</code>: move the whole title and the content,
+<code>M-S-j/k</code>: move the current line.</p>
+<p><code>v a e</code>: visual seclet a element
+<code>d a e</code>: delete an element
+<code>v a R</code>: visual seclect a subtree.
+<code>d a R</code>: delete a subtree
+<code>y i R</code>: yank a subtree</p>
+<p><code>SPC-i-s</code>: insert a snippets.
+<code>SPC-m-t</code>: the state of todo
+<code>SPC m d s</code>: schedule.</p>
+<ul>
+<li><input disabled="" type="checkbox"> check <code>C-c C-c</code> change</li>
+</ul>
+<p><code>SPC m b -</code>: make headline
+<code>S-RET</code>: Duplicate a file in the cell below</p>
+<table>
+<thead>
+<tr>
+<th>start</th>
+<th>ing</th>
+<th>end</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>end</td>
+</tr>
+</tbody>
+</table>
+<p><code>M-hjkl</code>: move the element
+<code>M-S-j/k</code>: create/delete a row
+<code>M-S-h/l</code>: create/delete a column</p>
+<h2 id="latex">latex</h2>
+<p><code>(org +cdlatex)</code>
+使用\begin然后tab补全会出错
+Warning (org-element): ‘org-element-at-point’ cannot be used in non-Org buffer #&lt;buffer example-hugo.org&gt; (latex-mode) Disable showing Disable logging
+建议自建一个snippet避免</p>
+<h2 id="graphviz">Graphviz</h2>
+<h3 id="基本结构">基本结构</h3>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span><span style="color:#75715e">#+begin_src </span><span style="color:#75715e">dot</span><span style="color:#75715e"> :file filename.png
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>graph_type name {
+</span></span><span style="display:flex;"><span>    preperty
+</span></span><span style="display:flex;"><span>    node
+</span></span><span style="display:flex;"><span>    edge
+</span></span><span style="display:flex;"><span>    subgraph
+</span></span><span style="display:flex;"><span>    cluster}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#+end_src</span></span></span></code></pre></div>
+<p>使用 <code>C-c C-c</code> 自动运行导出显示图片</p>
+<h3 id="graph-type">Graph type</h3>
+<ol>
+<li>digraph：有向</li>
+<li>graph: 无向</li>
+</ol>
+<h3 id="node">node</h3>
+<ol>
+<li>digraph: <code>a -&gt; b;</code></li>
+<li>graph: <code>a -- b;</code></li>
+<li>如果包含特殊符号，使用双引号。 <code>&quot;x.y&quot;</code></li>
+</ol>
+<h3 id="edge">edge</h3>
+<ol>
+<li>连接多个节点 <code>a -&gt; {b; c; d};</code></li>
+<li>反向 <code>a -&gt; c [dir=back];</code></li>
+</ol>
+<h3 id="properties">properties</h3>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span>    label = &#34;picture name&#34;
+</span></span><span style="display:flex;"><span>    graph[bgcolor=lightblue];
+</span></span><span style="display:flex;"><span>    rankdir=LR
+</span></span><span style="display:flex;"><span>    node[shape=box];
+</span></span><span style="display:flex;"><span>    edge [color=green]
+</span></span><span style="display:flex;"><span>    a [color=blue; style=filled; fontcolor=green];
+</span></span><span style="display:flex;"><span>    a -&gt; b [color=red; label=A; dir=back];</span></span></code></pre></div>
+<h3 id="cluster-and-other-function"><!-- raw HTML omitted -->TODO<!-- raw HTML omitted --> cluster and other function</h3>
+<h2 id="evil-multiple-cursors">evil-multiple-cursors</h2>
+<p>in the <code>.doom.d/init.el</code></p>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(doom! :editor (multiple-cursors +evil))</span></span></code></pre></div>
+<ul>
+<li><code>M-d</code>: select</li>
+<li><code>C-n</code>: next</li>
+<li><code>C-p</code>: previous</li>
+</ul>
+<h2 id="terminal">terminal</h2>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>doom! :term vterm</span></span></code></pre></div>
+<p><code>SPC o t</code>
+<code>SPC o T</code></p>
+<h2 id="learn-snippets">snippets</h2>
+<p>In the doom emacs the defaut directory is <code>~/.doom.d/snippets/</code> . And in the the file should be divided into different derctory to triger different file in the corresponding mode.</p>
+<h3 id="front-matter">front-matter</h3>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> -*- mode: snippet -*-
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> name: the name to search
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> key: the key word to be completed by &lt;tab&gt;
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> condition: if here is <span style="color:#66d9ef">nil</span><span style="color:#f92672">,</span> the snippet will not be trigger
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> --</span></span></code></pre></div>
+<h3 id="variables">variables</h3>
+<h4 id="main">main</h4>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>${1:default_value}
+</span></span><span style="display:flex;"><span>${2:label}
+</span></span><span style="display:flex;"><span>${2:same}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 插入 snippets 后可以使用 &lt;tab&gt; 按顺序跳转。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 里面的默认值可以用作提示</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 还可以插入相同的值</span>
+</span></span><span style="display:flex;"><span>${0}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 这个是最后的光标位置</span>
+</span></span><span style="display:flex;"><span>${cursor}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 使用后会自动跳转，也就意味着不能够修改其他的${数字}</span></span></span></code></pre></div>
+<h4 id="advance">advance</h4>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>${CILPBOARD}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 从当前的剪切版中获取信息</span>
+</span></span><span style="display:flex;"><span>${SECLRCTION}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 从当前选择的内容中获取信息</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 但是似乎难以决定输入的位置</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 不如使用 ${CILPBOARD}</span></span></span></code></pre></div>
+<h4 id="other">Other</h4>
+<ul>
+<li><code>$date</code>: 日期</li>
+<li><code>$time</code>: 时间</li>
+<li><code>$file</code>: filename</li>
+<li><code>$filepath</code></li>
+<li><code>`(format-time-string &quot;%Y-%m-%d&quot;)`</code>: 用于设定时间</li>
+</ul>
+<p>可以利用``来调用 elisp</p>
+<h2 id="magit">magit</h2>
+<ul>
+<li><code>SPC g g</code>: launch</li>
+<li><code>s</code>: add</li>
+<li><code>u</code>: 取消暂存</li>
+<li><code>c c</code>: commit</li>
+<li><code>C-c C-c</code>: ensure commit</li>
+<li><code>p p</code>: push</li>
+</ul>
+<p>[//]</p>
+]]></content:encoded></item><item><title>Career</title><link>https://zkazure.github.io/posts/career_planning/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/career_planning/</guid><description>职业的演变 流水线的出现是现代岗位快速演变的关键。过去生产一个商品的绝大多数的工作都是由一个人完成的，但是当生产的量不断增加，单人的效率不够高，于是就出现了分工。实际上分工就是资本为了提高效率，提升利润自然想出的方法。 可以说随着生产量的增加，岗位会不断细分，岗位的数量可以说是无穷无尽的。而本质上岗位是依靠于商品的种类的。 商品的种类又取决于人类的需求，人类早期的需求从衣食住行到现在的教育医疗，到各种娱乐，人类不断满足自己的要求同时也在不断产生新的需求。 岗位服务于商品，对于商品到服务包括生产、运输和销售。当今的商品交易量不断增大，后两个环节的重要性不断凸显。
 行业划分说明 本篇为下一篇的开头独立出来的一篇，增加了一些细节。
 由于下一篇存在敏感词，暂时无法更改，所以有部分内容重复。
 行业划分说明
@@ -24,13 +386,642 @@ SPC w v: windows vertical split SPC w s: windows split SPC w hjkl: windows jumpe
 比如前些年，互联网公司发展很快，很多公司开始建自己的园区，作为甲方也要有自己负责工程建设以及后续运维的部门，所以就有些人从房地产公司跳到了互联网公司，不仅吃到了互联网发展的红利、还躲过了房地产的下行。未来整体基建的新能源改造应该也会是工程领域的机会。
 近两年各地大力开展文旅，自媒体是主要的宣传方式，就有很多原本做自媒体的进了体制内或事业单位。
 我之前专门有一篇文章讲过，相比于看到一个行业有前景，临时抱佛脚学对应行业的专业知识，更有可行性的是，找自己从事的工作和红利行业的交叉点，希望通过对行业和岗位的介绍，大家能真正理解这句话。 而且很多规律彼此之间有关联，大家看到后面有涉及到前面内容的，可以再返回去看一下，会理解的更深刻。
-[//]</description></item><item><title>daily English words [2025-02-22 Sat]</title><link>https://zkazure.github.io/posts/word-001/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/word-001/</guid><description>a slim volume of verse UK is the abbreviation of the United Kingdom. everyone have to abide by the law I really appreciate his complete absorption in his work. The proposal boarders on the absurd. His words are in accord with his ideas. We should first try to acquaint ourselves with the facts. We should adhere our opinions. He had no warrant forhis suspicion. His house is adjacent to mine. We heard laughter in the adjoining room.</description></item><item><title>snippets</title><link>https://zkazure.github.io/posts/learn-snippets/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/learn-snippets/</guid><description>In the doom emacs the defaut directory is ~/.doom.d/snippets/ . And in the the file should be divided into different derctory to triger different file in the corresponding mode.
-front-matter # -*- mode: snippet -*- # name: the name to search # key: the key word to be completed by &amp;lt;tab&amp;gt; # condition: if here is nil, the snippet will not be trigger # -- variables main ${1:default_value} ${2:label} ${2:same} ;; 插入 snippets 后可以使用 &amp;lt;tab&amp;gt; 按顺序跳转。 ;; 里面的默认值可以用作提示 ;; 还可以插入相同的值 ${0} ;; 这个是最后的光标位置 ${cursor} ;; 使用后会自动跳转，也就意味着不能够修改其他的${数字} advance ${CILPBOARD} ;; 从当前的剪切版中获取信息 ${SECLRCTION} ;; 从当前选择的内容中获取信息 ;; 但是似乎难以决定输入的位置 ;; 不如使用 ${CILPBOARD} Other $date: 日期 $time: 时间 $file: filename $filepath `(format-time-string &amp;quot;%Y-%m-%d&amp;quot;)`: 用于设定时间 可以利用``来调用 elisp</description></item><item><title>summary</title><link>https://zkazure.github.io/posts/org-summary/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-summary/</guid><description>Introduction please ignore the &amp;lsquo;,&amp;rsquo; at the beggining.
+[//]</description><content:encoded><![CDATA[<h2 id="职业的演变">职业的演变</h2>
+<p>流水线的出现是现代岗位快速演变的关键。过去生产一个商品的绝大多数的工作都是由一个人完成的，但是当生产的量不断增加，单人的效率不够高，于是就出现了分工。实际上分工就是资本为了提高效率，提升利润自然想出的方法。
+可以说随着生产量的增加，岗位会不断细分，岗位的数量可以说是无穷无尽的。而本质上岗位是依靠于商品的种类的。
+商品的种类又取决于人类的需求，人类早期的需求从衣食住行到现在的教育医疗，到各种娱乐，人类不断满足自己的要求同时也在不断产生新的需求。
+岗位服务于商品，对于商品到服务包括生产、运输和销售。当今的商品交易量不断增大，后两个环节的重要性不断凸显。</p>
+<h2 id="行业划分说明">行业划分说明</h2>
+<p>本篇为下一篇的开头独立出来的一篇，增加了一些细节。</p>
+<p>由于下一篇存在敏感词，暂时无法更改，所以有部分内容重复。</p>
+<p>行业划分说明</p>
+<p>上一篇介绍了职业诞生与演变的规律，大家都知道工作与商品种类也就是行业息息相关，而商品是随着需求诞生的，想知道有多少种行业，我们只需要把需求种类梳理清楚就可以了。
+本篇我们就根据需求和商品整体来梳理一下行业的类型。
+官方有一个《国民经济分类》，划分的非常详细，但对于没接触过的人来说，过于详细了，容易让人无从下手。
+而且官方的这个分类是为了方便管理市场，和我们的目的也不一样，虽然划分思路接近、分类差不太多，但这里为了方便大家理解，我做了整合和简化。
+完整的《国民经济分类》我也放在了配套资料里，大家可以根据自己的需要查看。</p>
+<p>从需求和商品的角度梳理，大家也更容易理解行业的特点与发展规律。</p>
+<p>想找到自己感兴趣或具有某个特征的工作，也可以通过找到自己感兴趣、或具有某个特征的商品来实现。</p>
+<p>比如想找稳定的工作，可以先找到一个稳定的需求，比如医疗，从古至今人们对医疗的需求一直是必须且相对稳定的，区别只在于治疗技术不同。而医疗技术颠覆性的迭代往往比较慢，哪怕AI短时间也很难替代医生需要动手、以及人文关怀的工作。</p>
+<p>同理，还有教育、存贷（银行）、各种生活必需品等。</p>
+<p>哪怕公司不行了，需求在，大行业就还是稳定的，换公司还可以找到工作（比如教培模式被打压，有些老师进体制，有些靠过去积累的客户自己干，当然从业人数太多、远超市场需求的话还是会有失业的）。</p>
+<p>但稳定往往也意味着平均收入低（稳定高收入会导致更多人涌入，从而压低收入，导致高收入不可持续，所以稳定高收入在没有外在条件形成垄断的情况下只会短期存在），这就看个人如何选择了。</p>
+<p>通过这个方式找工作，至少大方向不会错。
+需要提前说明的是，因为经济是一个整体，彼此交叉，很多界限并不是特别分明，所以文中的分类仅仅是为了方便大家理解，切勿较真。</p>
+<p>行业分类梳理</p>
+<p>在开始介绍具体的行业岗位之前，我先给大家整体梳理一下行业分类，大家先有一个整体的概念再去看细节。
+经常说，衣食住行是人离不开的东西，除此之外呢，还有教育、医疗和娱乐，这些是我们需求的根本，几乎所有的商品也都是在此基础上发展出来的。
+首先，为了满足我们的这些需求，几乎都需要物品，可能是衣服、食品、水这些看得到摸得着的，也可能是电、燃气这种看不到摸不到的，也有网络游戏、短视频、电视剧这种非实体的。</p>
+<p>所有的物品（其实也是我们生活中会接触到和听说的，几乎所有的东西）都是生产或制造出来的。</p>
+<p>生产出来的属于原材料，也就是商品最原始的材料，比如钢的原材料铁矿石，化纤的原材料石油，这些需要制造业层层加工才会成为我们会接触到的商品，一般属于采矿业，有些通过简单处理就是大家消费的商品（比如宠物、植物、生鲜），一般属于农林牧渔。</p>
+<p>制造出来的，实体基本属于制造业和建筑工程业，虚拟的集中在文娱传媒与互联网。</p>
+<p>有些需求，仅仅有物品还不够。比如教育和培训，仅仅有教材是不够的，还需要有老师或教练教；医疗不能只有医疗设备、药品还得有医生诊断、做手术；衣服我们不想穿千篇一律的，可能会找设计师设计；头发也需要有发型师来剪；不想自己做饭了，去外面吃需要有厨师做、有服务员提供服务；去外面旅行，逛景点需要有讲解员，逛主题乐园需要有表演的NPC，住宿需要有前台有保洁，坐火车飞机地铁需要有驾驶员、安检员、乘务员；对职业发展迷茫了需要有职业咨询师。
+这些人的工作几乎不产生物品，提供的都是当场体验的服务，属于服务业。
+上面都是从个人角度出发的服务，公司也免不了需要服务，比如做公司发展方面的咨询、做市场调研、做市场营销方案、在互联网平台或电梯间投放广告、租班车等等。
+这里，我们把面向公司的服务称为企业服务，面向个人的服务称为居民服务。
+除此之外还有几个比较特殊，市场规模比较大，岗位设置比较复杂的服务行业，包括金融行业、贸易/批发/零售行业、旅游业、交通运输仓储业、通信行业。</p>
+<p>行业的大类我们就梳理完了，下一篇详细介绍每个行业大类下的细分行业与岗位，以及行业特点。
+不感兴趣的行业大家可以跳过对岗位的介绍，但是行业介绍和行业特点部分建议都听一下。我原本想把这部分拆出来单独讲，给大家节省点时间，结果后面发现没法拆。
+因为前面也讲了，经济是一个整体，各个行业之间没办法完全断开联系，尤其是有的行业就是从另一个行业的某个岗位延伸出来的，是为某个岗位提供服务的，所以不讲岗位就没法讲了。
+每个行业多多少少会受到其他行业的影响。很多时候，机会就是其他行业的变化带来的，但这些机会往往就只有那么几年，错过了就只能等下次不知道什么时候会出现的机会，大家遇到了一定要意识到，尽量抓住。</p>
+<p>比如前些年，互联网公司发展很快，很多公司开始建自己的园区，作为甲方也要有自己负责工程建设以及后续运维的部门，所以就有些人从房地产公司跳到了互联网公司，不仅吃到了互联网发展的红利、还躲过了房地产的下行。未来整体基建的新能源改造应该也会是工程领域的机会。</p>
+<p>近两年各地大力开展文旅，自媒体是主要的宣传方式，就有很多原本做自媒体的进了体制内或事业单位。</p>
+<p>我之前专门有一篇文章讲过，相比于看到一个行业有前景，临时抱佛脚学对应行业的专业知识，更有可行性的是，找自己从事的工作和红利行业的交叉点，希望通过对行业和岗位的介绍，大家能真正理解这句话。
+而且很多规律彼此之间有关联，大家看到后面有涉及到前面内容的，可以再返回去看一下，会理解的更深刻。</p>
+<p>[//]</p>
+]]></content:encoded></item><item><title>daily English words [2025-02-22 Sat]</title><link>https://zkazure.github.io/posts/word-001/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/word-001/</guid><description>a slim volume of verse UK is the abbreviation of the United Kingdom. everyone have to abide by the law I really appreciate his complete absorption in his work. The proposal boarders on the absurd. His words are in accord with his ideas. We should first try to acquaint ourselves with the facts. We should adhere our opinions. He had no warrant forhis suspicion. His house is adjacent to mine. We heard laughter in the adjoining room.</description><content:encoded>&lt;p>a slim volume of verse
+UK is the abbreviation of the United Kingdom.
+everyone have to abide by the law
+I really appreciate his complete absorption in his work.
+The proposal boarders on the absurd.
+His words are in accord with his ideas.
+We should first try to acquaint ourselves with the facts.
+We should adhere our opinions.
+He had no warrant forhis suspicion.
+His house is adjacent to mine.
+We heard laughter in the adjoining room.
+He is responsible for the administration of justice.
+We can advertise on the Internet.
+He showed me some aerial photographs.
+I affirm that what he said is true.
+Her blush witnessed her agitation.
+We spent a most agreeable day together.
+Alas!
+The church should have no political alignment.
+The approaching Allied forces.&lt;/p>
+&lt;p>[//]&lt;/p></content:encoded></item><item><title>snippets</title><link>https://zkazure.github.io/posts/learn-snippets/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/learn-snippets/</guid><description>In the doom emacs the defaut directory is ~/.doom.d/snippets/ . And in the the file should be divided into different derctory to triger different file in the corresponding mode.
+front-matter # -*- mode: snippet -*- # name: the name to search # key: the key word to be completed by &amp;lt;tab&amp;gt; # condition: if here is nil, the snippet will not be trigger # -- variables main ${1:default_value} ${2:label} ${2:same} ;; 插入 snippets 后可以使用 &amp;lt;tab&amp;gt; 按顺序跳转。 ;; 里面的默认值可以用作提示 ;; 还可以插入相同的值 ${0} ;; 这个是最后的光标位置 ${cursor} ;; 使用后会自动跳转，也就意味着不能够修改其他的${数字} advance ${CILPBOARD} ;; 从当前的剪切版中获取信息 ${SECLRCTION} ;; 从当前选择的内容中获取信息 ;; 但是似乎难以决定输入的位置 ;; 不如使用 ${CILPBOARD} Other $date: 日期 $time: 时间 $file: filename $filepath `(format-time-string &amp;quot;%Y-%m-%d&amp;quot;)`: 用于设定时间 可以利用``来调用 elisp</description><content:encoded><![CDATA[<p>In the doom emacs the defaut directory is <code>~/.doom.d/snippets/</code> . And in the the file should be divided into different derctory to triger different file in the corresponding mode.</p>
+<h2 id="front-matter">front-matter</h2>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> -*- mode: snippet -*-
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> name: the name to search
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> key: the key word to be completed by &lt;tab&gt;
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> condition: if here is <span style="color:#66d9ef">nil</span><span style="color:#f92672">,</span> the snippet will not be trigger
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#</span> --</span></span></code></pre></div>
+<h2 id="variables">variables</h2>
+<h3 id="main">main</h3>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>${1:default_value}
+</span></span><span style="display:flex;"><span>${2:label}
+</span></span><span style="display:flex;"><span>${2:same}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 插入 snippets 后可以使用 &lt;tab&gt; 按顺序跳转。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 里面的默认值可以用作提示</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 还可以插入相同的值</span>
+</span></span><span style="display:flex;"><span>${0}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 这个是最后的光标位置</span>
+</span></span><span style="display:flex;"><span>${cursor}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 使用后会自动跳转，也就意味着不能够修改其他的${数字}</span></span></span></code></pre></div>
+<h3 id="advance">advance</h3>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>${CILPBOARD}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 从当前的剪切版中获取信息</span>
+</span></span><span style="display:flex;"><span>${SECLRCTION}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 从当前选择的内容中获取信息</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 但是似乎难以决定输入的位置</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">;; 不如使用 ${CILPBOARD}</span></span></span></code></pre></div>
+<h3 id="other">Other</h3>
+<ul>
+<li><code>$date</code>: 日期</li>
+<li><code>$time</code>: 时间</li>
+<li><code>$file</code>: filename</li>
+<li><code>$filepath</code></li>
+<li><code>`(format-time-string &quot;%Y-%m-%d&quot;)`</code>: 用于设定时间</li>
+</ul>
+<p>可以利用``来调用 elisp</p>
+<p>[//]</p>
+]]></content:encoded></item><item><title>summary</title><link>https://zkazure.github.io/posts/org-summary/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-summary/</guid><description>Introduction please ignore the &amp;lsquo;,&amp;rsquo; at the beggining.
 #+TITLE: No matter uppercase or not #+AUTHOR: me Heading * the first heading ** second *** third ** TODO every heading can be a TODO Annotation bold italic underline delete code code
-List itemize - item1 + item2 item item enumerate 1. item-1 2) item-2 A. item-A B) item-B first second aa bb - [ ] not started - [-] in process - [X] finished not started [-] in process finished Links [[https://google.</description></item><item><title>daily words [2025-02-23 Sun]</title><link>https://zkazure.github.io/posts/word-002/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/word-002/</guid><description>trying to mask her agitation An amateur shouldn&amp;rsquo;t play roulette for high stakes. He was appointed ambassador to the United States. ambient sounds of children in the background. He gave us an ambiguous answer. He is an ambitious businessman. Sound waves are measured by their amplitude. It is not always reliable to argue by analogy. anode is the positive electrode The Antarctic is the area around the South Pole. Extended the radio antenna.</description></item><item><title>Theorem</title><link>https://zkazure.github.io/posts/array_theorem/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_theorem/</guid><description>数组的下标都是从零开始 内存空间地址连续 #include &amp;lt;iostream&amp;gt; using namespace std; void test_arr(){ int array[2][3] = { {0, 1, 2}, {3, 4, 5} }; cout &amp;lt;&amp;lt; &amp;amp;array[0][0] &amp;lt;&amp;lt; &amp;#34; &amp;#34; &amp;lt;&amp;lt; &amp;amp;array[0][1] &amp;lt;&amp;lt; &amp;#34; &amp;#34; &amp;lt;&amp;lt; &amp;amp;array[0][2] &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;amp;array[1][0] &amp;lt;&amp;lt; &amp;#34; &amp;#34; &amp;lt;&amp;lt; &amp;amp;array[1][1] &amp;lt;&amp;lt; &amp;#34; &amp;#34; &amp;lt;&amp;lt; &amp;amp;array[1][2] &amp;lt;&amp;lt; endl; } int main(){ test_arr(); return 0; } 输出的地址
+List itemize - item1 + item2 item item enumerate 1. item-1 2) item-2 A. item-A B) item-B first second aa bb - [ ] not started - [-] in process - [X] finished not started [-] in process finished Links [[https://google.</description><content:encoded><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>please ignore the &lsquo;,&rsquo; at the beggining.</p>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span><span style="color:#75715e">#+TITLE</span><span style="color:#75715e">: No matter uppercase or not</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#+AUTHOR</span><span style="color:#75715e">: me</span></span></span></code></pre></div>
+<h2 id="heading">Heading</h2>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span>*<span style="font-weight:bold"> the first heading</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">**</span> second
+</span></span><span style="display:flex;"><span><span style="color:#75715e">***</span> third
+</span></span><span style="display:flex;"><span><span style="color:#75715e">**</span><span style="color:#960050;background-color:#1e0010"> TODO</span> every heading can be a TODO</span></span></code></pre></div>
+<h2 id="annotation">Annotation</h2>
+<p><strong>bold</strong> <em>italic</em> <!-- raw HTML omitted -->underline<!-- raw HTML omitted --> <del>delete</del> <code>code</code> <code>code</code></p>
+<h2 id="list">List</h2>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span>itemize
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">- </span>item1
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">+ </span>item2</span></span></code></pre></div>
+<ul>
+<li>item</li>
+<li>item</li>
+</ul>
+<!-- raw HTML omitted -->
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span>enumerate
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> item-1
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">2)</span> item-2
+</span></span><span style="display:flex;"><span>A. item-A
+</span></span><span style="display:flex;"><span>B) item-B</span></span></code></pre></div>
+<ol>
+<li>first</li>
+<li>second</li>
+<li>aa</li>
+<li>bb</li>
+</ol>
+<!-- raw HTML omitted -->
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span><span style="color:#66d9ef">- [ ]</span> not started
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">- </span>[-] in process
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">- [X]</span> finished</span></span></code></pre></div>
+<ul>
+<li><input disabled="" type="checkbox"> not started</li>
+<li>[-] in process</li>
+<li><input checked="" disabled="" type="checkbox"> finished</li>
+</ul>
+<h2 id="links">Links</h2>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span>[[<span style="color:#a6e22e">https://google.com</span>][<span style="color:#f92672">name</span>]]
+</span></span><span style="display:flex;"><span>[[<span style="color:#a6e22e">picture path</span>]]</span></span></code></pre></div>
+<p><a href="https://google.com">google</a></p>
+<h2 id="blocks">Blocks</h2>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span><span style="color:#75715e">#+begin_example</span>
+</span></span><span style="display:flex;"><span>this is an example
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#+end_example</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#+begin_quote</span>
+</span></span><span style="display:flex;"><span>this is a quote
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#+end_quote</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#+begin_src</span>
+</span></span><span style="display:flex;"><span>the source code
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#+end_src</span></span></span></code></pre></div>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>this is an example</span></span></code></pre></div>
+<blockquote>
+<p>this is a quote</p>
+</blockquote>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span>the source code</span></span></code></pre></div>
+<h2 id="table">Table</h2>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span><span style="color:#e6db74">| tool | languages |</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">|------+-----------|</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">| org  | emacs     |</span></span></span></code></pre></div>
+<table>
+<thead>
+<tr>
+<th>tool</th>
+<th>languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>org</td>
+<td>emacs</td>
+</tr>
+</tbody>
+</table>
+<h2 id="annotation">Annotation</h2>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span><span style="color:#75715e"># oneline</span>
+</span></span><span style="display:flex;"><span>@@ inline @@
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#+begin_comment
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">comment block
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#+end_comment</span>
+</span></span><span style="display:flex;"><span>*<span style="font-weight:bold"> COMMENT</span>
+</span></span><span style="display:flex;"><span>the comment chapter</span></span></code></pre></div>
+<p>the @@ inline @@ comment</p>
+<p>[//]</p>
+]]></content:encoded></item><item><title>daily words [2025-02-23 Sun]</title><link>https://zkazure.github.io/posts/word-002/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/word-002/</guid><description>trying to mask her agitation An amateur shouldn&amp;rsquo;t play roulette for high stakes. He was appointed ambassador to the United States. ambient sounds of children in the background. He gave us an ambiguous answer. He is an ambitious businessman. Sound waves are measured by their amplitude. It is not always reliable to argue by analogy. anode is the positive electrode The Antarctic is the area around the South Pole. Extended the radio antenna.</description><content:encoded><![CDATA[<p>trying to mask her agitation
+An amateur shouldn&rsquo;t play roulette for high stakes.
+He was appointed ambassador to the United States.
+ambient sounds of children in the background.
+He gave us an ambiguous answer.
+He is an ambitious businessman.
+Sound waves are measured by their amplitude.
+It is not always reliable to argue by analogy.
+anode is the positive electrode
+The Antarctic is the area around the South Pole.
+Extended the radio antenna.
+The comparison is apt.
+We can&rsquo;t stand this arctic weather.
+It is easier to descend than to ascend.
+I ascertain that he was murdered.
+He asctibes his success to good luck.</p>
+<p>[//]</p>
+]]></content:encoded></item><item><title>Theorem</title><link>https://zkazure.github.io/posts/array_theorem/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_theorem/</guid><description>数组的下标都是从零开始 内存空间地址连续 #include &amp;lt;iostream&amp;gt; using namespace std; void test_arr(){ int array[2][3] = { {0, 1, 2}, {3, 4, 5} }; cout &amp;lt;&amp;lt; &amp;amp;array[0][0] &amp;lt;&amp;lt; &amp;#34; &amp;#34; &amp;lt;&amp;lt; &amp;amp;array[0][1] &amp;lt;&amp;lt; &amp;#34; &amp;#34; &amp;lt;&amp;lt; &amp;amp;array[0][2] &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;amp;array[1][0] &amp;lt;&amp;lt; &amp;#34; &amp;#34; &amp;lt;&amp;lt; &amp;amp;array[1][1] &amp;lt;&amp;lt; &amp;#34; &amp;#34; &amp;lt;&amp;lt; &amp;amp;array[1][2] &amp;lt;&amp;lt; endl; } int main(){ test_arr(); return 0; } 输出的地址
 0x7ffea7a6d920 0x7ffea7a6d924 0x7ffea7a6d928 0x7ffea7a6d92c 0x7ffea7a6d930 0x7ffea7a6d934 首先储存的是 int 类型的数据，所以是4个字节，显然连续。
-[//]</description></item><item><title>Binary Search</title><link>https://zkazure.github.io/posts/array_binary_search/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_binary_search/</guid><description>利用左右区间书写。 给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。
-int search(int* nums, int numsSize, int target) { int left = 0; int right = numsSize - 1; int middle = 0; while (left &amp;lt;= right) { middle = (left + right)/2; if (nums[middle] &amp;gt; target) { right = middle - 1; } else if ( nums[middle] &amp;lt; target ) { left = middle + 1; } else if ( nums[middle] == target ) { return middle; } } return -1; } [//]</description></item><item><title>Remove Elements</title><link>https://zkazure.github.io/posts/array_remove_elements/</link><pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_remove_elements/</guid><description>Problem 给你一个数组 nums 和一个值 val，你需要原地移除所有数值等于 val 的元素，并返回移除后数组的新长度。 不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并原地修改输入数组。 元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。 示例 1: 给定 nums = [3,2,2,3], val = 3, 函数应该返回新的长度 2, 并且 nums 中的前两个元素均为 2。 你不需要考虑数组中超出新长度后面的元素。 示例 2: 给定 nums = [0,1,2,2,3,0,4,2], val = 2, 函数应该返回新的长度 5, 并且 nums 中的前五个元素为 0, 1, 3, 0, 4。
+[//]</description><content:encoded><![CDATA[<ol>
+<li>数组的下标都是从零开始</li>
+<li>内存空间地址连续</li>
+</ol>
+<!-- raw HTML omitted -->
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">test_arr</span>(){
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> array[<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">3</span>] <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    {<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>},
+</span></span><span style="display:flex;"><span>    {<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>}
+</span></span><span style="display:flex;"><span>    };
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#f92672">&amp;</span>array[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">&lt;&lt;</span> <span style="color:#f92672">&amp;</span>array[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">1</span>] <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">&lt;&lt;</span> <span style="color:#f92672">&amp;</span>array[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">2</span>] <span style="color:#f92672">&lt;&lt;</span> endl;
+</span></span><span style="display:flex;"><span>    cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#f92672">&amp;</span>array[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">&lt;&lt;</span> <span style="color:#f92672">&amp;</span>array[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">1</span>] <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">&lt;&lt;</span> <span style="color:#f92672">&amp;</span>array[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">2</span>] <span style="color:#f92672">&lt;&lt;</span> endl;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
+</span></span><span style="display:flex;"><span>    test_arr();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<p>输出的地址</p>
+
+
+
+
+
+
+<pre tabindex="0"><code class="language-nil" data-lang="nil">0x7ffea7a6d920 0x7ffea7a6d924 0x7ffea7a6d928
+0x7ffea7a6d92c 0x7ffea7a6d930 0x7ffea7a6d934</code></pre>
+<p>首先储存的是 int 类型的数据，所以是4个字节，显然连续。</p>
+<p>[//]</p>
+]]></content:encoded></item><item><title>Binary Search</title><link>https://zkazure.github.io/posts/array_binary_search/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_binary_search/</guid><description>利用左右区间书写。 给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。
+int search(int* nums, int numsSize, int target) { int left = 0; int right = numsSize - 1; int middle = 0; while (left &amp;lt;= right) { middle = (left + right)/2; if (nums[middle] &amp;gt; target) { right = middle - 1; } else if ( nums[middle] &amp;lt; target ) { left = middle + 1; } else if ( nums[middle] == target ) { return middle; } } return -1; } [//]</description><content:encoded><![CDATA[<p>利用左右区间书写。
+给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。</p>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">search</span>(<span style="color:#66d9ef">int</span><span style="color:#f92672">*</span> nums, <span style="color:#66d9ef">int</span> numsSize, <span style="color:#66d9ef">int</span> target) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> left <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> right <span style="color:#f92672">=</span> numsSize <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> middle <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (left <span style="color:#f92672">&lt;=</span> right) {
+</span></span><span style="display:flex;"><span>        middle <span style="color:#f92672">=</span> (left <span style="color:#f92672">+</span> right)<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (nums[middle] <span style="color:#f92672">&gt;</span> target) {
+</span></span><span style="display:flex;"><span>            right <span style="color:#f92672">=</span> middle <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> ( nums[middle] <span style="color:#f92672">&lt;</span> target ) {
+</span></span><span style="display:flex;"><span>            left <span style="color:#f92672">=</span> middle <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> ( nums[middle] <span style="color:#f92672">==</span> target ) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> middle;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<p>[//]</p>
+]]></content:encoded></item><item><title>Remove Elements</title><link>https://zkazure.github.io/posts/array_remove_elements/</link><pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_remove_elements/</guid><description>Problem 给你一个数组 nums 和一个值 val，你需要原地移除所有数值等于 val 的元素，并返回移除后数组的新长度。 不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并原地修改输入数组。 元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。 示例 1: 给定 nums = [3,2,2,3], val = 3, 函数应该返回新的长度 2, 并且 nums 中的前两个元素均为 2。 你不需要考虑数组中超出新长度后面的元素。 示例 2: 给定 nums = [0,1,2,2,3,0,4,2], val = 2, 函数应该返回新的长度 5, 并且 nums 中的前五个元素为 0, 1, 3, 0, 4。
 Theorem 由于数组是一个连续的地址空间，所以我们是无法真正删除数组的元素的，我们只能够把数组后一位往前移动，覆盖前一位元素。 earse() 就是使用的这样的方法，复杂度是 O(n^2)
-class Solution { public: int removeElement(vector&amp;lt;int&amp;gt;&amp;amp; nums, int val) { int size = nums.size(); for (int i = 0; i &amp;lt; size; i++) { if (nums[i] == val) { // 发现需要移除的元素，就将数组集体向前移动一位 for (int j = i + 1; j &amp;lt; size; j++) { nums[j - 1] = nums[j]; } i--; // 因为下标i以后的数值都向前移动了一位，所以i也向前移动一位 size--; // 此时数组的大小-1 } } return size; } }; 双指针 利用两个不同的索引，一个指向需要被覆盖的位置，一个指向需要覆盖的位置。</description></item><item><title>Subarray with minimum length</title><link>https://zkazure.github.io/posts/array_subarr_mini_len/</link><pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_subarr_mini_len/</guid><description>Problems 给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的连续子数组，并返回其长度。如果不存在符合条件的子数组，返回 0。
-Double pointer my version int minSubArrayLen(int target, int* nums, int numsSize){ int left=0; int right =0; int sum = 0; int* tar; int len = numsSize; int* n; int i = 0; for(right=0; right &amp;lt; numsSize; right++) { for(i=0; i&amp;lt;= right; i++){ sum = sum+ nums[i]; } if (sum&amp;gt;=target) { if ( (right-left+1) &amp;lt; len ) { len = right-left+1; for( i = left; i&amp;lt;=right; i++ ) { n[i-left] = nums[i]; } } left++; } } printf(&amp;#34;%a %d&amp;#34;, *n, len); return 0; } reference int minSubArrayLen(int target, int* nums, int numsSize){ //初始化最小长度为INT_MAX int minLength = INT_MAX; int sum = 0; int left = 0, right = 0; //右边界向右扩展 for(; right &amp;lt; numsSize; ++right) { sum += nums[right]; //当sum的值大于等于target时，保存长度，并且收缩左边界 while(sum &amp;gt;= target) { int subLength = right - left + 1; minLength = minLength &amp;lt; subLength ?</description></item><item><title>hugo with emacs</title><link>https://zkazure.github.io/posts/hotkeys/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/hotkeys/</guid><description>Title good ;;;;;;;;;;%?;;;;;;;;;%;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;%?;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*#+;;;;;;;;;;;;;;;;;;;;;::;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*#+;;;;;;;;;;;;;;;;;;;::::::;;;;;:;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;??;;;;;;;;;%;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;::::::::;;;;,::;;;;;;;;:;;;;:,,;; ;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;:::::::::;;,,,:;;::;;;:,:;;;,,,:; ;;;;;;;;;;??;;;;;;;;;%;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;::;::::;::;:,,:;;::::;:,,;;;:,,,:; ;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;:::,::,:::;;;,;;;,,,,;::::;;::,,;; ;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;::;,,:,:::;;;,;;;;;;;;;;;::;;;,:;; ;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;::;::;:::;;;:;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;+@+;;;;;;;;;;;;;;;;;;::::;:::;;;:::;:::::::::::::::::; ;;;;;;;;;;?*;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;;::::::;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;+*S*+;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;??;;;;;;+%###S+;;;;;;;;;;;;;;;;;;;;;+#+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;+*????????+;;;;;;;;;;;;;;;;;;;+@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;??;;+*???????????*+;;;;;;;;;;;;;;+*?%#??*+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;??;+*?????????????*+;;;;;;;;;;;;*??@@@?@@?;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;*????????????????+;;;;;;;+**???*%##?%%?**+*+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?**??????*??????????*;;;;+?%S%?????**??**????%SSS?+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;??*??????????????????;+?#S%??*????????%??????**%@@@%+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?%*?????????????????%S@@%?*???S??????????????**?##@@@%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;*?*???????????????*%##S?*???*S%*?***?***S%%SS%%%#@@#S##+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;*?*??????*?**????*%#S%?*???*?#?*?%S###S%#??%SS%?@@@@#?%@*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;*????????????????%#%S??????*S%?S@@@@@@@@#S?***?##S@@@#*%@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;*??????????????*?@SS?*??????#S@@@@@@@@@@#@S*?%@#?#@@@@%*##;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?%*?????????????#S%%*?????*%@@@@@@@@@@@@#@##@@S?%@@@@@@??@%;;;;;;;;;;;;+;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?%*???????????*S#?S??????*?#@@@@@@@@@@@#S@@@#??%S@@%@###*%@+;;;;;;;+?**%;;*;;;;;;;;;;;;;;; ;;;;;;;;;;??*????????????#??%*????*%@#@@@@S%%?????%@??*%S?###?@#%S??#S;;;;;;;%*;+S?*?*%?+????+??+;;; ;;;;;;;;;;?*+??????????*S#*%?**??*%@@#@@%?********%#?%SS???***S@?*?*?@+;;;;;;%*;+%*?%*%?%%*?S?S*+;;; ;;;;;;;;;;?*;*??????????#%?S??*S?%@@@##?**?**?%SS##@#%??#@%??*%@?*???#%;;;;;;+?**?*??*??*%***?%*;;;; ;;;;;;;;;;?*;;*???????*?@??S**?@@@@@@#?*??*?S@@@#SS#**%@@@@S**%@%*??*SS;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;+????***S#*%S**%@@@@@@@?*?*%@@#%?**S#%#@@@@@%**?@S*??*%#+;;;;;*?;*;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;++*??%?#S*S%**#@@@@#S@??*%@@S?***?#@@@@@#@S*?*?@S*??*?@*;;;;;+S*+*???***;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;*###@%*S%**#@@@@%S@?*?@@%***?#@@@@@#S@#?*???@#*????@*;;;;;++S*S**%?%+;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;+***#%*S%**?S@@S*S@?*%@S**?S@@@@@@S#@@?*????@#*???*#?;;;;;*+*???;**?;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;+*+*#%*S%*??*???*S@?*##?*?#@@@@@@S@@@?*????%@#*???*#?;;;;;;;;;;+;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;+*++S%*S%*????*?*%#*?@%*?#@@@@@S@@@#?*???*?#@#*???*#?;;;;;**++;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;++++?%*%?*??????*%#??S?*S@@@@#S#@@S?*?????%@@S*???*S*;;;;;+S*+***?**?+;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;++++?%*%%*??????*?S???*%@@@@#S@@#%*???????@S#S*????S+;;;;;;%**%?*???*;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;++++*?*?%*????????%???*S@@@#S@@#S?*??????#@?S%*????%;;;;;;;%*+%+????*;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;;++++????????????*%???*%@@@S@@#?S???????#@%*S%*?????;;;;;;;;;;;;;+;;;;;;;;;;;;;;; ;;;;;;;;;:?*:;;;;;;;;;;;*???????????*?????*?S%@@#?*%??????#@S**%?*????+;;;;;;;;;;;++;;;;;;;;;;;;;;;; ;;;;;;;;+?SS*;;;;;;;;;;;+???????????????????*??%?*?%?????S#%*??%??????;;;;;;;***********+;;;;;;;;;;; ;;;;;;+*S#@@#*++;;;;;;;;;*????????????????????***??????????*???%*????*;;;;;;*+;++++++*+++*+;;;;;;;;; ;;;*%%?S%**????SS%*;;;;;;+???????????????????????????????*???*%?*????;;;;;;;*;*?**??????*+*;;;;;;;;; ;+SS?*%S*??*S??*?S%S*;;;;;+???????????????????????????????????%*????+;;;;;;;*;*?++?++++*?;*;;;;;;;;; S%*?S????*S?*?*%S?S*;;;;;*????????????????????????????????*%?*???*;;;;;;;+*;?+;;+*+++*?;*;;;;;;;;; S%*?*?S*???*S%*??*#?*S+;;;;;*????????????????????*??*??????*?%*???*;;:;;:::+*+?**;++++;*?;*+;;;;;;;; %???*S%*???*%%*??*%S*?S;;;;;;+*??????????????????*%?*???????%????+::::;::::++;?*:;*+;+;*?;++;;;;;;;; %*??*S?*???*%%*????#?*S*;;;;;;;**????????????????*S????????????*;;;;;:;::::+++?+;;+*+++*?;++;;;;;;;; ?????S?????*%S*???*#%*?%;;;;;;;;;+*???????????????%*????????*+;::;:::::::::+++?+;;;;+;;+?;++;;;;;;;; ?????#?????*SS*???*S%*?S;;;;;;;:;;:+**??????????*????????**+;::::::::;:::;;*++?+++;;+;;+?;++;;;;;;;; ?????#?????*%S*???*SS**S+;;;;;;;;::;:;+***???**??***??*++;;::;:::::::::::::*++?;+++;+;++?;*+;;;;;;;; ?????S?????*%S*???*SS**S+;;;;;;;:::;::;;;;*?%%#S?##%+;:::;:::;:::::::::::::++;?+++?+;;;**;*+;;;;;;;; ?????S?????*%S*???*SS**S+;;;;;;;::;;:::;;;*?S#@@##;;;;;;:*@%;::;:::::::::::::::::::::;????;::::::;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;#@@+;;;;;:+@@?::;:::::::::::::;:::::::::;?;:;+*?*+;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;#@#+;;;;;;+@@@+;;::::;;::::::;;;:::::::::*?**%%%%%+;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;S@%;;;;;;:+@@#;:::::;;;;;;:::;:;::::::::;;*?%?%*%%?*+;;;;;;;;;; ;;;;;;;;;;;;;;;**;;;;;;;;;;;;;;;;;;;;#@+;%%+;;:+##+:;:+:;;;;;;;;::;;;:::::::;;?%%?????%%%S*;;;;;;;;; ;;;;;;;;;;;;;;+?*%+;;;;;;;:;;::;;;;;;#S+S@@#;;:;;;+%#??::;;;;;;;;::::::::::::+%%*?????%%%%%;;;;;;;;; ;;;;;;;;;;;;;;+*??+;;;;;;;;;:::::;;;;###@@@S;;;:;%@@@%*::::??+;;;;::::::::;;:*%??%%%%%%%?%%??*;;;;;; ;;;;;;;;;;;;;;+?%*;;;;;;;;;::::?+::;*@@@@@#?%;;?@@?S#%*:::;#@#+;;;++::::::;;:;***?%%%%*%?%?S%S%;;;;; ;;;;;;;;;;;;;;+?**+;;;;;;;;:::;@#+:?#@SS#%*%#%#@#+;S?*?:::?@@#?+*S@S;:::::;;;::;;*%?%??????%?%%*;;;; ;;;;;;;;;;;;;;*;++;;;;;;;;;:::;#@#%##@+?*:;##@@%;:;*:%?::;#@@@@@@#?;;;;;:::;;;;;;%??%%%%%%?%%?%*;;;; ;;;;;;;;;;;;;;%%?*+;;;;;;;;::::#@##S?S*%::*@@@S;;*;::S#;:+@@@@@@S;:::::;;;;;;;;;;?%?%%%%%%S%%%%+;;;; ;;;;;;;;;;;;;+%%?*;;;;;;;;;::::%@@S+;SSS+::S@#+:*@*:+@@+:?@@@@@@?;:::::::;;;;;;;;;;;+%+?+*%;;;;;;;;; ;;;;;;;;;;;;;;???+;;;;;;;;;;:::**:%@@@@#S++*;::::::;;;;;;;;;;;*%%%%+;;;;;;;;; ;;;;;;;;;;;;;;*+??+;;;;;;;;;:::;#@@+*@S?::::;%;?@@*:*@@?:+#@@S?S;*??:::::::;;;;;;;;;;;;*%++;;;;;;;;; ;;;;;;;;;;;;;;+*+*+;;;;;;;;;;:::%@@#S#*:**::*#%#@#;;*@@%::;SS;?##@@S+:::::::;;;;;;;;;;;;*%%*;;;;;;;; ;;;;;;;;;;;;;+%%?</description></item><item><title>exp_test</title><link>https://zkazure.github.io/posts/exp_test/</link><pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/exp_test/</guid><description>正文 is it work?</description></item><item><title>Test the export</title><link>https://zkazure.github.io/posts/export/</link><pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/export/</guid><description>正文 How the export work, what happened</description></item><item><title>Test</title><link>https://zkazure.github.io/posts/test/</link><pubDate>Sun, 02 Feb 2025 01:03:01 +0800</pubDate><guid>https://zkazure.github.io/posts/test/</guid><description>why it didn&amp;rsquo;t release anything</description></item><item><title>Learn org mode</title><link>https://zkazure.github.io/posts/org-mode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-mode/</guid><description>An org document to demostrate org mode on video</description></item></channel></rss>
+class Solution { public: int removeElement(vector&amp;lt;int&amp;gt;&amp;amp; nums, int val) { int size = nums.size(); for (int i = 0; i &amp;lt; size; i++) { if (nums[i] == val) { // 发现需要移除的元素，就将数组集体向前移动一位 for (int j = i + 1; j &amp;lt; size; j++) { nums[j - 1] = nums[j]; } i--; // 因为下标i以后的数值都向前移动了一位，所以i也向前移动一位 size--; // 此时数组的大小-1 } } return size; } }; 双指针 利用两个不同的索引，一个指向需要被覆盖的位置，一个指向需要覆盖的位置。</description><content:encoded><![CDATA[<h2 id="problem">Problem</h2>
+<p>给你一个数组 nums 和一个值 val，你需要原地移除所有数值等于 val 的元素，并返回移除后数组的新长度。
+不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并原地修改输入数组。
+元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。
+示例 1: 给定 nums = [3,2,2,3], val = 3, 函数应该返回新的长度 2, 并且 nums 中的前两个元素均为 2。 你不需要考虑数组中超出新长度后面的元素。
+示例 2: 给定 nums = [0,1,2,2,3,0,4,2], val = 2, 函数应该返回新的长度 5, 并且 nums 中的前五个元素为 0, 1, 3, 0, 4。</p>
+<h2 id="theorem">Theorem</h2>
+<p>由于数组是一个连续的地址空间，所以我们是无法真正删除数组的元素的，我们只能够把数组后一位往前移动，覆盖前一位元素。
+<code>earse()</code> 就是使用的这样的方法，复杂度是 O(n^2)</p>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> removeElement(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> val) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> size <span style="color:#f92672">=</span> nums.size();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> size; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (nums[i] <span style="color:#f92672">==</span> val) { <span style="color:#75715e">// 发现需要移除的元素，就将数组集体向前移动一位
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;</span> size; j<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>                    nums[j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> nums[j];
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>                i<span style="color:#f92672">--</span>; <span style="color:#75715e">// 因为下标i以后的数值都向前移动了一位，所以i也向前移动一位
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                size<span style="color:#f92672">--</span>; <span style="color:#75715e">// 此时数组的大小-1
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> size;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>};</span></span></code></pre></div>
+<h2 id="双指针">双指针</h2>
+<p>利用两个不同的索引，一个指向需要被覆盖的位置，一个指向需要覆盖的位置。</p>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">removeElement</span>(<span style="color:#66d9ef">int</span><span style="color:#f92672">*</span> nums, <span style="color:#66d9ef">int</span> numsSize, <span style="color:#66d9ef">int</span> val) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> slow <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, fast <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (fast<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; fast<span style="color:#f92672">&lt;</span>numsSize; fast<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> ( nums[fast] <span style="color:#f92672">!=</span> val ) {
+</span></span><span style="display:flex;"><span>            nums[slow] <span style="color:#f92672">=</span> nums[fast];
+</span></span><span style="display:flex;"><span>            slow <span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> slow;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<p>[//]</p>
+]]></content:encoded></item><item><title>Subarray with minimum length</title><link>https://zkazure.github.io/posts/array_subarr_mini_len/</link><pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_subarr_mini_len/</guid><description>Problems 给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的连续子数组，并返回其长度。如果不存在符合条件的子数组，返回 0。
+Double pointer my version int minSubArrayLen(int target, int* nums, int numsSize){ int left=0; int right =0; int sum = 0; int* tar; int len = numsSize; int* n; int i = 0; for(right=0; right &amp;lt; numsSize; right++) { for(i=0; i&amp;lt;= right; i++){ sum = sum+ nums[i]; } if (sum&amp;gt;=target) { if ( (right-left+1) &amp;lt; len ) { len = right-left+1; for( i = left; i&amp;lt;=right; i++ ) { n[i-left] = nums[i]; } } left++; } } printf(&amp;#34;%a %d&amp;#34;, *n, len); return 0; } reference int minSubArrayLen(int target, int* nums, int numsSize){ //初始化最小长度为INT_MAX int minLength = INT_MAX; int sum = 0; int left = 0, right = 0; //右边界向右扩展 for(; right &amp;lt; numsSize; ++right) { sum += nums[right]; //当sum的值大于等于target时，保存长度，并且收缩左边界 while(sum &amp;gt;= target) { int subLength = right - left + 1; minLength = minLength &amp;lt; subLength ?</description><content:encoded><![CDATA[<h2 id="problems">Problems</h2>
+<p>给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的连续子数组，并返回其长度。如果不存在符合条件的子数组，返回 0。</p>
+<h2 id="double-pointer">Double pointer</h2>
+<h3 id="my-version">my version</h3>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">minSubArrayLen</span>(<span style="color:#66d9ef">int</span> target, <span style="color:#66d9ef">int</span><span style="color:#f92672">*</span> nums, <span style="color:#66d9ef">int</span> numsSize){
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> left<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> right <span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span><span style="color:#f92672">*</span> tar;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> len <span style="color:#f92672">=</span> numsSize;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span><span style="color:#f92672">*</span> n;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span>(right<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; right <span style="color:#f92672">&lt;</span> numsSize; right<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;=</span> right; i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>            sum <span style="color:#f92672">=</span> sum<span style="color:#f92672">+</span> nums[i];
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (sum<span style="color:#f92672">&gt;=</span>target) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> ( (right<span style="color:#f92672">-</span>left<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">&lt;</span> len ) {
+</span></span><span style="display:flex;"><span>                len <span style="color:#f92672">=</span> right<span style="color:#f92672">-</span>left<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">for</span>( i <span style="color:#f92672">=</span> left; i<span style="color:#f92672">&lt;=</span>right; i<span style="color:#f92672">++</span>  ) {
+</span></span><span style="display:flex;"><span>                    n[i<span style="color:#f92672">-</span>left] <span style="color:#f92672">=</span> nums[i];
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            left<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%a %d&#34;</span>, <span style="color:#f92672">*</span>n, len);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<h3 id="reference">reference</h3>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">minSubArrayLen</span>(<span style="color:#66d9ef">int</span> target, <span style="color:#66d9ef">int</span><span style="color:#f92672">*</span> nums, <span style="color:#66d9ef">int</span> numsSize){
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//初始化最小长度为INT_MAX
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> minLength <span style="color:#f92672">=</span> INT_MAX;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> left <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, right <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//右边界向右扩展
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span>(; right <span style="color:#f92672">&lt;</span> numsSize; <span style="color:#f92672">++</span>right) {
+</span></span><span style="display:flex;"><span>        sum <span style="color:#f92672">+=</span> nums[right];
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">//当sum的值大于等于target时，保存长度，并且收缩左边界
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">while</span>(sum <span style="color:#f92672">&gt;=</span> target) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> subLength <span style="color:#f92672">=</span> right <span style="color:#f92672">-</span> left <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>            minLength <span style="color:#f92672">=</span> minLength <span style="color:#f92672">&lt;</span> subLength <span style="color:#f92672">?</span> minLength : subLength;
+</span></span><span style="display:flex;"><span>            sum <span style="color:#f92672">-=</span> nums[left<span style="color:#f92672">++</span>];
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//若minLength不为INT_MAX，则返回minLnegth
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> minLength <span style="color:#f92672">==</span> INT_MAX <span style="color:#f92672">?</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">:</span> minLength;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<p>在直接加减数组数字，而不是先找数组</p>
+<p>[//]</p>
+]]></content:encoded></item><item><title>hugo with emacs</title><link>https://zkazure.github.io/posts/hotkeys/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/hotkeys/</guid><description>Title good ;;;;;;;;;;%?;;;;;;;;;%;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;%?;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*#+;;;;;;;;;;;;;;;;;;;;;::;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*#+;;;;;;;;;;;;;;;;;;;::::::;;;;;:;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;??;;;;;;;;;%;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;::::::::;;;;,::;;;;;;;;:;;;;:,,;; ;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;:::::::::;;,,,:;;::;;;:,:;;;,,,:; ;;;;;;;;;;??;;;;;;;;;%;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;::;::::;::;:,,:;;::::;:,,;;;:,,,:; ;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;:::,::,:::;;;,;;;,,,,;::::;;::,,;; ;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;::;,,:,:::;;;,;;;;;;;;;;;::;;;,:;; ;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;::;::;:::;;;:;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;+@+;;;;;;;;;;;;;;;;;;::::;:::;;;:::;:::::::::::::::::; ;;;;;;;;;;?*;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;;::::::;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;+*S*+;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;??;;;;;;+%###S+;;;;;;;;;;;;;;;;;;;;;+#+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;+*????????+;;;;;;;;;;;;;;;;;;;+@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;??;;+*???????????*+;;;;;;;;;;;;;;+*?%#??*+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;??;+*?????????????*+;;;;;;;;;;;;*??@@@?@@?;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;*????????????????+;;;;;;;+**???*%##?%%?**+*+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?**??????*??????????*;;;;+?%S%?????**??**????%SSS?+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;??*??????????????????;+?#S%??*????????%??????**%@@@%+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?%*?????????????????%S@@%?*???S??????????????**?##@@@%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;*?*???????????????*%##S?*???*S%*?***?***S%%SS%%%#@@#S##+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;*?*??????*?**????*%#S%?*???*?#?*?%S###S%#??%SS%?@@@@#?%@*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;*????????????????%#%S??????*S%?S@@@@@@@@#S?***?##S@@@#*%@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;*??????????????*?@SS?*??????#S@@@@@@@@@@#@S*?%@#?#@@@@%*##;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?%*?????????????#S%%*?????*%@@@@@@@@@@@@#@##@@S?%@@@@@@??@%;;;;;;;;;;;;+;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?%*???????????*S#?S??????*?#@@@@@@@@@@@#S@@@#??%S@@%@###*%@+;;;;;;;+?**%;;*;;;;;;;;;;;;;;; ;;;;;;;;;;??*????????????#??%*????*%@#@@@@S%%?????%@??*%S?###?@#%S??#S;;;;;;;%*;+S?*?*%?+????+??+;;; ;;;;;;;;;;?*+??????????*S#*%?**??*%@@#@@%?********%#?%SS???***S@?*?*?@+;;;;;;%*;+%*?%*%?%%*?S?S*+;;; ;;;;;;;;;;?*;*??????????#%?S??*S?%@@@##?**?**?%SS##@#%??#@%??*%@?*???#%;;;;;;+?**?*??*??*%***?%*;;;; ;;;;;;;;;;?*;;*???????*?@??S**?@@@@@@#?*??*?S@@@#SS#**%@@@@S**%@%*??*SS;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;+????***S#*%S**%@@@@@@@?*?*%@@#%?**S#%#@@@@@%**?@S*??*%#+;;;;;*?;*;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;++*??%?#S*S%**#@@@@#S@??*%@@S?***?#@@@@@#@S*?*?@S*??*?@*;;;;;+S*+*???***;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;*###@%*S%**#@@@@%S@?*?@@%***?#@@@@@#S@#?*???@#*????@*;;;;;++S*S**%?%+;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;+***#%*S%**?S@@S*S@?*%@S**?S@@@@@@S#@@?*????@#*???*#?;;;;;*+*???;**?;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;+*+*#%*S%*??*???*S@?*##?*?#@@@@@@S@@@?*????%@#*???*#?;;;;;;;;;;+;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;+*++S%*S%*????*?*%#*?@%*?#@@@@@S@@@#?*???*?#@#*???*#?;;;;;**++;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;++++?%*%?*??????*%#??S?*S@@@@#S#@@S?*?????%@@S*???*S*;;;;;+S*+***?**?+;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;++++?%*%%*??????*?S???*%@@@@#S@@#%*???????@S#S*????S+;;;;;;%**%?*???*;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;++++*?*?%*????????%???*S@@@#S@@#S?*??????#@?S%*????%;;;;;;;%*+%+????*;;;;;;;;;;;; ;;;;;;;;;;?*;;;;;;;;++++????????????*%???*%@@@S@@#?S???????#@%*S%*?????;;;;;;;;;;;;;+;;;;;;;;;;;;;;; ;;;;;;;;;:?*:;;;;;;;;;;;*???????????*?????*?S%@@#?*%??????#@S**%?*????+;;;;;;;;;;;++;;;;;;;;;;;;;;;; ;;;;;;;;+?SS*;;;;;;;;;;;+???????????????????*??%?*?%?????S#%*??%??????;;;;;;;***********+;;;;;;;;;;; ;;;;;;+*S#@@#*++;;;;;;;;;*????????????????????***??????????*???%*????*;;;;;;*+;++++++*+++*+;;;;;;;;; ;;;*%%?S%**????SS%*;;;;;;+???????????????????????????????*???*%?*????;;;;;;;*;*?**??????*+*;;;;;;;;; ;+SS?*%S*??*S??*?S%S*;;;;;+???????????????????????????????????%*????+;;;;;;;*;*?++?++++*?;*;;;;;;;;; S%*?S????*S?*?*%S?S*;;;;;*????????????????????????????????*%?*???*;;;;;;;+*;?+;;+*+++*?;*;;;;;;;;; S%*?*?S*???*S%*??*#?*S+;;;;;*????????????????????*??*??????*?%*???*;;:;;:::+*+?**;++++;*?;*+;;;;;;;; %???*S%*???*%%*??*%S*?S;;;;;;+*??????????????????*%?*???????%????+::::;::::++;?*:;*+;+;*?;++;;;;;;;; %*??*S?*???*%%*????#?*S*;;;;;;;**????????????????*S????????????*;;;;;:;::::+++?+;;+*+++*?;++;;;;;;;; ?????S?????*%S*???*#%*?%;;;;;;;;;+*???????????????%*????????*+;::;:::::::::+++?+;;;;+;;+?;++;;;;;;;; ?????#?????*SS*???*S%*?S;;;;;;;:;;:+**??????????*????????**+;::::::::;:::;;*++?+++;;+;;+?;++;;;;;;;; ?????#?????*%S*???*SS**S+;;;;;;;;::;:;+***???**??***??*++;;::;:::::::::::::*++?;+++;+;++?;*+;;;;;;;; ?????S?????*%S*???*SS**S+;;;;;;;:::;::;;;;*?%%#S?##%+;:::;:::;:::::::::::::++;?+++?+;;;**;*+;;;;;;;; ?????S?????*%S*???*SS**S+;;;;;;;::;;:::;;;*?S#@@##;;;;;;:*@%;::;:::::::::::::::::::::;????;::::::;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;#@@+;;;;;:+@@?::;:::::::::::::;:::::::::;?;:;+*?*+;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;#@#+;;;;;;+@@@+;;::::;;::::::;;;:::::::::*?**%%%%%+;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;S@%;;;;;;:+@@#;:::::;;;;;;:::;:;::::::::;;*?%?%*%%?*+;;;;;;;;;; ;;;;;;;;;;;;;;;**;;;;;;;;;;;;;;;;;;;;#@+;%%+;;:+##+:;:+:;;;;;;;;::;;;:::::::;;?%%?????%%%S*;;;;;;;;; ;;;;;;;;;;;;;;+?*%+;;;;;;;:;;::;;;;;;#S+S@@#;;:;;;+%#??::;;;;;;;;::::::::::::+%%*?????%%%%%;;;;;;;;; ;;;;;;;;;;;;;;+*??+;;;;;;;;;:::::;;;;###@@@S;;;:;%@@@%*::::??+;;;;::::::::;;:*%??%%%%%%%?%%??*;;;;;; ;;;;;;;;;;;;;;+?%*;;;;;;;;;::::?+::;*@@@@@#?%;;?@@?S#%*:::;#@#+;;;++::::::;;:;***?%%%%*%?%?S%S%;;;;; ;;;;;;;;;;;;;;+?**+;;;;;;;;:::;@#+:?#@SS#%*%#%#@#+;S?*?:::?@@#?+*S@S;:::::;;;::;;*%?%??????%?%%*;;;; ;;;;;;;;;;;;;;*;++;;;;;;;;;:::;#@#%##@+?*:;##@@%;:;*:%?::;#@@@@@@#?;;;;;:::;;;;;;%??%%%%%%?%%?%*;;;; ;;;;;;;;;;;;;;%%?*+;;;;;;;;::::#@##S?S*%::*@@@S;;*;::S#;:+@@@@@@S;:::::;;;;;;;;;;?%?%%%%%%S%%%%+;;;; ;;;;;;;;;;;;;+%%?*;;;;;;;;;::::%@@S+;SSS+::S@#+:*@*:+@@+:?@@@@@@?;:::::::;;;;;;;;;;;+%+?+*%;;;;;;;;; ;;;;;;;;;;;;;;???+;;;;;;;;;;:::**:%@@@@#S++*;::::::;;;;;;;;;;;*%%%%+;;;;;;;;; ;;;;;;;;;;;;;;*+??+;;;;;;;;;:::;#@@+*@S?::::;%;?@@*:*@@?:+#@@S?S;*??:::::::;;;;;;;;;;;;*%++;;;;;;;;; ;;;;;;;;;;;;;;+*+*+;;;;;;;;;;:::%@@#S#*:**::*#%#@#;;*@@%::;SS;?##@@S+:::::::;;;;;;;;;;;;*%%*;;;;;;;; ;;;;;;;;;;;;;+%%?</description><content:encoded><![CDATA[<h2 id="title">Title</h2>
+<p>good
+;;;;;;;;;;%?;;;;;;;;;%;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;%?;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*#+;;;;;;;;;;;;;;;;;;;;;::;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*#+;;;;;;;;;;;;;;;;;;;::::::;;;;;:;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;??;;;;;;;;;%;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;::::::::;;;;,::;;;;;;;;:;;;;:,,;;
+;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;:::::::::;;,,,:;;::;;;:,:;;;,,,:;
+;;;;;;;;;;??;;;;;;;;;%;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;::;::::;::;:,,:;;::::;:,,;;;:,,,:;
+;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;:::,::,:::;;;,;;;,,,,;::::;;::,,;;
+;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;::;,,:,:::;;;,;;;;;;;;;;;::;;;,:;;
+;;;;;;;;;;??;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;::;::;:::;;;:;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;?*;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;+@+;;;;;;;;;;;;;;;;;;::::;:::;;;:::;:::::::::::::::::;
+;;;;;;;;;;?*;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;;::::::;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;?*;;;;;;;+*S*+;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;??;;;;;;+%###S+;;;;;;;;;;;;;;;;;;;;;+#+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;?*;;;;+*????????+;;;;;;;;;;;;;;;;;;;+@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;??;;+*???????????*+;;;;;;;;;;;;;;+*?%#??*+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;??;+*?????????????*+;;;;;;;;;;;;*??@@@?@@?;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;?*;*????????????????+;;;;;;;+**???*%##?%%?**+*+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;?**??????*??????????*;;;;+?%S%?????**??**????%SSS?+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;??*??????????????????;+?#S%??*????????%??????**%@@@%+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;?%*?????????????????%S@@%?*???S??????????????**?##@@@%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;*?*???????????????*%##S?*???*S%*?***?***S%%SS%%%#@@#S##+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;*?*??????*?**????*%#S%?*???*?#?*?%S###S%#??%SS%?@@@@#?%@*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;*????????????????%#%S??????*S%?S@@@@@@@@#S?***?##S@@@#*%@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;*??????????????*?@SS?*??????#S@@@@@@@@@@#@S*?%@#?#@@@@%*##;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;?%*?????????????#S%%*?????*%@@@@@@@@@@@@#@##@@S?%@@@@@@??@%;;;;;;;;;;;;+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;?%*???????????*S#?S??????*?#@@@@@@@@@@@#S@@@#??%S@@%@###*%@+;;;;;;;+?**%;;*;;;;;;;;;;;;;;;
+;;;;;;;;;;??*????????????#??%*????*%@#@@@@S%%?????%@??*%S?###?@#%S??#S;;;;;;;%*;+S?*?*%?+????+??+;;;
+;;;;;;;;;;?*+??????????*S#*%?**??*%@@#@@%?********%#?%SS???***S@?*?*?@+;;;;;;%*;+%*?%*%?%%*?S?S*+;;;
+;;;;;;;;;;?*;*??????????#%?S??*S?%@@@##?**?**?%SS##@#%??#@%??*%@?*???#%;;;;;;+?**?*??*??*%***?%*;;;;
+;;;;;;;;;;?*;;*???????*?@??S**?@@@@@@#?*??*?S@@@#SS#**%@@@@S**%@%*??*SS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;?*;;;+????***S#*%S**%@@@@@@@?*?*%@@#%?**S#%#@@@@@%**?@S*??*%#+;;;;;*?;*;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;?*;;;;++*??%?#S*S%**#@@@@#S@??*%@@S?***?#@@@@@#@S*?*?@S*??*?@*;;;;;+S*+*???***;;;;;;;;;;;;
+;;;;;;;;;;?*;;;;;;;*###@%*S%**#@@@@%S@?*?@@%***?#@@@@@#S@#?*???@#*????@*;;;;;++S*S**%?%+;;;;;;;;;;;;
+;;;;;;;;;;?*;;;;;;;+***#%*S%**?S@@S*S@?*%@S**?S@@@@@@S#@@?*????@#*???*#?;;;;;*+*???;**?;;;;;;;;;;;;;
+;;;;;;;;;;?*;;;;;;;+*+*#%*S%*??*???*S@?*##?*?#@@@@@@S@@@?*????%@#*???*#?;;;;;;;;;;+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;?*;;;;;;;+*++S%*S%*????*?*%#*?@%*?#@@@@@S@@@#?*???*?#@#*???*#?;;;;;**++;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;?*;;;;;;;++++?%*%?*??????*%#??S?*S@@@@#S#@@S?*?????%@@S*???*S*;;;;;+S*+***?**?+;;;;;;;;;;;
+;;;;;;;;;;?*;;;;;;;++++?%*%%*??????*?S???*%@@@@#S@@#%*???????@S#S*????S+;;;;;;%**%?*???*;;;;;;;;;;;;
+;;;;;;;;;;?*;;;;;;;++++*?*?%*????????%???*S@@@#S@@#S?*??????#@?S%*????%;;;;;;;%*+%+????*;;;;;;;;;;;;
+;;;;;;;;;;?*;;;;;;;;++++????????????*%???*%@@@S@@#?S???????#@%*S%*?????;;;;;;;;;;;;;+;;;;;;;;;;;;;;;
+;;;;;;;;;:?*:;;;;;;;;;;;*???????????*?????*?S%@@#?*%??????#@S**%?*????+;;;;;;;;;;;++;;;;;;;;;;;;;;;;
+;;;;;;;;+?SS*;;;;;;;;;;;+???????????????????*??%?*?%?????S#%*??%??????;;;;;;;***********+;;;;;;;;;;;
+;;;;;;+*S#@@#*++;;;;;;;;;*????????????????????***??????????*???%*????*;;;;;;*+;++++++*+++*+;;;;;;;;;
+;;;*%%?S%**????SS%*;;;;;;+???????????????????????????????*???*%?*????;;;;;;;*;*?**??????*+*;;;;;;;;;
+;+SS?*%S*??*S??*?S%S*;;;;;+???????????????????????????????????%*????+;;;;;;;*;*?++?++++*?;*;;;;;;;;;
+<strong>S%*</strong>?S????*S?*?*%S?S*;;;;;*????????????????????????????????*%?*???*;;;;;;;+*;?+;;+*+++*?;*;;;;;;;;;
+S%*?*?S*???*S%*??*#?*S+;;;;;*????????????????????*??*??????*?%*???*;;:;;:::+*+?**;++++;*?;*+;;;;;;;;
+%???*S%*???*%%*??*%S*?S;;;;;;+*??????????????????*%?*???????%????+::::;::::++;?*:;*+;+;*?;++;;;;;;;;
+%*??*S?*???*%%*????#?*S*;;;;;;;**????????????????*S????????????*;;;;;:;::::+++?+;;+*+++*?;++;;;;;;;;
+?????S?????*%S*???*#%*?%;;;;;;;;;+*???????????????%*????????*+;::;:::::::::+++?+;;;;+;;+?;++;;;;;;;;
+?????#?????*SS*???*S%*?S;;;;;;;:;;:+**??????????*????????**+;::::::::;:::;;*++?+++;;+;;+?;++;;;;;;;;
+?????#?????*%S*???*SS**S+;;;;;;;;::;:;+***???**??***??*++;;::;:::::::::::::*++?;+++;+;++?;*+;;;;;;;;
+?????S?????*%S*???*SS**S+;;;;;;;:::;::;;;;*?%%#S?##%+;:::;:::;:::::::::::::++;?+++?+;;;**;*+;;;;;;;;
+?????S?????*%S*???*SS**S+;;;;;;;::;;:::;;;*?S#@@##;;;;;;:*@%;::;:::::::::::::::::::::;????;::::::;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;#@@+;;;;;:+@@?::;:::::::::::::;:::::::::;?;:;+*?*+;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;#@#+;;;;;;+@@@+;;::::;;::::::;;;:::::::::*?**%%%%%+;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;S@%;;;;;;:+@@#;:::::;;;;;;:::;:;::::::::;;*?%?%*%%?*+;;;;;;;;;;
+;;;;;;;;;;;;;;;**;;;;;;;;;;;;;;;;;;;;#@+;%%+;;:+##+:;:+:;;;;;;;;::;;;:::::::;;?%%?????%%%S*;;;;;;;;;
+;;;;;;;;;;;;;;+?*%+;;;;;;;:;;::;;;;;;#S+S@@#;;:;;;+%#??::;;;;;;;;::::::::::::+%%*?????%%%%%;;;;;;;;;
+;;;;;;;;;;;;;;+*??+;;;;;;;;;:::::;;;;###@@@S;;;:;%@@@%*::::??+;;;;::::::::;;:*%??%%%%%%%?%%??*;;;;;;
+;;;;;;;;;;;;;;+?%*;;;;;;;;;::::?+::;*@@@@@#?%;;?@@?S#%*:::;#@#+;;;++::::::;;:;***?%%%%*%?%?S%S%;;;;;
+;;;;;;;;;;;;;;+?**+;;;;;;;;:::;@#+:?#@SS#%*%#%#@#+;S?*?:::?@@#?+*S@S;:::::;;;::;;*%?%??????%?%%*;;;;
+;;;;;;;;;;;;;;*;++;;;;;;;;;:::;#@#%##@+?*:;##@@%;:;*:%?::;#@@@@@@#?;;;;;:::;;;;;;%??%%%%%%?%%?%*;;;;
+;;;;;;;;;;;;;;%%?*+;;;;;;;;::::#@##S?S*%::*@@@S;;*;::S#;:+@@@@@@S;:::::;;;;;;;;;;?%?%%%%%%S%%%%+;;;;
+;;;;;;;;;;;;;+%%?*;;;;;;;;;::::%@@S+;SSS+::S@#+:*@*:+@@+:?@@@@@@?;:::::::;;;;;;;;;;;+%+?+*%;;;;;;;;;
+;;;;;;;;;;;;;;???+;;;;;;;;;;:::**:%@@@@#S++*;::::::;;;;;;;;;;;*%%%%+;;;;;;;;;
+;;;;;;;;;;;;;;*+??+;;;;;;;;;:::;#@@+*@S?::::;%;?@@*:*@@?:+#@@S?S;*??:::::::;;;;;;;;;;;;*%++;;;;;;;;;
+;;;;;;;;;;;;;;+*+*+;;;;;;;;;;:::%@@#S#*:**::*#%#@#;;*@@%::;SS;?##@@S+:::::::;;;;;;;;;;;;*%%*;;;;;;;;
+;;;;;;;;;;;;;+%%??+;;;;;;;;;;;::+##*+S:+#S+:?##@@?;;?@@%::;+;+#@@@%*%::::::::;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;+%%%?+;;;;;;;;;;;;::+;:*S+%##*:?@#@S;;+#@@S;;%%%@@@@?:+#;:;;:::::;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;???%*;;;;;;;;;;;;;:::*#@#@##*:+@@@#+*S@@@#;?@@@@@@*::+@*::::::;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;+*+?+;;;;;;;;;;;;;;:?#@@@%%@+:;#@@@@@@@@@%;?@@@@@@;::*@S+::;:;;;:;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;+;;+;;;;;;;;;;;;;;;;#@@#*:*#+;:;#@@@#S%%*;;;#@@S%@+::S@@#;:::;;::;;;++;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;*?*?+;;;;;;;;;;;;;;;?S%;::*S;:::;**+;;;;;;;;S@#;%@?+?#@@S+:;:;::;;+*++*+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;????+;;;;;;;;;;;;;;;;;;:::*+::::::;:;;;;;;;;S@%:S@#@@#%+:::::;::;+*+;;;+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;%%%%+;;;;;;;;;;;;;;;;;;;;;;:::::::%?*??;;;;;?@S%@@@#?;::::::::::;+;;;;;;+;;;;;;;;;;;;;
+;;;;;;;;;;;;;;*???+;;;;;;;;;;;;;;;;;;;;;:::::::;S+%@@?;+;;*@@@@@#+;;::::::::::;;;;;+;;+;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;::::::*#?S@#+;SS%@@@@@@*;;;::::;:::;;+;;;++;;+;;;;;;;;;;;;;
+;;;;;;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;;;:::::;S@@@%;;;#@@@@#%#S;;;;:::::::::;+;;++;;;*;;;;;;;;;;;;;
+;;;;;;;;;;;;;;+;;;;;;;;;;;;;;;;;;;;;;;;;;;:::;%@@@?:::;%##%?+:?S;;;::;::::::::+;;*+;+;*;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;::+#@@@*:::::;++;;;;?S;;:::;::;:::::;;;;+++;*;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;++**%@@@@?::;;;:::;;;;;?S;::::;;:::;:::;+;+;;+;++;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;+;;;;;;;;;;;;;;;;;;;;%@@@@@@@@#;;;;:::::::;::*%::::::;;;;;:::;+;+;++;++;;;;;;;;;;;;
+;;;;;;;;;;;;;;??+%+;;;;;;;;;;;;;;;;;;;%@@@@@@@@@##@?:;;:::::::;:;;+S:::::::::::::;;+;++++;++;;;;;;;;;;;;
+;;;;;;;;;;;;;;%??%;;;;;;;;;;;;;;;;;;;;;%#@@S+S@+:%S*::::::+?;:+%:::;;:::::::;;;+;;+;+;;+;;;;;;;;;;;;
+;;;;;;;;;;;;;;*?*?;;;;;;;;;;;;;;;;;;;;;;+*%;;##::?@@*:::;:?@?:;;:::;::::::::;;;+;++++;;*;;;;;;;;;;;;
+;;;;;;;;;;;;;;+;++;;;;;;;;;;;;;;;;;;;;;;;;;;*@%::;#@#;::;:%@#%++::;;:;:::::;;;;+;++*;;++;;;;;;;;;;;;
+;;;;;;;;;;;;;+????;;;;;;;;;;;;;;;;;;;;;;;;;;S@*;;:S@@@?:;;::::::;;;;;+;++++;++;;;;;;;;;;;;
+;;;;;;;;;;;;;;%???;;;;;;;;;;;;;;;;;;;;;;;;;*@#;;;;?@@%:::*@@@@#%+:;;;;::;;;;;;;++;;+;;+;;;;;;;;;;;;;
+;;;;;;;;;;;;;;%??%+;;;;;;;;;;;;;;;;;;;;;;;;S@?;;;;+S%+:;?@@@@*;::::::::;;;;;;;;;++;;;;+;;;;;;;;;;;;;
+;;;;;;;;;;;;;+S???;;;;;;;;;;;;;;;;;;;;;;;;*@#;;;;;;;+*%#@@@@*::::::::;;;;;;;;;;;;+*+++;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;+++;;;;;;;;;;;;;;;;;;;;;;;;S@?;;;;;*%#@#SS@?;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;??%%+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;?#*;;;+S@@@@@?;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;?%%%+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;?#%;;*##S@@@@*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;?%?%+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;?@S**S?+;%@@@?;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;++**;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;?@@@@*;;;S@@@*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;+@@@@+;;*@@@@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;#@@@%*%#@@@@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*@@@@@@@@@@S;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;+;;;;;;;;;;;;;;;;;;;;;;;;;;*S@@@@@@#S*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;:;;;;;+*;;;;;;;;;;;;;;;;;;;;;;;;;;;;+*%#SS##+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;:;;;;;*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;+*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;++;;;;:;;;;*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;*+;;;:;;;+*;;;:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;+;;;:;;;++;:;;;;;;;;;;;;;;:::::::::::::::::::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;+++;;;++;:;;;;;;;;;:::::::::::::::::::::::::::::::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;+;:++;;;;;;;;;;:::::::::::;;:::::::;::::::::::::;::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;::;;;;;++;+;;;;;;;;;:::::*+:::::;S?;;;;::+%;::::::::;;;;;;;::;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;+++;+++++;::%;:::::?S?%%*;::;%++????+:;*****::::;:;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;+++;;;+;;;;+++;;;;**?%****:;S%+%%+;:;*?%+?+;S*::;;;;;:::::;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;++++;;+;;;;:::::::?%SS%%%%;;%S*%%+;::;?%+?+;S*::*SSS?::::;;:;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;+*+;;;;;;;;;+;;;:::::::%**:::::;%+%%;;;:?SS%?;;S*::;;;;;::::;::;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;*+;;;:;++;;;;++;;::::::+%:??;::;***%%***;?%S?%;;S*:::::::::::;::;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;++;;;:;++;;++:++;;;::;;:**:;S%*;::::%%:::::%S;?;;S*:*%%%%%%+::::;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;:;++;;;+;;;++;;;::::%;::+SS+::::%%:::::%S;?;;S*:+******;::::;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;++;;;+;;:;++;;:::;*::::+*:::::??:::::+*;;;;*+::::::::::::;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;*;;:;+;;;;;*;;;;;:::::::::::::::::::::::::::::::::::::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;+*;;:;+;;;:;*+;;;;;;;;;;;:::::::::::::::::::::::::::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;+;;;;;++;;;;;+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;::::;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;++;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</p>
+]]></content:encoded></item><item><title>exp_test</title><link>https://zkazure.github.io/posts/exp_test/</link><pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/exp_test/</guid><description>正文 is it work?</description><content:encoded>&lt;h2 id="正文">正文&lt;/h2>
+&lt;p>is it work?&lt;/p></content:encoded></item><item><title>Test the export</title><link>https://zkazure.github.io/posts/export/</link><pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/export/</guid><description>正文 How the export work, what happened</description><content:encoded>&lt;h2 id="正文">正文&lt;/h2>
+&lt;p>How the export work, what happened&lt;/p></content:encoded></item><item><title>Test</title><link>https://zkazure.github.io/posts/test/</link><pubDate>Sun, 02 Feb 2025 01:03:01 +0800</pubDate><guid>https://zkazure.github.io/posts/test/</guid><description>why it didn&amp;rsquo;t release anything</description><content:encoded>&lt;p>why it didn&amp;rsquo;t release anything&lt;/p></content:encoded></item><item><title>Learn org mode</title><link>https://zkazure.github.io/posts/org-mode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-mode/</guid><description>Head SPC-m-h three four
+five Getting started in org mode read org mode manual whth M-x org-info org-toggle-heading: SPC-m-h org-toggle-item
+tab motion g-j and g-k move from the same title g-h and g-l move frome dfferent M-h and M-l move in and out M-j and M-k move up and down Sat Feb 1 13:05:02 2025 a
+TODO TODO create checkbox</description><content:encoded><![CDATA[<h2 id="head">Head</h2>
+<h3 id="spc-m-h">SPC-m-h</h3>
+<h4 id="three">three</h4>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>four</p>
+<!-- raw HTML omitted -->
+<ul>
+<li>five</li>
+</ul>
+</li>
+</ul>
+<h2 id="getting-started-in-org-mode">Getting started in org mode</h2>
+<p>read org mode manual whth M-x org-info
+org-toggle-heading: SPC-m-h
+org-toggle-item</p>
+<h2 id="tab">tab</h2>
+<h2 id="motion">motion</h2>
+<ul>
+<li>g-j and g-k move from the same title</li>
+<li>g-h and g-l move frome dfferent</li>
+<li>M-h and M-l move in and out</li>
+<li>M-j and M-k move up and down</li>
+</ul>
+<p>Sat Feb  1 13:05:02 2025 a</p>
+<h2 id="d41d8c"><!-- raw HTML omitted -->TODO<!-- raw HTML omitted --> </h2>
+<h3 id="d41d8c"><!-- raw HTML omitted -->TODO<!-- raw HTML omitted --> </h3>
+<h2 id="create-checkbox">create checkbox</h2>
+<ul>
+<li><input disabled="" type="checkbox"> </li>
+</ul>
+]]></content:encoded></item></channel></rss>
