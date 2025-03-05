@@ -8,7 +8,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">***&lt;/span> third
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">**&lt;/span>&lt;span style="color:#960050;background-color:#1e0010"> TODO&lt;/span> every heading can be a TODO
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="annotation">Annotation&lt;/h2>
-&lt;p>&lt;strong>bold&lt;/strong> &lt;em>italic&lt;/em> &lt;!-- raw HTML omitted -->underline&lt;!-- raw HTML omitted --> &lt;del>delete&lt;/del> &lt;code>code&lt;/code> &lt;code>code&lt;/code>&lt;/p>
+&lt;p>&lt;strong>bold&lt;/strong> &lt;em>italic&lt;/em> &lt;span class="underline">underline&lt;/span> &lt;del>delete&lt;/del> &lt;code>code&lt;/code> &lt;code>code&lt;/code>&lt;/p>
 &lt;h2 id="list">List&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>itemize
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- &lt;/span>item1
@@ -17,6 +17,7 @@
 &lt;li>item&lt;/li>
 &lt;li>item&lt;/li>
 &lt;/ul>
+&lt;!--listend-->
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>enumerate
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">1.&lt;/span> item-1
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">2)&lt;/span> item-2
@@ -28,6 +29,7 @@
 &lt;li>aa&lt;/li>
 &lt;li>bb&lt;/li>
 &lt;/ol>
+&lt;!--listend-->
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [ ]&lt;/span> not started
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- &lt;/span>[-] in process
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [X]&lt;/span> finished

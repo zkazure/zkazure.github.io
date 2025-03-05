@@ -124,7 +124,7 @@ The approaching Allied forces.&lt;/p></description></item><item><title>snippets<
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">***&lt;/span> third
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">**&lt;/span>&lt;span style="color:#960050;background-color:#1e0010"> TODO&lt;/span> every heading can be a TODO
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="annotation">Annotation&lt;/h2>
-&lt;p>&lt;strong>bold&lt;/strong> &lt;em>italic&lt;/em> &lt;!-- raw HTML omitted -->underline&lt;!-- raw HTML omitted --> &lt;del>delete&lt;/del> &lt;code>code&lt;/code> &lt;code>code&lt;/code>&lt;/p>
+&lt;p>&lt;strong>bold&lt;/strong> &lt;em>italic&lt;/em> &lt;span class="underline">underline&lt;/span> &lt;del>delete&lt;/del> &lt;code>code&lt;/code> &lt;code>code&lt;/code>&lt;/p>
 &lt;h2 id="list">List&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>itemize
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- &lt;/span>item1
@@ -133,6 +133,7 @@ The approaching Allied forces.&lt;/p></description></item><item><title>snippets<
 &lt;li>item&lt;/li>
 &lt;li>item&lt;/li>
 &lt;/ul>
+&lt;!--listend-->
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>enumerate
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">1.&lt;/span> item-1
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">2)&lt;/span> item-2
@@ -144,6 +145,7 @@ The approaching Allied forces.&lt;/p></description></item><item><title>snippets<
 &lt;li>aa&lt;/li>
 &lt;li>bb&lt;/li>
 &lt;/ol>
+&lt;!--listend-->
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [ ]&lt;/span> not started
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- &lt;/span>[-] in process
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [X]&lt;/span> finished
@@ -174,6 +176,7 @@ He asctibes his success to good luck.&lt;/p></description></item><item><title>Th
 &lt;li>数组的下标都是从零开始&lt;/li>
 &lt;li>内存空间地址连续&lt;/li>
 &lt;/ol>
+&lt;!--listend-->
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span style="color:#75715e">
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">using&lt;/span> &lt;span style="color:#66d9ef">namespace&lt;/span> std;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">void&lt;/span> &lt;span style="color:#a6e22e">test_arr&lt;/span>(){
