@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Org on My Personal Blog</title><link>https://zkazure.github.io/tags/org/</link><description>Recent content in Org on My Personal Blog</description><generator>Hugo -- 0.145.0</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2025 14:12:06 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/tags/org/index.xml" rel="self" type="application/rss+xml"/><item><title>summary</title><link>https://zkazure.github.io/posts/org-summary/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-summary/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Org on My Personal Blog</title><link>https://zkazure.github.io/tags/org/</link><description>Recent content in Org on My Personal Blog</description><generator>Hugo -- 0.145.0</generator><language>en-us</language><lastBuildDate>Thu, 06 Mar 2025 00:59:38 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/tags/org/index.xml" rel="self" type="application/rss+xml"/><item><title>Org Grammar</title><link>https://zkazure.github.io/posts/org-grammar/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-grammar/</guid><description>&lt;p>check out the manual with &lt;code>M-x org-info&lt;/code>&lt;/p>
+&lt;h2 id="frontmatter">frontmatter&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+title&lt;/span>&lt;span style="color:#75715e">: org mode in doom emacs&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+description&lt;/span>&lt;span style="color:#75715e">: an document to demonstrate org mode.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+author&lt;/span>&lt;span style="color:#75715e">: zka-win&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code class="language-nil" data-lang="nil">* head 1
+** 2
+*** 3
+&lt;/code>&lt;/pre>&lt;h2 id="headline">Headline&lt;/h2>
+&lt;p>&lt;code>z z&lt;/code>: scoll to center
+&lt;code>SPC m h&lt;/code>: create a healine under this current healine
+&lt;code>SPC m i&lt;/code>: create item
+&lt;code>C-RET&lt;/code>: insert the same item.
+&lt;code>TAB&lt;/code>: to flod and unfold.
+&lt;code>S-TAB&lt;/code>: unfold.
+&lt;code>z c&lt;/code>: close
+&lt;code>z o&lt;/code>: open
+&lt;code>z M&lt;/code>: close all
+&lt;code>z R&lt;/code>: open all
+&lt;code>g j/k&lt;/code>: go to the next same level
+&lt;code>g h/l&lt;/code>: go to the next or last level.
+&lt;code>C-RET&lt;/code>: the new level the same as the current level
+&lt;code>M-h/l&lt;/code>: change the level&lt;/p></description></item><item><title>summary</title><link>https://zkazure.github.io/posts/org-summary/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-summary/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>please ignore the &amp;lsquo;,&amp;rsquo; at the beggining.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+TITLE&lt;/span>&lt;span style="color:#75715e">: No matter uppercase or not&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+AUTHOR&lt;/span>&lt;span style="color:#75715e">: me&lt;/span>
@@ -41,4 +63,54 @@
 &lt;h2 id="links">Links&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>[[&lt;span style="color:#a6e22e">https://google.com&lt;/span>][&lt;span style="color:#f92672">name&lt;/span>]]
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[[&lt;span style="color:#a6e22e">picture path&lt;/span>]]
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://google.com">google&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://google.com">google&lt;/a>&lt;/p></description></item><item><title>Difference of the format in the org-mind-map</title><link>https://zkazure.github.io/posts/format-in-org-mind-map/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/format-in-org-mind-map/</guid><description>&lt;h2 id="raster">Raster&lt;/h2>
+&lt;h3 id="gif--graphics-interchange-format">GIF(Graphics Interchange Format)&lt;/h3>
+&lt;ul>
+&lt;li>low quality&lt;/li>
+&lt;li>support animation and transparent&lt;/li>
+&lt;/ul>
+&lt;h3 id="png--portable-network-graphics">PNG(Portable Network Graphics)&lt;/h3>
+&lt;ul>
+&lt;li>high quality&lt;/li>
+&lt;li>support transparent&lt;/li>
+&lt;li>suitable for web&lt;/li>
+&lt;li>not ideal for print&lt;/li>
+&lt;/ul>
+&lt;h3 id="jpeg--joint-photographic-experts-group">JPEG(Joint Photographic Experts Group)&lt;/h3>
+&lt;ul>
+&lt;li>lossy compression&lt;/li>
+&lt;li>multiple colors, ideal for photographs&lt;/li>
+&lt;li>good for web&lt;/li>
+&lt;/ul>
+&lt;h3 id="tiff--tagged-image-file-format">TIFF(Tagged Image File Format)&lt;/h3>
+&lt;ul>
+&lt;li>best quality&lt;/li>
+&lt;li>support layers, transparency.&lt;/li>
+&lt;li>for professional photography or print&lt;/li>
+&lt;li>too large&lt;/li>
+&lt;/ul>
+&lt;h2 id="vector">Vector&lt;/h2>
+&lt;h3 id="eps--encapsulated-postscript">EPS(Encapsulated PostScript)&lt;/h3>
+&lt;ul>
+&lt;li>common used in printing and design&lt;/li>
+&lt;li>scalable without losing quality&lt;/li>
+&lt;li>being replaced&lt;/li>
+&lt;/ul>
+&lt;h3 id="svg--scalable-vector-graphics">SVG(Scalable Vector Graphics)&lt;/h3>
+&lt;ul>
+&lt;li>the same as EPS&lt;/li>
+&lt;li>editable with code&lt;/li>
+&lt;li>support animation and interactivity&lt;/li>
+&lt;/ul>
+&lt;h3 id="pdf--portable-document-format">PDF(Portable Document Format)&lt;/h3>
+&lt;p>don&amp;rsquo;t need introductions&lt;/p></description></item><item><title>how to use the ox-hugo</title><link>https://zkazure.github.io/posts/ox-hugo/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/ox-hugo/</guid><description>&lt;p>add blow at first&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+hugo_base_dir&lt;/span>&lt;span style="color:#75715e">: ~/blog&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+hugo_section&lt;/span>&lt;span style="color:#75715e">: /posts/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+hugo_weight&lt;/span>&lt;span style="color:#75715e">: auto&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+hugo_auto_set_lastmod&lt;/span>&lt;span style="color:#75715e">: t&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>add blow in every article you want to public.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">:PROPERTIES:
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#75715e">:EXPORT_FILE_NAME: this is the file name
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">:EXPORT_DATE: 2025-02-13
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#75715e">:END:&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>[//]&lt;/p></description></item></channel></rss>
