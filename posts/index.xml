@@ -1,82 +1,101 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on My Personal Blog</title><link>https://zkazure.github.io/posts/</link><description>Recent content in Posts on My Personal Blog</description><generator>Hugo -- 0.145.0</generator><language>en-us</language><lastBuildDate>Thu, 06 Mar 2025 00:59:38 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>&lt;h2 id="动作库">动作库&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My New Hugo Site</title><link>https://zkazure.github.io/posts/</link><description>Recent content in Posts on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 06 Mar 2025 16:37:16 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>&lt;h2 id="动作库">
+ 动作库
+ &lt;a class="heading-link" href="#%e5%8a%a8%e4%bd%9c%e5%ba%93">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>爆发力全身参与&lt;/th>
-&lt;th>举重训练（高翻）冲刺训练&lt;/th>
-&lt;th>跳跃训练 爆发力训练&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>基础力量训练&lt;/td>
-&lt;td>85% 1RM 以上深蹲&lt;/td>
-&lt;td>70% 1RM 以上卧推&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>辅助力量训练&amp;amp;功能性训练&lt;/td>
-&lt;td>60% 1RM 深蹲 臀推 肩上推举 引体向上 击掌俯卧撑&lt;/td>
-&lt;td>双杠臂屈伸 跨步 腿举 臀桥 翻身划船 站姿平推 快挺 各种小力量&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>核心训练&lt;/td>
-&lt;td>Plank 系列 爬行&lt;/td>
-&lt;td>抗旋助旋相关训练&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>步伐&lt;/td>
-&lt;td>场地专项步伐 跳绳&lt;/td>
-&lt;td>连续分解步伐&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>爆发力全身参与&lt;/th>
+ &lt;th>举重训练（高翻）冲刺训练&lt;/th>
+ &lt;th>跳跃训练 爆发力训练&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>基础力量训练&lt;/td>
+ &lt;td>85% 1RM 以上深蹲&lt;/td>
+ &lt;td>70% 1RM 以上卧推&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>辅助力量训练&amp;amp;功能性训练&lt;/td>
+ &lt;td>60% 1RM 深蹲 臀推 肩上推举 引体向上 击掌俯卧撑&lt;/td>
+ &lt;td>双杠臂屈伸 跨步 腿举 臀桥 翻身划船 站姿平推 快挺 各种小力量&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>核心训练&lt;/td>
+ &lt;td>Plank 系列 爬行&lt;/td>
+ &lt;td>抗旋助旋相关训练&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>步伐&lt;/td>
+ &lt;td>场地专项步伐 跳绳&lt;/td>
+ &lt;td>连续分解步伐&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
-&lt;h2 id="每周一次的训练">每周一次的训练&lt;/h2>
+&lt;h2 id="每周一次的训练">
+ 每周一次的训练
+ &lt;a class="heading-link" href="#%e6%af%8f%e5%91%a8%e4%b8%80%e6%ac%a1%e7%9a%84%e8%ae%ad%e7%bb%83">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>主要训练&lt;/th>
-&lt;th>卧推&lt;/th>
-&lt;th>深蹲&lt;/th>
-&lt;th>坐姿下拉&lt;/th>
-&lt;th>跨步&lt;/th>
-&lt;th>徒手提踵&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>养护训练&lt;/td>
-&lt;td>弹力带前进后退&lt;/td>
-&lt;td>静蹲&lt;/td>
-&lt;td>腰腹核心&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>拉伸放松&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>主要训练&lt;/th>
+ &lt;th>卧推&lt;/th>
+ &lt;th>深蹲&lt;/th>
+ &lt;th>坐姿下拉&lt;/th>
+ &lt;th>跨步&lt;/th>
+ &lt;th>徒手提踵&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>养护训练&lt;/td>
+ &lt;td>弹力带前进后退&lt;/td>
+ &lt;td>静蹲&lt;/td>
+ &lt;td>腰腹核心&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>拉伸放松&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
-&lt;h2 id="如何拉伸">如何拉伸&lt;/h2>
+&lt;h2 id="如何拉伸">
+ 如何拉伸
+ &lt;a class="heading-link" href="#%e5%a6%82%e4%bd%95%e6%8b%89%e4%bc%b8">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
 &lt;p>滚泡沫轴，慢速，在痛点上停止反复，直到疼痛减轻。
 按摩球，足底筋膜
-牵拉，找到一个有牵拉感觉的地方，保持静止一段时间。&lt;/p>
-&lt;h3 id="针对跳绳的专项拉伸">针对跳绳的专项拉伸&lt;/h3>
-&lt;p>臀部拉伸：抱腿拉，30s/侧，做两组
-大腿后侧：抬腿拉或者坐姿拉，30s/侧，做两组
-大腿前侧：扶墙拉，30s/侧，做两组
-小腿前侧：跪坐拉，30s一组，做两组
-小腿后侧：撑地拉，30s/侧，做两组&lt;/p>
-&lt;h2 id="如何提高心肺能力">如何提高心肺能力&lt;/h2>
-&lt;p>心率在130-140左右的匀速跑，保持这个配速并坚持30-90分钟
-计时双摇，1500次，成绩从14分到20分不等
-攀爬机比较像爬山，由于全身参与，而且力度可调节，所以，调节成较轻的力度时，爬长距离，对心肺的刺激效果好；如果是调得相对重，做短距离快速攀爬，对全身肌肉的刺激效果也不错，是提高肌耐力的好办法。
-一般我们的训练会给运动员定一个具体高度，比如984英尺，然后要求几分钟之内攀爬完成，然后间歇5分钟左右，再进行下一组，进行3~4组左右，即增加耐乳酸能力又提高基础耐力。&lt;/p></description></item><item><title>Doom emacs</title><link>https://zkazure.github.io/posts/doom_emacs/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/doom_emacs/</guid><description>&lt;h2 id="emacs">emacs&lt;/h2>
-&lt;h3 id="basic">Basic&lt;/h3>
+牵拉，找到一个有牵拉感觉的地方，保持静止一段时间。&lt;/p></description></item><item><title>Doom emacs</title><link>https://zkazure.github.io/posts/doom_emacs/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/doom_emacs/</guid><description>&lt;h2 id="emacs">
+ emacs
+ &lt;a class="heading-link" href="#emacs">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h3 id="basic">
+ Basic
+ &lt;a class="heading-link" href="#basic">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>windows manager&lt;/p>
@@ -96,57 +115,128 @@
 &lt;li>&lt;code>SPC w m m&lt;/code>: windows maximize the current windows.&lt;/li>
 &lt;li>&lt;code>SPC w u&lt;/code>: undo the windows.&lt;/li>
 &lt;/ul>
-&lt;p>Practice.&lt;/p></description></item><item><title>Career</title><link>https://zkazure.github.io/posts/career_planning/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/career_planning/</guid><description>&lt;h2 id="职业的演变">职业的演变&lt;/h2>
+&lt;p>Practice.&lt;/p></description></item><item><title>Career</title><link>https://zkazure.github.io/posts/career_planning/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/career_planning/</guid><description>&lt;h2 id="职业的演变">
+ 职业的演变
+ &lt;a class="heading-link" href="#%e8%81%8c%e4%b8%9a%e7%9a%84%e6%bc%94%e5%8f%98">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
 &lt;p>流水线的出现是现代岗位快速演变的关键。过去生产一个商品的绝大多数的工作都是由一个人完成的，但是当生产的量不断增加，单人的效率不够高，于是就出现了分工。实际上分工就是资本为了提高效率，提升利润自然想出的方法。
 可以说随着生产量的增加，岗位会不断细分，岗位的数量可以说是无穷无尽的。而本质上岗位是依靠于商品的种类的。
 商品的种类又取决于人类的需求，人类早期的需求从衣食住行到现在的教育医疗，到各种娱乐，人类不断满足自己的要求同时也在不断产生新的需求。
 岗位服务于商品，对于商品到服务包括生产、运输和销售。当今的商品交易量不断增大，后两个环节的重要性不断凸显。&lt;/p>
-&lt;h2 id="行业划分说明">行业划分说明&lt;/h2>
-&lt;p>本篇为下一篇的开头独立出来的一篇，增加了一些细节。&lt;/p>
-&lt;p>由于下一篇存在敏感词，暂时无法更改，所以有部分内容重复。&lt;/p>
-&lt;p>行业划分说明&lt;/p>
-&lt;p>上一篇介绍了职业诞生与演变的规律，大家都知道工作与商品种类也就是行业息息相关，而商品是随着需求诞生的，想知道有多少种行业，我们只需要把需求种类梳理清楚就可以了。
-本篇我们就根据需求和商品整体来梳理一下行业的类型。
-官方有一个《国民经济分类》，划分的非常详细，但对于没接触过的人来说，过于详细了，容易让人无从下手。
-而且官方的这个分类是为了方便管理市场，和我们的目的也不一样，虽然划分思路接近、分类差不太多，但这里为了方便大家理解，我做了整合和简化。
-完整的《国民经济分类》我也放在了配套资料里，大家可以根据自己的需要查看。&lt;/p>
-&lt;p>从需求和商品的角度梳理，大家也更容易理解行业的特点与发展规律。&lt;/p>
-&lt;p>想找到自己感兴趣或具有某个特征的工作，也可以通过找到自己感兴趣、或具有某个特征的商品来实现。&lt;/p>
-&lt;p>比如想找稳定的工作，可以先找到一个稳定的需求，比如医疗，从古至今人们对医疗的需求一直是必须且相对稳定的，区别只在于治疗技术不同。而医疗技术颠覆性的迭代往往比较慢，哪怕AI短时间也很难替代医生需要动手、以及人文关怀的工作。&lt;/p>
-&lt;p>同理，还有教育、存贷（银行）、各种生活必需品等。&lt;/p>
-&lt;p>哪怕公司不行了，需求在，大行业就还是稳定的，换公司还可以找到工作（比如教培模式被打压，有些老师进体制，有些靠过去积累的客户自己干，当然从业人数太多、远超市场需求的话还是会有失业的）。&lt;/p>
-&lt;p>但稳定往往也意味着平均收入低（稳定高收入会导致更多人涌入，从而压低收入，导致高收入不可持续，所以稳定高收入在没有外在条件形成垄断的情况下只会短期存在），这就看个人如何选择了。&lt;/p>
-&lt;p>通过这个方式找工作，至少大方向不会错。
-需要提前说明的是，因为经济是一个整体，彼此交叉，很多界限并不是特别分明，所以文中的分类仅仅是为了方便大家理解，切勿较真。&lt;/p>
-&lt;p>行业分类梳理&lt;/p>
-&lt;p>在开始介绍具体的行业岗位之前，我先给大家整体梳理一下行业分类，大家先有一个整体的概念再去看细节。
-经常说，衣食住行是人离不开的东西，除此之外呢，还有教育、医疗和娱乐，这些是我们需求的根本，几乎所有的商品也都是在此基础上发展出来的。
-首先，为了满足我们的这些需求，几乎都需要物品，可能是衣服、食品、水这些看得到摸得着的，也可能是电、燃气这种看不到摸不到的，也有网络游戏、短视频、电视剧这种非实体的。&lt;/p>
-&lt;p>所有的物品（其实也是我们生活中会接触到和听说的，几乎所有的东西）都是生产或制造出来的。&lt;/p>
-&lt;p>生产出来的属于原材料，也就是商品最原始的材料，比如钢的原材料铁矿石，化纤的原材料石油，这些需要制造业层层加工才会成为我们会接触到的商品，一般属于采矿业，有些通过简单处理就是大家消费的商品（比如宠物、植物、生鲜），一般属于农林牧渔。&lt;/p>
-&lt;p>制造出来的，实体基本属于制造业和建筑工程业，虚拟的集中在文娱传媒与互联网。&lt;/p>
-&lt;p>有些需求，仅仅有物品还不够。比如教育和培训，仅仅有教材是不够的，还需要有老师或教练教；医疗不能只有医疗设备、药品还得有医生诊断、做手术；衣服我们不想穿千篇一律的，可能会找设计师设计；头发也需要有发型师来剪；不想自己做饭了，去外面吃需要有厨师做、有服务员提供服务；去外面旅行，逛景点需要有讲解员，逛主题乐园需要有表演的NPC，住宿需要有前台有保洁，坐火车飞机地铁需要有驾驶员、安检员、乘务员；对职业发展迷茫了需要有职业咨询师。
-这些人的工作几乎不产生物品，提供的都是当场体验的服务，属于服务业。
-上面都是从个人角度出发的服务，公司也免不了需要服务，比如做公司发展方面的咨询、做市场调研、做市场营销方案、在互联网平台或电梯间投放广告、租班车等等。
-这里，我们把面向公司的服务称为企业服务，面向个人的服务称为居民服务。
-除此之外还有几个比较特殊，市场规模比较大，岗位设置比较复杂的服务行业，包括金融行业、贸易/批发/零售行业、旅游业、交通运输仓储业、通信行业。&lt;/p>
-&lt;p>行业的大类我们就梳理完了，下一篇详细介绍每个行业大类下的细分行业与岗位，以及行业特点。
-不感兴趣的行业大家可以跳过对岗位的介绍，但是行业介绍和行业特点部分建议都听一下。我原本想把这部分拆出来单独讲，给大家节省点时间，结果后面发现没法拆。
-因为前面也讲了，经济是一个整体，各个行业之间没办法完全断开联系，尤其是有的行业就是从另一个行业的某个岗位延伸出来的，是为某个岗位提供服务的，所以不讲岗位就没法讲了。
-每个行业多多少少会受到其他行业的影响。很多时候，机会就是其他行业的变化带来的，但这些机会往往就只有那么几年，错过了就只能等下次不知道什么时候会出现的机会，大家遇到了一定要意识到，尽量抓住。&lt;/p>
-&lt;p>比如前些年，互联网公司发展很快，很多公司开始建自己的园区，作为甲方也要有自己负责工程建设以及后续运维的部门，所以就有些人从房地产公司跳到了互联网公司，不仅吃到了互联网发展的红利、还躲过了房地产的下行。未来整体基建的新能源改造应该也会是工程领域的机会。&lt;/p>
-&lt;p>近两年各地大力开展文旅，自媒体是主要的宣传方式，就有很多原本做自媒体的进了体制内或事业单位。&lt;/p>
-&lt;p>我之前专门有一篇文章讲过，相比于看到一个行业有前景，临时抱佛脚学对应行业的专业知识，更有可行性的是，找自己从事的工作和红利行业的交叉点，希望通过对行业和岗位的介绍，大家能真正理解这句话。
-而且很多规律彼此之间有关联，大家看到后面有涉及到前面内容的，可以再返回去看一下，会理解的更深刻。&lt;/p>
-&lt;p>[//]&lt;/p></description></item><item><title>Org Grammar</title><link>https://zkazure.github.io/posts/org-grammar/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-grammar/</guid><description>&lt;p>check out the manual with &lt;code>M-x org-info&lt;/code>&lt;/p>
-&lt;h2 id="frontmatter">frontmatter&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+title&lt;/span>&lt;span style="color:#75715e">: org mode in doom emacs&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+description&lt;/span>&lt;span style="color:#75715e">: an document to demonstrate org mode.&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+author&lt;/span>&lt;span style="color:#75715e">: zka-win&lt;/span>
+&lt;h2 id="行业划分说明">
+ 行业划分说明
+ &lt;a class="heading-link" href="#%e8%a1%8c%e4%b8%9a%e5%88%92%e5%88%86%e8%af%b4%e6%98%8e">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>商品从形态上分，大体可以分为两种——商品和服务。
+行业和需求的种类息息相关。
+本质上就分为两类：制造业；服务业&lt;/p>
+&lt;h2 id="市面上有哪些工作">
+ 市面上有哪些工作
+ &lt;a class="heading-link" href="#%e5%b8%82%e9%9d%a2%e4%b8%8a%e6%9c%89%e5%93%aa%e4%ba%9b%e5%b7%a5%e4%bd%9c">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>当某个职业需要的从业人数足够多，才会出现相应的职业培训（大学的专业往往是滞后、与市场实际需要不匹配的）。&lt;/p>
+&lt;h3 id="通用岗位">
+ 通用岗位
+ &lt;a class="heading-link" href="#%e9%80%9a%e7%94%a8%e5%b2%97%e4%bd%8d">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>管理岗
+&lt;ul>
+&lt;li>有管理权的管理。负责部门工作安排和沟通，比如经理、主管之类的。通常是一层层晋升的。&lt;/li>
+&lt;li>无管理权。负责统筹项目，非常考验为人处世。通常叫做项目经理或者产品经理。产品经理往往同时担任市场调研和产品设计，而项目经理只负责项目进度和各方协调。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>管理、分析岗（一般出现于大公司）
+&lt;ul>
+&lt;li>秘书、助理：干杂活，比如组织开会、整理资料、会议纪要和传话。在有些公司里面会帮领导承担部分管理职责，起草文件、代替领导开会、负责某个项目的落地。常见于央国企和大集团。&lt;/li>
+&lt;li>财务、商业、战略、数据分析等分析岗位：就是负责不同领域的分析工作。财务分析，商业模式、收入盈利方面的分析、自身企业的发展规划和战略投资、对自身各业务经营状况的分析。&lt;/li>
+&lt;li>资产管理：使用红次的盈利去投资增值。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>销售岗
+&lt;ul>
+&lt;li>业务员：面向公司机构的销售。跑业务，拜访客户，去外地。&lt;/li>
+&lt;li>大客户销售、大客户经理：专门负责大公司客户（一般是集团类公司）的销售，因为这种公司，决策流程长，时间长，单价高，在本公司收入占比大，需要专人或者团队跟进。
+比如搜索公司每年面对投入大量广告费的企业，高铁制造企业面对铁路运营企业&lt;/li>
+&lt;li>客户经理：给客户推荐存款、理财、投资和贷款产品的，其他投资顾问和理财顾问都是这一类。&lt;/li>
+&lt;li>商务：负责和商业相关的各种业务。常见于：
+&lt;ol>
+&lt;li>市场部，负责营销渠道开拓，比如线下销售的消费品牌开拓商超、手游公司开拓游戏上架的应用商店。&lt;/li>
+&lt;li>设计、工程、广告营销公司招标的时候负责的标书制作、投标。&lt;/li>
+&lt;li>物业公司负责招租、广告位、广告牌招商的。&lt;/li>
+&lt;li>自媒体行业、综艺电视剧拉广告赞助的。&lt;/li>
+&lt;li>一些行业中负责采购、招标的也会被称作商务。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>运营：销售产品、平台。
+比如负责产品的拉新留存转化的增长、活动运营，电商的商品上下架、商品描述、设置促销活动的电商运营等等。&lt;/li>
+&lt;li>销售、店员：销售产品
+不同行业椰油不同名称。旅游行业的旅游规划师；留学考研咨询师；心理咨询师；教培行业的课程顾问、班主任；金融行业的理财顾问、规划师。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>中介&lt;/li>
+&lt;/ol>
+&lt;p>中介本质上也是销售，售卖不同渠道的商品。
+有的规模大形成了公司，甚至行业，比如房产中介、留学中介、红娘、兼职平台等。还有猎头、艺人经纪人、达人中介、精品投行等。
+有的属于个人，比如医托、保险代理人、星探、帮影视介绍取景地的、帮小孩子报好学校的。&lt;/p></description></item><item><title>English Word</title><link>https://zkazure.github.io/posts/recite_words/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/recite_words/</guid><description>&lt;h2 id="daily-words">
+ daily words &lt;span class="timestamp-wrapper">&lt;span class="timestamp">[2025-02-22 Sat]&lt;/span>&lt;/span>
+ &lt;a class="heading-link" href="#daily-words">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>a slim volume of verse
+UK is the abbreviation of the United Kingdom.
+everyone have to abide by the law
+I really appreciate his complete absorption in his work.
+The proposal boarders on the absurd.
+His words are in accord with his ideas.
+We should first try to acquaint ourselves with the facts.
+We should adhere our opinions.
+He had no warrant forhis suspicion.
+His house is adjacent to mine.
+We heard laughter in the adjoining room.
+He is responsible for the administration of justice.
+We can advertise on the Internet.
+He showed me some aerial photographs.
+I affirm that what he said is true.
+Her blush witnessed her agitation.
+We spent a most agreeable day together.
+Alas!
+The church should have no political alignment.
+The approaching Allied forces.&lt;/p></description></item><item><title>Org Grammar</title><link>https://zkazure.github.io/posts/org-grammar/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-grammar/</guid><description>&lt;p>check out the manual with &lt;code>M-x org-info&lt;/code>&lt;/p>
+&lt;h2 id="frontmatter">
+ frontmatter
+ &lt;a class="heading-link" href="#frontmatter">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="cs">#+title&lt;/span>&lt;span class="c">: org mode in doom emacs&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">#+description&lt;/span>&lt;span class="c">: an document to demonstrate org mode.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">#+author&lt;/span>&lt;span class="c">: zka-win&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code class="language-nil" data-lang="nil">* head 1
 ** 2
 *** 3
-&lt;/code>&lt;/pre>&lt;h2 id="headline">Headline&lt;/h2>
+&lt;/code>&lt;/pre>&lt;h2 id="headline">
+ Headline
+ &lt;a class="heading-link" href="#headline">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
 &lt;p>&lt;code>z z&lt;/code>: scoll to center
 &lt;code>SPC m h&lt;/code>: create a healine under this current healine
 &lt;code>SPC m i&lt;/code>: create item
@@ -180,32 +270,62 @@ We spent a most agreeable day together.
 Alas!
 The church should have no political alignment.
 The approaching Allied forces.&lt;/p></description></item><item><title>snippets</title><link>https://zkazure.github.io/posts/learn-snippets/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/learn-snippets/</guid><description>&lt;p>In the doom emacs the defaut directory is &lt;code>~/.doom.d/snippets/&lt;/code> . And in the the file should be divided into different derctory to triger different file in the corresponding mode.&lt;/p>
-&lt;h2 id="front-matter">front-matter&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">#&lt;/span> -*- mode: snippet -*-
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">#&lt;/span> name: the name to search
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">#&lt;/span> key: the key word to be completed by &amp;lt;tab&amp;gt;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">#&lt;/span> condition: if here is &lt;span style="color:#66d9ef">nil&lt;/span>&lt;span style="color:#f92672">,&lt;/span> the snippet will not be trigger
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">#&lt;/span> --
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="variables">variables&lt;/h2>
-&lt;h3 id="main">main&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span style="display:flex;">&lt;span>${1:default_value}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>${2:label}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>${2:same}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 插入 snippets 后可以使用 &amp;lt;tab&amp;gt; 按顺序跳转。&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 里面的默认值可以用作提示&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 还可以插入相同的值&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>${0}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 这个是最后的光标位置&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>${cursor}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 使用后会自动跳转，也就意味着不能够修改其他的${数字}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="advance">advance&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span style="display:flex;">&lt;span>${CILPBOARD}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 从当前的剪切版中获取信息&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>${SECLRCTION}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 从当前选择的内容中获取信息&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 但是似乎难以决定输入的位置&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; 不如使用 ${CILPBOARD}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="other">Other&lt;/h3>
+&lt;h2 id="front-matter">
+ front-matter
+ &lt;a class="heading-link" href="#front-matter">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">-*-&lt;/span> &lt;span class="nv">mode:&lt;/span> &lt;span class="nv">snippet&lt;/span> &lt;span class="nv">-*-&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">name:&lt;/span> &lt;span class="nv">the&lt;/span> &lt;span class="nv">name&lt;/span> &lt;span class="nv">to&lt;/span> &lt;span class="nv">search&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">key:&lt;/span> &lt;span class="nv">the&lt;/span> &lt;span class="nv">key&lt;/span> &lt;span class="nv">word&lt;/span> &lt;span class="nv">to&lt;/span> &lt;span class="nv">be&lt;/span> &lt;span class="nv">completed&lt;/span> &lt;span class="nv">by&lt;/span> &lt;span class="nv">&amp;lt;tab&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">condition:&lt;/span> &lt;span class="nb">if&lt;/span> &lt;span class="nv">here&lt;/span> &lt;span class="nv">is&lt;/span> &lt;span class="no">nil&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nv">the&lt;/span> &lt;span class="nv">snippet&lt;/span> &lt;span class="nv">will&lt;/span> &lt;span class="nv">not&lt;/span> &lt;span class="nv">be&lt;/span> &lt;span class="nv">trigger&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">--&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="variables">
+ variables
+ &lt;a class="heading-link" href="#variables">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h3 id="main">
+ main
+ &lt;a class="heading-link" href="#main">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">${1:default_value}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">${2:label}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">${2:same}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">;; 插入 snippets 后可以使用 &amp;lt;tab&amp;gt; 按顺序跳转。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">;; 里面的默认值可以用作提示&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">;; 还可以插入相同的值&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">${0}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">;; 这个是最后的光标位置&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">${cursor}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">;; 使用后会自动跳转，也就意味着不能够修改其他的${数字}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="advance">
+ advance
+ &lt;a class="heading-link" href="#advance">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">${CILPBOARD}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">;; 从当前的剪切版中获取信息&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">${SECLRCTION}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">;; 从当前选择的内容中获取信息&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">;; 但是似乎难以决定输入的位置&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">;; 不如使用 ${CILPBOARD}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="other">
+ Other
+ &lt;a class="heading-link" href="#other">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;ul>
 &lt;li>&lt;code>$date&lt;/code>: 日期&lt;/li>
 &lt;li>&lt;code>$time&lt;/code>: 时间&lt;/li>
@@ -213,31 +333,55 @@ The approaching Allied forces.&lt;/p></description></item><item><title>snippets<
 &lt;li>&lt;code>$filepath&lt;/code>&lt;/li>
 &lt;li>&lt;code>`(format-time-string &amp;quot;%Y-%m-%d&amp;quot;)`&lt;/code>: 用于设定时间&lt;/li>
 &lt;/ul>
-&lt;p>可以利用``来调用 elisp&lt;/p></description></item><item><title>summary</title><link>https://zkazure.github.io/posts/org-summary/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-summary/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>可以利用``来调用 elisp&lt;/p></description></item><item><title>summary</title><link>https://zkazure.github.io/posts/org-summary/</link><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-summary/</guid><description>&lt;h2 id="introduction">
+ Introduction
+ &lt;a class="heading-link" href="#introduction">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
 &lt;p>please ignore the &amp;lsquo;,&amp;rsquo; at the beggining.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+TITLE&lt;/span>&lt;span style="color:#75715e">: No matter uppercase or not&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+AUTHOR&lt;/span>&lt;span style="color:#75715e">: me&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="heading">Heading&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>*&lt;span style="font-weight:bold"> the first heading&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">**&lt;/span> second
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">***&lt;/span> third
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">**&lt;/span>&lt;span style="color:#960050;background-color:#1e0010"> TODO&lt;/span> every heading can be a TODO
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="annotation">Annotation&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="cs">#+TITLE&lt;/span>&lt;span class="c">: No matter uppercase or not&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">#+AUTHOR&lt;/span>&lt;span class="c">: me&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="heading">
+ Heading
+ &lt;a class="heading-link" href="#heading">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="gh">*&lt;/span>&lt;span class="gs"> the first heading&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">**&lt;/span> second
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">***&lt;/span> third
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">**&lt;/span>&lt;span class="err"> TODO&lt;/span> every heading can be a TODO
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="annotation">
+ Annotation
+ &lt;a class="heading-link" href="#annotation">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
 &lt;p>&lt;strong>bold&lt;/strong> &lt;em>italic&lt;/em> &lt;span class="underline">underline&lt;/span> &lt;del>delete&lt;/del> &lt;code>code&lt;/code> &lt;code>code&lt;/code>&lt;/p>
-&lt;h2 id="list">List&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>itemize
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- &lt;/span>item1
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">+ &lt;/span>item2
+&lt;h2 id="list">
+ List
+ &lt;a class="heading-link" href="#list">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">itemize
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">- &lt;/span>item1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">+ &lt;/span>item2
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>item&lt;/li>
 &lt;li>item&lt;/li>
 &lt;/ul>
 &lt;!--listend-->
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>enumerate
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">1.&lt;/span> item-1
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">2)&lt;/span> item-2
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A. item-A
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B) item-B
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">enumerate
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">1.&lt;/span> item-1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">2)&lt;/span> item-2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">A. item-A
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">B) item-B
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol>
 &lt;li>first&lt;/li>
 &lt;li>second&lt;/li>
@@ -245,58 +389,322 @@ The approaching Allied forces.&lt;/p></description></item><item><title>snippets<
 &lt;li>bb&lt;/li>
 &lt;/ol>
 &lt;!--listend-->
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [ ]&lt;/span> not started
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- &lt;/span>[-] in process
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [X]&lt;/span> finished
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="k">- [ ]&lt;/span> not started
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">- &lt;/span>[-] in process
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">- [X]&lt;/span> finished
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> not started&lt;/li>
 &lt;li>[-] in process&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> finished&lt;/li>
 &lt;/ul>
-&lt;h2 id="links">Links&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>[[&lt;span style="color:#a6e22e">https://google.com&lt;/span>][&lt;span style="color:#f92672">name&lt;/span>]]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[[&lt;span style="color:#a6e22e">picture path&lt;/span>]]
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://google.com">google&lt;/a>&lt;/p></description></item><item><title>Difference of the format in the org-mind-map</title><link>https://zkazure.github.io/posts/format-in-org-mind-map/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/format-in-org-mind-map/</guid><description>&lt;h2 id="raster">Raster&lt;/h2>
-&lt;h3 id="gif--graphics-interchange-format">GIF(Graphics Interchange Format)&lt;/h3>
+&lt;h2 id="links">
+ Links
+ &lt;a class="heading-link" href="#links">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">[[&lt;span class="na">https://google.com&lt;/span>][&lt;span class="nt">name&lt;/span>]]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[[&lt;span class="na">picture path&lt;/span>]]
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://google.com" class="external-link" target="_blank" rel="noopener">google&lt;/a>&lt;/p></description></item><item><title>Difference of the format in the org-mind-map</title><link>https://zkazure.github.io/posts/format-in-org-mind-map/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/format-in-org-mind-map/</guid><description>&lt;h2 id="raster">
+ Raster
+ &lt;a class="heading-link" href="#raster">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h3 id="gif--graphics-interchange-format">
+ GIF(Graphics Interchange Format)
+ &lt;a class="heading-link" href="#gif--graphics-interchange-format">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;ul>
 &lt;li>low quality&lt;/li>
 &lt;li>support animation and transparent&lt;/li>
 &lt;/ul>
-&lt;h3 id="png--portable-network-graphics">PNG(Portable Network Graphics)&lt;/h3>
+&lt;h3 id="png--portable-network-graphics">
+ PNG(Portable Network Graphics)
+ &lt;a class="heading-link" href="#png--portable-network-graphics">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;ul>
 &lt;li>high quality&lt;/li>
 &lt;li>support transparent&lt;/li>
 &lt;li>suitable for web&lt;/li>
 &lt;li>not ideal for print&lt;/li>
 &lt;/ul>
-&lt;h3 id="jpeg--joint-photographic-experts-group">JPEG(Joint Photographic Experts Group)&lt;/h3>
+&lt;h3 id="jpeg--joint-photographic-experts-group">
+ JPEG(Joint Photographic Experts Group)
+ &lt;a class="heading-link" href="#jpeg--joint-photographic-experts-group">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;ul>
 &lt;li>lossy compression&lt;/li>
 &lt;li>multiple colors, ideal for photographs&lt;/li>
 &lt;li>good for web&lt;/li>
 &lt;/ul>
-&lt;h3 id="tiff--tagged-image-file-format">TIFF(Tagged Image File Format)&lt;/h3>
+&lt;h3 id="tiff--tagged-image-file-format">
+ TIFF(Tagged Image File Format)
+ &lt;a class="heading-link" href="#tiff--tagged-image-file-format">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;ul>
 &lt;li>best quality&lt;/li>
 &lt;li>support layers, transparency.&lt;/li>
 &lt;li>for professional photography or print&lt;/li>
 &lt;li>too large&lt;/li>
 &lt;/ul>
-&lt;h2 id="vector">Vector&lt;/h2>
-&lt;h3 id="eps--encapsulated-postscript">EPS(Encapsulated PostScript)&lt;/h3>
+&lt;h2 id="vector">
+ Vector
+ &lt;a class="heading-link" href="#vector">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h3 id="eps--encapsulated-postscript">
+ EPS(Encapsulated PostScript)
+ &lt;a class="heading-link" href="#eps--encapsulated-postscript">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;ul>
 &lt;li>common used in printing and design&lt;/li>
 &lt;li>scalable without losing quality&lt;/li>
 &lt;li>being replaced&lt;/li>
 &lt;/ul>
-&lt;h3 id="svg--scalable-vector-graphics">SVG(Scalable Vector Graphics)&lt;/h3>
+&lt;h3 id="svg--scalable-vector-graphics">
+ SVG(Scalable Vector Graphics)
+ &lt;a class="heading-link" href="#svg--scalable-vector-graphics">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
 &lt;ul>
 &lt;li>the same as EPS&lt;/li>
 &lt;li>editable with code&lt;/li>
 &lt;li>support animation and interactivity&lt;/li>
 &lt;/ul>
-&lt;h3 id="pdf--portable-document-format">PDF(Portable Document Format)&lt;/h3>
-&lt;p>don&amp;rsquo;t need introductions&lt;/p></description></item><item><title>daily words [2025-02-23 Sun]</title><link>https://zkazure.github.io/posts/word-002/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/word-002/</guid><description>&lt;p>trying to mask her agitation
+&lt;h3 id="pdf--portable-document-format">
+ PDF(Portable Document Format)
+ &lt;a class="heading-link" href="#pdf--portable-document-format">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;p>don&amp;rsquo;t need introductions&lt;/p></description></item><item><title>how to use the ox-hugo</title><link>https://zkazure.github.io/posts/ox-hugo/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/ox-hugo/</guid><description>&lt;p>add blow at first&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="cs">#+hugo_base_dir&lt;/span>&lt;span class="c">: ~/blog&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">#+hugo_section&lt;/span>&lt;span class="c">: /posts/&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">#+hugo_weight&lt;/span>&lt;span class="c">: auto&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">#+hugo_auto_set_lastmod&lt;/span>&lt;span class="c">: t&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>add blow in every article you want to public.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-org" data-lang="org">&lt;span class="line">&lt;span class="cl">&lt;span class="c">:PROPERTIES:
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>&lt;span class="cs">:EXPORT_FILE_NAME: this is the file name
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">:EXPORT_DATE: 2025-02-13
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">&lt;/span>&lt;span class="c">:END:&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>[//]&lt;/p></description></item><item><title>Theorem</title><link>https://zkazure.github.io/posts/array_theorem/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_theorem/</guid><description>&lt;ol>
+&lt;li>数组的下标都是从零开始&lt;/li>
+&lt;li>内存空间地址连续&lt;/li>
+&lt;/ol>
+&lt;!--listend-->
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>&lt;span class="k">using&lt;/span> &lt;span class="k">namespace&lt;/span> &lt;span class="n">std&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">test_arr&lt;/span>&lt;span class="p">(){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">array&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">][&lt;/span>&lt;span class="mi">3&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>&lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">4&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">5&lt;/span>&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">cout&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="o">&amp;amp;&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">][&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="s">&amp;#34; &amp;#34;&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="o">&amp;amp;&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">][&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="s">&amp;#34; &amp;#34;&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="o">&amp;amp;&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">][&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="n">endl&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">cout&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="o">&amp;amp;&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">][&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="s">&amp;#34; &amp;#34;&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="o">&amp;amp;&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">][&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="s">&amp;#34; &amp;#34;&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="o">&amp;amp;&lt;/span>&lt;span class="n">array&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">][&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;&lt;/span> &lt;span class="n">endl&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">(){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">test_arr&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>输出的地址&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-nil" data-lang="nil">0x7ffea7a6d920 0x7ffea7a6d924 0x7ffea7a6d928
+0x7ffea7a6d92c 0x7ffea7a6d930 0x7ffea7a6d934
+&lt;/code>&lt;/pre>&lt;p>首先储存的是 int 类型的数据，所以是4个字节，显然连续。&lt;/p>
+&lt;p>[//]&lt;/p></description></item><item><title>Binary Search</title><link>https://zkazure.github.io/posts/array_binary_search/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_binary_search/</guid><description>&lt;p>利用左右区间书写。
+给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c" data-lang="c">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">search&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="o">*&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">numsSize&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">target&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">left&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">right&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">numsSize&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">middle&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">while&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">left&lt;/span> &lt;span class="o">&amp;lt;=&lt;/span> &lt;span class="n">right&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">middle&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">left&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="n">right&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">nums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">middle&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">target&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">right&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">middle&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span> &lt;span class="k">else&lt;/span> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">middle&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">target&lt;/span> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">left&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">middle&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span> &lt;span class="k">else&lt;/span> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">middle&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="n">target&lt;/span> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">middle&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>[//]&lt;/p></description></item><item><title>Remove Elements</title><link>https://zkazure.github.io/posts/array_remove_elements/</link><pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_remove_elements/</guid><description>&lt;h2 id="problem">
+ Problem
+ &lt;a class="heading-link" href="#problem">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>给你一个数组 nums 和一个值 val，你需要原地移除所有数值等于 val 的元素，并返回移除后数组的新长度。
+不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并原地修改输入数组。
+元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。
+示例 1: 给定 nums = [3,2,2,3], val = 3, 函数应该返回新的长度 2, 并且 nums 中的前两个元素均为 2。 你不需要考虑数组中超出新长度后面的元素。
+示例 2: 给定 nums = [0,1,2,2,3,0,4,2], val = 2, 函数应该返回新的长度 5, 并且 nums 中的前五个元素为 0, 1, 3, 0, 4。&lt;/p>
+&lt;h2 id="theorem">
+ Theorem
+ &lt;a class="heading-link" href="#theorem">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>由于数组是一个连续的地址空间，所以我们是无法真正删除数组的元素的，我们只能够把数组后一位往前移动，覆盖前一位元素。
+&lt;code>earse()&lt;/code> 就是使用的这样的方法，复杂度是 O(n^2)&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="line">&lt;span class="cl">&lt;span class="k">class&lt;/span> &lt;span class="nc">Solution&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">public&lt;/span>&lt;span class="o">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">removeElement&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">vector&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="o">&amp;gt;&amp;amp;&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">val&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">size&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">size&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">size&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">nums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="n">val&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="c1">// 发现需要移除的元素，就将数组集体向前移动一位
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">size&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">j&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">nums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">j&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">j&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">i&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// 因为下标i以后的数值都向前移动了一位，所以i也向前移动一位
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">size&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// 此时数组的大小-1
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">size&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="双指针">
+ 双指针
+ &lt;a class="heading-link" href="#%e5%8f%8c%e6%8c%87%e9%92%88">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>利用两个不同的索引，一个指向需要被覆盖的位置，一个指向需要覆盖的位置。&lt;/p></description></item><item><title>Square of Ordered array</title><link>https://zkazure.github.io/posts/array_sqare_ordered/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_sqare_ordered/</guid><description>&lt;h2 id="problems">
+ Problems
+ &lt;a class="heading-link" href="#problems">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>Given an integer array &lt;code>nums&lt;/code> sorted in non-decreasing order, return a new array consisting of the squares of each number, also sorted in non-decreasing order.&lt;/p>
+&lt;h3 id="example">
+ Example
+ &lt;a class="heading-link" href="#example">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>Input: &lt;code>~nums = [-4,-1,0,3,10]~&lt;/code>&lt;/li>
+&lt;li>Output: &lt;code>[0,1,9,16,100]&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="two-pointer-method">
+ Two-pointer Method
+ &lt;a class="heading-link" href="#two-pointer-method">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>Actually, the biggest number must in the left or the right.
+#+begin_src c
+int* sortedSquares(int* nums, int numsSize, int* returnSize){
+//返回的数组大小就是原数组大小
+*returnSize = numsSize;
+//创建两个指针，right指向数组最后一位元素，left指向数组第一位元素
+int right = numsSize - 1;
+int left = 0;&lt;/p></description></item><item><title>Subarray with minimum length</title><link>https://zkazure.github.io/posts/array_subarr_mini_len/</link><pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_subarr_mini_len/</guid><description>&lt;h2 id="problems">
+ Problems
+ &lt;a class="heading-link" href="#problems">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的连续子数组，并返回其长度。如果不存在符合条件的子数组，返回 0。&lt;/p>
+&lt;h2 id="double-pointer">
+ Double pointer
+ &lt;a class="heading-link" href="#double-pointer">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h3 id="my-version">
+ my version
+ &lt;a class="heading-link" href="#my-version">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c" data-lang="c">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">minSubArrayLen&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">target&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span>&lt;span class="o">*&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">numsSize&lt;/span>&lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">left&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">right&lt;/span> &lt;span class="o">=&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">sum&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span>&lt;span class="o">*&lt;/span> &lt;span class="n">tar&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">len&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">numsSize&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span>&lt;span class="o">*&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">right&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">right&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">numsSize&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">right&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="o">&amp;lt;=&lt;/span> &lt;span class="n">right&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">sum&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">sum&lt;/span>&lt;span class="o">+&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">sum&lt;/span>&lt;span class="o">&amp;gt;=&lt;/span>&lt;span class="n">target&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">right&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">left&lt;/span>&lt;span class="o">+&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">len&lt;/span> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">len&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">right&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">left&lt;/span>&lt;span class="o">+&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">left&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="o">&amp;lt;=&lt;/span>&lt;span class="n">right&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="o">++&lt;/span> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">n&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">left&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">left&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nf">printf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;%a %d&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">*&lt;/span>&lt;span class="n">n&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">len&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="reference">
+ reference
+ &lt;a class="heading-link" href="#reference">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c" data-lang="c">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">minSubArrayLen&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">target&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span>&lt;span class="o">*&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">numsSize&lt;/span>&lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//初始化最小长度为INT_MAX
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">minLength&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">INT_MAX&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">sum&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">left&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">right&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//右边界向右扩展
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">for&lt;/span>&lt;span class="p">(;&lt;/span> &lt;span class="n">right&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">numsSize&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="o">++&lt;/span>&lt;span class="n">right&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">sum&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">right&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//当sum的值大于等于target时，保存长度，并且收缩左边界
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">while&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">sum&lt;/span> &lt;span class="o">&amp;gt;=&lt;/span> &lt;span class="n">target&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">subLength&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">right&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="n">left&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">minLength&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">minLength&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">subLength&lt;/span> &lt;span class="o">?&lt;/span> &lt;span class="nl">minLength&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">subLength&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">sum&lt;/span> &lt;span class="o">-=&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">left&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//若minLength不为INT_MAX，则返回minLnegth
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">return&lt;/span> &lt;span class="n">minLength&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="n">INT_MAX&lt;/span> &lt;span class="o">?&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="o">:&lt;/span> &lt;span class="n">minLength&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在直接加减数组数字，而不是先找数组&lt;/p></description></item><item><title>daily words [2025-02-23 Sun]</title><link>https://zkazure.github.io/posts/word-002/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/word-002/</guid><description>&lt;p>trying to mask her agitation
 An amateur shouldn&amp;rsquo;t play roulette for high stakes.
 He was appointed ambassador to the United States.
 ambient sounds of children in the background.
@@ -311,136 +719,13 @@ The comparison is apt.
 We can&amp;rsquo;t stand this arctic weather.
 It is easier to descend than to ascend.
 I ascertain that he was murdered.
-He asctibes his success to good luck.&lt;/p></description></item><item><title>how to use the ox-hugo</title><link>https://zkazure.github.io/posts/ox-hugo/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/ox-hugo/</guid><description>&lt;p>add blow at first&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+hugo_base_dir&lt;/span>&lt;span style="color:#75715e">: ~/blog&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+hugo_section&lt;/span>&lt;span style="color:#75715e">: /posts/&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+hugo_weight&lt;/span>&lt;span style="color:#75715e">: auto&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#+hugo_auto_set_lastmod&lt;/span>&lt;span style="color:#75715e">: t&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>add blow in every article you want to public.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-org" data-lang="org">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">:PROPERTIES:
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#75715e">:EXPORT_FILE_NAME: this is the file name
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">:EXPORT_DATE: 2025-02-13
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#75715e">:END:&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>[//]&lt;/p></description></item><item><title>Theorem</title><link>https://zkazure.github.io/posts/array_theorem/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_theorem/</guid><description>&lt;ol>
-&lt;li>数组的下标都是从零开始&lt;/li>
-&lt;li>内存空间地址连续&lt;/li>
-&lt;/ol>
-&lt;!--listend-->
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span style="color:#75715e">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">using&lt;/span> &lt;span style="color:#66d9ef">namespace&lt;/span> std;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">void&lt;/span> &lt;span style="color:#a6e22e">test_arr&lt;/span>(){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> array[&lt;span style="color:#ae81ff">2&lt;/span>][&lt;span style="color:#ae81ff">3&lt;/span>] &lt;span style="color:#f92672">=&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {&lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">1&lt;/span>, &lt;span style="color:#ae81ff">2&lt;/span>},
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {&lt;span style="color:#ae81ff">3&lt;/span>, &lt;span style="color:#ae81ff">4&lt;/span>, &lt;span style="color:#ae81ff">5&lt;/span>}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> };
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> cout &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#f92672">&amp;amp;&lt;/span>array[&lt;span style="color:#ae81ff">0&lt;/span>][&lt;span style="color:#ae81ff">0&lt;/span>] &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#f92672">&amp;amp;&lt;/span>array[&lt;span style="color:#ae81ff">0&lt;/span>][&lt;span style="color:#ae81ff">1&lt;/span>] &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#f92672">&amp;amp;&lt;/span>array[&lt;span style="color:#ae81ff">0&lt;/span>][&lt;span style="color:#ae81ff">2&lt;/span>] &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> endl;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> cout &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#f92672">&amp;amp;&lt;/span>array[&lt;span style="color:#ae81ff">1&lt;/span>][&lt;span style="color:#ae81ff">0&lt;/span>] &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#f92672">&amp;amp;&lt;/span>array[&lt;span style="color:#ae81ff">1&lt;/span>][&lt;span style="color:#ae81ff">1&lt;/span>] &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#f92672">&amp;amp;&lt;/span>array[&lt;span style="color:#ae81ff">1&lt;/span>][&lt;span style="color:#ae81ff">2&lt;/span>] &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> endl;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> test_arr();
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>输出的地址&lt;/p>
-&lt;pre tabindex="0">&lt;code class="language-nil" data-lang="nil">0x7ffea7a6d920 0x7ffea7a6d924 0x7ffea7a6d928
-0x7ffea7a6d92c 0x7ffea7a6d930 0x7ffea7a6d934
-&lt;/code>&lt;/pre>&lt;p>首先储存的是 int 类型的数据，所以是4个字节，显然连续。&lt;/p>
-&lt;p>[//]&lt;/p></description></item><item><title>Binary Search</title><link>https://zkazure.github.io/posts/array_binary_search/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_binary_search/</guid><description>&lt;p>利用左右区间书写。
-给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">search&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span>&lt;span style="color:#f92672">*&lt;/span> nums, &lt;span style="color:#66d9ef">int&lt;/span> numsSize, &lt;span style="color:#66d9ef">int&lt;/span> target) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> left &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> right &lt;span style="color:#f92672">=&lt;/span> numsSize &lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> middle &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">while&lt;/span> (left &lt;span style="color:#f92672">&amp;lt;=&lt;/span> right) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> middle &lt;span style="color:#f92672">=&lt;/span> (left &lt;span style="color:#f92672">+&lt;/span> right)&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (nums[middle] &lt;span style="color:#f92672">&amp;gt;&lt;/span> target) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> right &lt;span style="color:#f92672">=&lt;/span> middle &lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> ( nums[middle] &lt;span style="color:#f92672">&amp;lt;&lt;/span> target ) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> left &lt;span style="color:#f92672">=&lt;/span> middle &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> ( nums[middle] &lt;span style="color:#f92672">==&lt;/span> target ) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> middle;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>[//]&lt;/p></description></item><item><title>Remove Elements</title><link>https://zkazure.github.io/posts/array_remove_elements/</link><pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_remove_elements/</guid><description>&lt;h2 id="problem">Problem&lt;/h2>
-&lt;p>给你一个数组 nums 和一个值 val，你需要原地移除所有数值等于 val 的元素，并返回移除后数组的新长度。
-不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并原地修改输入数组。
-元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。
-示例 1: 给定 nums = [3,2,2,3], val = 3, 函数应该返回新的长度 2, 并且 nums 中的前两个元素均为 2。 你不需要考虑数组中超出新长度后面的元素。
-示例 2: 给定 nums = [0,1,2,2,3,0,4,2], val = 2, 函数应该返回新的长度 5, 并且 nums 中的前五个元素为 0, 1, 3, 0, 4。&lt;/p>
-&lt;h2 id="theorem">Theorem&lt;/h2>
-&lt;p>由于数组是一个连续的地址空间，所以我们是无法真正删除数组的元素的，我们只能够把数组后一位往前移动，覆盖前一位元素。
-&lt;code>earse()&lt;/code> 就是使用的这样的方法，复杂度是 O(n^2)&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Solution&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> removeElement(vector&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span>&lt;span style="color:#f92672">&amp;gt;&amp;amp;&lt;/span> nums, &lt;span style="color:#66d9ef">int&lt;/span> val) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> size &lt;span style="color:#f92672">=&lt;/span> nums.size();
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;&lt;/span> size; i&lt;span style="color:#f92672">++&lt;/span>) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (nums[i] &lt;span style="color:#f92672">==&lt;/span> val) { &lt;span style="color:#75715e">// 发现需要移除的元素，就将数组集体向前移动一位
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> j &lt;span style="color:#f92672">=&lt;/span> i &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>; j &lt;span style="color:#f92672">&amp;lt;&lt;/span> size; j&lt;span style="color:#f92672">++&lt;/span>) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> nums[j &lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>] &lt;span style="color:#f92672">=&lt;/span> nums[j];
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i&lt;span style="color:#f92672">--&lt;/span>; &lt;span style="color:#75715e">// 因为下标i以后的数值都向前移动了一位，所以i也向前移动一位
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> size&lt;span style="color:#f92672">--&lt;/span>; &lt;span style="color:#75715e">// 此时数组的大小-1
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> size;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>};
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="双指针">双指针&lt;/h2>
-&lt;p>利用两个不同的索引，一个指向需要被覆盖的位置，一个指向需要覆盖的位置。&lt;/p></description></item><item><title>Subarray with minimum length</title><link>https://zkazure.github.io/posts/array_subarr_mini_len/</link><pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_subarr_mini_len/</guid><description>&lt;h2 id="problems">Problems&lt;/h2>
-&lt;p>给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的连续子数组，并返回其长度。如果不存在符合条件的子数组，返回 0。&lt;/p>
-&lt;h2 id="double-pointer">Double pointer&lt;/h2>
-&lt;h3 id="my-version">my version&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">minSubArrayLen&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> target, &lt;span style="color:#66d9ef">int&lt;/span>&lt;span style="color:#f92672">*&lt;/span> nums, &lt;span style="color:#66d9ef">int&lt;/span> numsSize){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> left&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> right &lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> sum &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span>&lt;span style="color:#f92672">*&lt;/span> tar;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> len &lt;span style="color:#f92672">=&lt;/span> numsSize;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span>&lt;span style="color:#f92672">*&lt;/span> n;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(right&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>; right &lt;span style="color:#f92672">&amp;lt;&lt;/span> numsSize; right&lt;span style="color:#f92672">++&lt;/span>) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>; i&lt;span style="color:#f92672">&amp;lt;=&lt;/span> right; i&lt;span style="color:#f92672">++&lt;/span>){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sum &lt;span style="color:#f92672">=&lt;/span> sum&lt;span style="color:#f92672">+&lt;/span> nums[i];
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (sum&lt;span style="color:#f92672">&amp;gt;=&lt;/span>target) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> ( (right&lt;span style="color:#f92672">-&lt;/span>left&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>) &lt;span style="color:#f92672">&amp;lt;&lt;/span> len ) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> len &lt;span style="color:#f92672">=&lt;/span> right&lt;span style="color:#f92672">-&lt;/span>left&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>( i &lt;span style="color:#f92672">=&lt;/span> left; i&lt;span style="color:#f92672">&amp;lt;=&lt;/span>right; i&lt;span style="color:#f92672">++&lt;/span> ) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> n[i&lt;span style="color:#f92672">-&lt;/span>left] &lt;span style="color:#f92672">=&lt;/span> nums[i];
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> left&lt;span style="color:#f92672">++&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%a %d&amp;#34;&lt;/span>, &lt;span style="color:#f92672">*&lt;/span>n, len);
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="reference">reference&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">minSubArrayLen&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> target, &lt;span style="color:#66d9ef">int&lt;/span>&lt;span style="color:#f92672">*&lt;/span> nums, &lt;span style="color:#66d9ef">int&lt;/span> numsSize){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//初始化最小长度为INT_MAX
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> minLength &lt;span style="color:#f92672">=&lt;/span> INT_MAX;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> sum &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> left &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>, right &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//右边界向右扩展
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span>(; right &lt;span style="color:#f92672">&amp;lt;&lt;/span> numsSize; &lt;span style="color:#f92672">++&lt;/span>right) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sum &lt;span style="color:#f92672">+=&lt;/span> nums[right];
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//当sum的值大于等于target时，保存长度，并且收缩左边界
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">while&lt;/span>(sum &lt;span style="color:#f92672">&amp;gt;=&lt;/span> target) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> subLength &lt;span style="color:#f92672">=&lt;/span> right &lt;span style="color:#f92672">-&lt;/span> left &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> minLength &lt;span style="color:#f92672">=&lt;/span> minLength &lt;span style="color:#f92672">&amp;lt;&lt;/span> subLength &lt;span style="color:#f92672">?&lt;/span> minLength : subLength;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sum &lt;span style="color:#f92672">-=&lt;/span> nums[left&lt;span style="color:#f92672">++&lt;/span>];
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//若minLength不为INT_MAX，则返回minLnegth
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">return&lt;/span> minLength &lt;span style="color:#f92672">==&lt;/span> INT_MAX &lt;span style="color:#f92672">?&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#f92672">:&lt;/span> minLength;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在直接加减数组数字，而不是先找数组&lt;/p></description></item><item><title>hugo with emacs</title><link>https://zkazure.github.io/posts/hotkeys/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/hotkeys/</guid><description>&lt;h2 id="title">Title&lt;/h2>
+He asctibes his success to good luck.&lt;/p></description></item><item><title>hugo with emacs</title><link>https://zkazure.github.io/posts/hotkeys/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/hotkeys/</guid><description>&lt;h2 id="title">
+ Title
+ &lt;a class="heading-link" href="#title">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
 &lt;p>good
 ;;;;;;;;;;%?;;;;;;;;;%;;;;;;;;;;;;;;;;;;;;;;;;*@+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;%?;;;;;;;;;?;;;;;;;;;;;;;;;;;;;;;;;;*#+;;;;;;;;;;;;;;;;;;;;;::;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -565,6 +850,79 @@ S%*?*?S*???*S%*??*#?*S+;;;;;*????????????????????*??*??????*?%*???*;;:;;:::+*+?*
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;&lt;/p></description></item><item><title>exp_test</title><link>https://zkazure.github.io/posts/exp_test/</link><pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/exp_test/</guid><description>&lt;h2 id="正文">正文&lt;/h2>
-&lt;p>is it work?&lt;/p></description></item><item><title>Test the export</title><link>https://zkazure.github.io/posts/export/</link><pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/export/</guid><description>&lt;h2 id="正文">正文&lt;/h2>
-&lt;p>How the export work, what happened&lt;/p></description></item><item><title>Test</title><link>https://zkazure.github.io/posts/test/</link><pubDate>Sun, 02 Feb 2025 01:03:01 +0800</pubDate><guid>https://zkazure.github.io/posts/test/</guid><description>&lt;p>why it didn&amp;rsquo;t release anything&lt;/p></description></item><item><title>Learn org mode</title><link>https://zkazure.github.io/posts/org-mode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-mode/</guid><description>An org document to demostrate org mode on video</description></item></channel></rss>
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;&lt;/p></description></item><item><title>exp_test</title><link>https://zkazure.github.io/posts/exp_test/</link><pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/exp_test/</guid><description>&lt;h2 id="正文">
+ 正文
+ &lt;a class="heading-link" href="#%e6%ad%a3%e6%96%87">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>is it work?&lt;/p></description></item><item><title>Test the export</title><link>https://zkazure.github.io/posts/export/</link><pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/export/</guid><description>&lt;h2 id="正文">
+ 正文
+ &lt;a class="heading-link" href="#%e6%ad%a3%e6%96%87">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>How the export work, what happened&lt;/p></description></item><item><title>Test</title><link>https://zkazure.github.io/posts/test/</link><pubDate>Sun, 02 Feb 2025 01:03:01 +0800</pubDate><guid>https://zkazure.github.io/posts/test/</guid><description>&lt;p>why it didn&amp;rsquo;t release anything&lt;/p></description></item><item><title>First</title><link>https://zkazure.github.io/posts/first/</link><pubDate>Wed, 06 Mar 2024 12:46:36 +0000</pubDate><guid>https://zkazure.github.io/posts/first/</guid><description>&lt;p>This is some content.&lt;/p></description></item><item><title>Learn org mode</title><link>https://zkazure.github.io/posts/org-mode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-mode/</guid><description>&lt;h2 id="head">
+ Head
+ &lt;a class="heading-link" href="#head">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h3 id="spc-m-h">
+ SPC-m-h
+ &lt;a class="heading-link" href="#spc-m-h">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;h4 id="three">
+ three
+ &lt;a class="heading-link" href="#three">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h4>
+&lt;!--list-separator-->
+&lt;ul>
+&lt;li>
+&lt;p>four&lt;/p>
+ &lt;!--list-separator-->
+&lt;ul>
+&lt;li>five&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="getting-started-in-org-mode">
+ Getting started in org mode
+ &lt;a class="heading-link" href="#getting-started-in-org-mode">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>read org mode manual whth M-x org-info
+org-toggle-heading: SPC-m-h
+org-toggle-item&lt;/p>
+&lt;h2 id="tab">
+ tab
+ &lt;a class="heading-link" href="#tab">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="motion">
+ motion
+ &lt;a class="heading-link" href="#motion">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>g-j and g-k move from the same title&lt;/li>
+&lt;li>g-h and g-l move frome dfferent&lt;/li>
+&lt;li>M-h and M-l move in and out&lt;/li>
+&lt;li>M-j and M-k move up and down&lt;/li>
+&lt;/ul>
+&lt;p>Sat Feb 1 13:05:02 2025 a&lt;/p></description></item></channel></rss>
