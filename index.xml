@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://zkazure.github.io/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 11 Mar 2025 18:37:49 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>&lt;h2 id="动作库">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://zkazure.github.io/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 11 Mar 2025 20:22:54 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>&lt;h2 id="动作库">
  动作库
  &lt;a class="heading-link" href="#%e5%8a%a8%e4%bd%9c%e5%ba%93">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
@@ -290,16 +290,14 @@ Ubuntu 22.04 LTS&lt;/p>
 &lt;li>a 8 GB usb at least&lt;/li>
 &lt;li>a new SSD&lt;/li>
 &lt;/ul>
-&lt;h3 id="automatically-mount-other-disks">
- Automatically Mount other disks
- &lt;a class="heading-link" href="#automatically-mount-other-disks">
+&lt;h3 id="my-disk-split">
+ My Disk Split
+ &lt;a class="heading-link" href="#my-disk-split">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
  &lt;span class="sr-only">Link to heading&lt;/span>
  &lt;/a>
 &lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-zsh" data-lang="zsh">&lt;span class="line">&lt;span class="cl">sudo fdisk -l
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo blkid
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>find your disk name, then find the UUID&lt;/p></description></item><item><title>how to add a table of content to hugo</title><link>https://zkazure.github.io/posts/toc-in-hugo/</link><pubDate>Tue, 11 Mar 2025 18:14:00 +0800</pubDate><guid>https://zkazure.github.io/posts/toc-in-hugo/</guid><description>&lt;p>Here I use the official way.&lt;/p>
+&lt;p>my disk is 1 TB&lt;/p></description></item><item><title>how to add a table of content to hugo</title><link>https://zkazure.github.io/posts/toc-in-hugo/</link><pubDate>Tue, 11 Mar 2025 18:14:00 +0800</pubDate><guid>https://zkazure.github.io/posts/toc-in-hugo/</guid><description>&lt;p>Here I use the official way.&lt;/p>
 &lt;h2 id="enable-official-toc">
  Enable official TOC
  &lt;a class="heading-link" href="#enable-official-toc">
@@ -638,7 +636,16 @@ The approaching Allied forces.&lt;/p></description></item><item><title>snippets<
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>&lt;span class="cs">:EXPORT_FILE_NAME: this is the file name
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">:EXPORT_DATE: 2025-02-13
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">&lt;/span>&lt;span class="c">:END:&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Theorem</title><link>https://zkazure.github.io/posts/array_theorem/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_theorem/</guid><description>&lt;ol>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Automatically Mount other disks of windows in the Ubuntu</title><link>https://zkazure.github.io/posts/mount-disks-in-ubuntu/</link><pubDate>Tue, 11 Mar 2025 20:22:00 +0800</pubDate><guid>https://zkazure.github.io/posts/mount-disks-in-ubuntu/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-zsh" data-lang="zsh">&lt;span class="line">&lt;span class="cl">sudo fdisk -l
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo blkid
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>find your disk name, then find the UUID&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-zsh" data-lang="zsh">&lt;span class="line">&lt;span class="cl">sudo vim /etc/fstab
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>finally,&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-nil" data-lang="nil">UUID=&amp;lt;UUID&amp;gt; &amp;lt;mount point&amp;gt; &amp;lt;type&amp;gt; &amp;lt;options&amp;gt; &amp;lt;dump&amp;gt; &amp;lt;pass&amp;gt;
+
+# the windows C was on /dev/nvme0n1p3
+UUID=&amp;lt;UUID&amp;gt; /winc ntfs defaults 0 2
+&lt;/code>&lt;/pre></description></item><item><title>Theorem</title><link>https://zkazure.github.io/posts/array_theorem/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_theorem/</guid><description>&lt;ol>
 &lt;li>数组的下标都是从零开始&lt;/li>
 &lt;li>内存空间地址连续&lt;/li>
 &lt;/ol>
