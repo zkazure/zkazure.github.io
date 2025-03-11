@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My New Hugo Site</title><link>https://zkazure.github.io/posts/</link><description>Recent content in Posts on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 11 Mar 2025 18:20:09 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>&lt;h2 id="动作库">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My New Hugo Site</title><link>https://zkazure.github.io/posts/</link><description>Recent content in Posts on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 11 Mar 2025 18:37:49 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>&lt;h2 id="动作库">
  动作库
  &lt;a class="heading-link" href="#%e5%8a%a8%e4%bd%9c%e5%ba%93">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
@@ -115,7 +115,51 @@
 &lt;li>&lt;code>SPC w m m&lt;/code>: windows maximize the current windows.&lt;/li>
 &lt;li>&lt;code>SPC w u&lt;/code>: undo the windows.&lt;/li>
 &lt;/ul>
-&lt;p>Practice.&lt;/p></description></item><item><title>Career</title><link>https://zkazure.github.io/posts/career_planning/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/career_planning/</guid><description>&lt;h2 id="职业的演变">
+&lt;p>Practice.&lt;/p></description></item><item><title>Make samsung tablet fluent</title><link>https://zkazure.github.io/posts/how-to-make-samsung-tablet-more-fluent/</link><pubDate>Sun, 09 Mar 2025 00:34:00 +0800</pubDate><guid>https://zkazure.github.io/posts/how-to-make-samsung-tablet-more-fluent/</guid><description>&lt;p>SCHEDULED: &lt;span class="timestamp-wrapper">&lt;span class="timestamp">&amp;lt;2025-03-08 Sat 23:00&amp;gt;&lt;/span>&lt;/span>
+My tablet is a little slow, blow is some steps to make it more fluent. My tablet actually perform better.&lt;/p>
+&lt;h2 id="version">
+ Version
+ &lt;a class="heading-link" href="#version">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>Samsung s7 fe with 4+64G.&lt;/p>
+&lt;h2 id="enable-the-developer-options">
+ Enable the developer options
+ &lt;a class="heading-link" href="#enable-the-developer-options">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>In the Setting.&lt;/li>
+&lt;li>tap the &lt;code>About tablet&lt;/code>&lt;/li>
+&lt;li>tap &lt;code>Software information&lt;/code>&lt;/li>
+&lt;li>tap &lt;code>Build number&lt;/code> for 5 times.&lt;/li>
+&lt;/ol>
+&lt;h2 id="setting-in-the-developer-options">
+ Setting in the Developer options
+ &lt;a class="heading-link" href="#setting-in-the-developer-options">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>under the &lt;code>Debugging&lt;/code>, enable &lt;code>Enable GPU debug layers&lt;/code>&lt;/li>
+&lt;li>under the &lt;code>Hardware accelerated rendering&lt;/code>, enable &lt;code>Disable HW overlays&lt;/code>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;li>under the &lt;code>Apps&lt;/code>, enable
+&lt;ul>
+&lt;li>&lt;code>Suspend execution for cached apps&lt;/code>&lt;/li>
+&lt;li>set the &lt;code>Background process limit&lt;/code> to &lt;code>At most 2 process&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>: This options seem to be disabled automatically after reboot.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item><item><title>Career</title><link>https://zkazure.github.io/posts/career_planning/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/career_planning/</guid><description>&lt;h2 id="职业的演变">
  职业的演变
  &lt;a class="heading-link" href="#%e8%81%8c%e4%b8%9a%e7%9a%84%e6%bc%94%e5%8f%98">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
@@ -594,7 +638,7 @@ The approaching Allied forces.&lt;/p></description></item><item><title>snippets<
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>&lt;span class="cs">:EXPORT_FILE_NAME: this is the file name
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">:EXPORT_DATE: 2025-02-13
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">&lt;/span>&lt;span class="c">:END:&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>[//]&lt;/p></description></item><item><title>Theorem</title><link>https://zkazure.github.io/posts/array_theorem/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_theorem/</guid><description>&lt;ol>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Theorem</title><link>https://zkazure.github.io/posts/array_theorem/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_theorem/</guid><description>&lt;ol>
 &lt;li>数组的下标都是从零开始&lt;/li>
 &lt;li>内存空间地址连续&lt;/li>
 &lt;/ol>
@@ -618,8 +662,7 @@ The approaching Allied forces.&lt;/p></description></item><item><title>snippets<
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>输出的地址&lt;/p>
 &lt;pre tabindex="0">&lt;code class="language-nil" data-lang="nil">0x7ffea7a6d920 0x7ffea7a6d924 0x7ffea7a6d928
 0x7ffea7a6d92c 0x7ffea7a6d930 0x7ffea7a6d934
-&lt;/code>&lt;/pre>&lt;p>首先储存的是 int 类型的数据，所以是4个字节，显然连续。&lt;/p>
-&lt;p>[//]&lt;/p></description></item><item><title>Binary Search</title><link>https://zkazure.github.io/posts/array_binary_search/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_binary_search/</guid><description>&lt;p>利用左右区间书写。
+&lt;/code>&lt;/pre>&lt;p>首先储存的是 int 类型的数据，所以是4个字节，显然连续。&lt;/p></description></item><item><title>Binary Search</title><link>https://zkazure.github.io/posts/array_binary_search/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_binary_search/</guid><description>&lt;p>利用左右区间书写。
 给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c" data-lang="c">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">search&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span>&lt;span class="o">*&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">numsSize&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">target&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">left&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
@@ -637,7 +680,7 @@ The approaching Allied forces.&lt;/p></description></item><item><title>snippets<
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>[//]&lt;/p></description></item><item><title>Remove Elements</title><link>https://zkazure.github.io/posts/array_remove_elements/</link><pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_remove_elements/</guid><description>&lt;h2 id="problem">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Remove Elements</title><link>https://zkazure.github.io/posts/array_remove_elements/</link><pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/array_remove_elements/</guid><description>&lt;h2 id="problem">
  Problem
  &lt;a class="heading-link" href="#problem">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
@@ -819,7 +862,7 @@ int left = 0;&lt;/p></description></item><item><title>Subarray with minimum leng
  &lt;span class="sr-only">Link to heading&lt;/span>
  &lt;/a>
 &lt;/h3>
-&lt;p>In the Ubuntu, search for &lt;code>Settings&lt;/code>, click &lt;code>Keyboard&lt;/code> tab, then &lt;code>Add Input Source&lt;/code>, Chinese, Chinese(Rime).&lt;/p></description></item><item><title>Fix hp 1020 printer didn't work in the Ubuntu 24.04</title><link>https://zkazure.github.io/posts/printer_ubuntu/</link><pubDate>Sat, 08 Mar 2025 23:00:00 +0800</pubDate><guid>https://zkazure.github.io/posts/printer_ubuntu/</guid><description>&lt;h2 id="problem">
+&lt;p>In the Ubuntu, search for &lt;code>Settings&lt;/code>, click &lt;code>Keyboard&lt;/code> tab, then &lt;code>Add Input Source&lt;/code>, Chinese, Chinese(Rime).&lt;/p></description></item><item><title>Fix hp 1020 printer didn't work in the Ubuntu 24.04</title><link>https://zkazure.github.io/posts/printer_ubuntu/</link><pubDate>Sun, 09 Mar 2025 00:21:00 +0800</pubDate><guid>https://zkazure.github.io/posts/printer_ubuntu/</guid><description>&lt;h2 id="problem">
  Problem
  &lt;a class="heading-link" href="#problem">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>

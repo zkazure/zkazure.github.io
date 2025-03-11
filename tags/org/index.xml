@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Org on My New Hugo Site</title><link>https://zkazure.github.io/tags/org/</link><description>Recent content in Org on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 06 Mar 2025 16:37:16 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/tags/org/index.xml" rel="self" type="application/rss+xml"/><item><title>Org Grammar</title><link>https://zkazure.github.io/posts/org-grammar/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-grammar/</guid><description>&lt;p>check out the manual with &lt;code>M-x org-info&lt;/code>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Org on My New Hugo Site</title><link>https://zkazure.github.io/tags/org/</link><description>Recent content in Org on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 11 Mar 2025 18:37:48 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/tags/org/index.xml" rel="self" type="application/rss+xml"/><item><title>Org Grammar</title><link>https://zkazure.github.io/posts/org-grammar/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/org-grammar/</guid><description>&lt;p>check out the manual with &lt;code>M-x org-info&lt;/code>&lt;/p>
 &lt;h2 id="frontmatter">
  frontmatter
  &lt;a class="heading-link" href="#frontmatter">
@@ -209,4 +209,4 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>&lt;span class="cs">:EXPORT_FILE_NAME: this is the file name
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">:EXPORT_DATE: 2025-02-13
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cs">&lt;/span>&lt;span class="c">:END:&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>[//]&lt;/p></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
