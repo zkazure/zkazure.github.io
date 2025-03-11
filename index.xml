@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://zkazure.github.io/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 11 Mar 2025 16:31:42 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>&lt;h2 id="动作库">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://zkazure.github.io/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 11 Mar 2025 16:46:15 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>&lt;h2 id="动作库">
  动作库
  &lt;a class="heading-link" href="#%e5%8a%a8%e4%bd%9c%e5%ba%93">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
@@ -223,8 +223,9 @@ The approaching Allied forces.&lt;/p></description></item><item><title>Dual Ubun
  &lt;span class="sr-only">Link to heading&lt;/span>
  &lt;/a>
 &lt;/h2>
+&lt;p>refer to &lt;a href="https://www.bilibili.com/opus/899380230688342018?from=search&amp;amp;spm_id_from=333.337.0.0%20" class="external-link" target="_blank" rel="noopener">Dual Ubuntu 22.04&lt;/a>&lt;/p>
 &lt;h3 id="version-info">
- &lt;span class="org-todo done _X_">[X]&lt;/span> Version info
+ Version info
  &lt;a class="heading-link" href="#version-info">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
  &lt;span class="sr-only">Link to heading&lt;/span>
@@ -235,7 +236,7 @@ version information:
 windows 11 24H2
 Ubuntu 22.04 LTS&lt;/p>
 &lt;h3 id="preparation">
- &lt;span class="org-todo done _X_">[X]&lt;/span> Preparation
+ Preparation
  &lt;a class="heading-link" href="#preparation">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
  &lt;span class="sr-only">Link to heading&lt;/span>
@@ -246,7 +247,7 @@ Ubuntu 22.04 LTS&lt;/p>
 &lt;li>a new SSD&lt;/li>
 &lt;/ul>
 &lt;h3 id="automatically-mount-other-disks">
- &lt;span class="org-todo done _X_">[X]&lt;/span> Automatically Mount other disks
+ Automatically Mount other disks
  &lt;a class="heading-link" href="#automatically-mount-other-disks">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
  &lt;span class="sr-only">Link to heading&lt;/span>
