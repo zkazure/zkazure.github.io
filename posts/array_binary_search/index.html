@@ -28,7 +28,7 @@ One-minute read</span></div><div class=categories><i class="fa-solid fa-folder" 
 <a href=/categories/work/>Work</a></div><div class=tags><i class="fa-solid fa-tag" aria-hidden=true></i>
 <span class=tag><a href=/tags/leetcode/>Leetcode</a>
 </span><span class=separator>•</span>
-<span class=tag><a href=/tags/array/>Array</a></span></div></div></header><div class=post-content><p>利用左右区间书写。
+<span class=tag><a href=/tags/array/>Array</a></span></div></div></header><div class=post-content><div class=toc-container><nav id=TableOfContents></nav></div><p>利用左右区间书写。
 给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-c data-lang=c><span class=line><span class=cl><span class=kt>int</span> <span class=nf>search</span><span class=p>(</span><span class=kt>int</span><span class=o>*</span> <span class=n>nums</span><span class=p>,</span> <span class=kt>int</span> <span class=n>numsSize</span><span class=p>,</span> <span class=kt>int</span> <span class=n>target</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>    <span class=kt>int</span> <span class=n>left</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>    <span class=kt>int</span> <span class=n>right</span> <span class=o>=</span> <span class=n>numsSize</span> <span class=o>-</span> <span class=mi>1</span><span class=p>;</span>
