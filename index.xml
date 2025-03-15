@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://zkazure.github.io/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 12 Mar 2025 20:35:13 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>&lt;h2 id="动作库">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://zkazure.github.io/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 15 Mar 2025 20:29:18 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Set Up WSL from Zero</title><link>https://zkazure.github.io/posts/wsl-debian-set-up/</link><pubDate>Sat, 15 Mar 2025 20:28:00 +0800</pubDate><guid>https://zkazure.github.io/posts/wsl-debian-set-up/</guid><description>&lt;h2 id="install">
+ Install
+ &lt;a class="heading-link" href="#install">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl">&lt;span class="n">wsl&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">-install&lt;/span> &lt;span class="n">Debian&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">wsl&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="configuration">
+ Configuration
+ &lt;a class="heading-link" href="#configuration">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo mv ~/../../etc/apt/sources.list ~/../../etc/apt/sources.list.backup
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo nano ~/../../etc/apt/sources.list
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>change the content if you are in China and have no vpn.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl">deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">deb http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">deb-src http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo apt update -y
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt install apt-transport-https ca-certificates
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo nano /etc/apt/sources.list
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Change all the &lt;code>http://&lt;/code> to &lt;code>https://&lt;/code> in the &lt;code>/etc/apt/sources.list&lt;/code>&lt;/p></description></item><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>&lt;h2 id="动作库">
  动作库
  &lt;a class="heading-link" href="#%e5%8a%a8%e4%bd%9c%e5%ba%93">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
@@ -234,7 +268,7 @@ My tablet is a little slow, blow is some steps to make it more fluent. My tablet
 &lt;/ol>
 &lt;p>中介本质上也是销售，售卖不同渠道的商品。
 有的规模大形成了公司，甚至行业，比如房产中介、留学中介、红娘、兼职平台等。还有猎头、艺人经纪人、达人中介、精品投行等。
-有的属于个人，比如医托、保险代理人、星探、帮影视介绍取景地的、帮小孩子报好学校的。&lt;/p></description></item><item><title>English Word</title><link>https://zkazure.github.io/posts/recite_words/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/recite_words/</guid><description>&lt;h2 id="daily-words">
+有的属于个人，比如医托、保险代理人、星探、帮影视介绍取景地的、帮小孩子报好学校的。&lt;/p></description></item><item><title>Hotkey in Zoerto reading</title><link>https://zkazure.github.io/posts/zotero-hotkey/</link><pubDate>Thu, 13 Mar 2025 19:46:00 +0800</pubDate><guid>https://zkazure.github.io/posts/zotero-hotkey/</guid><description>&lt;p>&lt;code>alt&lt;/code> + NUM is the fundamental tools.&lt;/p></description></item><item><title>English Word</title><link>https://zkazure.github.io/posts/recite_words/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/recite_words/</guid><description>&lt;h2 id="daily-words">
  daily words &lt;span class="timestamp-wrapper">&lt;span class="timestamp">[2025-02-22 Sat]&lt;/span>&lt;/span>
  &lt;a class="heading-link" href="#daily-words">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
@@ -260,7 +294,100 @@ Her blush witnessed her agitation.
 We spent a most agreeable day together.
 Alas!
 The church should have no political alignment.
-The approaching Allied forces.&lt;/p></description></item><item><title>Dual Ubuntu with win11</title><link>https://zkazure.github.io/posts/dual_ubuntu/</link><pubDate>Tue, 11 Mar 2025 16:31:00 +0800</pubDate><guid>https://zkazure.github.io/posts/dual_ubuntu/</guid><description>&lt;h2 id="this-is-the-dual-ubuntu-set-up-progress">
+The approaching Allied forces.&lt;/p></description></item><item><title>Learning English through videos</title><link>https://zkazure.github.io/posts/english-anki-mpv/</link><pubDate>Thu, 13 Mar 2025 19:46:00 +0800</pubDate><guid>https://zkazure.github.io/posts/english-anki-mpv/</guid><description>&lt;p>I try to learn English through video, rather than reciting the words. Fortunately, there is someone combine tools together.&lt;/p>
+&lt;h2 id="software-and-website">
+ Software and website
+ &lt;a class="heading-link" href="#software-and-website">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>mpv&lt;/li>
+&lt;li>anki&lt;/li>
+&lt;li>&lt;a href="https://yomitan.wiki/" class="external-link" target="_blank" rel="noopener">yomitan&lt;/a>&lt;/li>
+&lt;li>ACG Helper&lt;/li>
+&lt;li>&lt;a href="https://downsub.com/" class="external-link" target="_blank" rel="noopener">downsub&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.4kdownload.com/-54" class="external-link" target="_blank" rel="noopener">4kdownload&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="combine-mpv-and-anki">
+ Combine mpv and anki
+ &lt;a class="heading-link" href="#combine-mpv-and-anki">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h3 id="get-yomitan">
+ Get yomitan&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>
+ &lt;a class="heading-link" href="#get-yomitan">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;h3 id="get-mpv">
+ Get mpv&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>
+ &lt;a class="heading-link" href="#get-mpv">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>&lt;code>a t&lt;/code>: enable autocopy&lt;/li>
+&lt;li>&lt;code>a c m&lt;/code>: posit the subtitle and upload to the last anki cards.&lt;/li>
+&lt;/ol>
+&lt;h3 id="get-anki">
+ Get Anki&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>
+ &lt;a class="heading-link" href="#get-anki">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;h2 id="get-resource">
+ Get resource
+ &lt;a class="heading-link" href="#get-resource">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h3 id="youtube">
+ Youtube
+ &lt;a class="heading-link" href="#youtube">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>&lt;a href="https://downsub.com/" class="external-link" target="_blank" rel="noopener">downsub&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.4kdownload.com/-54" class="external-link" target="_blank" rel="noopener">4kdownload&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h3 id="bilibili">
+ BiliBili
+ &lt;a class="heading-link" href="#bilibili">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>ACG Helper&lt;/li>
+&lt;li>&lt;a href="https://space.bilibili.com/389152360" class="external-link" target="_blank" rel="noopener">i英语corner&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="wishlist">
+ Wishlist
+ &lt;a class="heading-link" href="#wishlist">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>3Blue1Brown&lt;/li>
+&lt;li>&lt;a href="https://space.bilibili.com/389152360/lists/3007964?type=season" class="external-link" target="_blank" rel="noopener">Ted&lt;/a>&lt;/li>
+&lt;li>Credits&amp;rsquo; deliveries&lt;/li>
+&lt;/ol>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>: &lt;a href="https://www.bilibili.com/video/BV1AoPFezEgt/?spm_id_from=333.1387.homepage.video_card.click&amp;amp;vd_source=c929e07d3af3e6861de93427e4190229" class="external-link" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1AoPFezEgt/?spm_id_from=333.1387.homepage.video_card.click&amp;vd_source=c929e07d3af3e6861de93427e4190229&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item><item><title>Dual Ubuntu with win11</title><link>https://zkazure.github.io/posts/dual_ubuntu/</link><pubDate>Tue, 11 Mar 2025 16:31:00 +0800</pubDate><guid>https://zkazure.github.io/posts/dual_ubuntu/</guid><description>&lt;h2 id="this-is-the-dual-ubuntu-set-up-progress">
  This is the dual ubuntu set up progress&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>
  &lt;a class="heading-link" href="#this-is-the-dual-ubuntu-set-up-progress">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
@@ -279,7 +406,120 @@ If you have a new SSD, and prepare to use entire SSD as the Ubuntu disk, you can
 &lt;p>This is the tutorial about how to dual ubuntu with windows 11 on different harewares.
 version information:
 windows 11 24H2
-Ubuntu 22.04 LTS&lt;/p></description></item><item><title>how to add a table of content to hugo</title><link>https://zkazure.github.io/posts/toc-in-hugo/</link><pubDate>Tue, 11 Mar 2025 18:14:00 +0800</pubDate><guid>https://zkazure.github.io/posts/toc-in-hugo/</guid><description>&lt;p>Here I use the official way.&lt;/p>
+Ubuntu 22.04 LTS&lt;/p></description></item><item><title>My English Learning Method</title><link>https://zkazure.github.io/posts/english-learn-method/</link><pubDate>Thu, 13 Mar 2025 22:31:00 +0800</pubDate><guid>https://zkazure.github.io/posts/english-learn-method/</guid><description>&lt;p>This blog is to record my method to learn English.&lt;/p>
+&lt;h2 id="info">
+ Info
+ &lt;a class="heading-link" href="#info">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>This is for me, a university student in grade 1.
+My CET4 is 520.
+It is far from my expectation.&lt;/p>
+&lt;h2 id="main-procedure">
+ Main Procedure
+ &lt;a class="heading-link" href="#main-procedure">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h3 id="recite-words-through-anki">
+ Recite words through anki
+ &lt;a class="heading-link" href="#recite-words-through-anki">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;p>learning CET6 words everyday&lt;/p>
+&lt;h3 id="mpv">
+ MPV
+ &lt;a class="heading-link" href="#mpv">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>watch video within 5 minutes, aiming to understand as many as possible words.&lt;/li>
+&lt;li>Collect the words and phrases to anki&lt;/li>
+&lt;li>Watch videos, in the mean time, write in the emacs. In order to practice shorthand and writing skill.&lt;/li>
+&lt;/ol>
+&lt;h3 id="anki-decks">
+ anki decks
+ &lt;a class="heading-link" href="#anki-decks">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>watch the same series for a while&lt;/li>
+&lt;li>classify by the types of series.&lt;/li>
+&lt;/ol></description></item><item><title>Method to learn STEM</title><link>https://zkazure.github.io/posts/stem-method/</link><pubDate>Fri, 14 Mar 2025 08:56:00 +0800</pubDate><guid>https://zkazure.github.io/posts/stem-method/</guid><description>&lt;p>I am exploring the method to learn STEM.&lt;/p>
+&lt;h2 id="read-book">
+ Read book
+ &lt;a class="heading-link" href="#read-book">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="make-a-mind-map">
+ Make a mind map
+ &lt;a class="heading-link" href="#make-a-mind-map">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="have-a-lesson">
+ Have a lesson
+ &lt;a class="heading-link" href="#have-a-lesson">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="check-the-mind-map">
+ Check the mind map
+ &lt;a class="heading-link" href="#check-the-mind-map">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="do-homework">
+ Do homework
+ &lt;a class="heading-link" href="#do-homework">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="complete-the-mind-map">
+ Complete the mind map
+ &lt;a class="heading-link" href="#complete-the-mind-map">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="recall-the-mind-map">
+ Recall the mind map
+ &lt;a class="heading-link" href="#recall-the-mind-map">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="recall-the-mind-map-in-emacs-or-freeplane-at-weekend">
+ Recall the mind map in emacs or freeplane at weekend
+ &lt;a class="heading-link" href="#recall-the-mind-map-in-emacs-or-freeplane-at-weekend">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="attention">
+ Attention
+ &lt;a class="heading-link" href="#attention">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>Is my time allows me to do that?
+Is it effective?&lt;/p></description></item><item><title>how to add a table of content to hugo</title><link>https://zkazure.github.io/posts/toc-in-hugo/</link><pubDate>Tue, 11 Mar 2025 18:14:00 +0800</pubDate><guid>https://zkazure.github.io/posts/toc-in-hugo/</guid><description>&lt;p>Here I use the official way.&lt;/p>
 &lt;h2 id="enable-official-toc">
  Enable official TOC
  &lt;a class="heading-link" href="#enable-official-toc">

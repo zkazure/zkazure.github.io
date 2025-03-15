@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Work on My New Hugo Site</title><link>https://zkazure.github.io/categories/work/</link><description>Recent content in Work on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 12 Mar 2025 20:35:13 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/categories/work/index.xml" rel="self" type="application/rss+xml"/><item><title>Doom emacs</title><link>https://zkazure.github.io/posts/doom_emacs/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/doom_emacs/</guid><description>&lt;h2 id="emacs">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Work on My New Hugo Site</title><link>https://zkazure.github.io/categories/work/</link><description>Recent content in Work on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 14 Mar 2025 09:01:24 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/categories/work/index.xml" rel="self" type="application/rss+xml"/><item><title>Doom emacs</title><link>https://zkazure.github.io/posts/doom_emacs/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/doom_emacs/</guid><description>&lt;h2 id="emacs">
  emacs
  &lt;a class="heading-link" href="#emacs">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
@@ -151,7 +151,120 @@ If you have a new SSD, and prepare to use entire SSD as the Ubuntu disk, you can
 &lt;p>This is the tutorial about how to dual ubuntu with windows 11 on different harewares.
 version information:
 windows 11 24H2
-Ubuntu 22.04 LTS&lt;/p></description></item><item><title>how to add a table of content to hugo</title><link>https://zkazure.github.io/posts/toc-in-hugo/</link><pubDate>Tue, 11 Mar 2025 18:14:00 +0800</pubDate><guid>https://zkazure.github.io/posts/toc-in-hugo/</guid><description>&lt;p>Here I use the official way.&lt;/p>
+Ubuntu 22.04 LTS&lt;/p></description></item><item><title>My English Learning Method</title><link>https://zkazure.github.io/posts/english-learn-method/</link><pubDate>Thu, 13 Mar 2025 22:31:00 +0800</pubDate><guid>https://zkazure.github.io/posts/english-learn-method/</guid><description>&lt;p>This blog is to record my method to learn English.&lt;/p>
+&lt;h2 id="info">
+ Info
+ &lt;a class="heading-link" href="#info">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>This is for me, a university student in grade 1.
+My CET4 is 520.
+It is far from my expectation.&lt;/p>
+&lt;h2 id="main-procedure">
+ Main Procedure
+ &lt;a class="heading-link" href="#main-procedure">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h3 id="recite-words-through-anki">
+ Recite words through anki
+ &lt;a class="heading-link" href="#recite-words-through-anki">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;p>learning CET6 words everyday&lt;/p>
+&lt;h3 id="mpv">
+ MPV
+ &lt;a class="heading-link" href="#mpv">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>watch video within 5 minutes, aiming to understand as many as possible words.&lt;/li>
+&lt;li>Collect the words and phrases to anki&lt;/li>
+&lt;li>Watch videos, in the mean time, write in the emacs. In order to practice shorthand and writing skill.&lt;/li>
+&lt;/ol>
+&lt;h3 id="anki-decks">
+ anki decks
+ &lt;a class="heading-link" href="#anki-decks">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>watch the same series for a while&lt;/li>
+&lt;li>classify by the types of series.&lt;/li>
+&lt;/ol></description></item><item><title>Method to learn STEM</title><link>https://zkazure.github.io/posts/stem-method/</link><pubDate>Fri, 14 Mar 2025 08:56:00 +0800</pubDate><guid>https://zkazure.github.io/posts/stem-method/</guid><description>&lt;p>I am exploring the method to learn STEM.&lt;/p>
+&lt;h2 id="read-book">
+ Read book
+ &lt;a class="heading-link" href="#read-book">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="make-a-mind-map">
+ Make a mind map
+ &lt;a class="heading-link" href="#make-a-mind-map">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="have-a-lesson">
+ Have a lesson
+ &lt;a class="heading-link" href="#have-a-lesson">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="check-the-mind-map">
+ Check the mind map
+ &lt;a class="heading-link" href="#check-the-mind-map">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="do-homework">
+ Do homework
+ &lt;a class="heading-link" href="#do-homework">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="complete-the-mind-map">
+ Complete the mind map
+ &lt;a class="heading-link" href="#complete-the-mind-map">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="recall-the-mind-map">
+ Recall the mind map
+ &lt;a class="heading-link" href="#recall-the-mind-map">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="recall-the-mind-map-in-emacs-or-freeplane-at-weekend">
+ Recall the mind map in emacs or freeplane at weekend
+ &lt;a class="heading-link" href="#recall-the-mind-map-in-emacs-or-freeplane-at-weekend">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h2 id="attention">
+ Attention
+ &lt;a class="heading-link" href="#attention">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>Is my time allows me to do that?
+Is it effective?&lt;/p></description></item><item><title>how to add a table of content to hugo</title><link>https://zkazure.github.io/posts/toc-in-hugo/</link><pubDate>Tue, 11 Mar 2025 18:14:00 +0800</pubDate><guid>https://zkazure.github.io/posts/toc-in-hugo/</guid><description>&lt;p>Here I use the official way.&lt;/p>
 &lt;h2 id="enable-official-toc">
  Enable official TOC
  &lt;a class="heading-link" href="#enable-official-toc">

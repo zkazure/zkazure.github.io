@@ -1,0 +1,304 @@
+<!doctype html><html lang=en><head><title>Set Up WSL from Zero · My New Hugo Site
+</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=color-scheme content="light dark"><meta name=author content="Kazure"><meta name=description content="
+  Install
+  
+    
+    Link to heading
+  
+
+wsl --install Debian
+wsl
+
+  Configuration
+  
+    
+    Link to heading
+  
+
+sudo mv ~/../../etc/apt/sources.list ~/../../etc/apt/sources.list.backup
+
+sudo nano ~/../../etc/apt/sources.list
+change the content if you are in China and have no vpn.
+deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware
+deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware
+
+deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware
+deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware
+
+deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware
+deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware
+
+deb http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware
+deb-src http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware
+sudo apt update -y
+sudo apt install apt-transport-https ca-certificates
+sudo nano /etc/apt/sources.list
+Change all the http:// to https:// in the /etc/apt/sources.list"><meta name=keywords content="blog,developer,personal"><meta name=twitter:card content="summary"><meta name=twitter:title content="Set Up WSL from Zero"><meta name=twitter:description content="Install Link to heading wsl --install Debian wsl Configuration Link to heading sudo mv ~/../../etc/apt/sources.list ~/../../etc/apt/sources.list.backup sudo nano ~/../../etc/apt/sources.list change the content if you are in China and have no vpn.
+deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware deb http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware deb-src http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware sudo apt update -y sudo apt install apt-transport-https ca-certificates sudo nano /etc/apt/sources.list Change all the http:// to https:// in the /etc/apt/sources.list"><meta property="og:url" content="https://zkazure.github.io/posts/wsl-debian-set-up/"><meta property="og:site_name" content="My New Hugo Site"><meta property="og:title" content="Set Up WSL from Zero"><meta property="og:description" content="Install Link to heading wsl --install Debian wsl Configuration Link to heading sudo mv ~/../../etc/apt/sources.list ~/../../etc/apt/sources.list.backup sudo nano ~/../../etc/apt/sources.list change the content if you are in China and have no vpn.
+deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware deb http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware deb-src http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware sudo apt update -y sudo apt install apt-transport-https ca-certificates sudo nano /etc/apt/sources.list Change all the http:// to https:// in the /etc/apt/sources.list"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2025-03-15T20:28:00+08:00"><meta property="article:modified_time" content="2025-03-15T20:29:18+08:00"><link rel=canonical href=https://zkazure.github.io/posts/wsl-debian-set-up/><link rel=preload href=/fonts/fa-brands-400.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/fa-regular-400.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/fa-solid-900.woff2 as=font type=font/woff2 crossorigin><link rel=stylesheet href=/css/coder.min.7763f8bc6341ecf82378e867c285e1549abb063a899be313ccd25dbfcd24fa7d.css integrity="sha256-d2P4vGNB7PgjeOhnwoXhVJq7BjqJm+MTzNJdv80k+n0=" crossorigin=anonymous media=screen><link rel=stylesheet href=/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin=anonymous media=screen><link rel=icon type=image/svg+xml href=/images/favicon.svg sizes=any><link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/images/favicon-16x16.png sizes=16x16><link rel=apple-touch-icon href=/images/apple-touch-icon.png><link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=mask-icon href=/images/safari-pinned-tab.svg color=#5bbad5></head><body class="preload-transitions colorscheme-auto"><div class=float-container><a id=dark-mode-toggle class=colorscheme-toggle><i class="fa-solid fa-adjust fa-fw" aria-hidden=true></i></a></div><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=https://zkazure.github.io/>My New Hugo Site
+</a><input type=checkbox id=menu-toggle>
+<label class="menu-button float-right" for=menu-toggle><i class="fa-solid fa-bars fa-fw" aria-hidden=true></i></label><ul class=navigation-list><li class=navigation-item><a class=navigation-link href=/about/>About</a></li><li class=navigation-item><a class=navigation-link href=/posts/>Blog</a></li><li class=navigation-item><a class=navigation-link href=/projects/>Projects</a></li><li class=navigation-item><a class=navigation-link href=/contact/>Contact me</a></li></ul></section></nav><div class=content><section class="container post"><article><header><div class=post-title><h1 class=title><a class=title-link href=https://zkazure.github.io/posts/wsl-debian-set-up/>Set Up WSL from Zero</a></h1></div><div class=post-meta><div class=date><span class=posted-on><i class="fa-solid fa-calendar" aria-hidden=true></i>
+<time datetime=2025-03-15T20:28:00+08:00>March 15, 2025
+</time></span><span class=reading-time><i class="fa-solid fa-clock" aria-hidden=true></i>
+6-minute read</span></div></div></header><div class=post-content><div class=toc-container><nav id=TableOfContents><ol><li><a href=#install>Install</a></li><li><a href=#configuration>Configuration</a></li><li><a href=#zsh>Zsh</a></li><li><a href=#lazyvim>Lazyvim</a></li></ol></nav></div><h2 id=install>Install
+<a class=heading-link href=#install><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><div class=highlight><pre tabindex=0 class=chroma><code class=language-powershell data-lang=powershell><span class=line><span class=cl><span class=n>wsl</span> <span class=p>-</span><span class=n>-install</span> <span class=n>Debian</span>
+</span></span><span class=line><span class=cl><span class=n>wsl</span>
+</span></span></code></pre></div><h2 id=configuration>Configuration
+<a class=heading-link href=#configuration><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo mv ~/../../etc/apt/sources.list ~/../../etc/apt/sources.list.backup
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>sudo nano ~/../../etc/apt/sources.list
+</span></span></code></pre></div><p>change the content if you are in China and have no vpn.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-txt data-lang=txt><span class=line><span class=cl>deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware
+</span></span><span class=line><span class=cl>deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware
+</span></span><span class=line><span class=cl>deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>deb http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware
+</span></span><span class=line><span class=cl>deb-src http://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>deb http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware
+</span></span><span class=line><span class=cl>deb-src http://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo apt update -y
+</span></span><span class=line><span class=cl>sudo apt install apt-transport-https ca-certificates
+</span></span><span class=line><span class=cl>sudo nano /etc/apt/sources.list
+</span></span></code></pre></div><p>Change all the <code>http://</code> to <code>https://</code> in the <code>/etc/apt/sources.list</code></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo apt update
+</span></span><span class=line><span class=cl>sudo apt install wget curl git ssh
+</span></span><span class=line><span class=cl>git config --global user.email <span class=s2>&#34;&lt;your email&gt;&#34;</span>
+</span></span><span class=line><span class=cl>git config --global user.name <span class=s2>&#34;&lt;your name&gt;&#34;</span>
+</span></span><span class=line><span class=cl>sudo apt upgrade
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>ssh-keygen -t rsa -b <span class=m>4096</span> -f ~/.ssh/&lt;key name&gt;
+</span></span><span class=line><span class=cl>cat ~/.ssh/&lt;key name&gt;.pub
+</span></span><span class=line><span class=cl>nvim ~/.ssh/config
+</span></span></code></pre></div><p>Add</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-txt data-lang=txt><span class=line><span class=cl>Host github.com
+</span></span><span class=line><span class=cl>  HostName github.com
+</span></span><span class=line><span class=cl>  IdentityFile ~/.ssh/&lt;key name&gt;
+</span></span></code></pre></div><p>Do not use (key name).pub, even you update your pub key to the website.</p><h2 id=zsh>Zsh
+<a class=heading-link href=#zsh><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><p>```bash
+sudo apt install zsh
+chsh -s /bin/zsh</p><p>sh -c &ldquo;$(curl -fsSL <a href=https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh class=external-link target=_blank rel=noopener>https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh</a>)&rdquo;</p><p>git clone <a href=https://github.com/zsh-users/zsh-syntax-highlighting.git class=external-link target=_blank rel=noopener>https://github.com/zsh-users/zsh-syntax-highlighting.git</a> ${ZSH_CUSTOM:-<del>/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone <a href=https://github.com/zsh-users/zsh-autosuggestions class=external-link target=_blank rel=noopener>https://github.com/zsh-users/zsh-autosuggestions</a> ${ZSH_CUSTOM:-</del>/.oh-my-zsh/custom}/plugins/zsh-autosuggestions</p><p>nano ~/.zshrc</p><p>```</p><p>Add `zsh-syntax-highlighting zsh-autosuggestions z` in the `plugins=(git)`</p><p>Change theme</p><p>```zsh
+git clone &ndash;depth=1 <a href=https://github.com/romkatv/powerlevel10k.git class=external-link target=_blank rel=noopener>https://github.com/romkatv/powerlevel10k.git</a> ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k</p><p>sed -i &rsquo;s/ZSH_THEME.*/ZSH_THEME=&ldquo;powerlevel10k\/powerlevel10k&rdquo;/g&rsquo; .zshrc</p><p>source .zshrc</p><p>```</p><h2 id=lazyvim>Lazyvim
+<a class=heading-link href=#lazyvim><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><p>### Many</p><p>```zsh</p><p>sudo apt install -y python3 python3-pip
+sudo apt install -y python3-pynvim</p><p>sudo apt install ruby-dev -y
+sudo apt install ruby3.1-dev -y
+sudo apt install ruby -y
+sudo gem install neovim</p><p>sudo apt install nodejs npm -y
+echo &rsquo;export PATH=$HOME/.npm-global/bin:$PATH&rsquo; >> ~/.zshrc
+source ~/.zshrc</p><p>sudo npm install -g neovim
+echo $PATH
+export PATH=$PATH:/usr/bin
+source ~/.zshrc</p><p>sudo apt install ripgrep
+sudo apt install -y xclip perl cpanminus
+sudo cpanm -n Neovim::Ext
+sudo cpanm -n &ndash;reinstall App::cpanminus Neovim::Ext
+sudo /usr/bin/perl -MApp::cpanminus::fatscript -e &lsquo;my $app = App::cpanminus::script->new; $app->parse_options("&ndash;info", &ldquo;-q&rdquo;, &ldquo;Neovim::Ext&rdquo;); exit $app->doit&rsquo;</p><p>sudo apt install lua5.1 liblua5.1-0-dev luarocks -y</p><p>curl &ndash;proto &lsquo;=https&rsquo; &ndash;tlsv1.2 -sSf <a href=https://sh.rustup.rs class=external-link target=_blank rel=noopener>https://sh.rustup.rs</a> | sh
+source $HOME/.cargo/env</p><p>git clone <a href=https://github.com/tree-sitter/tree-sitter.git class=external-link target=_blank rel=noopener>https://github.com/tree-sitter/tree-sitter.git</a>
+cd tree-sitter/cli
+cargo build &ndash;release
+sudo cp target/release/tree-sitter <em>usr/local/bin</em></p><p>sudo apt install fzf
+sudo apt install ripgrep
+sudo apt install fd-find
+mkdir -p ~/.local/bin
+ln -s $(which fdfind) ~/.local/bin/fd
+echo &rsquo;export PATH="$HOME/.local/bin:$PATH"&rsquo; >> ~/.zshrc
+source ~/.zshrc</p><p>git clone &ndash;depth 1 <a href=https://github.com/junegunn/fzf.git class=external-link target=_blank rel=noopener>https://github.com/junegunn/fzf.git</a> ~/.fzf
+~/.fzf/install</p><p>```</p><p>### Neovim</p><p>```bash</p><p>curl -LO <a href=https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage class=external-link target=_blank rel=noopener>https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage</a>
+chmod u+x nvim.appimage
+./nvim.appimage &ndash;appimage-extract
+cd squashfs-root
+sudo mv squashfs-root /usr/local/nvim
+sudo ln -s /usr/local/nvim/AppRun /usr/local/bin/nvim</p><p>mkdir -p ~/.config/nvim
+touch ~/.config/nvim/init.lua</p><p>nvim ~/.config/nvim/init.lua
+```</p><p>add</p><p>```lua
+local lazypath = vim.fn.stdpath(&ldquo;data&rdquo;) .. &ldquo;/lazy/lazy.nvim&rdquo;
+if not vim.loop.fs_stat(lazypath) then
+vim.fn.system({
+&ldquo;git&rdquo;,
+&ldquo;clone&rdquo;,
+&ldquo;&ndash;filter=blob:none&rdquo;,
+&ldquo;<a href=https://github.com/folke/lazy.nvim.git class=external-link target=_blank rel=noopener>https://github.com/folke/lazy.nvim.git</a>&rdquo;,
+&ldquo;&ndash;branch=stable&rdquo;, &ndash; 最新稳定版本
+lazypath,
+})
+end
+vim.opt.rtp:prepend(lazypath)</p><p>require(&ldquo;lazy&rdquo;).setup({
+&ndash; LSP 配置
+{
+&ldquo;neovim/nvim-lspconfig&rdquo;,
+config = function()
+local lspconfig = require(&ldquo;lspconfig&rdquo;)
+&ndash; Lua LSP 配置
+lspconfig.lua_ls.setup({
+settings = {
+Lua = {
+runtime = { version = &ldquo;LuaJIT&rdquo; }, &ndash; 使用 Neovim 内置的 LuaJIT
+diagnostics = { globals = { &ldquo;vim&rdquo; } }, &ndash; 识别 `vim` 为全局变量
+workspace = { library = vim.api.nvim_get_runtime_file("", true) },
+telemetry = { enable = false }, &ndash; 禁用遥测
+},
+},
+})
+end,
+},</p><p>&ndash; Treesitter 配置
+{
+&ldquo;nvim-treesitter/nvim-treesitter&rdquo;,
+build = &ldquo;:TSUpdate&rdquo;,
+config = function()
+require(&ldquo;nvim-treesitter.configs&rdquo;).setup({
+indent = { enable = true }, &ndash; 启用缩进
+highlight = { enable = true }, &ndash; 启用 Treesitter 高亮
+ensure_installed = {
+&ldquo;c&rdquo;, &ldquo;cpp&rdquo;, &ldquo;lua&rdquo;, &ldquo;markdown&rdquo;, &ldquo;vim&rdquo;, &ldquo;query&rdquo;, &ldquo;python&rdquo;, &ldquo;javascript&rdquo;, &ldquo;typescript&rdquo;
+}, &ndash; 确保安装解析器
+})
+end,
+},
+})</p><p>&ndash; 启用 Treesitter 折叠功能
+vim.o.foldmethod = &ldquo;expr&rdquo;
+vim.o.foldexpr = &ldquo;nvim_treesitter#foldexpr()&rdquo;
+vim.o.foldlevel = 99 &ndash; 默认不折叠</p><p>require(&lsquo;fzf-lua&rsquo;).setup({
+winopts = {
+height = 0.85, &ndash; 高度
+width = 0.80, &ndash; 宽度
+border = &lsquo;rounded&rsquo;, &ndash; 边框样式
+},
+files = {
+prompt = &lsquo;Files> &lsquo;,
+cmd = &lsquo;fd &ndash;type f &ndash;hidden &ndash;exclude .git&rsquo;, &ndash; 使用 fd 查找文件
+},
+grep = {
+prompt = &lsquo;Rg> &lsquo;,
+cmd = &lsquo;rg &ndash;vimgrep&rsquo;, &ndash; 使用 ripgrep 进行搜索
+},
+})</p><p>```</p><p>```zsh
+mkdir -p ~/.config/nvim/after/plugin
+touch ~/.config/nvim/after/plugin/lsp.lua
+nvim ~/.config/nvim/after/plugin/lsp.lua
+nvim rm -rf <em>home/zka_wsl</em>.local/share/nvim/lazy/lazy.nvim
+git clone &ndash;filter=blob:none <a href=https://github.com/folke/lazy.nvim.git class=external-link target=_blank rel=noopener>https://github.com/folke/lazy.nvim.git</a> &ndash;branch=stable ~/.local/share/nvim/lazy/lazy.nvim</p><p>```</p><p>add</p><p>```lua
+local lspconfig = require(&rsquo;lspconfig&rsquo;)</p><p>lspconfig.lua_ls.setup {
+settings = {
+Lua = {
+runtime = {
+version = &lsquo;LuaJIT&rsquo;,
+},
+diagnostics = {
+globals = { &lsquo;vim&rsquo;, &lsquo;require&rsquo; },
+},
+workspace = {
+library = vim.api.nvim_get_runtime_file("", true),
+},
+telemetry = {
+enable = false,
+},
+},
+},
+}</p><p>```</p><p>```zsh
+npm config set registry <a href=https://registry.npmmirror.com class=external-link target=_blank rel=noopener>https://registry.npmmirror.com</a></p><p>sudo npm install -g pyright</p><p>mkdir lua-language-server
+cd lua-language-server
+wget <a href=https://github.com/LuaLS/lua-language-server/releases/download/3.13.5/lua-language-server-3.13.5-linux-x64.tar.gz class=external-link target=_blank rel=noopener>https://github.com/LuaLS/lua-language-server/releases/download/3.13.5/lua-language-server-3.13.5-linux-x64.tar.gz</a>
+tar -xvzf lua-language-server-3.13.5-linux-x64.tar.gz
+cd ..
+sudo mv lua-language-server /usr/local/share
+sudo ln -s /usr/local/share/lua-language-server/bin/lua-language-server /usr/local/bin/lua-language-server
+lua-language-server &ndash;version
+```</p><p>### Font</p><p>[here](<a href=https://github.com/DevelopersCommunity/wix-JetBrainsMonoNF class=external-link target=_blank rel=noopener>DevelopersCommunity/wix-JetBrainsMonoNF: Windows installer for JetBrainsMono Nerd Font.</a>)</p><p>then change the font in the windows terminal</p><p>### Lazygit</p><p>```zsh
+mkdir lazy
+cd lazy
+wget <a href=https://github.com/jesseduffield/lazygit/releases/download/v0.44.1/lazygit_0.44.1_Linux_x86_64.tar.gz class=external-link target=_blank rel=noopener>https://github.com/jesseduffield/lazygit/releases/download/v0.44.1/lazygit_0.44.1_Linux_x86_64.tar.gz</a>
+tar -xvzf lazygit_0.44.1_Linux_x86_64.tar.gz
+sudo mv lazygit <em>usr/local/bin</em>
+rm -rf lazy
+```</p><p>### Lazyvim</p><p>```zsh</p><p>mv ~/.config/nvim{,.bak}</p><p>mv ~/.local/share/nvim{,.bak}
+mv ~/.local/state/nvim{,.bak}
+mv ~/.cache/nvim{,.bak}
+git clone <a href=https://github.com/LazyVim/starter class=external-link target=_blank rel=noopener>https://github.com/LazyVim/starter</a> ~/.config/nvim
+rm -rf ~/.config/nvim/.git
+```</p><p>### Miniconda</p><ol><li>install</li></ol><p>```zsh
+mkdir -p ~/miniconda3
+wget <a href=https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh class=external-link target=_blank rel=noopener>https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh</a> -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm ~/miniconda3/miniconda.sh
+```</p><ol><li>config</li></ol><p>```zsh
+cd miniconda3
+vim .condarc
+```</p><ol><li>Add blow:</li></ol><p>```config
+channels:</p><ul><li>defaults</li></ul><p>ssl_verify: true
+auto_activate_base: false
+```</p><ol><li>run</li></ol><p>```zsh
+cp ~/miniconda3/.condarc ~/.condarc
+source ~/miniconda3/bin/activate
+conda init &ndash;all
+conda deactivate
+source ~/.zshrc
+```</p><ol><li>pip source</li></ol><p>```zsh
+cd ~
+mkdir .pip
+cd .pip
+nvim pip.conf
+```</p><p>add</p><p>```conf
+n[global] index-url = <a href=https://pypi.tuna.tsinghua.edu.cn/simple class=external-link target=_blank rel=noopener>https://pypi.tuna.tsinghua.edu.cn/simple</a>
+[install]
+trusted-host = <a href=https://pypi.tuna.tsinghua.edu.cn class=external-link target=_blank rel=noopener>https://pypi.tuna.tsinghua.edu.cn</a>
+```</p><p>### VScode</p><p>```zsh
+code
+```</p><p>### Hexo</p><p>```zsh
+npm install -g hexo-cli
+```</p><p>### Latex</p><p><a href=https://www.cnblogs.com/eslzzyl/p/17358405.html class=external-link target=_blank rel=noopener>Reference</a></p><p>#### Requirement</p><ul><li>vscode-server</li></ul><p>#### Install</p><p>Download the iso in the mirror website <a href=https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/ class=external-link target=_blank rel=noopener>here</a></p><p>```zsh
+sudo mkdir /mnt/textlive
+sudo mount /mnt/(the path of iso) /mnt/texlive
+```</p><p>It will output &lsquo;mount: /mnt/texlive: WARNING: source write-protected, mounted read-only.&rsquo;, don&rsquo;t be worry.</p><p>```zsh
+sudo /mnt/textlive/install-tl
+```</p><p>then &lsquo;c&rsquo; and &rsquo;enter&rsquo; to personalize</p><p>This is what I cancel:</p><p>```
+deghijkstuvwxyznoABCEHIKLMNS
+```</p><p>then &lsquo;r&rsquo; and &rsquo;enter&rsquo;, &lsquo;i&rsquo; and &rsquo;enter&rsquo;</p><p>After installation</p><p>```zsh
+sudo umount <em>mnt/textlive # attention is not umount
+sudo rm -r /mnt/texlive
+nvim ~</em>.zshrc
+```</p><p>Add:</p><p>```config</p><p>export PATH=/usr/local/texlive/2024/bin/x86_64-linux:$PATH
+export MANPATH=/usr/local/texlive/2024/texmf-dist/doc/man:$MANPATH
+export INFOPATH=/usr/local/texlive/2024/texmf-dist/doc/<a href=$INFOPATH.html title='Emacs Lisp: (info \"($INFOPATH) Top\")'>$infopath Info</a></p><p>export MANPATH=/usr/local/man:$MANPATH
+export MANPATH=/usr/share/man:$MANPATH</p><p>```</p><p>## Obsidian</p><p>```zsh
+sudo apt install fontconfig
+sudo apt install fonts-firacode
+sudo apt install fonts-jetbrains-mono
+sudo apt install ttf-mscorefonts-installer -y
+fc-cache -f -v
+sudo apt install -y fuse libnss3 libnss3-dev libatk1.0-0 libatk-bridge2.0-0 libgtk-3-0 libasound2 libgtk-3-0 libfreetype6
+curl -LO (the path)
+chmod u+x (.appimage)
+sudo ln -s /path/to/Obsidian-1.7.7.AppImage /usr/local/bin/ob
+ob
+```</p><p>## Backup and Recover Wsl</p><ol><li>Backup</li></ol><p>```zsh
+wsl &ndash;shutdown
+wsl &ndash;export Debian D:\WSL\debian.tar
+wsl &ndash;unregister Debian</p><p>```</p><ol><li>recover</li></ol><p>```zsh
+wsl &ndash;import Debian D:\WSL\Debian D:\WSL\debain.tar
+```</p><ol><li>in the wsl</li></ol><p>```zsh
+su user
+sudo su
+cp /etc/wsl.conf /etc/wsl.config.bk
+nvim /etc/wsl.conf
+```</p><ol><li>add</li></ol><p>```zsh
+[user]
+default=user
+```</p><ol><li>reboot</li></ol><p>### Docker</p><p>#### Preparation</p><p>```bash
+sudo apt update
+sudo apt install -y apt-transport-https ca-certificates curl gnupg lsb-release
+curl -fsSL <a href=https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg class=external-link target=_blank rel=noopener>https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg</a> | sudo gpg &ndash;dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg</p><p>```</p><p>#### Software Configuration</p><p>```bash
+$ echo \
+&ldquo;deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] <a href=https://mirrors.aliyun.com/docker-ce/linux/ubuntu class=external-link target=_blank rel=noopener>https://mirrors.aliyun.com/docker-ce/linux/ubuntu</a> \
+$(lsb_release -cs) stable&rdquo; | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null</p><p>```</p><p>#### Finally</p><p>```bash
+sudo apt update
+sudo apt install docker-ce docker-ce-cli containerd.io
+```</p></div><footer></footer></article></section></div><footer class=footer><section class=container>©
+2019 -
+2025
+Kazure
+·
+Powered by <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/ target=_blank rel=noopener>Coder</a>.</section></footer></main><script src=/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script></body></html>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Life on My New Hugo Site</title><link>https://zkazure.github.io/categories/life/</link><description>Recent content in Life on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 11 Mar 2025 18:37:49 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/categories/life/index.xml" rel="self" type="application/rss+xml"/><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>&lt;h2 id="动作库">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Life on My New Hugo Site</title><link>https://zkazure.github.io/categories/life/</link><description>Recent content in Life on My New Hugo Site</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 13 Mar 2025 22:26:20 +0800</lastBuildDate><atom:link href="https://zkazure.github.io/categories/life/index.xml" rel="self" type="application/rss+xml"/><item><title>健身房的专项训练</title><link>https://zkazure.github.io/posts/fitness_gym/</link><pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/posts/fitness_gym/</guid><description>&lt;h2 id="动作库">
  动作库
  &lt;a class="heading-link" href="#%e5%8a%a8%e4%bd%9c%e5%ba%93">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
@@ -126,4 +126,97 @@ My tablet is a little slow, blow is some steps to make it more fluent. My tablet
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1">
-&lt;p>: This options seem to be disabled automatically after reboot.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>: This options seem to be disabled automatically after reboot.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item><item><title>Hotkey in Zoerto reading</title><link>https://zkazure.github.io/posts/zotero-hotkey/</link><pubDate>Thu, 13 Mar 2025 19:46:00 +0800</pubDate><guid>https://zkazure.github.io/posts/zotero-hotkey/</guid><description>&lt;p>&lt;code>alt&lt;/code> + NUM is the fundamental tools.&lt;/p></description></item><item><title>Learning English through videos</title><link>https://zkazure.github.io/posts/english-anki-mpv/</link><pubDate>Thu, 13 Mar 2025 19:46:00 +0800</pubDate><guid>https://zkazure.github.io/posts/english-anki-mpv/</guid><description>&lt;p>I try to learn English through video, rather than reciting the words. Fortunately, there is someone combine tools together.&lt;/p>
+&lt;h2 id="software-and-website">
+ Software and website
+ &lt;a class="heading-link" href="#software-and-website">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>mpv&lt;/li>
+&lt;li>anki&lt;/li>
+&lt;li>&lt;a href="https://yomitan.wiki/" class="external-link" target="_blank" rel="noopener">yomitan&lt;/a>&lt;/li>
+&lt;li>ACG Helper&lt;/li>
+&lt;li>&lt;a href="https://downsub.com/" class="external-link" target="_blank" rel="noopener">downsub&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.4kdownload.com/-54" class="external-link" target="_blank" rel="noopener">4kdownload&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="combine-mpv-and-anki">
+ Combine mpv and anki
+ &lt;a class="heading-link" href="#combine-mpv-and-anki">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h3 id="get-yomitan">
+ Get yomitan&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>
+ &lt;a class="heading-link" href="#get-yomitan">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;h3 id="get-mpv">
+ Get mpv&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>
+ &lt;a class="heading-link" href="#get-mpv">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>&lt;code>a t&lt;/code>: enable autocopy&lt;/li>
+&lt;li>&lt;code>a c m&lt;/code>: posit the subtitle and upload to the last anki cards.&lt;/li>
+&lt;/ol>
+&lt;h3 id="get-anki">
+ Get Anki&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>
+ &lt;a class="heading-link" href="#get-anki">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;h2 id="get-resource">
+ Get resource
+ &lt;a class="heading-link" href="#get-resource">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;h3 id="youtube">
+ Youtube
+ &lt;a class="heading-link" href="#youtube">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>&lt;a href="https://downsub.com/" class="external-link" target="_blank" rel="noopener">downsub&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.4kdownload.com/-54" class="external-link" target="_blank" rel="noopener">4kdownload&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h3 id="bilibili">
+ BiliBili
+ &lt;a class="heading-link" href="#bilibili">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>ACG Helper&lt;/li>
+&lt;li>&lt;a href="https://space.bilibili.com/389152360" class="external-link" target="_blank" rel="noopener">i英语corner&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="wishlist">
+ Wishlist
+ &lt;a class="heading-link" href="#wishlist">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>3Blue1Brown&lt;/li>
+&lt;li>&lt;a href="https://space.bilibili.com/389152360/lists/3007964?type=season" class="external-link" target="_blank" rel="noopener">Ted&lt;/a>&lt;/li>
+&lt;li>Credits&amp;rsquo; deliveries&lt;/li>
+&lt;/ol>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>: &lt;a href="https://www.bilibili.com/video/BV1AoPFezEgt/?spm_id_from=333.1387.homepage.video_card.click&amp;amp;vd_source=c929e07d3af3e6861de93427e4190229" class="external-link" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1AoPFezEgt/?spm_id_from=333.1387.homepage.video_card.click&amp;vd_source=c929e07d3af3e6861de93427e4190229&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item></channel></rss>
