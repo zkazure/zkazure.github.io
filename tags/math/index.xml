@@ -2,5 +2,5 @@
 Solution \begin{equation} \label{eq:1} F(x) + F(\frac{x-1}{x}) = 1+x \end{equation}
 make \( x = \frac{x-1}{x} \), have
 \begin{equation} \label{eq:2} F(\frac{x-1}{x}) +F(- \frac{1}{x-1}) = \frac{2x-1}{x} \end{equation}
-make \( x = - \frac{1}{x-1} \) in \cite{eq:2}, have
+make \( x = - \frac{1}{x-1} \) in \eqref{eq:2}, have
 \begin{equation} \label{eq:3} F(- \frac{1}{x-1}) + F(x) = \frac{x-2}{x-1} \end{equation}</description></item></channel></rss>
