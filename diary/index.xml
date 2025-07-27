@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diaries :: My New Hugo Site</title>
+    <link>http://localhost:1313/diary/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你可以躺平，但是不能菜</title>
+      <link>http://localhost:1313/diary/2025-07-17-dont-be-tame/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/diary/2025-07-17-dont-be-tame/index.html</guid>
+      <description>这个世界本质上是弱肉强食的。极少人会对脚踩青草感到愧疚。&#xA;就算是一头猪，也要是一头山里的野猪，绝不做绵羊。</description>
+    </item>
+    <item>
+      <title>再次更换输入法</title>
+      <link>http://localhost:1313/diary/2025-07-16-change-input-method/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/diary/2025-07-16-change-input-method/index.html</guid>
+      <description>我再也不换输入法了，就决定是自然龙了，有什么问题就改码表。</description>
+    </item>
+    <item>
+      <title>加入图寻</title>
+      <link>http://localhost:1313/diary/2025-07-15-attend-tuxun/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/diary/2025-07-15-attend-tuxun/index.html</guid>
+      <description>没想到居然在机缘巧合下加入了图寻的群里面了</description>
+    </item>
+  </channel>
+</rss>

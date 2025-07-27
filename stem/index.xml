@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stems :: My Personal Website</title><link>https://zkazure.github.io/stem/index.html</link><description/><generator>Hugo</generator><language>en-us</language><atom:link href="https://zkazure.github.io/stem/index.xml" rel="self" type="application/rss+xml"/><item><title>finding specific function from the perspective of linear algebra</title><link>https://zkazure.github.io/stem/finding_specific_function_from_the_perspective_of_linear_algebra/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/stem/finding_specific_function_from_the_perspective_of_linear_algebra/index.html</guid><description>Example Let \(F(x)\) be defined for all real numbers except at \(x=0\) and \(x=1\), and satisfy the equation \(F(x) + F( \frac{x-1}{x}) = 1+x \). Find the function \(F(x)\)
+Solution \begin{equation} \label{eq:1} F(x) + F(\frac{x-1}{x}) = 1+x \end{equation}
+make \( x = \frac{x-1}{x} \), have
+\begin{equation} \label{eq:2} F(\frac{x-1}{x}) +F(- \frac{1}{x-1}) = \frac{2x-1}{x} \end{equation}
+make \( x = - \frac{1}{x-1} \) in \cite{eq:2}, have
+\begin{equation} \label{eq:3} F(- \frac{1}{x-1}) + F(x) = \frac{x-2}{x-1} \end{equation}</description></item></channel></rss>
