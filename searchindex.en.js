@@ -1,5 +1,21 @@
 var relearn_searchindex = [
   {
+    "breadcrumb": "My Personal Website \u003e Blogs",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Blog",
+    "uri": "/blog/blog/index.html"
+  },
+  {
+    "breadcrumb": "My Personal Website",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Blogs",
+    "uri": "/blog/index.html"
+  },
+  {
     "breadcrumb": "My Personal Website",
     "content": "",
     "description": "",
@@ -53,8 +69,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "My Personal Website \u003e Cs_learns",
-    "content": "C++ C++ Primer Plus prerequisite: None difficulty: 1 estimated study time: … It is only suitable for newbie. If you already learn C programming language, it is filled with nonsense words.\nTODO C++ Primer prerequisite: None difficulty: \u003e3 estimated study time: … If you going to work with C++, this book will help you a lot.",
-    "description": "C++ C++ Primer Plus prerequisite: None difficulty: 1 estimated study time: … It is only suitable for newbie. If you already learn C programming language, it is filled with nonsense words.\nTODO C++ Primer prerequisite: None difficulty: \u003e3 estimated study time: … If you going to work with C++, this book will help you a lot.",
+    "content": "C++ C++ Primer Plus prerequisite: None difficulty: 1 estimated study time: … It is only suitable for newbie. If you already learn C programming language, it is filled with nonsense words.\nTODO C++ Primer prerequisite: None difficulty: \u003e3 estimated study time: … If you going to work with C++, this book will help you a lot.\nC++ Youtube author: The Cherno prerequisite: had better to have learned one programming languages. difficulty: 3 estimated study time: 30h Python CS 61A: Structure and Interpretation of Computer Programs author: Hal Abelson prerequisite: None website: https://cs61a.org/ difficulty: 2 estimated study time: 20h JavaScript Eloquent JavaScript author: Marijn Haverbeke prerequisites: know basic concepts of programming website: https://eloquentjavascript.net/ difficulty: … This is an interactive book, like jupyter for python.",
+    "description": "C++ C++ Primer Plus prerequisite: None difficulty: 1 estimated study time: … It is only suitable for newbie. If you already learn C programming language, it is filled with nonsense words.\nTODO C++ Primer prerequisite: None difficulty: \u003e3 estimated study time: … If you going to work with C++, this book will help you a lot.\nC++ Youtube author: The Cherno prerequisite: had better to have learned one programming languages. difficulty: 3 estimated study time: 30h Python CS 61A: Structure and Interpretation of Computer Programs author: Hal Abelson prerequisite: None website: https://cs61a.org/ difficulty: 2 estimated study time: 20h JavaScript Eloquent JavaScript author: Marijn Haverbeke prerequisites: know basic concepts of programming website: https://eloquentjavascript.net/ difficulty: … This is an interactive book, like jupyter for python.",
     "tags": [
       "Todo"
     ],
@@ -87,8 +103,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "My Personal Website \u003e Cs_learns",
-    "content": "MIT Web Development Crash Course Intro university: MIT prerequisite: master at least one programming language. programming languages: JavaScript/HTML/CSS/NoSQL difficulty: 3 estimated study time: … Resource website: https://weblab.mit.edu/schedule video: refer to the website materials: https://github.com/weblab-workshops workshop: https://github.com/weblab-workshops/catbook-react homework: https://weblab.is/hwn",
-    "description": "MIT Web Development Crash Course Intro university: MIT prerequisite: master at least one programming language. programming languages: JavaScript/HTML/CSS/NoSQL difficulty: 3 estimated study time: … Resource website: https://weblab.mit.edu/schedule video: refer to the website materials: https://github.com/weblab-workshops workshop: https://github.com/weblab-workshops/catbook-react homework: https://weblab.is/hwn",
+    "content": "MIT Web Development Crash Course Intro university: MIT\nprerequisite: master at least one programming language.\nprogramming languages: JavaScript/HTML/CSS/NoSQL\ndifficulty: 3\nestimated study time: …\nThis lesson is very clear, but the workshop assignment is lack of direction, far away from the lesson. This lesson is not suitable for those who is lack of experience with web development, because you can not ask questions and get answer immediately as students really in the classroom.\nResource website: https://weblab.mit.edu/schedule video: refer to the website materials: https://github.com/weblab-workshops workshop: https://github.com/weblab-workshops/catbook-react homework: https://weblab.is/hwn",
+    "description": "MIT Web Development Crash Course Intro university: MIT\nprerequisite: master at least one programming language.\nprogramming languages: JavaScript/HTML/CSS/NoSQL\ndifficulty: 3\nestimated study time: …\nThis lesson is very clear, but the workshop assignment is lack of direction, far away from the lesson. This lesson is not suitable for those who is lack of experience with web development, because you can not ask questions and get answer immediately as students really in the classroom.",
     "tags": [
       "Todo"
     ],

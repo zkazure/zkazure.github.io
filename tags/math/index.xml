@@ -1,6 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Math :: Tag :: My Personal Website</title><link>https://zkazure.github.io/tags/math/index.html</link><description/><generator>Hugo</generator><language>en-us</language><atom:link href="https://zkazure.github.io/tags/math/index.xml" rel="self" type="application/rss+xml"/><item><title>finding specific function from the perspective of linear algebra</title><link>https://zkazure.github.io/stem/finding_specific_function_from_the_perspective_of_linear_algebra/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/stem/finding_specific_function_from_the_perspective_of_linear_algebra/index.html</guid><description>Example Let \(F(x)\) be defined for all real numbers except at \(x=0\) and \(x=1\), and satisfy the equation \(F(x) + F( \frac{x-1}{x}) = 1+x \). Find the function \(F(x)\)
-Solution \begin{equation} \label{eq:1} F(x) + F(\frac{x-1}{x}) = 1+x \end{equation}
-make \( x = \frac{x-1}{x} \), have
-\begin{equation} \label{eq:2} F(\frac{x-1}{x}) +F(- \frac{1}{x-1}) = \frac{2x-1}{x} \end{equation}
-make \( x = - \frac{1}{x-1} \) in \eqref{eq:2}, have
-\begin{equation} \label{eq:3} F(- \frac{1}{x-1}) + F(x) = \frac{x-2}{x-1} \end{equation}</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Math on My Personal Website</title><link>https://zkazure.github.io/tags/math/</link><description>Recent content in Math on My Personal Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://zkazure.github.io/tags/math/index.xml" rel="self" type="application/rss+xml"/><item><title>finding specific function from the perspective of linear algebra</title><link>https://zkazure.github.io/stem/finding_specific_function_from_the_perspective_of_linear_algebra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/stem/finding_specific_function_from_the_perspective_of_linear_algebra/</guid><description>&lt;h2 id="example"&gt;Example
+&lt;/h2&gt;&lt;p&gt;Let \(F(x)\) be defined for all real numbers
+except at \(x=0\) and \(x=1\),
+and satisfy the equation
+\(F(x) + F( \frac{x-1}{x}) = 1+x \).
+Find the function \(F(x)\)&lt;/p&gt;
+&lt;h2 id="solution"&gt;Solution
+&lt;/h2&gt;&lt;p&gt;\begin{equation}
+\label{eq:1}
+F(x) + F(\frac{x-1}{x}) = 1+x
+\end{equation}&lt;/p&gt;
+&lt;p&gt;make \( x = \frac{x-1}{x} \), have&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+\label{eq:2}
+F(\frac{x-1}{x}) +F(- \frac{1}{x-1}) = \frac{2x-1}{x}
+\end{equation}&lt;/p&gt;
+&lt;p&gt;make \( x = - \frac{1}{x-1} \) in \eqref{eq:2}, have&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+\label{eq:3}
+F(- \frac{1}{x-1}) + F(x) = \frac{x-2}{x-1}
+\end{equation}&lt;/p&gt;
+&lt;p&gt;According to \eqref{eq:1}, \eqref{eq:2}, \eqref{eq:3}, have&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+\label{eq:4}
+F(x) = \frac{x ^3-x ^2-1}{2x(x-1)}
+\end{equation}&lt;/p&gt;
+&lt;h2 id="linear-algebra-perspective"&gt;Linear algebra perspective
+&lt;/h2&gt;&lt;p&gt;Found that you finally attained 3 equation with functions with 3 different variables.&lt;/p&gt;
+&lt;p&gt;Why not consider it as the matrix in linear algebra where you have to
+have 3 different linear equations to obtain actual values of 3
+variables.&lt;/p&gt;
+&lt;p&gt;Now we can construct the correct matrix to solve every problems of finding specific function.&lt;/p&gt;
+&lt;h2 id="how-many-transforms-we-need-to-find-the-specific-function"&gt;How many transforms we need to find the specific function
+&lt;/h2&gt;&lt;h3 id="simplest-condition"&gt;simplest condition
+&lt;/h3&gt;&lt;p&gt;If we just need two times.&lt;/p&gt;
+&lt;p&gt;if we have \( F(a) + F(b) = c_{1} \),
+make \( a=b \), then \( F(b) + F(a) = c_{2} \)&lt;/p&gt;
+&lt;p&gt;\begin{bmatrix}
+1 &amp;amp; 1 &amp;amp; c_1 \\
+1 &amp;amp; 1 &amp;amp; c_2
+\end{bmatrix}&lt;/p&gt;
+&lt;p&gt;It is easy to know the matrix is inconsistent.&lt;/p&gt;
+&lt;h3 id="different-coefficient"&gt;different coefficient
+&lt;/h3&gt;&lt;p&gt;\begin{bmatrix}
+t &amp;amp; 1 &amp;amp; c_1 \\
+1 &amp;amp; t &amp;amp; c_2
+\end{bmatrix}&lt;/p&gt;
+&lt;p&gt;It is consistent.&lt;/p&gt;
+&lt;h3 id="how-long-the-transformation"&gt;how long the transformation
+&lt;/h3&gt;&lt;h4 id="return-to-example"&gt;return to example
+&lt;/h4&gt;&lt;p&gt;\[ x \to \frac{x-1}{x} \to - \frac{1}{x-1} \]&lt;/p&gt;
+&lt;p&gt;\[ \frac{x-1}{x} \to - \frac{1}{x-1} \to x \]&lt;/p&gt;
+&lt;p&gt;It is easy to notice that it construct a loop.&lt;/p&gt;
+&lt;h4 id="extended-idea"&gt;extended idea
+&lt;/h4&gt;&lt;p&gt;Let&amp;rsquo;s consider \( x_{i} (i \in R) \) as one variable in the function.
+And \( x_{i} \ne x_{j} (i, j \in R, i \ne j) \)&lt;/p&gt;
+&lt;p&gt;If you have only 2 equation, then you should write the tranformation down.&lt;/p&gt;
+&lt;p&gt;\[ x_1 \to x_a \to \dots \to x_2 \]&lt;/p&gt;
+&lt;p&gt;\[ x_2 \to x_b \to \dots \to x_1 \]&lt;/p&gt;
+&lt;p&gt;You will find the specific solution.&lt;/p&gt;
+&lt;h4 id="question"&gt;question
+&lt;/h4&gt;&lt;p&gt;What if there are other loops?&lt;/p&gt;
+&lt;p&gt;Yes, it is possible and tricky. However, there is only one loop, if we are going to find the specific function. Because there is only one solution.&lt;/p&gt;</description></item></channel></rss>

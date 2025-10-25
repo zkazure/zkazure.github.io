@@ -1,1 +1,171 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Personal Website</title><link>https://zkazure.github.io/index.html</link><description/><generator>Hugo</generator><language>en-us</language><atom:link href="https://zkazure.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Cs_learns</title><link>https://zkazure.github.io/cs_learn/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/cs_learn/index.html</guid><description/></item><item><title>Stems</title><link>https://zkazure.github.io/stem/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/stem/index.html</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Personal Website</title><link>https://zkazure.github.io/</link><description>Recent content on My Personal Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://zkazure.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog</title><link>https://zkazure.github.io/blog/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/blog/blog/</guid><description>&lt;h2 id="d41d8c"&gt;
+&lt;/h2&gt;</description></item><item><title>Data Science</title><link>https://zkazure.github.io/cs_learn/data_science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/cs_learn/data_science/</guid><description>&lt;h2 id="ucb-data-8-foundations-of-data-science"&gt;UCB Data 8: Foundations of Data Science
+&lt;/h2&gt;&lt;h3 id="intro"&gt;Intro
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;university: UC Berkeley&lt;/li&gt;
+&lt;li&gt;prerequisite: None&lt;/li&gt;
+&lt;li&gt;programming languages: python&lt;/li&gt;
+&lt;li&gt;difficulty: 2&lt;/li&gt;
+&lt;li&gt;estimated study time: 32h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="resource"&gt;Resource
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;website: &lt;a class="link" href="https://www.data8.org/" target="_blank" rel="noopener"
+&gt;https://www.data8.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;video: refer to the website&lt;/li&gt;
+&lt;li&gt;materials: &lt;a class="link" href="https://github.com/data-8" target="_blank" rel="noopener"
+&gt;https://github.com/data-8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>finding specific function from the perspective of linear algebra</title><link>https://zkazure.github.io/stem/finding_specific_function_from_the_perspective_of_linear_algebra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/stem/finding_specific_function_from_the_perspective_of_linear_algebra/</guid><description>&lt;h2 id="example"&gt;Example
+&lt;/h2&gt;&lt;p&gt;Let \(F(x)\) be defined for all real numbers
+except at \(x=0\) and \(x=1\),
+and satisfy the equation
+\(F(x) + F( \frac{x-1}{x}) = 1+x \).
+Find the function \(F(x)\)&lt;/p&gt;
+&lt;h2 id="solution"&gt;Solution
+&lt;/h2&gt;&lt;p&gt;\begin{equation}
+\label{eq:1}
+F(x) + F(\frac{x-1}{x}) = 1+x
+\end{equation}&lt;/p&gt;
+&lt;p&gt;make \( x = \frac{x-1}{x} \), have&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+\label{eq:2}
+F(\frac{x-1}{x}) +F(- \frac{1}{x-1}) = \frac{2x-1}{x}
+\end{equation}&lt;/p&gt;
+&lt;p&gt;make \( x = - \frac{1}{x-1} \) in \eqref{eq:2}, have&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+\label{eq:3}
+F(- \frac{1}{x-1}) + F(x) = \frac{x-2}{x-1}
+\end{equation}&lt;/p&gt;
+&lt;p&gt;According to \eqref{eq:1}, \eqref{eq:2}, \eqref{eq:3}, have&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+\label{eq:4}
+F(x) = \frac{x ^3-x ^2-1}{2x(x-1)}
+\end{equation}&lt;/p&gt;
+&lt;h2 id="linear-algebra-perspective"&gt;Linear algebra perspective
+&lt;/h2&gt;&lt;p&gt;Found that you finally attained 3 equation with functions with 3 different variables.&lt;/p&gt;
+&lt;p&gt;Why not consider it as the matrix in linear algebra where you have to
+have 3 different linear equations to obtain actual values of 3
+variables.&lt;/p&gt;
+&lt;p&gt;Now we can construct the correct matrix to solve every problems of finding specific function.&lt;/p&gt;
+&lt;h2 id="how-many-transforms-we-need-to-find-the-specific-function"&gt;How many transforms we need to find the specific function
+&lt;/h2&gt;&lt;h3 id="simplest-condition"&gt;simplest condition
+&lt;/h3&gt;&lt;p&gt;If we just need two times.&lt;/p&gt;
+&lt;p&gt;if we have \( F(a) + F(b) = c_{1} \),
+make \( a=b \), then \( F(b) + F(a) = c_{2} \)&lt;/p&gt;
+&lt;p&gt;\begin{bmatrix}
+1 &amp;amp; 1 &amp;amp; c_1 \\
+1 &amp;amp; 1 &amp;amp; c_2
+\end{bmatrix}&lt;/p&gt;
+&lt;p&gt;It is easy to know the matrix is inconsistent.&lt;/p&gt;
+&lt;h3 id="different-coefficient"&gt;different coefficient
+&lt;/h3&gt;&lt;p&gt;\begin{bmatrix}
+t &amp;amp; 1 &amp;amp; c_1 \\
+1 &amp;amp; t &amp;amp; c_2
+\end{bmatrix}&lt;/p&gt;
+&lt;p&gt;It is consistent.&lt;/p&gt;
+&lt;h3 id="how-long-the-transformation"&gt;how long the transformation
+&lt;/h3&gt;&lt;h4 id="return-to-example"&gt;return to example
+&lt;/h4&gt;&lt;p&gt;\[ x \to \frac{x-1}{x} \to - \frac{1}{x-1} \]&lt;/p&gt;
+&lt;p&gt;\[ \frac{x-1}{x} \to - \frac{1}{x-1} \to x \]&lt;/p&gt;
+&lt;p&gt;It is easy to notice that it construct a loop.&lt;/p&gt;
+&lt;h4 id="extended-idea"&gt;extended idea
+&lt;/h4&gt;&lt;p&gt;Let&amp;rsquo;s consider \( x_{i} (i \in R) \) as one variable in the function.
+And \( x_{i} \ne x_{j} (i, j \in R, i \ne j) \)&lt;/p&gt;
+&lt;p&gt;If you have only 2 equation, then you should write the tranformation down.&lt;/p&gt;
+&lt;p&gt;\[ x_1 \to x_a \to \dots \to x_2 \]&lt;/p&gt;
+&lt;p&gt;\[ x_2 \to x_b \to \dots \to x_1 \]&lt;/p&gt;
+&lt;p&gt;You will find the specific solution.&lt;/p&gt;
+&lt;h4 id="question"&gt;question
+&lt;/h4&gt;&lt;p&gt;What if there are other loops?&lt;/p&gt;
+&lt;p&gt;Yes, it is possible and tricky. However, there is only one loop, if we are going to find the specific function. Because there is only one solution.&lt;/p&gt;</description></item><item><title>Programming Languages</title><link>https://zkazure.github.io/cs_learn/programming_languages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/cs_learn/programming_languages/</guid><description>&lt;h2 id="c-plus-plus"&gt;C++
+&lt;/h2&gt;&lt;figure&gt;&lt;img src="https://zkazure.github.io/ox-hugo/2025-09-18_11-56-25_screenshot.png"&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src="https://zkazure.github.io/ox-hugo/2025-09-18_11-56-56_screenshot.png"&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src="https://zkazure.github.io/ox-hugo/2025-09-18_11-57-18_screenshot.png"&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src="https://zkazure.github.io/ox-hugo/2025-09-18_11-57-29_screenshot.png"&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src="https://zkazure.github.io/ox-hugo/2025-09-18_11-57-42_screenshot.png"&gt;
+&lt;/figure&gt;
+&lt;h3 id="c-plus-plus-primer-plus"&gt;C++ Primer Plus
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;prerequisite: None&lt;/li&gt;
+&lt;li&gt;difficulty: 1&lt;/li&gt;
+&lt;li&gt;estimated study time: &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is only suitable for newbie.
+If you already learn C programming language, it is filled with nonsense words.&lt;/p&gt;
+&lt;h3 id="c-plus-plus-primer"&gt;&lt;span class="org-todo todo TODO"&gt;TODO&lt;/span&gt; C++ Primer
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;prerequisite: None&lt;/li&gt;
+&lt;li&gt;difficulty: &amp;gt;3&lt;/li&gt;
+&lt;li&gt;estimated study time: &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you going to work with C++, this book will help you a lot.&lt;/p&gt;
+&lt;h3 id="c-plus-plus-youtube"&gt;C++ Youtube
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;author: &lt;a class="link" href="https://www.youtube.com/@TheCherno" target="_blank" rel="noopener"
+&gt;The Cherno&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;prerequisite: had better to have learned one programming languages.&lt;/li&gt;
+&lt;li&gt;difficulty: 3&lt;/li&gt;
+&lt;li&gt;estimated study time: 30h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="python"&gt;Python
+&lt;/h2&gt;&lt;h3 id="cs-61a-structure-and-interpretation-of-computer-programs"&gt;CS 61A: Structure and Interpretation of Computer Programs
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;author: Hal Abelson&lt;/li&gt;
+&lt;li&gt;prerequisite: None&lt;/li&gt;
+&lt;li&gt;website: &lt;a class="link" href="https://cs61a.org/" target="_blank" rel="noopener"
+&gt;https://cs61a.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;difficulty: 2&lt;/li&gt;
+&lt;li&gt;estimated study time: 20h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="javascript"&gt;JavaScript
+&lt;/h2&gt;&lt;h3 id="eloquent-javascript"&gt;Eloquent JavaScript
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;author: Marijn Haverbeke&lt;/li&gt;
+&lt;li&gt;prerequisites: know basic concepts of programming&lt;/li&gt;
+&lt;li&gt;website: &lt;a class="link" href="https://eloquentjavascript.net/" target="_blank" rel="noopener"
+&gt;https://eloquentjavascript.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;difficulty: &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is an interactive book, like jupyter for python.&lt;/p&gt;</description></item><item><title>Web Development</title><link>https://zkazure.github.io/cs_learn/web_deveelopment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/cs_learn/web_deveelopment/</guid><description>&lt;h2 id="mit-web-development-crash-course"&gt;MIT Web Development Crash Course
+&lt;/h2&gt;&lt;h3 id="intro"&gt;Intro
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;university: MIT&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;prerequisite: master at least one programming language.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;programming languages: JavaScript/HTML/CSS/NoSQL&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;difficulty: 3&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;estimated study time: &amp;hellip;&lt;/p&gt;
+&lt;p&gt;This lesson is very clear, but the workshop assignment is lack of
+direction, far away from the lesson. This lesson is not suitable for
+those who is lack of experience with web development, because you
+can not ask questions and get answer immediately as students really
+in the classroom.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="resource"&gt;Resource
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;website: &lt;a class="link" href="https://weblab.mit.edu/schedule" target="_blank" rel="noopener"
+&gt;https://weblab.mit.edu/schedule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;video: refer to the website&lt;/li&gt;
+&lt;li&gt;materials: &lt;a class="link" href="https://github.com/weblab-workshops" target="_blank" rel="noopener"
+&gt;https://github.com/weblab-workshops&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;workshop: &lt;a class="link" href="https://github.com/weblab-workshops/catbook-react" target="_blank" rel="noopener"
+&gt;https://github.com/weblab-workshops/catbook-react&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;homework: &lt;a class="link" href="https://weblab.is/hwn" target="_blank" rel="noopener"
+&gt;https://weblab.is/hwn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

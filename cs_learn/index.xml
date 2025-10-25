@@ -1,2 +1,108 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cs_learns :: My Personal Website</title><link>https://zkazure.github.io/cs_learn/index.html</link><description/><generator>Hugo</generator><language>en-us</language><atom:link href="https://zkazure.github.io/cs_learn/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Science</title><link>https://zkazure.github.io/cs_learn/data_science/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/cs_learn/data_science/index.html</guid><description>UCB Data 8: Foundations of Data Science Intro university: UC Berkeley prerequisite: None programming languages: python difficulty: 2 estimated study time: 32h Resource website: https://www.data8.org/ video: refer to the website materials: https://github.com/data-8</description></item><item><title>Programming Languages</title><link>https://zkazure.github.io/cs_learn/programming_languages/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/cs_learn/programming_languages/index.html</guid><description>C++ C++ Primer Plus prerequisite: None difficulty: 1 estimated study time: … It is only suitable for newbie. If you already learn C programming language, it is filled with nonsense words.
-TODO C++ Primer prerequisite: None difficulty: >3 estimated study time: … If you going to work with C++, this book will help you a lot.</description></item><item><title>Web Development</title><link>https://zkazure.github.io/cs_learn/web_deveelopment/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/cs_learn/web_deveelopment/index.html</guid><description>MIT Web Development Crash Course Intro university: MIT prerequisite: master at least one programming language. programming languages: JavaScript/HTML/CSS/NoSQL difficulty: 3 estimated study time: … Resource website: https://weblab.mit.edu/schedule video: refer to the website materials: https://github.com/weblab-workshops workshop: https://github.com/weblab-workshops/catbook-react homework: https://weblab.is/hwn</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cs_learns on My Personal Website</title><link>https://zkazure.github.io/cs_learn/</link><description>Recent content in Cs_learns on My Personal Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://zkazure.github.io/cs_learn/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Science</title><link>https://zkazure.github.io/cs_learn/data_science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/cs_learn/data_science/</guid><description>&lt;h2 id="ucb-data-8-foundations-of-data-science"&gt;UCB Data 8: Foundations of Data Science
+&lt;/h2&gt;&lt;h3 id="intro"&gt;Intro
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;university: UC Berkeley&lt;/li&gt;
+&lt;li&gt;prerequisite: None&lt;/li&gt;
+&lt;li&gt;programming languages: python&lt;/li&gt;
+&lt;li&gt;difficulty: 2&lt;/li&gt;
+&lt;li&gt;estimated study time: 32h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="resource"&gt;Resource
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;website: &lt;a class="link" href="https://www.data8.org/" target="_blank" rel="noopener"
+&gt;https://www.data8.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;video: refer to the website&lt;/li&gt;
+&lt;li&gt;materials: &lt;a class="link" href="https://github.com/data-8" target="_blank" rel="noopener"
+&gt;https://github.com/data-8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Programming Languages</title><link>https://zkazure.github.io/cs_learn/programming_languages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/cs_learn/programming_languages/</guid><description>&lt;h2 id="c-plus-plus"&gt;C++
+&lt;/h2&gt;&lt;figure&gt;&lt;img src="https://zkazure.github.io/ox-hugo/2025-09-18_11-56-25_screenshot.png"&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src="https://zkazure.github.io/ox-hugo/2025-09-18_11-56-56_screenshot.png"&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src="https://zkazure.github.io/ox-hugo/2025-09-18_11-57-18_screenshot.png"&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src="https://zkazure.github.io/ox-hugo/2025-09-18_11-57-29_screenshot.png"&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src="https://zkazure.github.io/ox-hugo/2025-09-18_11-57-42_screenshot.png"&gt;
+&lt;/figure&gt;
+&lt;h3 id="c-plus-plus-primer-plus"&gt;C++ Primer Plus
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;prerequisite: None&lt;/li&gt;
+&lt;li&gt;difficulty: 1&lt;/li&gt;
+&lt;li&gt;estimated study time: &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is only suitable for newbie.
+If you already learn C programming language, it is filled with nonsense words.&lt;/p&gt;
+&lt;h3 id="c-plus-plus-primer"&gt;&lt;span class="org-todo todo TODO"&gt;TODO&lt;/span&gt; C++ Primer
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;prerequisite: None&lt;/li&gt;
+&lt;li&gt;difficulty: &amp;gt;3&lt;/li&gt;
+&lt;li&gt;estimated study time: &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you going to work with C++, this book will help you a lot.&lt;/p&gt;
+&lt;h3 id="c-plus-plus-youtube"&gt;C++ Youtube
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;author: &lt;a class="link" href="https://www.youtube.com/@TheCherno" target="_blank" rel="noopener"
+&gt;The Cherno&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;prerequisite: had better to have learned one programming languages.&lt;/li&gt;
+&lt;li&gt;difficulty: 3&lt;/li&gt;
+&lt;li&gt;estimated study time: 30h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="python"&gt;Python
+&lt;/h2&gt;&lt;h3 id="cs-61a-structure-and-interpretation-of-computer-programs"&gt;CS 61A: Structure and Interpretation of Computer Programs
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;author: Hal Abelson&lt;/li&gt;
+&lt;li&gt;prerequisite: None&lt;/li&gt;
+&lt;li&gt;website: &lt;a class="link" href="https://cs61a.org/" target="_blank" rel="noopener"
+&gt;https://cs61a.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;difficulty: 2&lt;/li&gt;
+&lt;li&gt;estimated study time: 20h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="javascript"&gt;JavaScript
+&lt;/h2&gt;&lt;h3 id="eloquent-javascript"&gt;Eloquent JavaScript
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;author: Marijn Haverbeke&lt;/li&gt;
+&lt;li&gt;prerequisites: know basic concepts of programming&lt;/li&gt;
+&lt;li&gt;website: &lt;a class="link" href="https://eloquentjavascript.net/" target="_blank" rel="noopener"
+&gt;https://eloquentjavascript.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;difficulty: &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is an interactive book, like jupyter for python.&lt;/p&gt;</description></item><item><title>Web Development</title><link>https://zkazure.github.io/cs_learn/web_deveelopment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zkazure.github.io/cs_learn/web_deveelopment/</guid><description>&lt;h2 id="mit-web-development-crash-course"&gt;MIT Web Development Crash Course
+&lt;/h2&gt;&lt;h3 id="intro"&gt;Intro
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;university: MIT&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;prerequisite: master at least one programming language.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;programming languages: JavaScript/HTML/CSS/NoSQL&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;difficulty: 3&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;estimated study time: &amp;hellip;&lt;/p&gt;
+&lt;p&gt;This lesson is very clear, but the workshop assignment is lack of
+direction, far away from the lesson. This lesson is not suitable for
+those who is lack of experience with web development, because you
+can not ask questions and get answer immediately as students really
+in the classroom.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="resource"&gt;Resource
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;website: &lt;a class="link" href="https://weblab.mit.edu/schedule" target="_blank" rel="noopener"
+&gt;https://weblab.mit.edu/schedule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;video: refer to the website&lt;/li&gt;
+&lt;li&gt;materials: &lt;a class="link" href="https://github.com/weblab-workshops" target="_blank" rel="noopener"
+&gt;https://github.com/weblab-workshops&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;workshop: &lt;a class="link" href="https://github.com/weblab-workshops/catbook-react" target="_blank" rel="noopener"
+&gt;https://github.com/weblab-workshops/catbook-react&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;homework: &lt;a class="link" href="https://weblab.is/hwn" target="_blank" rel="noopener"
+&gt;https://weblab.is/hwn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
