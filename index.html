@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-10-29 Wed 01:02 -->
+<!-- 2025-11-15 Sat 14:01 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Kazure Zheng </title>
+<title>Kazure Zheng's Personal Blog </title>
 <meta name="author" content="Kazure Zheng" />
 <meta name="generator" content="Org Mode" />
 <style type="text/css">
@@ -193,29 +193,87 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
 </style>
+<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+<div id="preamble" class="status">
+<nav id="main-nav">
+               <ul>
+                 <li><a href="index.html">Main</a></li>
+                 <li><a href="about.html">About Me</a></li>
+                 <li><a href="archives.html">Articles</a></li>
+               </ul>
+             </nav>
+</div>
 <div id="content" class="content">
-<h1 class="title">Kazure Zheng </h1>
-<ul class="org-ul">
-<li><a href="blog.html">Blog</a></li>
+<h1 class="title">Kazure Zheng's Personal Blog </h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org655e818">1. h1 or h2</a></li>
 </ul>
-
+</div>
+</div>
+<div id="outline-container-org655e818" class="outline-2">
+<h2 id="org655e818"><span class="section-number-2">1.</span> h1 or h2</h2>
+<div class="outline-text-2" id="text-1">
 <p>
 Welcome to my personal website.
 </p>
 
+<div class="org-src-container">
+<pre class="src src-elisp">(require 'ox-publish)
+
+(setq org-publish-project-alist
+        `(("pages"
+           :base-directory "~/Documents/roam/blog/"
+           :base-extension "org"
+           :exclude: "ltximg/*"
+           :html-head "&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /&gt;"
+           :html-preamble "&lt;p&gt;This is preamble&lt;/p&gt;"
+           :html-postamble "&lt;p&gt;This is postamble&lt;/p&gt;"
+           :recursive t
+           :publishing-directory "~/Developments/blog/"
+           :auto-sitemap t
+           :sitemap-filename "sitemap.org"
+           :sitemap-title ""
+           :publishing-function org-html-publish-to-html)
+
+          ("static"
+           :base-directory "~/Documents/roam/blog/"
+           :base-extension "css\\|txt\\|jpg\\|gif\\|png"
+           :exclude: "ltximg/*"
+           :recursive t
+           :publishing-directory  "~/Developments/blog/"
+           :publishing-function org-publish-attachment)
+
+          ("blog" :components ("pages" "static"))))
+</pre>
+</div>
+
+
 <ul class="org-ul">
 <li><a href="blog.html">Blog</a></li>
 <li><a href="cs_learn.html">CS Learn</a></li>
-<li><a href="index.html">Kazure Zheng</a></li>
+<li><a href="index.html">Kazure Zheng's Personal Blog</a></li>
 <li><a href="stem.html">STEM</a></li>
 </ul>
 </div>
+</div>
+</div>
 <div id="postamble" class="status">
-<p class="author">Author: Kazure Zheng</p>
-<p class="date">Created: 2025-10-29 Wed 01:02</p>
-<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+<div id="blog-footer">
+             <hr>
+             <p>
+               Content licensed under 
+               <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+                 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+               </a>
+               <br>
+               &copy; 2025 Kazure Zheng. All Rights Reserved.
+             </p>
+             </div>
 </div>
 </body>
 </html>

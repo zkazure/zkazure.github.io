@@ -1,0 +1,40 @@
+body {
+    max-width: 800px; /* 限制内容宽度 */
+    margin: 0 auto; /* 居中 */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+h1 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+}
+
+/* 1. 移除列表默认样式，让列表内容居中 */
+#main-nav ul {
+    list-style: none; /* 移除列表符号（点或数字） */
+    padding: 0;       /* 移除默认内边距 */
+    margin: 0;        /* 移除默认外边距 */
+    text-align: center; /* 让 li 元素在 ul 中居中 */
+}
+
+/* 2. 核心：实现横向排列 */
+#main-nav li {
+    /* 使用 inline-block 让每个 li 元素并排显示，但仍可设置宽高 */
+    display: inline-block; 
+    margin: 0 15px;      /* 列表项之间左右间距 */
+}
+
+/* 3. 链接美化 */
+#main-nav a {
+    text-decoration: none; /* 移除下划线 */
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #abb2bf;        
+    padding: 5px 10px;
+    display: block;        
+}
+
+/* 4. 悬停效果 */
+#main-nav a:hover {
+    color: #61afef; 
+}
