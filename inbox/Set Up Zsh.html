@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Set Up Zsh</title>
+<meta name="author" content="Kazure Zheng" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Set Up Zsh</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org1283cc7">installation</a></li>
+<li><a href="#orge116778">add plugins</a></li>
+<li><a href="#org3a4f1b4">Change theme</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1283cc7" class="outline-2">
+<h2 id="org1283cc7">installation</h2>
+<div class="outline-text-2" id="text-org1283cc7">
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">sudo</span> apt install zsh
+</pre>
+</div>
+
+<p>
+change you default shell
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">chsh</span> -s /bin/zsh
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orge116778" class="outline-2">
+<h2 id="orge116778">add plugins</h2>
+<div class="outline-text-2" id="text-orge116778">
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">sh</span> -c <span style="color: #3548cf;">"</span><span style="color: #8f0075;">$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)</span><span style="color: #3548cf;">"</span>
+
+<span style="color: #721045;">git</span> clone https://github.com/zsh-users/zsh-syntax-highlighting.git $<span style="color: #000000;">{</span><span style="color: #005e8b;">ZSH_CUSTOM</span>:-~/.oh-my-zsh/custom<span style="color: #000000;">}</span>/plugins/zsh-syntax-highlighting
+<span style="color: #721045;">git</span> clone https://github.com/zsh-users/zsh-autosuggestions $<span style="color: #000000;">{</span><span style="color: #005e8b;">ZSH_CUSTOM</span>:-~/.oh-my-zsh/custom<span style="color: #000000;">}</span>/plugins/zsh-autosuggestions
+
+<span style="color: #721045;">nano</span> ~/.zshrc
+</pre>
+</div>
+
+<p>
+Add <b>zsh-syntax-highlighting zsh-autosuggestions  z</b> in the <b>plugins=(git)</b>
+</p>
+</div>
+</div>
+<div id="outline-container-org3a4f1b4" class="outline-2">
+<h2 id="org3a4f1b4">Change theme</h2>
+<div class="outline-text-2" id="text-org3a4f1b4">
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">git</span> clone --depth=1 https://github.com/romkatv/powerlevel10k.git $<span style="color: #000000;">{</span><span style="color: #005e8b;">ZSH_CUSTOM</span>:-$<span style="color: #005e8b;">HOME</span>/.oh-my-zsh/custom<span style="color: #000000;">}</span>/themes/powerlevel10k
+
+<span style="color: #721045;">sed</span> -i <span style="color: #3548cf;">'s/ZSH_THEME.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/g'</span> .zshrc
+
+<span style="color: #721045;">source</span> .zshrc
+
+</pre>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

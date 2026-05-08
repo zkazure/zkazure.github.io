@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ireader smart x3pro 使用体验</title>
+<meta name="author" content="Kazure Zheng" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">ireader smart x3pro 使用体验</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org95be62c">Main</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org95be62c" class="outline-2">
+<h2 id="org95be62c">Main</h2>
+<div class="outline-text-2" id="text-org95be62c">
+<p>
+今天掌阅x3pro到手了，发现几个设计上的问题。对于数据线的传输，如果使用 calibre，必须要在根目录下面新建一个 Books 文件夹，然后在该文件夹里面新建一个隐藏文件，以保持这个文件夹不被清楚。（非官方的文件夹如果为空，会被清除）同时在 Linux 下，如果希望通过文件管理器传输文件，需要下载一些软件。
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #1e66f5;">sudo</span> apt install gvfs-backends
+</pre>
+</div>
+<p>
+之后重启系统即可。需要注意的是，同一时间内 calibre 和系统的文件管理器只有一个可以访问设备。
+</p>
+
+
+<p>
+对于一些书籍的同步，我的建议是使用 syncthing。我的使用场景，主要是同步 zotero 收集的一些 pdf 书籍和文件。我会使用 zotmoov 移动到一个文件夹，然后使用 syhcthing 和手机同步，然后再用手机和 ireader 同步。
+</p>
+
+<p>
+对于其他的 EPUB 书籍，我还是习惯使用 calibre 进行线传同步。
+</p>
+
+<p>
+有一个小的问题，只有官方传送的书籍会自动出现在书架，使用 syncthing 同步的书籍不得不使用文件管理器导航，然后打开。
+</p>
+
+
+<p>
+KOreader 其实没有官方的阅读器好用，或许是我没有找准使用场景吧。
+</p>
+
+<p>
+快捷手势很多，滑动、按键长按，都很不错。大大优化了墨水屏刷新缓慢带来的负面体验。
+</p>
+
+<p>
+这个设备的待机功耗还是控制得很好的，一个晚上 Wi-Fi 待机了超过七个小时，能耗不超过 1%。
+</p>
+
+<p>
+官方内部的笔记模板不合心意。
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>

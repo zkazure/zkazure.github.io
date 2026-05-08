@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My Emacs Agenda Rice</title>
+<meta name="author" content="Kazure Zheng" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">My Emacs Agenda Rice</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org4e8a52e">Preface</a></li>
+<li><a href="#orge388ccb">UI</a></li>
+<li><a href="#orgbffae30">Customized view</a>
+<ul>
+<li><a href="#org71cee66">today and future schedule</a></li>
+<li><a href="#orgf6bbffb">completed</a></li>
+<li><a href="#org497ca00">all to-do</a></li>
+<li><a href="#org825a1fa">overview</a></li>
+</ul>
+</li>
+<li><a href="#org941a6e3">Cooperate with roam</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4e8a52e" class="outline-2">
+<h2 id="org4e8a52e">Preface</h2>
+<div class="outline-text-2" id="text-org4e8a52e">
+<p>
+As an INTJ, I really wanna to rigorous in my goals and life schedule.
+So I tries to use org agenda to arrange it.
+</p>
+</div>
+</div>
+<div id="outline-container-orge388ccb" class="outline-2">
+<h2 id="orge388ccb">UI</h2>
+<div class="outline-text-2" id="text-orge388ccb">
+<p>
+It will be much better to keep track of your schedule and current time
+with a time gird string.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-elisp"><span style="color: #000000;">(</span>customize-set-variable 'org-agenda-time-grid
+                        '<span style="color: #dd22dd;">(</span><span style="color: #008899;">(</span>today require-timed remove-match<span style="color: #008899;">)</span>
+                          <span style="color: #008899;">(</span>0700 1200 2400<span style="color: #008899;">)</span>
+                          <span style="color: #3548cf;">":  "</span> <span style="color: #3548cf;">"&#9480;&#9480;&#9480;&#9480;&#9480;&#9480;&#9480;&#9480;&#9480;&#9480;&#9480;&#9480;&#9480;"</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+<span style="color: #000000;">(</span>customize-set-variable 'org-agenda-current-time-string <span style="color: #3548cf;">"&#5130;&#9480;&#9480;&#9480;&#9480;&#9480;&#9480;&#9480;&#9480; now"</span><span style="color: #000000;">)</span>
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbffae30" class="outline-2">
+<h2 id="orgbffae30">Customized view</h2>
+<div class="outline-text-2" id="text-orgbffae30">
+<p>
+Inspire by <a href="https://macowners.club/">macowners</a> in this <a href="https://macowners.club/posts/personal-touch-org-agenda/">post</a>. 
+</p>
+</div>
+<div id="outline-container-org71cee66" class="outline-3">
+<h3 id="org71cee66">today and future schedule</h3>
+<div class="outline-text-3" id="text-org71cee66">
+<div class="org-src-container">
+<pre class="src src-elisp"><span style="color: #000000;">(</span>agenda <span style="color: #3548cf;">""</span>
+        <span style="color: #dd22dd;">(</span><span style="color: #008899;">(</span>org-agenda-overriding-header
+          <span style="color: #972500;">(</span>concat <span style="color: #3548cf;">"TODAY (W"</span> <span style="color: #808000;">(</span>format-time-string <span style="color: #3548cf;">"%V"</span><span style="color: #808000;">)</span> <span style="color: #3548cf;">")"</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span>
+         <span style="color: #008899;">(</span>org-agenda-span 'day<span style="color: #008899;">)</span>
+         <span style="color: #008899;">(</span>org-agenda-sorting-strategy
+          '<span style="color: #972500;">(</span><span style="color: #808000;">(</span>agenda time-up priority-down category-keep<span style="color: #808000;">)</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span>
+         <span style="color: #008899;">(</span>org-agenda-show-log t<span style="color: #008899;">)</span>
+         <span style="color: #008899;">(</span>org-agenda-log-mode-items '<span style="color: #972500;">(</span>clock<span style="color: #972500;">)</span><span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+<span style="color: #000000;">(</span>agenda <span style="color: #3548cf;">""</span>
+        <span style="color: #dd22dd;">(</span><span style="color: #008899;">(</span>org-agenda-overriding-header
+          <span style="color: #972500;">(</span>concat <span style="color: #3548cf;">"FOLLOWING DAYS (W"</span> <span style="color: #808000;">(</span>format-time-string <span style="color: #3548cf;">"%V"</span><span style="color: #808000;">)</span> <span style="color: #3548cf;">")"</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span>
+         <span style="color: #008899;">(</span>org-agenda-skip-function
+          '<span style="color: #972500;">(</span>org-agenda-skip-entry-if 'unscheduled<span style="color: #972500;">)</span><span style="color: #008899;">)</span>
+         <span style="color: #008899;">(</span>org-agenda-span 6<span style="color: #008899;">)</span>
+         <span style="color: #008899;">(</span>org-agenda-start-day <span style="color: #3548cf;">"+1d"</span><span style="color: #008899;">)</span>
+         <span style="color: #008899;">(</span>org-agenda-start-on-weekday nil<span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf6bbffb" class="outline-3">
+<h3 id="orgf6bbffb">completed</h3>
+<div class="outline-text-3" id="text-orgf6bbffb">
+<p>
+This makes me satisfied of myself. 
+</p>
+<div class="org-src-container">
+<pre class="src src-elisp"><span style="color: #000000;">(</span>tags <span style="color: #3548cf;">"CLOSED&gt;=\"&lt;-7d&gt;\"|DONE&gt;=\"&lt;-7d&gt;\"|CANCELLED&gt;=\"&lt;-7d&gt;\""</span>
+      <span style="color: #dd22dd;">(</span><span style="color: #008899;">(</span>org-agenda-overriding-header <span style="color: #3548cf;">"Completed in the Last 7 Days\n"</span><span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span> 
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org497ca00" class="outline-3">
+<h3 id="org497ca00">all to-do</h3>
+<div class="outline-text-3" id="text-org497ca00">
+<p>
+I have hundreds of and thousands of things to do, I wanna keep track of
+them and pick up one day to finish.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-elisp"><span style="color: #000000;">(</span>alltodo <span style="color: #3548cf;">""</span>
+         <span style="color: #dd22dd;">(</span><span style="color: #008899;">(</span>org-agenda-overriding-header <span style="color: #3548cf;">"ALL TODO ITEMS"</span><span style="color: #008899;">)</span>
+          <span style="color: #008899;">(</span>org-agenda-skip-function
+           '<span style="color: #972500;">(</span>org-agenda-skip-entry-if 'scheduled 'deadline<span style="color: #972500;">)</span><span style="color: #008899;">)</span>
+          <span style="color: #008899;">(</span>org-agenda-sorting-strategy
+           '<span style="color: #972500;">(</span>priority-down todo-state-up category-keep<span style="color: #972500;">)</span><span style="color: #008899;">)</span>
+          <span style="color: #595959;">;; </span><span style="color: #595959;">(org-agenda-show-outline-path t)
+</span>          <span style="color: #595959;">;; </span><span style="color: #595959;">(org-outline-path-complete-in-steps t)
+</span>          <span style="color: #008899;">(</span>org-agenda-prefix-format <span style="color: #3548cf;">"%l%i %s"</span><span style="color: #008899;">)</span>
+          <span style="color: #008899;">(</span>org-agenda-show-inherited-tags nil<span style="color: #008899;">)</span>
+          <span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org825a1fa" class="outline-3">
+<h3 id="org825a1fa">overview</h3>
+<div class="outline-text-3" id="text-org825a1fa">
+<div class="org-src-container">
+<pre class="src src-elisp"><span style="color: #000000;">(</span>add-to-list
+ 'org-agenda-custom-commands
+ '<span style="color: #dd22dd;">(</span><span style="color: #3548cf;">"d"</span> <span style="color: #3548cf;">"Daily Action"</span>
+   <span style="color: #008899;">(</span>
+    <span style="color: #972500;">(</span>agenda <span style="color: #3548cf;">""</span>
+            <span style="color: #808000;">(</span><span style="color: #531ab6;">(</span>org-agenda-overriding-header
+              <span style="color: #008900;">(</span>concat <span style="color: #3548cf;">"TODAY (W"</span> <span style="color: #3548cf;">(</span>format-time-string <span style="color: #3548cf;">"%V"</span><span style="color: #3548cf;">)</span> <span style="color: #3548cf;">")"</span><span style="color: #008900;">)</span><span style="color: #531ab6;">)</span>
+             <span style="color: #531ab6;">(</span>org-agenda-span 'day<span style="color: #531ab6;">)</span>
+             <span style="color: #531ab6;">(</span>org-agenda-sorting-strategy
+              '<span style="color: #008900;">(</span><span style="color: #3548cf;">(</span>agenda time-up priority-down category-keep<span style="color: #3548cf;">)</span><span style="color: #008900;">)</span><span style="color: #531ab6;">)</span>
+             <span style="color: #531ab6;">(</span>org-agenda-show-log t<span style="color: #531ab6;">)</span>
+             <span style="color: #531ab6;">(</span>org-agenda-log-mode-items '<span style="color: #008900;">(</span>clock<span style="color: #008900;">)</span><span style="color: #531ab6;">)</span><span style="color: #808000;">)</span><span style="color: #972500;">)</span>
+    <span style="color: #972500;">(</span>agenda <span style="color: #3548cf;">""</span>
+            <span style="color: #808000;">(</span><span style="color: #531ab6;">(</span>org-agenda-overriding-header
+              <span style="color: #008900;">(</span>concat <span style="color: #3548cf;">"FOLLOWING DAYS (W"</span> <span style="color: #3548cf;">(</span>format-time-string <span style="color: #3548cf;">"%V"</span><span style="color: #3548cf;">)</span> <span style="color: #3548cf;">")"</span><span style="color: #008900;">)</span><span style="color: #531ab6;">)</span>
+             <span style="color: #531ab6;">(</span>org-agenda-skip-function
+              '<span style="color: #008900;">(</span>org-agenda-skip-entry-if 'unscheduled<span style="color: #008900;">)</span><span style="color: #531ab6;">)</span>
+             <span style="color: #531ab6;">(</span>org-agenda-span 6<span style="color: #531ab6;">)</span>
+             <span style="color: #531ab6;">(</span>org-agenda-start-day <span style="color: #3548cf;">"+1d"</span><span style="color: #531ab6;">)</span>
+             <span style="color: #531ab6;">(</span>org-agenda-start-on-weekday nil<span style="color: #531ab6;">)</span><span style="color: #808000;">)</span><span style="color: #972500;">)</span>
+    <span style="color: #972500;">(</span>tags <span style="color: #3548cf;">"CLOSED&gt;=\"&lt;-7d&gt;\"|DONE&gt;=\"&lt;-7d&gt;\"|CANCELLED&gt;=\"&lt;-7d&gt;\""</span>
+          <span style="color: #808000;">(</span><span style="color: #531ab6;">(</span>org-agenda-overriding-header <span style="color: #3548cf;">"Completed in the Last 7 Days\n"</span><span style="color: #531ab6;">)</span><span style="color: #808000;">)</span><span style="color: #972500;">)</span> 
+    <span style="color: #972500;">(</span>alltodo <span style="color: #3548cf;">""</span>
+             <span style="color: #808000;">(</span><span style="color: #531ab6;">(</span>org-agenda-overriding-header <span style="color: #3548cf;">"ALL TODO ITEMS"</span><span style="color: #531ab6;">)</span>
+              <span style="color: #531ab6;">(</span>org-agenda-skip-function
+               '<span style="color: #008900;">(</span>org-agenda-skip-entry-if 'scheduled 'deadline<span style="color: #008900;">)</span><span style="color: #531ab6;">)</span>
+              <span style="color: #531ab6;">(</span>org-agenda-sorting-strategy
+               '<span style="color: #008900;">(</span>priority-down todo-state-up category-keep<span style="color: #008900;">)</span><span style="color: #531ab6;">)</span>
+              <span style="color: #595959;">;; </span><span style="color: #595959;">(org-agenda-show-outline-path t)
+</span>              <span style="color: #595959;">;; </span><span style="color: #595959;">(org-outline-path-complete-in-steps t)
+</span>              <span style="color: #531ab6;">(</span>org-agenda-prefix-format <span style="color: #3548cf;">"%l%i %s"</span><span style="color: #531ab6;">)</span>
+              <span style="color: #531ab6;">(</span>org-agenda-show-inherited-tags nil<span style="color: #531ab6;">)</span>
+              <span style="color: #808000;">)</span><span style="color: #972500;">)</span>
+    <span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org941a6e3" class="outline-2">
+<h2 id="org941a6e3">Cooperate with roam</h2>
+<div class="outline-text-2" id="text-org941a6e3">
+<p>
+In my org roam files, I always leave something to be done in the future.
+It is important to keep track of them, instead of spreading them everywhere.
+Following codes are come from author of org roam, if I remember correctly.
+</p>
+
+<p>
+It will add a <code>todo</code> tag, if there is a <b>TODO</b> heading in your file.
+Then add files path with <code>todo</code> tag to <code>org-agenda-files</code>.
+When you finish all <b>TODO</b> in your files, it will also remove <code>todo</code> tag
+automatically.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-elisp"><span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-todo-p</span> <span style="color: #dd22dd;">()</span>
+  <span style="color: #2a5045;">"Return non-nil if current buffer has any todo entry.
+  TODO entries marked as done are ignored, meaning the this
+  function returns nil if current buffer contains only completed
+  tasks."</span>
+  <span style="color: #dd22dd;">(</span>seq-find                                 <span style="color: #595959;">; </span><span style="color: #595959;">(3)
+</span>   <span style="color: #008899;">(</span><span style="color: #531ab6;">lambda</span> <span style="color: #972500;">(</span>type<span style="color: #972500;">)</span>
+     <span style="color: #972500;">(</span>eq type 'todo<span style="color: #972500;">)</span><span style="color: #008899;">)</span>
+   <span style="color: #008899;">(</span>org-element-map                         <span style="color: #595959;">; </span><span style="color: #595959;">(2)
+</span>       <span style="color: #972500;">(</span>org-element-parse-buffer 'headline<span style="color: #972500;">)</span> <span style="color: #595959;">; </span><span style="color: #595959;">(1)
+</span>       'headline
+     <span style="color: #972500;">(</span><span style="color: #531ab6;">lambda</span> <span style="color: #808000;">(</span>h<span style="color: #808000;">)</span>
+       <span style="color: #808000;">(</span>org-element-property <span style="color: #8f0075;">:todo-type</span> h<span style="color: #808000;">)</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+
+<span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-todo-update-tag</span> <span style="color: #dd22dd;">()</span>
+  <span style="color: #2a5045;">"Update TODO tag in the current buffer."</span>
+  <span style="color: #dd22dd;">(</span><span style="color: #531ab6;">when</span> <span style="color: #008899;">(</span><span style="color: #531ab6;">and</span> <span style="color: #972500;">(</span>not <span style="color: #808000;">(</span>active-minibuffer-window<span style="color: #808000;">)</span><span style="color: #972500;">)</span>
+             <span style="color: #972500;">(</span>vulpea-buffer-p<span style="color: #972500;">)</span><span style="color: #008899;">)</span>
+    <span style="color: #008899;">(</span><span style="color: #531ab6;">save-excursion</span>
+      <span style="color: #972500;">(</span>goto-char <span style="color: #808000;">(</span>point-min<span style="color: #808000;">)</span><span style="color: #972500;">)</span>
+      <span style="color: #972500;">(</span><span style="color: #531ab6;">let*</span> <span style="color: #808000;">(</span><span style="color: #531ab6;">(</span>tags <span style="color: #008900;">(</span>vulpea-buffer-tags-get<span style="color: #008900;">)</span><span style="color: #531ab6;">)</span>
+             <span style="color: #531ab6;">(</span>original-tags tags<span style="color: #531ab6;">)</span><span style="color: #808000;">)</span>
+        <span style="color: #808000;">(</span><span style="color: #531ab6;">if</span> <span style="color: #531ab6;">(</span>vulpea-todo-p<span style="color: #531ab6;">)</span>
+            <span style="color: #531ab6;">(</span><span style="color: #531ab6;">setq</span> tags <span style="color: #008900;">(</span>cons <span style="color: #3548cf;">"todo"</span> tags<span style="color: #008900;">)</span><span style="color: #531ab6;">)</span>
+          <span style="color: #531ab6;">(</span><span style="color: #531ab6;">setq</span> tags <span style="color: #008900;">(</span>remove <span style="color: #3548cf;">"todo"</span> tags<span style="color: #008900;">)</span><span style="color: #531ab6;">)</span><span style="color: #808000;">)</span>
+
+        <span style="color: #595959;">;; </span><span style="color: #595959;">cleanup duplicates
+</span>        <span style="color: #808000;">(</span><span style="color: #531ab6;">setq</span> tags <span style="color: #531ab6;">(</span>seq-uniq tags<span style="color: #531ab6;">)</span><span style="color: #808000;">)</span>
+
+        <span style="color: #595959;">;; </span><span style="color: #595959;">update tags if changed
+</span>        <span style="color: #808000;">(</span><span style="color: #531ab6;">when</span> <span style="color: #531ab6;">(</span><span style="color: #531ab6;">or</span> <span style="color: #008900;">(</span>seq-difference tags original-tags<span style="color: #008900;">)</span>
+                  <span style="color: #008900;">(</span>seq-difference original-tags tags<span style="color: #008900;">)</span><span style="color: #531ab6;">)</span>
+          <span style="color: #531ab6;">(</span>apply #'vulpea-buffer-tags-set tags<span style="color: #531ab6;">)</span><span style="color: #808000;">)</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+
+<span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-buffer-p</span> <span style="color: #dd22dd;">()</span>
+  <span style="color: #2a5045;">"Return non-nil if the currently visited buffer is a note."</span>
+  <span style="color: #dd22dd;">(</span><span style="color: #531ab6;">and</span> buffer-file-name
+       <span style="color: #008899;">(</span>string-prefix-p
+        <span style="color: #972500;">(</span>expand-file-name <span style="color: #808000;">(</span>file-name-as-directory org-roam-directory<span style="color: #808000;">)</span><span style="color: #972500;">)</span>
+        <span style="color: #972500;">(</span>file-name-directory buffer-file-name<span style="color: #972500;">)</span><span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+
+<span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-todo-files</span> <span style="color: #dd22dd;">()</span>
+  <span style="color: #2a5045;">"Return a list of note files containing '</span><span style="color: #0000b0;">todo</span><span style="color: #2a5045;">' tag."</span> <span style="color: #595959;">;</span><span style="color: #595959;">
+</span>  <span style="color: #dd22dd;">(</span>seq-uniq
+   <span style="color: #008899;">(</span>seq-map
+    #'car
+    <span style="color: #972500;">(</span>org-roam-db-query
+     <span style="color: #808000;">[</span><span style="color: #8f0075;">:select</span> <span style="color: #531ab6;">[</span>nodes:file<span style="color: #531ab6;">]</span>
+              <span style="color: #8f0075;">:from</span> tags
+              <span style="color: #8f0075;">:left-join</span> nodes
+              <span style="color: #8f0075;">:on</span> <span style="color: #531ab6;">(</span>= tags:node-id nodes:id<span style="color: #531ab6;">)</span>
+              <span style="color: #8f0075;">:where</span> <span style="color: #531ab6;">(</span>like tag <span style="color: #008900;">(</span><span style="color: #531ab6;">quote</span> <span style="color: #3548cf;">"%\"todo\"%"</span><span style="color: #008900;">)</span><span style="color: #531ab6;">)</span><span style="color: #808000;">]</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+
+
+<span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-agenda-files-update</span> <span style="color: #dd22dd;">(</span><span style="color: #005f5f;">&amp;rest</span> _<span style="color: #dd22dd;">)</span>
+  <span style="color: #2a5045;">"Update `</span><span style="color: #0000b0;">org-agenda-files</span><span style="color: #2a5045;">' by merging with current files.
+  This function accepts any number of arguments, as required by advice."</span>
+  <span style="color: #dd22dd;">(</span><span style="color: #531ab6;">let</span> <span style="color: #008899;">(</span><span style="color: #972500;">(</span>custom-agenda-files '<span style="color: #808000;">(</span><span style="color: #3548cf;">"~/Documents/org/"</span><span style="color: #808000;">)</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span>
+    <span style="color: #008899;">(</span><span style="color: #531ab6;">setq</span> org-agenda-files
+          <span style="color: #972500;">(</span>seq-uniq
+           <span style="color: #808000;">(</span>append custom-agenda-files
+                   <span style="color: #531ab6;">(</span>vulpea-todo-files<span style="color: #531ab6;">)</span><span style="color: #808000;">)</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+
+<span style="color: #000000;">(</span>add-hook 'find-file-hook #'vulpea-todo-update-tag<span style="color: #000000;">)</span>
+<span style="color: #000000;">(</span>add-hook 'before-save-hook #'vulpea-todo-update-tag<span style="color: #000000;">)</span>
+
+<span style="color: #000000;">(</span>advice-add 'org-agenda <span style="color: #8f0075;">:before</span> #'vulpea-agenda-files-update<span style="color: #000000;">)</span>
+<span style="color: #000000;">(</span>advice-add 'org-todo-list <span style="color: #8f0075;">:before</span> #'vulpea-agenda-files-update<span style="color: #000000;">)</span>
+
+<span style="color: #595959;">;; </span><span style="color: #595959;">functions borrowed from `</span><span style="color: #0000b0;">vulpea</span><span style="color: #595959;">' library
+</span><span style="color: #595959;">;; </span><span style="color: #595959;">https://github.com/d12frosted/vulpea/blob/6a735c34f1f64e1f70da77989e9ce8da7864e5ff/vulpea-buffer.el
+</span><span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-buffer-tags-get</span> <span style="color: #dd22dd;">()</span>
+  <span style="color: #2a5045;">"Return filetags value in current buffer."</span>
+  <span style="color: #dd22dd;">(</span>vulpea-buffer-prop-get-list <span style="color: #3548cf;">"filetags"</span> <span style="color: #3548cf;">"[ :]"</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+
+<span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-buffer-tags-set</span> <span style="color: #dd22dd;">(</span><span style="color: #005f5f;">&amp;rest</span> tags<span style="color: #dd22dd;">)</span>
+  <span style="color: #2a5045;">"Set TAGS in current buffer.
+  If filetags value is already set, replace it."</span>
+  <span style="color: #dd22dd;">(</span><span style="color: #531ab6;">if</span> tags
+      <span style="color: #008899;">(</span>vulpea-buffer-prop-set
+       <span style="color: #3548cf;">"filetags"</span> <span style="color: #972500;">(</span>concat <span style="color: #3548cf;">":"</span> <span style="color: #808000;">(</span>string-join tags <span style="color: #3548cf;">":"</span><span style="color: #808000;">)</span> <span style="color: #3548cf;">":"</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span>
+    <span style="color: #008899;">(</span>vulpea-buffer-prop-remove <span style="color: #3548cf;">"filetags"</span><span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+
+<span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-buffer-tags-add</span> <span style="color: #dd22dd;">(</span>tag<span style="color: #dd22dd;">)</span>
+  <span style="color: #2a5045;">"Add a TAG to filetags in current buffer."</span>
+  <span style="color: #dd22dd;">(</span><span style="color: #531ab6;">let*</span> <span style="color: #008899;">(</span><span style="color: #972500;">(</span>tags <span style="color: #808000;">(</span>vulpea-buffer-tags-get<span style="color: #808000;">)</span><span style="color: #972500;">)</span>
+         <span style="color: #972500;">(</span>tags <span style="color: #808000;">(</span>append tags <span style="color: #531ab6;">(</span>list tag<span style="color: #531ab6;">)</span><span style="color: #808000;">)</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span>
+    <span style="color: #008899;">(</span>apply #'vulpea-buffer-tags-set tags<span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+
+<span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-buffer-tags-remove</span> <span style="color: #dd22dd;">(</span>tag<span style="color: #dd22dd;">)</span>
+  <span style="color: #2a5045;">"Remove a TAG from filetags in current buffer."</span>
+  <span style="color: #dd22dd;">(</span><span style="color: #531ab6;">let*</span> <span style="color: #008899;">(</span><span style="color: #972500;">(</span>tags <span style="color: #808000;">(</span>vulpea-buffer-tags-get<span style="color: #808000;">)</span><span style="color: #972500;">)</span>l
+         <span style="color: #972500;">(</span>tags <span style="color: #808000;">(</span>delete tag tags<span style="color: #808000;">)</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span>
+    <span style="color: #008899;">(</span>apply #'vulpea-buffer-tags-set tags<span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+
+<span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-buffer-prop-set</span> <span style="color: #dd22dd;">(</span>name value<span style="color: #dd22dd;">)</span>
+  <span style="color: #2a5045;">"Set a file property called NAME to VALUE in buffer file.
+  If the property is already set, replace its value."</span>
+  <span style="color: #dd22dd;">(</span><span style="color: #531ab6;">setq</span> name <span style="color: #008899;">(</span>downcase name<span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span>
+  <span style="color: #dd22dd;">(</span><span style="color: #531ab6;">org-with-point-at</span> 1
+    <span style="color: #008899;">(</span><span style="color: #531ab6;">let</span> <span style="color: #972500;">(</span><span style="color: #808000;">(</span>case-fold-search t<span style="color: #808000;">)</span><span style="color: #972500;">)</span>
+      <span style="color: #972500;">(</span><span style="color: #531ab6;">if</span> <span style="color: #808000;">(</span>re-search-forward <span style="color: #531ab6;">(</span>concat <span style="color: #3548cf;">"^#\\+"</span> name <span style="color: #3548cf;">":</span><span style="color: #721045;">\\</span><span style="color: #00663f;">(</span><span style="color: #3548cf;">.*</span><span style="color: #721045;">\\</span><span style="color: #00663f;">)</span><span style="color: #3548cf;">"</span><span style="color: #531ab6;">)</span>
+                             <span style="color: #531ab6;">(</span>point-max<span style="color: #531ab6;">)</span> t<span style="color: #808000;">)</span>
+          <span style="color: #808000;">(</span>replace-match <span style="color: #531ab6;">(</span>concat <span style="color: #3548cf;">"#+"</span> name <span style="color: #3548cf;">": "</span> value<span style="color: #531ab6;">)</span> 'fixedcase<span style="color: #808000;">)</span>
+        <span style="color: #808000;">(</span><span style="color: #531ab6;">while</span> <span style="color: #531ab6;">(</span><span style="color: #531ab6;">and</span> <span style="color: #008900;">(</span>not <span style="color: #3548cf;">(</span>eobp<span style="color: #3548cf;">)</span><span style="color: #008900;">)</span>
+                    <span style="color: #008900;">(</span>looking-at <span style="color: #3548cf;">"^[#:]"</span><span style="color: #008900;">)</span><span style="color: #531ab6;">)</span>
+          <span style="color: #531ab6;">(</span><span style="color: #531ab6;">if</span> <span style="color: #008900;">(</span><span style="color: #531ab6;">save-excursion</span> <span style="color: #3548cf;">(</span>end-of-line<span style="color: #3548cf;">)</span> <span style="color: #3548cf;">(</span>eobp<span style="color: #3548cf;">)</span><span style="color: #008900;">)</span>
+              <span style="color: #008900;">(</span><span style="color: #531ab6;">progn</span>
+                <span style="color: #3548cf;">(</span>end-of-line<span style="color: #3548cf;">)</span>
+                <span style="color: #3548cf;">(</span>insert <span style="color: #3548cf;">"\n"</span><span style="color: #3548cf;">)</span><span style="color: #008900;">)</span>
+            <span style="color: #008900;">(</span>forward-line<span style="color: #008900;">)</span>
+            <span style="color: #008900;">(</span>beginning-of-line<span style="color: #008900;">)</span><span style="color: #531ab6;">)</span><span style="color: #808000;">)</span>
+        <span style="color: #808000;">(</span>insert <span style="color: #3548cf;">"#+"</span> name <span style="color: #3548cf;">": "</span> value <span style="color: #3548cf;">"\n"</span><span style="color: #808000;">)</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+
+<span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-buffer-prop-set-list</span> <span style="color: #dd22dd;">(</span>name values <span style="color: #005f5f;">&amp;optional</span> separators<span style="color: #dd22dd;">)</span>
+  <span style="color: #2a5045;">"Set a file property called NAME to VALUES in current buffer.
+  VALUES are quoted and combined into single string using
+  `</span><span style="color: #0000b0;">combine-and-quote-strings</span><span style="color: #2a5045;">'.
+  If SEPARATORS is non-nil, it should be a regular expression
+  matching text that separates, but is not part of, the substrings.
+  If nil it defaults to `</span><span style="color: #0000b0;">split-string-default-separators</span><span style="color: #2a5045;">', normally
+  \"[ \f\t\n\r\v]+\", and OMIT-NULLS is forced to t.
+  If the property is already set, replace its value."</span>
+  <span style="color: #dd22dd;">(</span>vulpea-buffer-prop-set
+   name <span style="color: #008899;">(</span>combine-and-quote-strings values separators<span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+
+<span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-buffer-prop-get</span> <span style="color: #dd22dd;">(</span>name<span style="color: #dd22dd;">)</span>
+  <span style="color: #2a5045;">"Get a buffer property called NAME as a string."</span>
+  <span style="color: #dd22dd;">(</span><span style="color: #531ab6;">org-with-point-at</span> 1
+    <span style="color: #008899;">(</span><span style="color: #531ab6;">when</span> <span style="color: #972500;">(</span>re-search-forward <span style="color: #808000;">(</span>concat <span style="color: #3548cf;">"^#\\+"</span> name <span style="color: #3548cf;">": </span><span style="color: #721045;">\\</span><span style="color: #00663f;">(</span><span style="color: #3548cf;">.*</span><span style="color: #721045;">\\</span><span style="color: #00663f;">)</span><span style="color: #3548cf;">"</span><span style="color: #808000;">)</span>
+                             <span style="color: #808000;">(</span>point-max<span style="color: #808000;">)</span> t<span style="color: #972500;">)</span>
+      <span style="color: #972500;">(</span>buffer-substring-no-properties
+       <span style="color: #808000;">(</span>match-beginning 1<span style="color: #808000;">)</span>
+       <span style="color: #808000;">(</span>match-end 1<span style="color: #808000;">)</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+
+<span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-buffer-prop-get-list</span> <span style="color: #dd22dd;">(</span>name <span style="color: #005f5f;">&amp;optional</span> separators<span style="color: #dd22dd;">)</span>
+  <span style="color: #2a5045;">"Get a buffer property NAME as a list using SEPARATORS.
+  If SEPARATORS is non-nil, it should be a regular expression
+  matching text that separates, but is not part of, the substrings.
+  If nil it defaults to `</span><span style="color: #0000b0;">split-string-default-separators</span><span style="color: #2a5045;">', normally
+  \"[ \f\t\n\r\v]+\", and OMIT-NULLS is forced to t."</span>
+  <span style="color: #dd22dd;">(</span><span style="color: #531ab6;">let</span> <span style="color: #008899;">(</span><span style="color: #972500;">(</span>value <span style="color: #808000;">(</span>vulpea-buffer-prop-get name<span style="color: #808000;">)</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span>
+    <span style="color: #008899;">(</span><span style="color: #531ab6;">when</span> <span style="color: #972500;">(</span><span style="color: #531ab6;">and</span> value <span style="color: #808000;">(</span>not <span style="color: #531ab6;">(</span>string-empty-p value<span style="color: #531ab6;">)</span><span style="color: #808000;">)</span><span style="color: #972500;">)</span>
+      <span style="color: #972500;">(</span>split-string-and-unquote value separators<span style="color: #972500;">)</span><span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+
+<span style="color: #000000;">(</span><span style="color: #531ab6;">defun</span> <span style="color: #721045;">vulpea-buffer-prop-remove</span> <span style="color: #dd22dd;">(</span>name<span style="color: #dd22dd;">)</span>
+  <span style="color: #2a5045;">"Remove a buffer property called NAME."</span>
+  <span style="color: #dd22dd;">(</span><span style="color: #531ab6;">org-with-point-at</span> 1
+    <span style="color: #008899;">(</span><span style="color: #531ab6;">when</span> <span style="color: #972500;">(</span>re-search-forward <span style="color: #808000;">(</span>concat <span style="color: #3548cf;">"</span><span style="color: #721045;">\\</span><span style="color: #00663f;">(</span><span style="color: #3548cf;">^#\\+"</span> name <span style="color: #3548cf;">":.*\n?</span><span style="color: #721045;">\\</span><span style="color: #00663f;">)</span><span style="color: #3548cf;">"</span><span style="color: #808000;">)</span>
+                             <span style="color: #808000;">(</span>point-max<span style="color: #808000;">)</span> t<span style="color: #972500;">)</span>
+      <span style="color: #972500;">(</span>replace-match <span style="color: #3548cf;">""</span><span style="color: #972500;">)</span><span style="color: #008899;">)</span><span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

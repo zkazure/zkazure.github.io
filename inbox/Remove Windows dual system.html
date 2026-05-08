@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Remove Windows dual system</title>
+<meta name="author" content="Kazure Zheng" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Remove Windows dual system</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org72d48eb">Preface</a></li>
+<li><a href="#orgcba2387">Main</a>
+<ul>
+<li><a href="#orgf66763c">informations</a></li>
+<li><a href="#orgd119d51">update EFI</a></li>
+<li><a href="#orgd8e16ba">remove Windows</a></li>
+<li><a href="#org01cc454"><span class="todo TODO">TODO</span> update grub</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org72d48eb" class="outline-2">
+<h2 id="org72d48eb">Preface</h2>
+<div class="outline-text-2" id="text-org72d48eb">
+<p>
+我想所有人的电脑启蒙都是 Windows，我也不例外。之后开始正式学习计算机难免不会开始接触 Linux 系统，于是大多数人的电脑都是双系统了。我也使用了很久的双系统，不过我发现我已经几乎不会打开 Windows 的系统了，于是决定找一个时间把 Windows 系统完全删除。就算是意外情况需要使用 Windows 系统，也有 kvm 虚拟机可以替代。特此记录一下折腾的过程。
+</p>
+</div>
+</div>
+<div id="outline-container-orgcba2387" class="outline-2">
+<h2 id="orgcba2387">Main</h2>
+<div class="outline-text-2" id="text-orgcba2387">
+</div>
+<div id="outline-container-orgf66763c" class="outline-3">
+<h3 id="orgf66763c">informations</h3>
+<div class="outline-text-3" id="text-orgf66763c">
+<p>
+我的情况可能有一点特殊，我的两个电脑系统是安装在了两个不同的固态硬盘之上的。原有的硬盘是 512G，新的硬盘是 1T，所以我更加倾向于彻底格式化原来的硬盘。因此我需要把 efi 分区更新到新的硬盘上面来。不过我想绝大部分的过程都是一致的。
+</p>
+</div>
+</div>
+<div id="outline-container-orgd119d51" class="outline-3">
+<h3 id="orgd119d51">update EFI</h3>
+<div class="outline-text-3" id="text-orgd119d51">
+<p>
+EFI 分区是电脑从 bios 启动之后，选择操作系统的入口。所以我们第一步就是要把 EFI 分区从原来的硬盘移动到新硬盘上面。
+</p>
+
+
+<p>
+在移动之前，我们需要进行分区操作。我们需要在新的硬盘头分出一个空区域，用来作为 EFI。所幸，我的系统第一个分区是 swap 分区，而不是系统的根目录，我们操作分区可以不必那么小心了。
+</p>
+
+
+<p>
+首先需要使用命令查看自己电脑的硬盘情况。
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">lsblk</span> -o NAME,FSTYPE,MOUNTPOINT,PARTTYPENAME,SIZE
+</pre>
+</div>
+
+
+
+<p>
+确认好硬盘情况之后，我们就可以正式开始操作了。
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #595959;"># &#25152;&#26377;&#30340;&#30828;&#30424;&#37117;&#20316;&#20026;&#19968;&#20010;&#25991;&#20214;&#25918;&#22312;&#20102; /dev &#20043;&#19979;</span>
+<span style="color: #721045;">sudo</span> swapoff /dev/nvme1n1p1 <span style="color: #595959;"># &#20851;&#38381; swap</span>
+</pre>
+</div>
+
+
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">sudo</span> fdisk /dev/nvme1n1
+</pre>
+</div>
+<p>
+接下来我们进入了一个交互界面，所有的操作在输入 <code>w</code> 之前都是不会实际发生的。
+</p>
+
+<ol class="org-ol">
+<li><code>p</code> 打印分区表</li>
+<li><code>d 1</code> 删除旧的 swap 分区</li>
+<li><code>n 1</code> 新建分区，起始扇区使用默认（2048）, 结束扇区 <code>+512M</code></li>
+<li><code>t 1 1</code> 更改刚刚新建的分区的类型为 EFI</li>
+<li><code>n</code> 新建 swap 分区，全部使用默认，会使用所有剩下的空间。</li>
+<li><code>w</code> 保存并退出。</li>
+</ol>
+
+
+
+<p>
+格式化新分区
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">sudo</span> mkfs.vfat -F 32 /dev/nvme1n1p1
+<span style="color: #721045;">sudo</span> mkswap /dev/nvme1n1p4  <span style="color: #595959;"># &#20551;&#35774;&#26032; swap &#32534;&#21495;&#26159; 4</span>
+<span style="color: #721045;">sudo</span> swapon /dev/nvme1n1p4
+</pre>
+</div>
+
+
+<p>
+迁移引导文件
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">sudo</span> mkdir /mnt/new_efi
+<span style="color: #721045;">sudo</span> mount /dev/nvme1n1p1 /mnt/new_efi
+<span style="color: #721045;">sudo</span> rsync -av /boot/efi/ /mnt/new_efi/
+</pre>
+</div>
+
+<p>
+接下来我们需要修改 <code>/etc/fstab</code> ，让默认挂载的分区变成我们新修改的分区。我们修改了 EFI 和 swap，因此我们需要更新他们的 UUID。使用 <code>lsblk -f</code> 获取对应分区的 UUID。
+</p>
+
+
+<p>
+刷新配置
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">sudo</span> umount /boot/efi
+<span style="color: #721045;">sudo</span> mount /boot/efi  <span style="color: #595959;"># &#27492;&#26102;&#23427;&#20250;&#26681;&#25454; fstab &#25346;&#36733;&#21040; nvme1n1p1</span>
+<span style="color: #721045;">sudo</span> grub-install /dev/nvme1n1
+<span style="color: #721045;">sudo</span> update-grub
+
+<span style="color: #721045;">sudo</span> umount /mnt/new_efi/
+<span style="color: #721045;">sudo</span> rm /mnt/new_efi/ -r
+</pre>
+</div>
+
+
+<p>
+对于我是用的 Debian 系统还需要更新 <code>/etc/initramfs-tools/conf.d/resume</code> ，把 UUID 换成新的 swap 分区，然后 <code>update-initramfs -u</code>.
+接下来就是重启测试了。
+</p>
+</div>
+</div>
+<div id="outline-container-orgd8e16ba" class="outline-3">
+<h3 id="orgd8e16ba">remove Windows</h3>
+<div class="outline-text-3" id="text-orgd8e16ba">
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">sudo</span> umount /dev/nvme0n1?* <span style="color: #595959;"># &#21462;&#28040;&#25346;&#36733;&#20998;&#21306;</span>
+<span style="color: #721045;">sudo</span> wipefs -a /dev/nvme0n1
+<span style="color: #721045;">sudo</span> fdisk /dev/nvme0n1 <span style="color: #595959;"># &#21019;&#24314;&#26032;&#20998;&#21306; &#27880;&#24847;&#31532;&#19968;&#20010;&#21629;&#20196;&#24212;&#35813;&#36755;&#20837; g &#20197;&#21019;&#24314;2&#29616;&#20195;&#30340; GPT &#20998;&#21306;&#34920;</span>
+<span style="color: #721045;">sudo</span> mkfs.ext4 /dev/nvme0n1p* <span style="color: #595959;"># &#26684;&#24335;&#21270;&#26032;&#20998;&#21306;</span>
+</pre>
+</div>
+
+
+<p>
+我希望在旧的硬盘里面分出大概一半的空间用来备份数据。因此我在分区之后还需要设置好硬盘的自动挂载，还要修改 <code>/etc/fstab</code> ，增加：
+</p>
+<div class="org-src-container">
+<pre class="src src-conf"><span style="color: #005e8b;">UUID</span>=&#20320;&#30340;UUID  /home/user/Backup  ext4  defaults,noatime,nofail,x-systemd.device-timeout=30s  0  2
+</pre>
+</div>
+
+<p>
+挂载分区
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">sudo</span> mount -a
+<span style="color: #721045;">sudo</span> chown -R user:user /home/user/Backup
+</pre>
+</div>
+
+<p>
+UUID=你的UUID  /home/kazure/Backup  ext4  defaults,noatime  0  2
+</p>
+</div>
+</div>
+<div id="outline-container-org01cc454" class="outline-3">
+<h3 id="org01cc454"><span class="todo TODO">TODO</span> update grub</h3>
+<div class="outline-text-3" id="text-org01cc454">
+<p>
+很神奇的是清理失败了。
+</p>
+
+<p>
+接下来就是需要清理 grub 了，使用这个命令输出当前的 UEFI 启动项。
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">efibootmgr</span>
+</pre>
+</div>
+
+<p>
+找到想删除的系统 BootOrder， <code>sudo efibootmgr -b &lt;BootOrder&gt; -B</code>
+</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

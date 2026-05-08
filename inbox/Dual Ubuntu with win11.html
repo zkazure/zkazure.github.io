@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dual Ubuntu with win11</title>
+<meta name="author" content="Kazure Zheng" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Dual Ubuntu with win11</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgfe38f76">This is the dual ubuntu set up progress</a>
+<ul>
+<li><a href="#orgc1e3713">Version info</a></li>
+<li><a href="#org78a2f5f">Preparation</a></li>
+<li><a href="#orgae8c4f5">My Disk Split</a></li>
+<li><a href="#org1eb7ae8">Automatically Mount other disks of windows in the Ubuntu</a></li>
+</ul>
+</li>
+<li><a href="#orga406cbc">Others</a>
+<ul>
+<li><a href="#org79d5ccc">Internet</a>
+<ul>
+<li><a href="#org323a453">The Internet vpn</a></li>
+<li><a href="#org7017b9f">campus internet</a></li>
+</ul>
+</li>
+<li><a href="#org5e05ad3">System</a>
+<ul>
+<li><a href="#org1d0076f">change the grub theme</a></li>
+<li><a href="#org28d2abe">change the keybinding</a></li>
+<li><a href="#orgabe315e">ubuntu pro</a></li>
+<li><a href="#orga147bfd">change to ppi to 125%</a></li>
+<li><a href="#org45cb49a">Docker bar</a></li>
+<li><a href="#org425c1ec">auto-cpufreq</a></li>
+<li><a href="#org5f90051">install zsh</a></li>
+<li><a href="#orga440610">Fix hp 1020 printer didn't work in the Ubuntu 24.04</a></li>
+<li><a href="#orgdabfb34">doom emacs</a></li>
+<li><a href="#orgeccd4da">change the web browers</a></li>
+</ul>
+</li>
+<li><a href="#org6060a7f">Software</a>
+<ul>
+<li><a href="#orgc882c08">Local Send</a></li>
+<li><a href="#org6125e5d">anki</a></li>
+<li><a href="#orge8b7738">mpv</a></li>
+<li><a href="#org4b530f7">miniconda</a></li>
+<li><a href="#orgb0c02c7">alt space</a></li>
+<li><a href="#org25d020a">flatpak</a></li>
+<li><a href="#org167a54f">docker</a></li>
+<li><a href="#org1dd0bf3">latex</a></li>
+<li><a href="#orgb17b606">ssh key</a></li>
+<li><a href="#org458397d">syncthing</a></li>
+<li><a href="#orge01cd75">add zotero</a></li>
+<li><a href="#org75b08ef">hugo</a></li>
+<li><a href="#orgf0cf416">Install rime on Ubuntu 24.04</a></li>
+<li><a href="#orga92a48b">create shortcut of application in the Ubuntu</a></li>
+<li><a href="#org0df4d60">App Fleet</a></li>
+<li><a href="#orgd89e674">Bitnance</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfe38f76" class="outline-2">
+<h2 id="orgfe38f76">This is the dual ubuntu set up progress<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup></h2>
+<div class="outline-text-2" id="text-orgfe38f76">
+<p>
+refer to <a href="https://www.bilibili.com/opus/899380230688342018?from=search&amp;spm_id_from=333.337.0.0%20">Dual Ubuntu 22.04</a>
+If you have a new SSD, and prepare to use entire SSD as the Ubuntu disk,
+you can start from <b>三、安装Ubuntu及分区</b>. 
+</p>
+</div>
+<div id="outline-container-orgc1e3713" class="outline-3">
+<h3 id="orgc1e3713">Version info</h3>
+<div class="outline-text-3" id="text-orgc1e3713">
+<p>
+This is the tutorial about how to dual ubuntu with windows 11 on different harewares.
+version information:
+windows 11 24H2
+Ubuntu 22.04 LTS
+</p>
+</div>
+</div>
+<div id="outline-container-org78a2f5f" class="outline-3">
+<h3 id="org78a2f5f">Preparation</h3>
+<div class="outline-text-3" id="text-org78a2f5f">
+<ul class="org-ul">
+<li>a 8 GB usb at least</li>
+<li>a new SSD</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgae8c4f5" class="outline-3">
+<h3 id="orgae8c4f5">My Disk Split</h3>
+<div class="outline-text-3" id="text-orgae8c4f5">
+<p>
+my disk is 1 TB
+</p>
+<ul class="org-ul">
+<li><code>swap</code>: 32 GB</li>
+<li><code>/</code>: 100 GB</li>
+<li><code>efi</code>: 1GB</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1eb7ae8" class="outline-3">
+<h3 id="org1eb7ae8">Automatically Mount other disks of windows in the Ubuntu</h3>
+<div class="outline-text-3" id="text-org1eb7ae8">
+<div class="org-src-container">
+<pre class="src src-zsh">sudo fdisk -l
+sudo blkid
+</pre>
+</div>
+<p>
+find your disk name, then find the UUID
+</p>
+
+<div class="org-src-container">
+<pre class="src src-zsh">sudo vim /etc/fstab
+</pre>
+</div>
+
+<p>
+finally,
+</p>
+<div class="org-src-container">
+<pre class="src src-nil">UUID=&lt;UUID&gt; &lt;mount point&gt; &lt;type&gt; &lt;options&gt; &lt;dump&gt; &lt;pass&gt;
+
+# the windows C was on /dev/nvme0n1p3
+UUID=&lt;UUID&gt;  /winc           ntfs    defaults        0       2
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orga406cbc" class="outline-2">
+<h2 id="orga406cbc">Others</h2>
+<div class="outline-text-2" id="text-orga406cbc">
+</div>
+<div id="outline-container-org79d5ccc" class="outline-3">
+<h3 id="org79d5ccc">Internet</h3>
+<div class="outline-text-3" id="text-org79d5ccc">
+</div>
+<div id="outline-container-org323a453" class="outline-4">
+<h4 id="org323a453">The Internet vpn</h4>
+<div class="outline-text-4" id="text-org323a453">
+<p>
+<a href="https://github.com/clash-verge-rev/clash-verge-rev">https://github.com/clash-verge-rev/clash-verge-rev</a>
+cd dir
+sudo apt install ./file.deb
+</p>
+</div>
+</div>
+<div id="outline-container-org7017b9f" class="outline-4">
+<h4 id="org7017b9f">campus internet</h4>
+<div class="outline-text-4" id="text-org7017b9f">
+<p>
+There is no official guide to connect the campus Internet in the Sun Yat-sen University on the Unbuntu. So I create this blog. Following is the correct setting.
+</p>
+
+<ul class="org-ul">
+<li>Security: WPA &amp; WPA2 Enterprise</li>
+<li>Authentication: PEAP</li>
+<li>Check the <code>No CA certificate is required</code> option.</li>
+<li>Inner authentication: GTC</li>
+</ul>
+
+<p>
+then others keep dufault.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5e05ad3" class="outline-3">
+<h3 id="org5e05ad3">System</h3>
+<div class="outline-text-3" id="text-org5e05ad3">
+</div>
+<div id="outline-container-org1d0076f" class="outline-4">
+<h4 id="org1d0076f">change the grub theme</h4>
+<div class="outline-text-4" id="text-org1d0076f">
+<p>
+gnome-look.org/browse?cat=109&amp;ord=latest
+I choose this one
+<a href="https://www.gnome-look.org/p/1280604">https://www.gnome-look.org/p/1280604</a>
+</p>
+
+<p>
+sudo chmod a+x install.sh
+sudo ./Install.sh
+</p>
+</div>
+</div>
+<div id="outline-container-org28d2abe" class="outline-4">
+<h4 id="org28d2abe">change the keybinding</h4>
+<div class="outline-text-4" id="text-org28d2abe">
+<div class="org-src-container">
+<pre class="src src-zsh">sudo vim /etc/default/keyboard
+</pre>
+</div>
+<p>
+here is change the left control with the capslock.
+</p>
+<div class="org-src-container">
+<pre class="src src-conf"><span style="color: #595959;"># </span><span style="color: #595959;">KEYBOARD CONFIGURATION FILE
+</span>
+<span style="color: #595959;"># </span><span style="color: #595959;">Consult the keyboard(5) manual page.
+</span>
+<span style="color: #005e8b;">XKBMODEL</span>=<span style="color: #3548cf;">"pc105"</span>
+<span style="color: #005e8b;">XKBLAYOUT</span>=<span style="color: #3548cf;">"us"</span>
+<span style="color: #005e8b;">XKBVARIANT</span>=<span style="color: #3548cf;">""</span>
+<span style="color: #005e8b;">XKBOPTIONS</span>=<span style="color: #3548cf;">"ctrl:swapcaps"</span>
+
+<span style="color: #005e8b;">BACKSPACE</span>=<span style="color: #3548cf;">"guess"</span>
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgabe315e" class="outline-4">
+<h4 id="orgabe315e">ubuntu pro</h4>
+<div class="outline-text-4" id="text-orgabe315e">
+<p>
+go to the ubuntu pro website, register the account, then copy the token
+</p>
+<div class="org-src-container">
+<pre class="src src-zsh">sudo pro attach &lt;token&gt;
+pro status
+sudo apt update &amp;&amp; sudo apt upgrade
+</pre>
+</div>
+<p>
+if your computer will keep running for a long time. you can sudo pro enable livepatch
+</p>
+</div>
+</div>
+<div id="outline-container-orga147bfd" class="outline-4">
+<h4 id="orga147bfd">change to ppi to 125%</h4>
+<div class="outline-text-4" id="text-orga147bfd">
+<p>
+sudo apt install gnome-tweaks
+in the tweaks Fonts/Size/Scaling Factor
+</p>
+</div>
+</div>
+<div id="outline-container-org45cb49a" class="outline-4">
+<h4 id="org45cb49a">Docker bar</h4>
+<div class="outline-text-4" id="text-org45cb49a">
+<p>
+sudo apt install gnome-shell-extension-manager
+then remove the dock
+in the setting <code>Ubuntu desktop/ Dock/Auto-hide the dock</code>
+</p>
+</div>
+</div>
+<div id="outline-container-org425c1ec" class="outline-4">
+<h4 id="org425c1ec">auto-cpufreq</h4>
+<div class="outline-text-4" id="text-org425c1ec">
+<div class="org-src-container">
+<pre class="src src-zsh">git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+<span style="color: #8f0075;">cd</span> auto-cpufreq &amp;&amp; sudo ./auto-cpufreq-installer
+</pre>
+</div>
+<p>
+then open the auto-cpufreq, click the install.
+</p>
+</div>
+</div>
+<div id="outline-container-org5f90051" class="outline-4">
+<h4 id="org5f90051">install zsh</h4>
+<div class="outline-text-4" id="text-org5f90051">
+<div class="org-src-container">
+<pre class="src src-zsh">sudo apt install curl
+sudo apt install git
+sudo apt install neovim
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-zsh">sudo apt install zsh
+chsh -s /bin/zsh
+
+
+sh -c <span style="color: #3548cf;">"$(</span><span style="color: #8f0075;">curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh</span><span style="color: #3548cf;">)"</span>
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $<span style="color: #000000;">{</span><span style="color: #005e8b;">ZSH_CUSTOM</span>:-~/.oh-my-zsh/custom<span style="color: #000000;">}</span>/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions $<span style="color: #000000;">{</span><span style="color: #005e8b;">ZSH_CUSTOM</span>:-~/.oh-my-zsh/custom<span style="color: #000000;">}</span>/plugins/zsh-autosuggestions
+
+vim ~/.zshrc
+
+</pre>
+</div>
+
+<p>
+Add <code>zsh-syntax-highlighting zsh-autosuggestions  z</code> in the <code>plugins=(git)</code>
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org3f47a11"></a>Change theme<br />
+<div class="outline-text-5" id="text-org3f47a11">
+<div class="org-src-container">
+<pre class="src src-zsh">git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $<span style="color: #000000;">{</span><span style="color: #005e8b;">ZSH_CUSTOM</span>:-$<span style="color: #005e8b;">HOME</span>/.oh-my-zsh/custom<span style="color: #000000;">}</span>/themes/powerlevel10k
+
+sed -i <span style="color: #3548cf;">'s/ZSH_THEME.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/g'</span> .zshrc
+
+<span style="color: #8f0075;">source</span> .zshrc
+
+</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orga440610" class="outline-4">
+<h4 id="orga440610">Fix hp 1020 printer didn't work in the Ubuntu 24.04</h4>
+<div class="outline-text-4" id="text-orga440610">
+</div>
+<ul class="org-ul">
+<li><a id="orgb1e4a1d"></a>Problem<br />
+<div class="outline-text-5" id="text-orgb1e4a1d">
+<p>
+As for me, the ubuntu could recognize the hp 1020, but no matter how much times I send tasks to the printer, it never run actually.
+</p>
+</div>
+</li>
+<li><a id="orgd747419"></a>Solution<br />
+<div class="outline-text-5" id="text-orgd747419">
+<div class="org-src-container">
+<pre class="src src-zsh">sudo hp-plgin
+</pre>
+</div>
+<p>
+Follow the hints.
+</p>
+</div>
+</li>
+<li><a id="orge5db41e"></a>Some errors<br />
+<div class="outline-text-5" id="text-orge5db41e">
+<p>
+Here I encountered some problems.
+</p>
+<div class="org-src-container">
+<pre class="src src-zsh">Downloading firmware to device hp:/usb/HP_LaserJet_1020?<span style="color: #005e8b;">serial</span>=JL3AW5S...
+<span style="color: #721045;">Traceback</span> <span style="color: #000000;">(</span>most recent call last<span style="color: #000000;">)</span>:
+  File <span style="color: #3548cf;">"/usr/bin/hp-plugin"</span>, line 409,<span style="color: #531ab6;"> in</span> &lt;module&gt;
+    <span style="color: #531ab6;">if</span> d.downloadFirmware<span style="color: #000000;">()</span>:
+       ^^^^^^^^^^^^^^^^^^^^
+  File <span style="color: #3548cf;">"/usr/share/hplip/base/device.py"</span>, line 2672,<span style="color: #531ab6;"> in</span> downloadFirmware
+    log.debug<span style="color: #000000;">(</span><span style="color: #3548cf;">"%s bytes downloaded."</span> % utils.commafy<span style="color: #dd22dd;">(</span>bytes_written<span style="color: #dd22dd;">)</span><span style="color: #000000;">)</span>
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File <span style="color: #3548cf;">"/usr/share/hplip/base/utils.py"</span>, line 476,<span style="color: #531ab6;"> in</span> commafy
+    <span style="color: #531ab6;">return</span> locale.format<span style="color: #000000;">(</span><span style="color: #3548cf;">"%s"</span>, val, <span style="color: #005e8b;">grouping</span>=True<span style="color: #000000;">)</span>
+           ^^^^^^^^^^^^^
+AttributeError: module <span style="color: #3548cf;">'locale'</span> has no attribute <span style="color: #3548cf;">'format'</span>. Did you mean: <span style="color: #3548cf;">'_format'</span>?
+ ~                                                                25s  base py
+</pre>
+</div>
+<p>
+I do following.
+edit <code>/usr/share/hplip/base/utils.py</code>, found <code>commafy</code> function:
+</p>
+<div class="org-src-container">
+<pre class="src src-python"><span style="color: #531ab6;">return</span> <span style="color: #005e8b;">locale</span>.<span style="color: #721045;">format</span><span style="color: #000000;">(</span><span style="color: #3548cf;">"%s"</span>, <span style="color: #005e8b;">val</span>, <span style="color: #005e8b;">grouping</span>=<span style="color: #0000b0;">True</span><span style="color: #000000;">)</span>
+</pre>
+</div>
+<p>
+change to:
+</p>
+<div class="org-src-container">
+<pre class="src src-python"><span style="color: #531ab6;">return</span> <span style="color: #005e8b;">locale</span>.<span style="color: #721045;">format_string</span><span style="color: #000000;">(</span><span style="color: #3548cf;">"%s"</span>, <span style="color: #005e8b;">val</span>, <span style="color: #005e8b;">grouping</span>=<span style="color: #0000b0;">True</span><span style="color: #000000;">)</span>
+</pre>
+</div>
+<p>
+Finally, rerun <code>sudo hp-plugin</code>, no errors.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orgdabfb34" class="outline-4">
+<h4 id="orgdabfb34">doom emacs</h4>
+<div class="outline-text-4" id="text-orgdabfb34">
+<div class="org-src-container">
+<pre class="src src-zsh">
+sudo apt update
+sudo apt install cmake libtool
+sudo apt install build-essential cmake libncurses-dev libssl-dev
+</pre>
+</div>
+
+<p>
+go here to find the newest .deb
+<a href="https://github.com/BurntSushi/ripgrep/releases">https://github.com/BurntSushi/ripgrep/releases</a>
+</p>
+<div class="org-src-container">
+<pre class="src src-zsh">
+wget ...
+sudo dpkg -i .deb
+</pre>
+</div>
+<p>
+the same
+<a href="https://github.com/sharkdp/fd/releases">https://github.com/sharkdp/fd/releases</a>
+</p>
+
+<div class="org-src-container">
+<pre class="src src-zsh">
+sudo apt install shellcheck
+sudo apt install pandoc
+<span style="color: #595959;"># </span><span style="color: #595959;">&#23433;&#35013;&#32534;&#35793;&#24037;&#20855;&#21644;&#22522;&#30784;&#20381;&#36182;
+</span>sudo apt install -y build-essential git autoconf texinfo
+
+<span style="color: #595959;"># </span><span style="color: #595959;">&#23433;&#35013;&#22270;&#24418;&#30028;&#38754;&#21644;&#21151;&#33021;&#20381;&#36182;
+</span>sudo apt install -y libgtk-3-dev libgnutls28-dev libtiff5-dev libgif-dev libjpeg-dev libpng-dev libxpm-dev libncurses-dev libxml2-dev libjansson-dev libtree-sitter-dev
+gcc --version
+sudo apt install libgccjit-&lt;yours&gt;-dev
+./configure <span style="color: #3548cf;">\</span>
+    --prefix=/usr/local <span style="color: #3548cf;">\</span>
+    --with-native-compilation <span style="color: #3548cf;">\</span>
+    --with-tree-sitter <span style="color: #3548cf;">\</span>
+    --with-x-toolkit=gtk3   <span style="color: #3548cf;">\</span>
+    --with-json
+</pre>
+</div>
+
+
+
+<p>
+<a href="https://ftp.gnu.org/gnu/emacs/emacs-29.4.tar.xz">https://ftp.gnu.org/gnu/emacs/emacs-29.4.tar.xz</a>
+</p>
+<div class="org-src-container">
+<pre class="src src-zsh">tar -xf &lt;file&gt;
+<span style="color: #8f0075;">cd</span> &lt;folder&gt;
+
+<span style="color: #595959;"># </span><span style="color: #595959;">&#20351;&#29992;&#25152;&#26377; CPU &#26680;&#24515;&#21152;&#36895;&#32534;&#35793;
+</span>make -j$<span style="color: #000000;">(</span><span style="color: #8f0075;">nproc</span><span style="color: #000000;">)</span>
+sudo make install
+
+emacs --version
+
+<span style="color: #595959;"># </span><span style="color: #595959;">&#26816;&#26597;&#23433;&#35013;&#36335;&#24452;&#65288;&#24212;&#26174;&#31034; /usr/local/bin/emacs&#65289;
+</span>which emacs
+
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+~/.config/emacs/bin/doom install
+</pre>
+</div>
+
+<p>
+Accomplish this by adding this to your .bashrc or .zshrc file:
+<code>export PATH~=~"$HOME/.config/emacs/bin:$PATH"</code>
+</p>
+<div class="org-src-container">
+<pre class="src src-zsh">doom upgrade
+doom sync
+</pre>
+</div>
+
+<p>
+Execute <code>M-x nerd-icons-install-fonts</code> from within Doom Emacs
+</p>
+</div>
+</div>
+<div id="outline-container-orgeccd4da" class="outline-4">
+<h4 id="orgeccd4da">change the web browers</h4>
+<div class="outline-text-4" id="text-orgeccd4da">
+<p>
+download the google chrome and the install with apt. now you can uninstall the firefox.
+add the vimium c to chrome
+</p>
+<div class="org-src-container">
+<pre class="src src-zsh">sudo apt update &amp;&amp; sudo apt upgrade -y
+sudo apt install google-chrome-stable -y
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org6060a7f" class="outline-3">
+<h3 id="org6060a7f">Software</h3>
+<div class="outline-text-3" id="text-org6060a7f">
+</div>
+<div id="outline-container-orgc882c08" class="outline-4">
+<h4 id="orgc882c08">Local Send</h4>
+<div class="outline-text-4" id="text-orgc882c08">
+<p>
+<a href="https://localsend.org/%20">install from here</a>
+</p>
+<div class="org-src-container">
+<pre class="src src-zsh">sudo apt install gir1.2-appindicator3-0.1 gir1.2-ayatanaappindicator3-0.1
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org6125e5d" class="outline-4">
+<h4 id="org6125e5d"><a href="https://apps.ankiweb.net/">anki</a></h4>
+<div class="outline-text-4" id="text-org6125e5d">
+<div class="org-src-container">
+<pre class="src src-zsh">sudo apt install libxcb-xinerama0 libxcb-cursor0 libnss3
+tar xaf Downloads/anki-2XXX-linux-qt6.tar.zst
+<span style="color: #8f0075;">cd</span> anki-2XXX-linux-qt6
+sudo ./install.sh
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orge8b7738" class="outline-4">
+<h4 id="orge8b7738"><a href="https://mpv.io/">mpv</a></h4>
+<div class="outline-text-4" id="text-orge8b7738">
+<div class="org-src-container">
+<pre class="src src-zsh">sudo apt install  mpv
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org4b530f7" class="outline-4">
+<h4 id="org4b530f7">miniconda</h4>
+<div class="outline-text-4" id="text-org4b530f7">
+<p>
+follow the guide blow:
+<a href="https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions">https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgb0c02c7" class="outline-4">
+<h4 id="orgb0c02c7">alt space</h4>
+<div class="outline-text-4" id="text-orgb0c02c7">
+<p>
+<a href="https://albertlauncher.github.io/">https://albertlauncher.github.io/</a>
+here to install
+change the Settings/Keyboard/Keyboard shortcuts
+I use <code>alt+space</code> as the hotkey.
+</p>
+</div>
+</div>
+<div id="outline-container-org25d020a" class="outline-4">
+<h4 id="org25d020a">flatpak</h4>
+<div class="outline-text-4" id="text-org25d020a">
+<div class="org-src-container">
+<pre class="src src-zsh">sudo apt install gnome-software
+https://flatpak.org/setup/Ubuntu
+sudo snap remove snap-store
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org167a54f" class="outline-4">
+<h4 id="org167a54f">docker</h4>
+<div class="outline-text-4" id="text-org167a54f">
+<p>
+<a href="https://docs.docker.com/desktop/setup/install/linux/ubuntu/">https://docs.docker.com/desktop/setup/install/linux/ubuntu/</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org1dd0bf3" class="outline-4">
+<h4 id="org1dd0bf3">latex</h4>
+<div class="outline-text-4" id="text-org1dd0bf3">
+<p>
+<a href="https://ctan.javinator9889.com/systems/texlive/tlnet/">https://ctan.javinator9889.com/systems/texlive/tlnet/</a>
+dowload the unx.tar.gz
+tar -xzvf &#x2026;
+cd
+sudo ./in
+</p>
+<div class="org-src-container">
+<pre class="src src-zsh"><span style="color: #8f0075;">export</span> <span style="color: #005e8b;">MANPATH</span>=<span style="color: #3548cf;">"/usr/local/texlive/2024/texmf-dist/doc/man:$MANPATH"</span>
+<span style="color: #8f0075;">export</span> <span style="color: #005e8b;">INFOPATH</span>=<span style="color: #3548cf;">"/usr/local/texlive/2024/texmf-dist/doc/info:$INFOPATH"</span>
+<span style="color: #8f0075;">export</span> <span style="color: #005e8b;">PATH</span>=<span style="color: #3548cf;">"/usr/local/texlive/2024/bin/x86_64-linux:$PATH"</span>
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb17b606" class="outline-4">
+<h4 id="orgb17b606">ssh key</h4>
+<div class="outline-text-4" id="text-orgb17b606">
+<div class="org-src-container">
+<pre class="src src-zsh">ssh-keygen -t ed25519 -C <span style="color: #3548cf;">"kazurezheng@gmail.com"</span>
+<span style="color: #8f0075;">eval</span> <span style="color: #3548cf;">"$(</span><span style="color: #8f0075;">ssh-agent -s</span><span style="color: #3548cf;">)"</span>
+ssh-add ~/.ssh/id_ed25519
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org458397d" class="outline-4">
+<h4 id="org458397d">syncthing</h4>
+<div class="outline-text-4" id="text-org458397d">
+<p>
+<a href="https://apt.syncthing.net/">https://apt.syncthing.net/</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orge01cd75" class="outline-4">
+<h4 id="orge01cd75">add zotero</h4>
+</div>
+<div id="outline-container-org75b08ef" class="outline-4">
+<h4 id="org75b08ef">hugo</h4>
+<div class="outline-text-4" id="text-org75b08ef">
+<p>
+<a href="https://gohugo.io/installation/linux/">here</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgf0cf416" class="outline-4">
+<h4 id="orgf0cf416">Install rime on Ubuntu 24.04</h4>
+<div class="outline-text-4" id="text-orgf0cf416">
+<p>
+SCHEDULED: <span class="timestamp-wrapper"><span class="timestamp">&lt;2025-03-08 Sat 23:00&gt;</span></span>
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org28eedfa"></a>Install<br />
+<div class="outline-text-5" id="text-org28eedfa">
+<div class="org-src-container">
+<pre class="src src-zsh">sudo apt-get install ibus-rime
+</pre>
+</div>
+</div>
+</li>
+<li><a id="orgbeffa03"></a>Set up<br />
+<ul class="org-ul">
+<li><a id="org1ada5af"></a>Language Support<br />
+<div class="outline-text-6" id="text-org1ada5af">
+<p>
+In the Ubuntu, search for <code>language support</code>, then click <code>Install/Remove Languages</code>, add Chinese.
+</p>
+</div>
+</li>
+<li><a id="orgc1a9bed"></a>Input Source<br />
+<div class="outline-text-6" id="text-orgc1a9bed">
+<p>
+In the Ubuntu, search for <code>Settings</code>, click <code>Keyboard</code> tab, then <code>Add Input Source</code>, Chinese, Chinese(Rime).
+</p>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org4d29593"></a>Configuration<br />
+<div class="outline-text-5" id="text-org4d29593">
+<ul class="org-ul">
+<li><code>win+space</code> is to change the input method.</li>
+<li><code>F4</code> can change the configuration of rime.</li>
+</ul>
+</div>
+</li>
+<li><a id="orgb2876e3"></a>double pinyin<br />
+<div class="outline-text-5" id="text-orgb2876e3">
+<div class="org-src-container">
+<pre class="src src-zsh">sudo apt-get install librime-data-double-pinyin
+vim ~/.config/ibus/rime/build/default.yaml
+</pre>
+</div>
+<p>
+find <code>schema_lists</code>, add <code>- schema: double_pinyin_flypy</code>
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orga92a48b" class="outline-4">
+<h4 id="orga92a48b">create shortcut of application in the Ubuntu</h4>
+<div class="outline-text-4" id="text-orga92a48b">
+</div>
+<ul class="org-ul">
+<li><a id="orgdc90c78"></a>Location<br />
+<div class="outline-text-5" id="text-orgdc90c78">
+<ul class="org-ul">
+<li>Global: <code>/usr/share/applications</code></li>
+<li>Personal: <code>~/.local/share/applications</code></li>
+</ul>
+</div>
+</li>
+<li><a id="orgba0c10e"></a>Format<br />
+<div class="outline-text-5" id="text-orgba0c10e">
+<div class="org-src-container">
+<pre class="src src-desktop">[<span style="color: #005f5f;">Desktop Entry</span>]
+<span style="color: #005e8b;">Type</span>=Application
+<span style="color: #005e8b;">Name</span>=Name of application
+<span style="color: #005e8b;">Exec</span>=the path of exec
+<span style="color: #005e8b;">Icon</span>=path fo icon
+<span style="color: #005e8b;">Categories</span>=
+<span style="color: #005e8b;">Terminal</span>=<span style="color: #0000b0;">false</span>
+</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org0df4d60" class="outline-4">
+<h4 id="org0df4d60">App Fleet</h4>
+<div class="outline-text-4" id="text-org0df4d60">
+<p>
+A workspace manager
+<a href="https://github.com/omegaui/app_fleet">https://github.com/omegaui/app_fleet</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgd89e674" class="outline-4">
+<h4 id="orgd89e674">Bitnance</h4>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+: <a href="https://www.bilibili.com/opus/899380230688342018?from=search&amp;spm_id_from=333.337.0.0%20">Dual Ubuntu 22.04</a>
+</p></div></div>
+
+
+</div>
+</div></div>
+</body>
+</html>

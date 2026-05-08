@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>如何使用 restic 和 resticprofile 实现数据的自动增量加密备份</title>
+<meta name="author" content="Kazure Zheng" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">如何使用 restic 和 resticprofile 实现数据的自动增量加密备份</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orged48157">Intro</a></li>
+<li><a href="#org16f7ba6">Prerequisite</a></li>
+<li><a href="#org149d9a2">Get Started</a>
+<ul>
+<li><a href="#org10fa67a">Make config</a></li>
+<li><a href="#org5a4b5af">Setup config</a></li>
+<li><a href="#org723294c">Begin backup</a></li>
+<li><a href="#org89b7e3e">Set schedule</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orged48157" class="outline-2">
+<h2 id="orged48157">Intro</h2>
+<div class="outline-text-2" id="text-orged48157">
+<p>
+我是一个爱折腾电脑的人，但是我只有一台电脑，最近差点把系统搞崩。那次教训让我深刻意识到数据备份的重要性。
+</p>
+
+<p>
+在使用 restic<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup> 之前我也尝试过手动备份，但是手动备份有几个缺点：
+</p>
+<ol class="org-ol">
+<li>无法定时备份，完全依靠自身的习惯。在特别忙的时候容易忘记备份，这个时候恰恰也是最没有时间修复电脑的时候，出不得问题</li>
+<li>如果只是单纯的复制粘贴，容易文件冗余，对硬盘空间要求大，其次复制时间长。</li>
+</ol>
+
+<p>
+<b>restic</b> 是一个数据加密增量备份工具，可以做到对备份的数据加密，能够增量备份<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>，从而做到多份备份的同时占用空间小。
+</p>
+
+<p>
+<b>resticprofile</b><sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup> 是一个基于 restic 的自动化工具。
+</p>
+</div>
+</div>
+<div id="outline-container-org16f7ba6" class="outline-2">
+<h2 id="org16f7ba6">Prerequisite</h2>
+<div class="outline-text-2" id="text-org16f7ba6">
+<ol class="org-ol">
+<li>restic</li>
+<li>resticprofile</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org149d9a2" class="outline-2">
+<h2 id="org149d9a2">Get Started</h2>
+<div class="outline-text-2" id="text-org149d9a2">
+<p>
+实际上我们只需要配置好 resticprofile 就行了。
+</p>
+</div>
+<div id="outline-container-org10fa67a" class="outline-3">
+<h3 id="org10fa67a">Make config</h3>
+<div class="outline-text-3" id="text-org10fa67a">
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #1e66f5;">mkdir</span> -p ~/.config/resticprofile/
+<span style="color: #1e66f5;">touch</span> profiles.toml
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org5a4b5af" class="outline-3">
+<h3 id="org5a4b5af">Setup config</h3>
+<div class="outline-text-3" id="text-org5a4b5af">
+<div class="org-src-container">
+<pre class="src src-toml"><span style="color: #4c4f69;">version</span> = <span style="color: #40a02b;">"1"</span>
+
+[<span style="color: #df8e1d;">default</span>]
+  <span style="color: #9ca0b0;"># </span><span style="color: #9ca0b0;">local mean in backup in this computer
+</span>  <span style="color: #4c4f69;">repository</span> = <span style="color: #40a02b;">"local:/path/to/backup"</span>
+  <span style="color: #4c4f69;">password-file</span> = <span style="color: #40a02b;">"/path/to/password-file"</span>
+  <span style="color: #4c4f69;">verbose</span> = <span style="color: #8839ef;">true</span>
+
+[<span style="color: #df8e1d;">project1</span>]
+  <span style="color: #4c4f69;">inherit</span> = <span style="color: #40a02b;">"default"</span>
+  <span style="color: #4c4f69;">initialize</span> = <span style="color: #8839ef;">true</span>
+  [<span style="color: #df8e1d;">project1.backup</span>]
+    <span style="color: #4c4f69;">source</span> = [
+      <span style="color: #40a02b;">"/path/to/source-file-1"</span>,
+      <span style="color: #40a02b;">"/path/to/source-file-2"</span>,
+      <span style="color: #40a02b;">"/path/to/source-file-3"</span>
+    ]
+    <span style="color: #9ca0b0;"># </span><span style="color: #9ca0b0;">backup every day at 3 a.m.
+</span>    <span style="color: #4c4f69;">schedule</span> = <span style="color: #40a02b;">"03:00"</span>
+    <span style="color: #4c4f69;">schedule-permission</span> = <span style="color: #40a02b;">"user"</span>
+    <span style="color: #4c4f69;">schedule-lock-wait</span> = <span style="color: #40a02b;">"2h"</span>
+  [<span style="color: #df8e1d;">project1.retention</span>]
+    <span style="color: #4c4f69;">before-backup</span> = <span style="color: #8839ef;">false</span>
+    <span style="color: #4c4f69;">after-backup</span> = <span style="color: #8839ef;">true</span>
+    <span style="color: #9ca0b0;"># </span><span style="color: #9ca0b0;">keep the newest one
+</span>    <span style="color: #4c4f69;">keep-last</span> = 1
+    <span style="color: #9ca0b0;"># </span><span style="color: #9ca0b0;">keep the newest one in this week
+</span>    <span style="color: #4c4f69;">keep-weekly</span> = 1
+    <span style="color: #4c4f69;">prune</span> = <span style="color: #8839ef;">true</span>
+
+[<span style="color: #df8e1d;">project2</span>]
+  <span style="color: #4c4f69;">inherit</span> = <span style="color: #40a02b;">"default"</span>
+  <span style="color: #4c4f69;">initialize</span> = <span style="color: #8839ef;">true</span>
+
+  [<span style="color: #df8e1d;">project2.backup</span>]
+    <span style="color: #4c4f69;">prune</span> = <span style="color: #8839ef;">true</span>
+    <span style="color: #4c4f69;">verbose</span> = <span style="color: #8839ef;">true</span>
+    <span style="color: #4c4f69;">source</span> = [
+    <span style="color: #9ca0b0;"># </span><span style="color: #9ca0b0;">...
+</span>    ]
+    <span style="color: #9ca0b0;"># </span><span style="color: #9ca0b0;">backup every Monday at 4 a.m.
+</span>    <span style="color: #4c4f69;">schedule</span> = <span style="color: #40a02b;">"Mon 04:00"</span>
+    <span style="color: #4c4f69;">schedule-permission</span> = <span style="color: #40a02b;">"user"</span>
+    <span style="color: #4c4f69;">schedule-lock-wait</span> = <span style="color: #40a02b;">"2h"</span>
+
+  [<span style="color: #df8e1d;">project2.retention</span>]
+    <span style="color: #4c4f69;">before-backup</span> = <span style="color: #8839ef;">false</span>
+    <span style="color: #4c4f69;">after-backup</span> = <span style="color: #8839ef;">true</span>
+    <span style="color: #4c4f69;">keep-last</span> = 1
+    <span style="color: #4c4f69;">prune</span> = <span style="color: #8839ef;">true</span>
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org723294c" class="outline-3">
+<h3 id="org723294c">Begin backup</h3>
+<div class="outline-text-3" id="text-org723294c">
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #1e66f5;">resticprofile</span> init
+<span style="color: #1e66f5;">resticprofile</span> --name project1 backup
+<span style="color: #1e66f5;">resticprofile</span> --name project2 backup
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org89b7e3e" class="outline-3">
+<h3 id="org89b7e3e">Set schedule</h3>
+<div class="outline-text-3" id="text-org89b7e3e">
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #1e66f5;">sudo</span> resticprofile -c ~/.config/resticprofile/profiles.toml schedule --all
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+<a href="https://restic.net/">https://restic.net/</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2" role="doc-backlink">2</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+只备份产生变化的文件 
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3" role="doc-backlink">3</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+<a href="https://creativeprojects.github.io/resticprofile/configuration/getting_started/index.html">https://creativeprojects.github.io/resticprofile/configuration/getting_started/index.html</a>
+</p></div></div>
+
+
+</div>
+</div></div>
+</body>
+</html>

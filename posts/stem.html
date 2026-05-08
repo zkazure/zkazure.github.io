@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>STEM</title>
+<meta name="author" content="Kazure Zheng" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">STEM</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgbe87a07">Mathematics&#xa0;&#xa0;&#xa0;<span class="tag"><span class="math">math</span></span></a>
+<ul>
+<li><a href="#org580026f">finding specific function from the perspective of linear algebra</a>
+<ul>
+<li><a href="#org4b56527">Example</a></li>
+<li><a href="#org1346dac">Solution</a></li>
+<li><a href="#org5a9944b">Linear algebra perspective</a></li>
+<li><a href="#org91ac1dc">How many transforms we need to find the specific function</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org50518a2">大学生数学竞赛教程</a>
+<ul>
+<li><a href="#orgf5baa0d">第一章 函数、极限、连续</a>
+<ul>
+<li><a href="#org0a501d1">函数</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbe87a07" class="outline-2">
+<h2 id="orgbe87a07">Mathematics&#xa0;&#xa0;&#xa0;<span class="tag"><span class="math">math</span></span></h2>
+<div class="outline-text-2" id="text-orgbe87a07">
+</div>
+<div id="outline-container-org580026f" class="outline-3">
+<h3 id="org580026f">finding specific function from the perspective of linear algebra</h3>
+<div class="outline-text-3" id="text-org580026f">
+</div>
+<div id="outline-container-org4b56527" class="outline-4">
+<h4 id="org4b56527">Example</h4>
+<div class="outline-text-4" id="text-org4b56527">
+<p>
+Let \(F(x)\) be defined for all real numbers
+except at \(x=0\) and \(x=1\),
+and satisfy the equation
+\(F(x) + F( \frac{x-1}{x}) = 1+x \).
+Find the function \(F(x)\)
+</p>
+</div>
+</div>
+<div id="outline-container-org1346dac" class="outline-4">
+<h4 id="org1346dac">Solution</h4>
+<div class="outline-text-4" id="text-org1346dac">
+\begin{equation}
+  \label{eq:1}
+  F(x) + F(\frac{x-1}{x}) = 1+x
+\end{equation}
+
+<p>
+make \( x = \frac{x-1}{x} \), have
+</p>
+
+\begin{equation}
+  \label{eq:2}
+  F(\frac{x-1}{x}) +F(- \frac{1}{x-1}) = \frac{2x-1}{x}
+\end{equation}
+
+<p>
+make \( x = - \frac{1}{x-1} \) in \eqref{eq:2}, have
+</p>
+
+\begin{equation}
+  \label{eq:3}
+  F(- \frac{1}{x-1}) + F(x) = \frac{x-2}{x-1}
+\end{equation}
+
+<p>
+According to \eqref{eq:1}, \eqref{eq:2}, \eqref{eq:3}, have
+</p>
+
+\begin{equation}
+  \label{eq:4}
+  F(x) = \frac{x ^3-x ^2-1}{2x(x-1)}
+\end{equation}
+</div>
+</div>
+<div id="outline-container-org5a9944b" class="outline-4">
+<h4 id="org5a9944b">Linear algebra perspective</h4>
+<div class="outline-text-4" id="text-org5a9944b">
+<p>
+Found that you finally attained 3 equation with functions with 3 different variables.
+</p>
+
+<p>
+Why not consider it as the matrix in linear algebra where you have to
+have 3 different linear equations to obtain actual values of 3
+variables.
+</p>
+
+<p>
+Now we can construct the correct matrix to solve every problems of finding specific function. 
+</p>
+</div>
+</div>
+<div id="outline-container-org91ac1dc" class="outline-4">
+<h4 id="org91ac1dc">How many transforms we need to find the specific function</h4>
+<div class="outline-text-4" id="text-org91ac1dc">
+</div>
+<ul class="org-ul">
+<li><a id="org12fc5e9"></a>simplest condition<br />
+<div class="outline-text-5" id="text-org12fc5e9">
+<p>
+If we just need two times.
+</p>
+
+<p>
+if we have \( F(a) + F(b) = c_{1} \),
+make \( a=b \), then \( F(b) + F(a) = c_{2} \)
+</p>
+
+\begin{bmatrix}
+  1 & 1 & c_1 \\
+  1 & 1 & c_2
+\end{bmatrix}
+
+
+<p>
+It is easy to know the matrix is inconsistent.
+</p>
+</div>
+</li>
+<li><a id="org414c885"></a>different coefficient<br />
+<div class="outline-text-5" id="text-org414c885">
+\begin{bmatrix}
+  t & 1 & c_1 \\
+  1 & t & c_2
+\end{bmatrix}
+
+
+<p>
+It is consistent.
+</p>
+</div>
+</li>
+<li><a id="orgb089d1b"></a>how long the transformation<br />
+<ul class="org-ul">
+<li><a id="org2959d7d"></a>return to example<br />
+<div class="outline-text-6" id="text-org2959d7d">
+<p>
+\[ x \to \frac{x-1}{x} \to - \frac{1}{x-1} \]
+</p>
+
+<p>
+\[ \frac{x-1}{x} \to - \frac{1}{x-1} \to x \]
+</p>
+
+<p>
+It is easy to notice that it construct a loop.
+</p>
+</div>
+</li>
+<li><a id="orgd68fabc"></a>extended idea<br />
+<div class="outline-text-6" id="text-orgd68fabc">
+<p>
+Let's consider \( x_{i} (i \in R) \) as one variable in the function.
+And \( x_{i} \ne x_{j} (i, j \in R, i \ne j)  \)
+</p>
+
+<p>
+If you have only 2 equation, then you should write the tranformation down.
+</p>
+
+<p>
+\[ x_1 \to x_a \to \dots \to x_2 \]
+</p>
+
+<p>
+\[ x_2 \to x_b \to \dots \to x_1 \]
+</p>
+
+<p>
+You will find the specific solution. 
+</p>
+</div>
+</li>
+<li><a id="org9200727"></a>question<br />
+<div class="outline-text-6" id="text-org9200727">
+<p>
+What if there are other loops?
+</p>
+
+<p>
+Yes, it is possible and tricky. However, there is only one loop, if we are going to find the specific function. Because there is only one solution. 
+</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org50518a2" class="outline-2">
+<h2 id="org50518a2">大学生数学竞赛教程</h2>
+<div class="outline-text-2" id="text-org50518a2">
+</div>
+<div id="outline-container-orgf5baa0d" class="outline-3">
+<h3 id="orgf5baa0d">第一章 函数、极限、连续</h3>
+<div class="outline-text-3" id="text-orgf5baa0d">
+</div>
+<div id="outline-container-org0a501d1" class="outline-4">
+<h4 id="org0a501d1">函数</h4>
+<div class="outline-text-4" id="text-org0a501d1">
+</div>
+<ul class="org-ul">
+<li><a id="org85cafec"></a>习题 8<br />
+<div class="outline-text-5" id="text-org85cafec">
+<p>
+\( \forall x,y, f(x)-f(y) \le (x-y) ^2\)
+proof \( \forall n \in N, \forall a,b, |f(b)-f(a)| \le \frac{(b-a)^{2}}{n} \)
+</p>
+
+<p>
+The idea of n equal division is very common.
+</p>
+
+<p>
+first \( n \) divides \( a \) into equal parts, make \( t = \frac{b-a}{n} \), then have
+</p>
+
+\begin{align*}
+f(a) - f(a+t) \le t ^2 \\
+\dots \\
+f(b-t) - f(b) \le t ^2
+\end{align*}
+
+<p>
+so that we have \( f(a) - f(b) \le n t ^2 \).
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

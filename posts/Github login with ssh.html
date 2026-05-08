@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Github login with ssh</title>
+<meta name="author" content="Kazure Zheng" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Github login with ssh</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org8c07ceb">Generate a key pair</a></li>
+<li><a href="#org9b498b3">Specify the 'door' and 'key'</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8c07ceb" class="outline-2">
+<h2 id="org8c07ceb">Generate a key pair</h2>
+<div class="outline-text-2" id="text-org8c07ceb">
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #1e66f5;">ssh-keygen</span>
+</pre>
+</div>
+<p>
+这个命令会生成两个文件，一个对应钥匙，一个对应锁头。pub 后缀的文件就是公钥，可以随意分发，我们需要把它配置到 GitHub 上面。
+</p>
+</div>
+</div>
+<div id="outline-container-org9b498b3" class="outline-2">
+<h2 id="org9b498b3">Specify the 'door' and 'key'</h2>
+<div class="outline-text-2" id="text-org9b498b3">
+<p>
+单单生成一个密钥没有什么作用，我们需要指定那个在那个地方使用那个密钥。在用户目录下的 <code>.ssh</code> 路径下选择创建一个 <code>config</code> 文件
+</p>
+
+<div class="org-src-container">
+<pre class="src src-conf">Host github.com
+    HostName ssh.github.com
+    User github
+    Port 443
+</pre>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

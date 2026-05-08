@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>How to configure dwm</title>
+<meta name="author" content="Kazure Zheng" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">How to configure dwm</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org33db94b">Main</a>
+<ul>
+<li><a href="#org03d3ec4">Get Started</a></li>
+<li><a href="#org447cf52">Configuration</a>
+<ul>
+<li><a href="#org381d664">dwm</a></li>
+<li><a href="#org8718f98">xinitrc</a></li>
+</ul>
+</li>
+<li><a href="#orgd55ebe2">Patches</a>
+<ul>
+<li><a href="#orgafe44e6">j4-dmenu-desktop</a></li>
+<li><a href="#org45be041">right master window</a></li>
+<li><a href="#org2e458a9">appearance</a></li>
+<li><a href="#org47c14d8">full screen</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org33db94b" class="outline-2">
+<h2 id="org33db94b">Main</h2>
+<div class="outline-text-2" id="text-org33db94b">
+<p>
+DWM<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup> is a dynamic window manager for X.
+The reason why I want to change form xfce4 to it is that
+I want to concentrate more on my code, rather than a bunch of information.
+And I want to increase my laptop's battery duration.
+</p>
+</div>
+<div id="outline-container-org03d3ec4" class="outline-3">
+<h3 id="org03d3ec4">Get Started</h3>
+<div class="outline-text-3" id="text-org03d3ec4">
+<ol class="org-ol">
+<li>dwm: dynamic window manager</li>
+<li>dmenu: a program help you launch other programs easily while running dwm.</li>
+</ol>
+
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">git</span> clone https://git.suckless.org/dwm
+<span style="color: #721045;">cd</span> dwm
+<span style="color: #721045;">sudo</span> make clean install
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">git</span> clone git clone https://git.suckless.org/dmenu
+<span style="color: #721045;">cd</span> dmenu
+<span style="color: #721045;">sudo</span> make clean install
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org447cf52" class="outline-3">
+<h3 id="org447cf52">Configuration</h3>
+<div class="outline-text-3" id="text-org447cf52">
+</div>
+<div id="outline-container-org381d664" class="outline-4">
+<h4 id="org381d664">dwm</h4>
+<div class="outline-text-4" id="text-org381d664">
+<p>
+in <code>dwm/config.h</code>
+</p>
+<div class="org-src-container">
+<pre class="src src-C"><span style="color: #a0132f;">#define</span> <span style="color: #005e8b;">MODKEY</span> Mod4Mask
+<span style="color: #595959;">// Mod4Mask is super</span>
+<span style="color: #595959;">// Mod1Mask is alt</span>
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org8718f98" class="outline-4">
+<h4 id="org8718f98">xinitrc</h4>
+<div class="outline-text-4" id="text-org8718f98">
+<p>
+we are going to modify <code>/home/usr/.xinitrc</code>.
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #595959;"># exchange left control and capslock</span>
+<span style="color: #721045;">setxkbmap</span> -option ctrl:swapcaps &amp;
+
+<span style="color: #595959;"># set the wallpaper</span>
+<span style="color: #721045;">feh</span> --bg-scale ~/Pictures/wallpapers/coding.jpg 
+
+<span style="color: #595959;"># Set keyboard repeat rate.</span>
+<span style="color: #721045;">xset</span> r rate 300 50
+
+<span style="color: #721045;">xautolock</span> -time 5 -locker <span style="color: #3548cf;">"slock"</span> -corners 000- &amp;
+<span style="color: #721045;">xautolock</span> -time 15 -killer <span style="color: #3548cf;">"systemctl suspend"</span> -corners 000- &amp;
+
+<span style="color: #531ab6;">exec</span> dwm
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd55ebe2" class="outline-3">
+<h3 id="orgd55ebe2">Patches</h3>
+<div class="outline-text-3" id="text-orgd55ebe2">
+</div>
+<div id="outline-container-orgafe44e6" class="outline-4">
+<h4 id="orgafe44e6">j4-dmenu-desktop</h4>
+<div class="outline-text-4" id="text-orgafe44e6">
+<p>
+help us to search for <code>.desktop</code>.
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">sudo</span> apt install j4-dmenu-desktop
+</pre>
+</div>
+
+<p>
+in <code>dwm/config.h</code>
+</p>
+<div class="org-src-container">
+<pre class="src src-C"><span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">char</span> *<span style="color: #005e8b;">dmenucmd</span><span style="color: #000000;">[]</span> = <span style="color: #000000;">{</span> <span style="color: #3548cf;">"dmenu_run"</span>, <span style="color: #3548cf;">"-m"</span>, <span style="color: #005e8b;">dmenumon</span>, <span style="color: #3548cf;">"-fn"</span>, <span style="color: #005e8b;">dmenufont</span>, <span style="color: #3548cf;">"-nb"</span>, <span style="color: #005e8b;">col_gray1</span>, <span style="color: #3548cf;">"-nf"</span>, <span style="color: #005e8b;">col_gray3</span>, <span style="color: #3548cf;">"-sb"</span>, <span style="color: #005e8b;">col_cyan</span>, <span style="color: #3548cf;">"-sf"</span>, <span style="color: #005e8b;">col_gray4</span>, <span style="color: #0000b0;">NULL</span> <span style="color: #000000;">}</span>;
+<span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">char</span> *<span style="color: #005e8b;">dmenucmd_j4</span><span style="color: #000000;">[]</span> = <span style="color: #000000;">{</span> <span style="color: #3548cf;">"j4-dmenu-desktop"</span>, <span style="color: #0000b0;">NULL</span> <span style="color: #000000;">}</span>;
+
+<span style="color: #595959;">//...</span>
+    <span style="color: #000000;">{</span> <span style="color: #005e8b;">MODKEY</span>,                       <span style="color: #005e8b;">XK_p</span>,      <span style="color: #005e8b;">spawn</span>,          <span style="color: #dd22dd;">{</span>.<span style="color: #005e8b;">v</span> = <span style="color: #005e8b;">dmenucmd_j4</span> <span style="color: #dd22dd;">}</span><span style="color: #884900;"> </span><span style="color: #000000;">}</span>,
+    <span style="color: #000000;">{</span> <span style="color: #005e8b;">MODKEY</span>|<span style="color: #005e8b;">ShiftMask</span>,             <span style="color: #005e8b;">XK_p</span>,      <span style="color: #005e8b;">spawn</span>,          <span style="color: #dd22dd;">{</span>.<span style="color: #005e8b;">v</span> = <span style="color: #005e8b;">dmenucmd</span> <span style="color: #dd22dd;">}</span><span style="color: #884900;"> </span><span style="color: #000000;">}</span>,
+<span style="color: #595959;">//...</span>
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org45be041" class="outline-4">
+<h4 id="org45be041">right master window</h4>
+<div class="outline-text-4" id="text-org45be041">
+<p>
+use <code>dwm-rmaster</code><sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>
+</p>
+
+<p>
+in <code>dwm/config.h</code>
+</p>
+<div class="org-src-container">
+<pre class="src src-C"><span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">float</span> <span style="color: #005e8b;">mfact</span>     = 0.45; <span style="color: #595959;">/* factor of master area size [0.05..0.95] */</span>
+<span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">int</span> <span style="color: #005e8b;">rmaster</span>     = 1;
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org2e458a9" class="outline-4">
+<h4 id="org2e458a9">appearance</h4>
+<div class="outline-text-4" id="text-org2e458a9">
+<p>
+in <code>dwm/config.h</code>
+</p>
+<div class="org-src-container">
+<pre class="src src-C"><span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">unsigned int</span> <span style="color: #005e8b;">borderpx</span>  = 2;        <span style="color: #595959;">/* border pixel of windows */</span>
+<span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">int</span> <span style="color: #005e8b;">showbar</span>            = 0;        <span style="color: #595959;">/* 0 means no bar */</span>
+<span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">int</span> <span style="color: #005e8b;">topbar</span>             = 0;        <span style="color: #595959;">/* 0 means bottom bar */</span>
+
+<span style="color: #595959;">// ...</span>
+<span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">char</span> *<span style="color: #005e8b;">fonts</span><span style="color: #000000;">[]</span>          = <span style="color: #000000;">{</span>
+    <span style="color: #3548cf;">"Maple Mono NF:size=10"</span>,
+    <span style="color: #595959;">/* "monospace:size=10" */</span>
+<span style="color: #000000;">}</span>;
+<span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">char</span> <span style="color: #005e8b;">dmenufont</span><span style="color: #000000;">[]</span>       = <span style="color: #3548cf;">"Maple Mono NF:size=10"</span>;
+<span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">char</span> <span style="color: #005e8b;">col_gray1</span><span style="color: #000000;">[]</span>       = <span style="color: #3548cf;">"#222222"</span>;
+<span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">char</span> <span style="color: #005e8b;">col_gray2</span><span style="color: #000000;">[]</span>       = <span style="color: #3548cf;">"#444444"</span>;
+<span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">char</span> <span style="color: #005e8b;">col_gray3</span><span style="color: #000000;">[]</span>       = <span style="color: #3548cf;">"#bbbbbb"</span>;
+<span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">char</span> <span style="color: #005e8b;">col_gray4</span><span style="color: #000000;">[]</span>       = <span style="color: #3548cf;">"#eeeeee"</span>;
+<span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">char</span> <span style="color: #005e8b;">col_selb</span><span style="color: #000000;">[]</span>        = <span style="color: #3548cf;">"#9932cc"</span>;
+<span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">char</span> <span style="color: #005e8b;">col_cyan</span><span style="color: #000000;">[]</span>        = <span style="color: #3548cf;">"#005577"</span>;
+<span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">char</span> *<span style="color: #005e8b;">colors</span><span style="color: #000000;">[][</span>3<span style="color: #000000;">]</span>      = <span style="color: #000000;">{</span>
+    <span style="color: #595959;">/*               fg         bg         border   */</span>
+    <span style="color: #dd22dd;">[</span><span style="color: #005e8b;">SchemeNorm</span><span style="color: #dd22dd;">]</span> = <span style="color: #dd22dd;">{</span> <span style="color: #005e8b;">col_gray3</span>, <span style="color: #005e8b;">col_gray1</span>, <span style="color: #005e8b;">col_gray2</span> <span style="color: #dd22dd;">}</span>,
+    <span style="color: #dd22dd;">[</span><span style="color: #005e8b;">SchemeSel</span><span style="color: #dd22dd;">]</span>  = <span style="color: #dd22dd;">{</span> <span style="color: #005e8b;">col_gray4</span>, <span style="color: #005e8b;">col_cyan</span>,  <span style="color: #005e8b;">col_selb</span>  <span style="color: #dd22dd;">}</span>,
+<span style="color: #000000;">}</span>;
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org47c14d8" class="outline-4">
+<h4 id="org47c14d8">full screen</h4>
+<div class="outline-text-4" id="text-org47c14d8">
+<p>
+in <code>dwm/config.h</code>
+</p>
+<div class="org-src-container">
+<pre class="src src-C"><span style="color: #531ab6;">static</span> <span style="color: #531ab6;">const</span> <span style="color: #005f5f;">Layout</span> <span style="color: #005e8b;">layouts</span><span style="color: #000000;">[]</span> = <span style="color: #000000;">{</span>
+    <span style="color: #595959;">/* symbol     arrange function */</span>
+    <span style="color: #dd22dd;">{</span> <span style="color: #3548cf;">"[]="</span>,      <span style="color: #005e8b;">tile</span> <span style="color: #dd22dd;">}</span>,    <span style="color: #595959;">/* first entry is default */</span>
+    <span style="color: #dd22dd;">{</span> <span style="color: #3548cf;">"[M]"</span>,      <span style="color: #005e8b;">monocle</span> <span style="color: #dd22dd;">}</span>,
+    <span style="color: #dd22dd;">{</span> <span style="color: #3548cf;">"&gt;&lt;&gt;"</span>,      <span style="color: #0000b0;">NULL</span> <span style="color: #dd22dd;">}</span>,    <span style="color: #595959;">/* no layout function means floating behavior */</span>
+<span style="color: #000000;">}</span>;
+
+<span style="color: #595959;">// ...</span>
+    <span style="color: #000000;">{</span> <span style="color: #005e8b;">MODKEY</span>|<span style="color: #005e8b;">ShiftMask</span>,             <span style="color: #005e8b;">XK_f</span>,      <span style="color: #005e8b;">setlayout</span>,      <span style="color: #dd22dd;">{</span>.<span style="color: #005e8b;">v</span> = &amp;<span style="color: #005e8b;">layouts</span><span style="color: #008899;">[</span>2<span style="color: #008899;">]</span><span style="color: #dd22dd;">}</span><span style="color: #884900;"> </span><span style="color: #000000;">}</span>,
+    <span style="color: #000000;">{</span> <span style="color: #005e8b;">MODKEY</span>,                       <span style="color: #005e8b;">XK_f</span>,      <span style="color: #005e8b;">setlayout</span>,      <span style="color: #dd22dd;">{</span>0<span style="color: #dd22dd;">}</span><span style="color: #884900;"> </span><span style="color: #000000;">}</span>,
+<span style="color: #595959;">// ...</span>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+<a href="https://dwm.suckless.org/">https://dwm.suckless.org/</a> 
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2" role="doc-backlink">2</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+<a href="https://dwm.suckless.org/patches/rmaster/">https://dwm.suckless.org/patches/rmaster/</a> 
+</p></div></div>
+
+
+</div>
+</div></div>
+</body>
+</html>

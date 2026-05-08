@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Using Git in Real Projects</title>
+<meta name="author" content="Kazure Zheng" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Using Git in Real Projects</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgd5ff866"><span class="todo TODO">TODO</span> Preface</a></li>
+<li><a href="#orgee789e5">Main</a>
+<ul>
+<li><a href="#org9b162f8">Always branch</a></li>
+<li><a href="#org6d3c9ba">Branch name</a></li>
+<li><a href="#org3bef466">How to Merge</a></li>
+<li><a href="#org3eb3270">Untrack some files</a></li>
+<li><a href="#orgf8fa4be">revert commit</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd5ff866" class="outline-2">
+<h2 id="orgd5ff866"><span class="todo TODO">TODO</span> Preface</h2>
+<div class="outline-text-2" id="text-orgd5ff866">
+<p>
+在这段时间，我实际参与开发了一个项目。在这个过程中，我学习到了一些关于 git 开发的经验，特此做一个记录。
+</p>
+</div>
+</div>
+<div id="outline-container-orgee789e5" class="outline-2">
+<h2 id="orgee789e5">Main</h2>
+<div class="outline-text-2" id="text-orgee789e5">
+</div>
+<div id="outline-container-org9b162f8" class="outline-3">
+<h3 id="org9b162f8">Always branch</h3>
+<div class="outline-text-3" id="text-org9b162f8">
+<p>
+除非只是进行一个足够小<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup> <b>的修改</b> ，否则一定要新建一个分支来进行开发。
+</p>
+</div>
+</div>
+<div id="outline-container-org6d3c9ba" class="outline-3">
+<h3 id="org6d3c9ba">Branch name</h3>
+<div class="outline-text-3" id="text-org6d3c9ba">
+<p>
+分支名字的选择也应该尽心挑选。首先应该根据具体修改的内容命名分支：
+</p>
+<ul class="org-ul">
+<li><b>chore</b>: 很多杂活，比如文档的修改，引入新依赖等……</li>
+<li><b>feat</b>: feature 的缩写，开发增加了一个新的功能。</li>
+<li><b>fix</b>: fix bug.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3bef466" class="outline-3">
+<h3 id="org3bef466">How to Merge</h3>
+<div class="outline-text-3" id="text-org3bef466">
+<p>
+不论是个人还是团队开发，在 merge 之前都应该先推送一下分支，然后再 merge。
+</p>
+
+<p>
+merge message 也应该填写充足的信息。
+</p>
+<ol class="org-ol">
+<li>title: <code>Merge feat/node-definitions</code></li>
+<li>空行后再写一句描述，比如 <code>Add zustand store + definitions fetch</code>.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org3eb3270" class="outline-3">
+<h3 id="org3eb3270">Untrack some files</h3>
+<div class="outline-text-3" id="text-org3eb3270">
+<div class="org-src-container">
+<pre class="src src-shell">git rm --cached &lt;file&gt;
+</pre>
+</div>
+
+<p>
+in Emacs Magit, you can just type <code>K</code>.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf8fa4be" class="outline-3">
+<h3 id="orgf8fa4be">revert commit</h3>
+<div class="outline-text-3" id="text-orgf8fa4be">
+<p>
+revert 不会修改历史
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #1e66f5;">git</span> revert <span style="color: #04a5e5;">&lt;</span>commit-hash<span style="color: #04a5e5;">&gt;</span>
+git push origin dev
+</pre>
+</div>
+
+<p>
+reset 会修改历史，需要强制覆盖
+</p>
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #1e66f5;">git</span> reset --hard <span style="color: #04a5e5;">&lt;</span>commit-hash<span style="color: #04a5e5;">&gt;</span>
+git push origin dev --force
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+单文件、单行或连续多行的修改。更准确的说是基于 commit 信息和使用 <code>git
+diff</code> 可以轻松了解修改内容。
+</p></div></div>
+
+
+</div>
+</div></div>
+</body>
+</html>

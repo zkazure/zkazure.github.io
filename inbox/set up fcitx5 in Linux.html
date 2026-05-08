@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>set up fcitx5 in Linux</title>
+<meta name="author" content="Kazure Zheng" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">set up fcitx5 in Linux</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org04adfe7">Main</a>
+<ul>
+<li><a href="#orgf7c19a2">Installation</a></li>
+<li><a href="#org698de62">Configuration</a>
+<ul>
+<li><a href="#org11b978a">autostart</a></li>
+<li><a href="#orgb877f82">disable shift switch</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org04adfe7" class="outline-2">
+<h2 id="org04adfe7">Main</h2>
+<div class="outline-text-2" id="text-org04adfe7">
+<p>
+Fcitx5<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup> is a great input tools for Linux.
+</p>
+</div>
+<div id="outline-container-orgf7c19a2" class="outline-3">
+<h3 id="orgf7c19a2">Installation</h3>
+<div class="outline-text-3" id="text-orgf7c19a2">
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">sudo</span> apt install fcitx5
+<span style="color: #721045;">sudo</span> apt fcitx5-rime
+</pre>
+</div>
+
+<p>
+then copy the input method files to <code>~/.local/share/fcitx5/rime</code>
+</p>
+</div>
+</div>
+<div id="outline-container-org698de62" class="outline-3">
+<h3 id="org698de62">Configuration</h3>
+<div class="outline-text-3" id="text-org698de62">
+</div>
+<div id="outline-container-org11b978a" class="outline-4">
+<h4 id="org11b978a">autostart</h4>
+<div class="outline-text-4" id="text-org11b978a">
+<p>
+For DE, edit the <code>~/.xprofile</code>,
+</p>
+<div class="org-src-container">
+<pre class="src src-conf"><span style="color: #005e8b;">export GTK_IM_MODULE</span>=fcitx
+<span style="color: #005e8b;">export QT_IM_MODULE</span>=fcitx
+<span style="color: #005e8b;">export XMODIFIERS</span>=<span style="color: #3548cf;">"@im=fcitx"</span>
+</pre>
+</div>
+
+
+<p>
+For WM, edit <code>~/.xinitrc</code>
+</p>
+<div class="org-src-container">
+<pre class="src src-conf"><span style="color: #595959;"># </span><span style="color: #595959;">&#30830;&#20445; D-Bus &#21551;&#21160;
+</span>eval $(dbus-launch --sh-syntax --exit-with-session)
+
+<span style="color: #005e8b;">export GTK_IM_MODULE</span>=fcitx
+<span style="color: #005e8b;">export QT_IM_MODULE</span>=fcitx
+<span style="color: #005e8b;">export XMODIFIERS</span>=<span style="color: #3548cf;">"@im=fcitx"</span>
+
+fcitx5 &amp;
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb877f82" class="outline-4">
+<h4 id="orgb877f82">disable shift switch</h4>
+<div class="outline-text-4" id="text-orgb877f82">
+<p>
+in rime schema
+</p>
+
+<div class="org-src-container">
+<pre class="src src-yaml"><span style="color: #005e8b;">switch_key</span>: {<span style="color: #005e8b;">Shift_L</span>: <span style="color: #3548cf;">noop</span>, <span style="color: #005e8b;">Shift_R</span>: <span style="color: #3548cf;">noop</span>}
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+<a href="https://fcitx-im.org/wiki/Fcitx_5">https://fcitx-im.org/wiki/Fcitx_5</a> 
+</p></div></div>
+
+
+</div>
+</div></div>
+</body>
+</html>
