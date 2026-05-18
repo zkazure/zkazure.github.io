@@ -28,6 +28,7 @@
 <li><a href="#orgabac843">提交之前记得使用 rebase -i</a></li>
 <li><a href="#org4d83157">多人协作开发</a></li>
 <li><a href="#org3f6efe5">modify commit</a></li>
+<li><a href="#orgaa3c8ee">个人开发保留提交记录，但是不保留分支记录</a></li>
 </ul>
 </li>
 </ul>
@@ -168,6 +169,18 @@ git push origin dev --force
 <p>
 rebase edit
 </p>
+</div>
+</div>
+<div id="outline-container-orgaa3c8ee" class="outline-3">
+<h3 id="orgaa3c8ee">个人开发保留提交记录，但是不保留分支记录</h3>
+<div class="outline-text-3" id="text-orgaa3c8ee">
+<div class="org-src-container">
+<pre class="src src-sh"><span style="color: #721045;">git</span> checkout feature
+<span style="color: #721045;">git</span> rebase main
+<span style="color: #721045;">git</span> checkout main
+<span style="color: #721045;">git</span> merge feature
+</pre>
+</div>
 </div>
 </div>
 </div>
