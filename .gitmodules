@@ -1,0 +1,3 @@
+[submodule "themes/hugo-modus"]
+	path = themes/hugo-modus
+	url = git@github.com:zkazure/hugo-modus.git

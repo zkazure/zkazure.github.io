@@ -1,0 +1,24 @@
+theme = 'hugo-modus'
+baseURL = 'https://zkazure.github.io/'
+locale = 'en-us'
+title = 'Free Will'
+
+[markup.highlight]
+noClasses = false
+
+[module]
+  [[module.mounts]]
+    source = "content/post/"
+    target = "content/post"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+            block = [['$$', '$$'], ['\[', '\]']]
+            inline = [['$', '$'], ['\(', '\)']]
+
+[params]
+  math = true
