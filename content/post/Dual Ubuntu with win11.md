@@ -35,20 +35,20 @@ my disk is 1 TB
 
 ### Auto Mount disks of Windows in the Ubuntu {#auto-mount-disks-of-windows-in-the-ubuntu}
 
-```zsh
+```sh
 sudo fdisk -l
 sudo blkid
 ```
 
 find your disk name, then find the UUID
 
-```zsh
+```sh
 sudo vim /etc/fstab
 ```
 
 finally,
 
-```nil
+```cfg
 UUID=<UUID> <mount point> <type> <options> <dump> <pass>
 
 # the windows C was on /dev/nvme0n1p3
