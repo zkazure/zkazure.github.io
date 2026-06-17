@@ -8,7 +8,8 @@ draft = false
 
 ## Preface {#preface}
 
-为了摆脱微软的控制，我开始尝试安装 Linux 系统，就从最简单的 Ubuntu 开始。
+印度阿三写的 Windows11 太烂了，我的轻薄本都带不动了。
+是时候从 WSL 换成 Linux 系统，就从最简单的 Ubuntu 开始。
 
 主要参考 [安装Ubuntu和win双系统](https://www.bilibili.com/opus/899380230688342018?from=search&spm_id_from=333.337.0.0) 这篇文章。
 
