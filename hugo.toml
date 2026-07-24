@@ -8,6 +8,9 @@ noClasses = false
 
 [module]
   [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
     source = "content/post/"
     target = "content/post"
 
